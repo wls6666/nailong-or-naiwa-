@@ -1,0 +1,27 @@
+{
+  "name": "mobilenet_frozen_128_control",
+  "size": 128,
+  "train": "same Frozen protocol; size-matched representation control",
+  "max_epochs": 60,
+  "patience": 10,
+  "lr_projection": 0.0001,
+  "lr_head": 0.001,
+  "seed": 42,
+  "weights": "torchvision MobileNet_V3_Small_Weights.IMAGENET1K_V1",
+  "official_weights_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+  "freeze_strategy": "entire backbone frozen/eval; projection and classifier trainable",
+  "normalization": "ImageNet mean/std inside graph; external RGB float32 0..1",
+  "augmentation": "flip, rotation8degrees, color jitter .12/.12/.1; frozen caches 4 augmented +1 original view",
+  "train_count": 345,
+  "val_count": 73,
+  "selection": "ID val accuracy then ID CE loss, no OOD/test use",
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "projection_init": "PCA128, fit only ID train then trainable",
+  "initial_checkpoint_sha256": null,
+  "protocol_sha256": "a88f934df0ac24b44a5674e4b38ff4193c7a6de64509a8ca809aaaaa8144e6d2",
+  "trainable_parameters": 74114,
+  "total_parameters": 1001122
+}

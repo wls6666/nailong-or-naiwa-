@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "numpy": "2.3.5",
+  "sklearn": "1.8.0",
+  "onnxruntime": "1.24.4",
+  "cuda_available": false,
+  "cpu_quota": "200000 100000",
+  "memory_limit": "8589934592",
+  "primary_seed": 42,
+  "training_seeds_run": [
+    42
+  ],
+  "no_claim_of_multiseed_stability": true
+}

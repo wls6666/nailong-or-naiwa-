@@ -1,0 +1,748 @@
+{
+  "models": [
+    {
+      "count": 544,
+      "id_count": 73,
+      "id_true_accept_rate": 0.9315068493150684,
+      "id_false_reject_rate": 0.0684931506849315,
+      "closed_set_id_accuracy": 0.958904109589041,
+      "id_end_to_end_accuracy": 0.8904109589041096,
+      "accepted_id_accuracy": 0.9558823529411765,
+      "ood_false_accept_rate": 0.14861995753715498,
+      "auroc": 0.9423552336910682,
+      "aupr_ood": 0.9856068171721322,
+      "fpr_at_95_tpr_id": 0.5944798301486199,
+      "easy_ood_count": 150,
+      "easy_ood_far": 0.12,
+      "easy_ranking": {
+        "auroc": 0.955890410958904,
+        "aupr_ood": 0.9707972935505512,
+        "fpr_at_95_tpr_id": 0.4
+      },
+      "hard_ood_count": 321,
+      "hard_ood_far": 0.16199376947040497,
+      "hard_ranking": {
+        "auroc": 0.9360303845004908,
+        "aupr_ood": 0.9747049701267183,
+        "fpr_at_95_tpr_id": 0.6853582554517134
+      },
+      "model": "v3_baseline",
+      "checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
+      "test_set_sha256": "c4922f7e1c5240dbce7595ae223ba1853ff6adc86abcd314aec17c200ad5de91",
+      "benchmark_sha256": "5ab4b398b3a5fa365f6259c9f567002177901540acc488fd8570e98b0b15e411",
+      "input_size": 128,
+      "method": "distance_energy",
+      "reject_logic": "or",
+      "id_macro_f1": 0.9216357775987107,
+      "closed_set_id_macro_f1": 0.9588732394366197,
+      "confusion_matrix": [
+        [
+          34,
+          3,
+          2
+        ],
+        [
+          0,
+          31,
+          3
+        ],
+        [
+          39,
+          31,
+          401
+        ]
+      ],
+      "confusion_order": [
+        "nailong",
+        "naiwa",
+        "ood"
+      ],
+      "test_used_to_tune": false,
+      "nailong": {
+        "count": 39,
+        "closed_accuracy": 0.9230769230769231,
+        "recall_including_rejection": 0.8717948717948718,
+        "false_reject_rate": 0.05128205128205128
+      },
+      "naiwa": {
+        "count": 34,
+        "closed_accuracy": 1.0,
+        "recall_including_rejection": 0.9117647058823529,
+        "false_reject_rate": 0.08823529411764706
+      },
+      "ablations": [
+        {
+          "method": "mahalanobis",
+          "parameters_from_validation": {
+            "normalize_embedding": false,
+            "distance_threshold": 286.4332033471298
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.9452054794520548,
+          "id_false_reject_rate": 0.0547945205479452,
+          "closed_set_id_accuracy": 0.958904109589041,
+          "id_end_to_end_accuracy": 0.9041095890410958,
+          "accepted_id_accuracy": 0.9565217391304348,
+          "ood_false_accept_rate": 0.5201698513800425,
+          "auroc": 0.911322455864817,
+          "aupr_ood": 0.9801150793316178,
+          "fpr_at_95_tpr_id": 0.6305732484076433,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.29333333333333333,
+          "easy_ranking": {
+            "auroc": 0.9493150684931507,
+            "aupr_ood": 0.9676863179579654,
+            "fpr_at_95_tpr_id": 0.4
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.6261682242990654,
+          "hard_ranking": {
+            "auroc": 0.8935688985618572,
+            "aupr_ood": 0.9633490086395374,
+            "fpr_at_95_tpr_id": 0.7383177570093458
+          }
+        },
+        {
+          "method": "energy",
+          "parameters_from_validation": {
+            "energy_temperature": 5.0,
+            "energy_threshold": -2.4701975670276974
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.9726027397260274,
+          "id_false_reject_rate": 0.0273972602739726,
+          "closed_set_id_accuracy": 0.958904109589041,
+          "id_end_to_end_accuracy": 0.9315068493150684,
+          "accepted_id_accuracy": 0.9577464788732394,
+          "ood_false_accept_rate": 0.18046709129511676,
+          "auroc": 0.9596893813803332,
+          "aupr_ood": 0.9932518350063252,
+          "fpr_at_95_tpr_id": 0.10191082802547771,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.16666666666666666,
+          "easy_ranking": {
+            "auroc": 0.9628310502283104,
+            "aupr_ood": 0.9826548799585189,
+            "fpr_at_95_tpr_id": 0.08666666666666667
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.18691588785046728,
+          "hard_ranking": {
+            "auroc": 0.9582213118252039,
+            "aupr_ood": 0.9897918740489368,
+            "fpr_at_95_tpr_id": 0.10903426791277258
+          }
+        },
+        {
+          "method": "distance_energy",
+          "parameters_from_validation": {
+            "normalize_embedding": false,
+            "distance_threshold": 286.4332033471298,
+            "energy_threshold": -2.4278297972582807,
+            "energy_temperature": 5.0,
+            "reject_logic": "or",
+            "distance_scale": 66.51814104224003,
+            "energy_scale": 0.8713136434274161
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.9315068493150684,
+          "id_false_reject_rate": 0.0684931506849315,
+          "closed_set_id_accuracy": 0.958904109589041,
+          "id_end_to_end_accuracy": 0.8904109589041096,
+          "accepted_id_accuracy": 0.9558823529411765,
+          "ood_false_accept_rate": 0.14861995753715498,
+          "auroc": 0.9423552336910682,
+          "aupr_ood": 0.9856068171721322,
+          "fpr_at_95_tpr_id": 0.5944798301486199,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.12,
+          "easy_ranking": {
+            "auroc": 0.955890410958904,
+            "aupr_ood": 0.9707972935505512,
+            "fpr_at_95_tpr_id": 0.4
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.16199376947040497,
+          "hard_ranking": {
+            "auroc": 0.9360303845004908,
+            "aupr_ood": 0.9747049701267183,
+            "fpr_at_95_tpr_id": 0.6853582554517134
+          }
+        }
+      ],
+      "checkpoint_bytes": 1574789
+    },
+    {
+      "count": 544,
+      "id_count": 73,
+      "id_true_accept_rate": 0.9452054794520548,
+      "id_false_reject_rate": 0.0547945205479452,
+      "closed_set_id_accuracy": 0.9315068493150684,
+      "id_end_to_end_accuracy": 0.8904109589041096,
+      "accepted_id_accuracy": 0.9420289855072463,
+      "ood_false_accept_rate": 0.2208067940552017,
+      "auroc": 0.9471250327196581,
+      "aupr_ood": 0.9899113947410205,
+      "fpr_at_95_tpr_id": 0.3630573248407643,
+      "easy_ood_count": 150,
+      "easy_ood_far": 0.14,
+      "easy_ranking": {
+        "auroc": 0.9408219178082191,
+        "aupr_ood": 0.9730050842758848,
+        "fpr_at_95_tpr_id": 0.24
+      },
+      "hard_ood_count": 321,
+      "hard_ood_far": 0.2585669781931464,
+      "hard_ranking": {
+        "auroc": 0.9500704135193957,
+        "aupr_ood": 0.9843035060783372,
+        "fpr_at_95_tpr_id": 0.4205607476635514
+      },
+      "model": "mobilenet_frozen",
+      "checkpoint_sha256": "00b318260828b98cdbf65d631a345f97bb9165e41a02b5b5a34c19998400cd87",
+      "test_set_sha256": "c4922f7e1c5240dbce7595ae223ba1853ff6adc86abcd314aec17c200ad5de91",
+      "benchmark_sha256": "5ab4b398b3a5fa365f6259c9f567002177901540acc488fd8570e98b0b15e411",
+      "input_size": 224,
+      "method": "distance_energy",
+      "reject_logic": "and",
+      "id_macro_f1": 0.9146634615384616,
+      "closed_set_id_macro_f1": 0.9306742640075973,
+      "confusion_matrix": [
+        [
+          36,
+          1,
+          2
+        ],
+        [
+          3,
+          29,
+          2
+        ],
+        [
+          74,
+          30,
+          367
+        ]
+      ],
+      "confusion_order": [
+        "nailong",
+        "naiwa",
+        "ood"
+      ],
+      "test_used_to_tune": false,
+      "nailong": {
+        "count": 39,
+        "closed_accuracy": 0.9743589743589743,
+        "recall_including_rejection": 0.9230769230769231,
+        "false_reject_rate": 0.05128205128205128
+      },
+      "naiwa": {
+        "count": 34,
+        "closed_accuracy": 0.8823529411764706,
+        "recall_including_rejection": 0.8529411764705882,
+        "false_reject_rate": 0.058823529411764705
+      },
+      "ablations": [
+        {
+          "method": "mahalanobis",
+          "parameters_from_validation": {
+            "normalize_embedding": false,
+            "distance_threshold": 161.66842160562706
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.958904109589041,
+          "id_false_reject_rate": 0.0410958904109589,
+          "closed_set_id_accuracy": 0.9315068493150684,
+          "id_end_to_end_accuracy": 0.8904109589041096,
+          "accepted_id_accuracy": 0.9285714285714286,
+          "ood_false_accept_rate": 0.3333333333333333,
+          "auroc": 0.9642846755664136,
+          "aupr_ood": 0.9933202789684346,
+          "fpr_at_95_tpr_id": 0.26963906581740976,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.02666666666666667,
+          "easy_ranking": {
+            "auroc": 0.9956164383561643,
+            "aupr_ood": 0.9978422174300017,
+            "fpr_at_95_tpr_id": 0.02
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.4766355140186916,
+          "hard_ranking": {
+            "auroc": 0.9496436649169975,
+            "aupr_ood": 0.9843876411413334,
+            "fpr_at_95_tpr_id": 0.3862928348909657
+          }
+        },
+        {
+          "method": "energy",
+          "parameters_from_validation": {
+            "energy_temperature": 2.0,
+            "energy_threshold": -1.4469016946717017
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.9452054794520548,
+          "id_false_reject_rate": 0.0547945205479452,
+          "closed_set_id_accuracy": 0.9315068493150684,
+          "id_end_to_end_accuracy": 0.8904109589041096,
+          "accepted_id_accuracy": 0.9420289855072463,
+          "ood_false_accept_rate": 0.7791932059447984,
+          "auroc": 0.7262019021027833,
+          "aupr_ood": 0.9404349946392552,
+          "fpr_at_95_tpr_id": 0.8131634819532909,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.7666666666666667,
+          "easy_ranking": {
+            "auroc": 0.6935159817351598,
+            "aupr_ood": 0.8291118116667234,
+            "fpr_at_95_tpr_id": 0.8
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.7850467289719626,
+          "hard_ranking": {
+            "auroc": 0.7414756966670935,
+            "aupr_ood": 0.918560939385283,
+            "fpr_at_95_tpr_id": 0.8193146417445483
+          }
+        },
+        {
+          "method": "distance_energy",
+          "parameters_from_validation": {
+            "normalize_embedding": false,
+            "distance_threshold": 141.10585029240713,
+            "energy_threshold": -4.531598268350639,
+            "energy_temperature": 5.0,
+            "reject_logic": "and",
+            "distance_scale": 36.19713926611564,
+            "energy_scale": 0.5317044801563672
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.9452054794520548,
+          "id_false_reject_rate": 0.0547945205479452,
+          "closed_set_id_accuracy": 0.9315068493150684,
+          "id_end_to_end_accuracy": 0.8904109589041096,
+          "accepted_id_accuracy": 0.9420289855072463,
+          "ood_false_accept_rate": 0.2208067940552017,
+          "auroc": 0.9471250327196581,
+          "aupr_ood": 0.9899113947410205,
+          "fpr_at_95_tpr_id": 0.3630573248407643,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.14,
+          "easy_ranking": {
+            "auroc": 0.9408219178082191,
+            "aupr_ood": 0.9730050842758848,
+            "fpr_at_95_tpr_id": 0.24
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.2585669781931464,
+          "hard_ranking": {
+            "auroc": 0.9500704135193957,
+            "aupr_ood": 0.9843035060783372,
+            "fpr_at_95_tpr_id": 0.4205607476635514
+          }
+        }
+      ],
+      "checkpoint_bytes": 4138991
+    },
+    {
+      "count": 544,
+      "id_count": 73,
+      "id_true_accept_rate": 0.8767123287671232,
+      "id_false_reject_rate": 0.1232876712328767,
+      "closed_set_id_accuracy": 0.9315068493150684,
+      "id_end_to_end_accuracy": 0.8493150684931506,
+      "accepted_id_accuracy": 0.96875,
+      "ood_false_accept_rate": 0.23354564755838642,
+      "auroc": 0.9053602070790797,
+      "aupr_ood": 0.9790717791041452,
+      "fpr_at_95_tpr_id": 0.6454352441613588,
+      "easy_ood_count": 150,
+      "easy_ood_far": 0.13333333333333333,
+      "easy_ranking": {
+        "auroc": 0.9397260273972603,
+        "aupr_ood": 0.9628107140719262,
+        "fpr_at_95_tpr_id": 0.46
+      },
+      "hard_ood_count": 321,
+      "hard_ood_far": 0.2803738317757009,
+      "hard_ranking": {
+        "auroc": 0.889301412537874,
+        "aupr_ood": 0.9624964216865801,
+        "fpr_at_95_tpr_id": 0.7320872274143302
+      },
+      "model": "mobilenet_partial_ft",
+      "checkpoint_sha256": "3f3668af51338de3284868a44324f554c347298c7c349f80d7bd06ccee17114e",
+      "test_set_sha256": "c4922f7e1c5240dbce7595ae223ba1853ff6adc86abcd314aec17c200ad5de91",
+      "benchmark_sha256": "5ab4b398b3a5fa365f6259c9f567002177901540acc488fd8570e98b0b15e411",
+      "input_size": 224,
+      "method": "distance_energy",
+      "reject_logic": "and",
+      "id_macro_f1": 0.9021505376344086,
+      "closed_set_id_macro_f1": 0.9306742640075973,
+      "confusion_matrix": [
+        [
+          35,
+          1,
+          3
+        ],
+        [
+          1,
+          27,
+          6
+        ],
+        [
+          87,
+          23,
+          361
+        ]
+      ],
+      "confusion_order": [
+        "nailong",
+        "naiwa",
+        "ood"
+      ],
+      "test_used_to_tune": false,
+      "nailong": {
+        "count": 39,
+        "closed_accuracy": 0.9743589743589743,
+        "recall_including_rejection": 0.8974358974358975,
+        "false_reject_rate": 0.07692307692307693
+      },
+      "naiwa": {
+        "count": 34,
+        "closed_accuracy": 0.8823529411764706,
+        "recall_including_rejection": 0.7941176470588235,
+        "false_reject_rate": 0.17647058823529413
+      },
+      "ablations": [
+        {
+          "method": "mahalanobis",
+          "parameters_from_validation": {
+            "normalize_embedding": false,
+            "distance_threshold": 158.40305934291936
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.9315068493150684,
+          "id_false_reject_rate": 0.0684931506849315,
+          "closed_set_id_accuracy": 0.9315068493150684,
+          "id_end_to_end_accuracy": 0.8767123287671232,
+          "accepted_id_accuracy": 0.9411764705882353,
+          "ood_false_accept_rate": 0.346072186836518,
+          "auroc": 0.9334554867230899,
+          "aupr_ood": 0.9847008170693503,
+          "fpr_at_95_tpr_id": 0.4140127388535032,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.16666666666666666,
+          "easy_ranking": {
+            "auroc": 0.9631963470319634,
+            "aupr_ood": 0.9796653175840035,
+            "fpr_at_95_tpr_id": 0.2
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.42990654205607476,
+          "hard_ranking": {
+            "auroc": 0.9195578884479152,
+            "aupr_ood": 0.9656956630633979,
+            "fpr_at_95_tpr_id": 0.514018691588785
+          }
+        },
+        {
+          "method": "energy",
+          "parameters_from_validation": {
+            "energy_temperature": 5.0,
+            "energy_threshold": -3.6680894771076096
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.958904109589041,
+          "id_false_reject_rate": 0.0410958904109589,
+          "closed_set_id_accuracy": 0.9315068493150684,
+          "id_end_to_end_accuracy": 0.9178082191780822,
+          "accepted_id_accuracy": 0.9571428571428572,
+          "ood_false_accept_rate": 0.6794055201698513,
+          "auroc": 0.7877439432277579,
+          "aupr_ood": 0.9537674598348765,
+          "fpr_at_95_tpr_id": 0.6326963906581741,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.56,
+          "easy_ranking": {
+            "auroc": 0.8502283105022831,
+            "aupr_ood": 0.9097425716929711,
+            "fpr_at_95_tpr_id": 0.5066666666666667
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.735202492211838,
+          "hard_ranking": {
+            "auroc": 0.7585456407630266,
+            "aupr_ood": 0.923131063424584,
+            "fpr_at_95_tpr_id": 0.6915887850467289
+          }
+        },
+        {
+          "method": "distance_energy",
+          "parameters_from_validation": {
+            "normalize_embedding": false,
+            "distance_threshold": 128.44155051504717,
+            "energy_threshold": -4.453195027075655,
+            "energy_temperature": 5.0,
+            "reject_logic": "and",
+            "distance_scale": 31.673424659043953,
+            "energy_scale": 0.7533011754082347
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.8767123287671232,
+          "id_false_reject_rate": 0.1232876712328767,
+          "closed_set_id_accuracy": 0.9315068493150684,
+          "id_end_to_end_accuracy": 0.8493150684931506,
+          "accepted_id_accuracy": 0.96875,
+          "ood_false_accept_rate": 0.23354564755838642,
+          "auroc": 0.9053602070790797,
+          "aupr_ood": 0.9790717791041452,
+          "fpr_at_95_tpr_id": 0.6454352441613588,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.13333333333333333,
+          "easy_ranking": {
+            "auroc": 0.9397260273972603,
+            "aupr_ood": 0.9628107140719262,
+            "fpr_at_95_tpr_id": 0.46
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.2803738317757009,
+          "hard_ranking": {
+            "auroc": 0.889301412537874,
+            "aupr_ood": 0.9624964216865801,
+            "fpr_at_95_tpr_id": 0.7320872274143302
+          }
+        }
+      ],
+      "checkpoint_bytes": 4140063
+    },
+    {
+      "count": 544,
+      "id_count": 73,
+      "id_true_accept_rate": 0.9315068493150684,
+      "id_false_reject_rate": 0.0684931506849315,
+      "closed_set_id_accuracy": 0.958904109589041,
+      "id_end_to_end_accuracy": 0.9041095890410958,
+      "accepted_id_accuracy": 0.9705882352941176,
+      "ood_false_accept_rate": 0.3057324840764331,
+      "auroc": 0.923246953436291,
+      "aupr_ood": 0.986585788678984,
+      "fpr_at_95_tpr_id": 0.4564755838641189,
+      "easy_ood_count": 150,
+      "easy_ood_far": 0.2,
+      "easy_ranking": {
+        "auroc": 0.9251141552511417,
+        "aupr_ood": 0.9682405560289048,
+        "fpr_at_95_tpr_id": 0.28
+      },
+      "hard_ood_count": 321,
+      "hard_ood_far": 0.35514018691588783,
+      "hard_ranking": {
+        "auroc": 0.9223744292237442,
+        "aupr_ood": 0.9788522652746396,
+        "fpr_at_95_tpr_id": 0.5389408099688473
+      },
+      "model": "mobilenet_frozen_128_control",
+      "checkpoint_sha256": "6f19079a8c6c894d7aabe4495b9e57e139650ba95ed96c5657e013cea43cea32",
+      "test_set_sha256": "c4922f7e1c5240dbce7595ae223ba1853ff6adc86abcd314aec17c200ad5de91",
+      "benchmark_sha256": "5ab4b398b3a5fa365f6259c9f567002177901540acc488fd8570e98b0b15e411",
+      "input_size": 128,
+      "method": "distance_energy",
+      "reject_logic": "and",
+      "id_macro_f1": 0.9336444805194806,
+      "closed_set_id_macro_f1": 0.9586245985263555,
+      "confusion_matrix": [
+        [
+          37,
+          1,
+          1
+        ],
+        [
+          1,
+          29,
+          4
+        ],
+        [
+          101,
+          43,
+          327
+        ]
+      ],
+      "confusion_order": [
+        "nailong",
+        "naiwa",
+        "ood"
+      ],
+      "test_used_to_tune": false,
+      "nailong": {
+        "count": 39,
+        "closed_accuracy": 0.9743589743589743,
+        "recall_including_rejection": 0.9487179487179487,
+        "false_reject_rate": 0.02564102564102564
+      },
+      "naiwa": {
+        "count": 34,
+        "closed_accuracy": 0.9411764705882353,
+        "recall_including_rejection": 0.8529411764705882,
+        "false_reject_rate": 0.11764705882352941
+      },
+      "ablations": [
+        {
+          "method": "mahalanobis",
+          "parameters_from_validation": {
+            "normalize_embedding": false,
+            "distance_threshold": 158.1388815203028
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.9726027397260274,
+          "id_false_reject_rate": 0.0273972602739726,
+          "closed_set_id_accuracy": 0.958904109589041,
+          "id_end_to_end_accuracy": 0.9315068493150684,
+          "accepted_id_accuracy": 0.9577464788732394,
+          "ood_false_accept_rate": 0.43524416135881105,
+          "auroc": 0.9352005351481836,
+          "aupr_ood": 0.9878462817812834,
+          "fpr_at_95_tpr_id": 0.37579617834394907,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.11333333333333333,
+          "easy_ranking": {
+            "auroc": 0.9861187214611872,
+            "aupr_ood": 0.9928950450462639,
+            "fpr_at_95_tpr_id": 0.06
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.5856697819314641,
+          "hard_ranking": {
+            "auroc": 0.9114069901421071,
+            "aupr_ood": 0.9734123570240404,
+            "fpr_at_95_tpr_id": 0.5233644859813084
+          }
+        },
+        {
+          "method": "energy",
+          "parameters_from_validation": {
+            "energy_temperature": 5.0,
+            "energy_threshold": -3.337759874234859
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.958904109589041,
+          "id_false_reject_rate": 0.0410958904109589,
+          "closed_set_id_accuracy": 0.958904109589041,
+          "id_end_to_end_accuracy": 0.9178082191780822,
+          "accepted_id_accuracy": 0.9571428571428572,
+          "ood_false_accept_rate": 0.8598726114649682,
+          "auroc": 0.6875490794869559,
+          "aupr_ood": 0.9287296853410181,
+          "fpr_at_95_tpr_id": 0.8428874734607219,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.8333333333333334,
+          "easy_ranking": {
+            "auroc": 0.6866666666666668,
+            "aupr_ood": 0.8232152696955989,
+            "fpr_at_95_tpr_id": 0.8133333333333334
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.8722741433021807,
+          "hard_ranking": {
+            "auroc": 0.6879614219263432,
+            "aupr_ood": 0.895947543502021,
+            "fpr_at_95_tpr_id": 0.8566978193146417
+          }
+        },
+        {
+          "method": "distance_energy",
+          "parameters_from_validation": {
+            "normalize_embedding": false,
+            "distance_threshold": 129.15529711931777,
+            "energy_threshold": -5.776691334348949,
+            "energy_temperature": 5.0,
+            "reject_logic": "and",
+            "distance_scale": 34.009557389441184,
+            "energy_scale": 1.2607953485911596
+          },
+          "count": 544,
+          "id_count": 73,
+          "id_true_accept_rate": 0.9315068493150684,
+          "id_false_reject_rate": 0.0684931506849315,
+          "closed_set_id_accuracy": 0.958904109589041,
+          "id_end_to_end_accuracy": 0.9041095890410958,
+          "accepted_id_accuracy": 0.9705882352941176,
+          "ood_false_accept_rate": 0.3057324840764331,
+          "auroc": 0.923246953436291,
+          "aupr_ood": 0.986585788678984,
+          "fpr_at_95_tpr_id": 0.4564755838641189,
+          "easy_ood_count": 150,
+          "easy_ood_far": 0.2,
+          "easy_ranking": {
+            "auroc": 0.9251141552511417,
+            "aupr_ood": 0.9682405560289048,
+            "fpr_at_95_tpr_id": 0.28
+          },
+          "hard_ood_count": 321,
+          "hard_ood_far": 0.35514018691588783,
+          "hard_ranking": {
+            "auroc": 0.9223744292237442,
+            "aupr_ood": 0.9788522652746396,
+            "fpr_at_95_tpr_id": 0.5389408099688473
+          }
+        }
+      ],
+      "checkpoint_bytes": 4142079
+    }
+  ],
+  "full_ft": {
+    "status": "N/A",
+    "reason": "Optional full FT not run; core frozen/partial comparison is sufficient for this phase."
+  },
+  "paired_hard_uncertainty": {
+    "mobilenet_frozen": {
+      "hard_far_improvement": -0.09657320872274142,
+      "identity_cluster_bootstrap_95ci": [
+        -0.155768241447312,
+        -0.040120370370370396
+      ],
+      "replicates": 5000,
+      "seed": 42,
+      "success_rule_met": false,
+      "note": "Paired identity-cluster bootstrap, art styles shared. Does not represent uncertainty across new source datasets or training seeds."
+    },
+    "mobilenet_partial_ft": {
+      "hard_far_improvement": -0.11838006230529594,
+      "identity_cluster_bootstrap_95ci": [
+        -0.18209876543209874,
+        -0.05329153605015674
+      ],
+      "replicates": 5000,
+      "seed": 42,
+      "success_rule_met": false,
+      "note": "Paired identity-cluster bootstrap, art styles shared. Does not represent uncertainty across new source datasets or training seeds."
+    },
+    "mobilenet_frozen_128_control": {
+      "hard_far_improvement": -0.19314641744548286,
+      "identity_cluster_bootstrap_95ci": [
+        -0.26129301892342394,
+        -0.12380952380952381
+      ],
+      "replicates": 5000,
+      "seed": 42,
+      "success_rule_met": false,
+      "note": "Paired identity-cluster bootstrap, art styles shared. Does not represent uncertainty across new source datasets or training seeds."
+    }
+  },
+  "candidate_selected_using_validation": "mobilenet_frozen",
+  "conclusion": "C",
+  "production_replaced": false,
+  "recommendation": "V4 Phase 2 Hard Negative Mining; no SupCon in this phase",
+  "causal_limitations": "V3 historically received OE; new MobileNets use ID CE only. Primary MobileNet224 vs V3_128 includes resolution confound; extra Frozen128 control addresses resolution but not objective/history. This cannot establish single-factor causality."
+}

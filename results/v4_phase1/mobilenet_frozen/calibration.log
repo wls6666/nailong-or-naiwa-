@@ -1,0 +1,43 @@
+Raw vs L2: [{'normalize_embedding': False, 'shrinkage': 0.14220637817344262, 'auroc': 0.9790161892901619, 'easy_auroc': 0.9921461187214612, 'hard_auroc': 0.950880626223092}, {'normalize_embedding': True, 'shrinkage': 0.1304881556660861, 'auroc': 0.810585305105853, 'easy_auroc': 0.8561643835616438, 'hard_auroc': 0.7129158512720157}]
+SELECTED {
+  "method": "distance_energy",
+  "target_id_accept": 0.95,
+  "count": 293,
+  "id_count": 73,
+  "id_true_accept_rate": 0.958904109589041,
+  "id_false_reject_rate": 0.0410958904109589,
+  "closed_set_id_accuracy": 0.958904109589041,
+  "id_end_to_end_accuracy": 0.9178082191780822,
+  "accepted_id_accuracy": 0.9571428571428572,
+  "ood_false_accept_rate": 0.22272727272727272,
+  "auroc": 0.9608343711083438,
+  "aupr_ood": 0.9862229306573611,
+  "fpr_at_95_tpr_id": 0.22272727272727272,
+  "easy_ood_count": 150,
+  "easy_ood_far": 0.21333333333333335,
+  "easy_ranking": {
+    "auroc": 0.9583561643835617,
+    "aupr_ood": 0.9801577036144549,
+    "fpr_at_95_tpr_id": 0.21333333333333335
+  },
+  "hard_ood_count": 70,
+  "hard_ood_far": 0.24285714285714285,
+  "hard_ranking": {
+    "auroc": 0.9661448140900195,
+    "aupr_ood": 0.9599342220685859,
+    "fpr_at_95_tpr_id": 0.24285714285714285
+  },
+  "parameters": {
+    "normalize_embedding": false,
+    "distance_threshold": 141.10585029240713,
+    "energy_threshold": -4.531598268350639,
+    "energy_temperature": 5.0,
+    "reject_logic": "and",
+    "distance_scale": 36.19713926611564,
+    "energy_scale": 0.5317044801563672
+  }
+}
+msp TAR 0.958904109589041 easy FAR 0.7866666666666666 hard FAR 0.9285714285714286 AUROC 0.6583437110834371
+mahalanobis TAR 0.958904109589041 easy FAR 0.04 hard FAR 0.44285714285714284 AUROC 0.9790161892901619
+energy TAR 0.958904109589041 easy FAR 0.8333333333333334 hard FAR 0.8285714285714286 AUROC 0.652054794520548
+distance_energy TAR 0.958904109589041 easy FAR 0.21333333333333335 hard FAR 0.24285714285714285 AUROC 0.9608343711083438

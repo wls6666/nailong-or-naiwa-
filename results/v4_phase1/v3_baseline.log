@@ -1,0 +1,4 @@
+v3_baseline train 345 (345, 2) (345, 256)
+v3_baseline val 293 (293, 2) (293, 256)
+v3_baseline test 544 (544, 2) (544, 256)
+TEST v3_baseline {"closed_set_id_accuracy": 0.958904109589041, "id_end_to_end_accuracy": 0.8904109589041096, "easy_ood_far": 0.12, "hard_ood_far": 0.16199376947040497, "auroc": 0.9423552336910682, "fpr_at_95_tpr_id": 0.5944798301486199, "id_false_reject_rate": 0.0684931506849315}

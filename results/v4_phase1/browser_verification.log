@@ -1,0 +1,1 @@
+V4 BROWSER PASS [('v3_baseline', {'warmup': 5, 'runs': 20, 'median_ms': 19.049999998882413}, 517.5999999977648), ('mobilenet_frozen', {'warmup': 5, 'runs': 20, 'median_ms': 16.149999998509884}, 635.6000000014901)]

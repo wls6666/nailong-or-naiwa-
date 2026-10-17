@@ -1,0 +1,2623 @@
+{
+  "rows": [
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/14468a4c3321e9c9.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/163cc340be210680.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/1e42116b511ae551.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/330bbcaefab179e4.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/3bc8abbff3c372b8.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/3f9a44e4acdac9b5.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/402be8aa7df8b23c.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/464f6cda3e5f132e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/47fa84655e393291.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/574e4c2685ad9074.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/60c0752b61c9d847.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/63f6bb5215cb8215.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/6da22e782407996d.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/70eb7408a54c6198.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/742d357007d34232.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/75ab7fe7a25b0a02.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/7b5c90ce30dd8c09.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/7c1f41c41e985dd9.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/898a470c963761e6.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/89fb33e8eb39cb44.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/8ed8f9c13dc77720.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/92ba7abc7ba313e4.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/955dd6296ef52488.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/9c9da33ff94f2517.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/a57ee5f1c025a20a.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/a8bd100f5f9fdabf.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/aa8d89ef58c22d45.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/aedd7c3064b45cbb.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/be6574cded9cf0c2.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/bea825ef0164b1e1.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/cd2850ca843e9395.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/e601f9044b815983.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/e8e5b0de40e6416e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/e9f1a1cc80116a45.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/ed3da6861322f31d.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/f9f7ec3d7653a653.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/fa1eb7ee73d4cbb2.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/feb510e055a0537c.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/nailong/ff5653fe11fb3082.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/065b68d5d15a6dc1.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/0883c49b932611cf.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/0bbbde2272261d89.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/0c1628af6d243168.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/2831b99d4e0cddb1.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/2d8f84f5514f43ae.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/3b735432a11fab27.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/5bf498aa4802d734.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/5ce04e06d2fa09a6.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/666eeca279f9d386.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/676e03f8e0db47b6.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/6f78153e9375ddc4.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/79d04bc485a6a1d8.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/7f1ef16265aa42d2.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/81b80799a3698af1.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/85e32fc506854a26.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/867f88e3031736dd.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/9220412013bb0043.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/9be3282152dbd6a8.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/9d4cb2795eff3372.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/9e32aaa78866298c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/9f26c2af6d971569.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/af0b52376dd66b90.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/b494aadf5a998eb5.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/b6c31904dd4e901c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/b8ba8c9ea296b96f.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/c8dfeb7c8519036c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/cf7d1d3b983c1bd1.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/e2b094bfd4d28f14.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/e559f969ca39d2ed.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/ec419e7bcb95446b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/f1c3737b357591aa.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/f4629c6358b072f2.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/naiwa/f8a90f7e71ebe320.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_000183.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_000537.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_000583.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_001052.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_003433.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_003647.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_004421.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_004434.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_005128.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_005654.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_006015.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_007579.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_008791.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_008842.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_009126.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_010667.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_010715.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_010718.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_012094.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_012705.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_013465.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_014806.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_015037.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_015128.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_015594.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_015813.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_018200.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_018420.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_018651.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_019013.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_020383.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_020590.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_021921.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_022535.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_023719.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_024497.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_024773.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_025468.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_025984.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_026637.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_027161.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_027624.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_028741.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_028822.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_029034.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_031326.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_031385.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_031873.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_032175.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_033779.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_033805.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_034178.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_034244.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_035249.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_035572.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_036255.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_036888.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_038459.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_038673.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_039238.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_039390.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_041802.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_041816.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_042197.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_043276.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_043540.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_043928.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_044227.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_045018.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_045574.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_047006.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_047391.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_049367.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_049394.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/cifar100_train_049533.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000051.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000176.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000202.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000205.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000259.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000312.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000391.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000408.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000452.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000456.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000543.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000564.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000604.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000634.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000691.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000700.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000744.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000829.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000855.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_000981.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001025.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001127.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001171.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001173.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001354.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001361.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001407.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001409.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001432.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001513.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001521.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001676.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001702.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001722.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001761.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001766.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001835.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001864.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001865.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001917.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001951.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_001964.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002002.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002137.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002192.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002212.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002256.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002374.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002417.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002501.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002609.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002625.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002655.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002712.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002751.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002783.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002820.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002880.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002916.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002922.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_002968.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003042.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003048.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003082.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003087.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003133.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003177.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003306.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003307.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003415.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003421.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003438.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003458.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003500.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/val/other/oxford_pets_train_003666.jpg",
+      "label": 2,
+      "class": "other",
+      "domain": "easy",
+      "split": "val"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f31d",
+      "identity_group": "1f31d",
+      "category": "creatures_toys",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f31d.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f31d.png",
+      "license": "Apache-2.0",
+      "file_sha256": "d5a0f60ba5c37864c08d3befffd7a3dae61fe30ae4a7fc4cc87834bbf05ff473",
+      "pixel_sha256": "b9f0c7a0947a12def10608c0c50cf445a516ca154617d5618ea75f437f262bdb",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f31d",
+      "identity_group": "1f31d",
+      "category": "creatures_toys",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f31d.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f31d.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "1c5568919498944fe8ba61fabe30c862f76b4ea67b4e7c64f01eb92ba767b7c9",
+      "pixel_sha256": "4b360c3effc1c3d1052fe1809616bd82e427828567e1327e38e0580337bf838f",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f402",
+      "identity_group": "1f402",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f402.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f402.png",
+      "license": "Apache-2.0",
+      "file_sha256": "821df5c9afb0495cf033e03f9a5af7e195194da9a6170edc7925d044fd89ec62",
+      "pixel_sha256": "2e070638d83aa421bdacda9e563203188990a17af14cc1ec96bde0bb8a097ad6",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f402",
+      "identity_group": "1f402",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f402.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f402.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "0ffdc039a45dc22ab3bc621cf9f1e7615b3f63e07a788e56f7615758d61efad2",
+      "pixel_sha256": "7c06518f4749b2a9e8a5bf8a2c005d6e6080c662ceb28a13740fb3d5f80d0158",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f405",
+      "identity_group": "1f405",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f405.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f405.png",
+      "license": "Apache-2.0",
+      "file_sha256": "9db340ebfa40774229fc1ce3bd5ae0561fea9060495ab5e61f7273e7e9156176",
+      "pixel_sha256": "85f4ac0f341771b873b24ca2a3eed75482eeb81d89c2b3455ac3b149840a2592",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f405",
+      "identity_group": "1f405",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f405.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f405.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "d8a084fd52aa2458b73c71744dc906eec93b13351eeae07cdefd540e53158f5e",
+      "pixel_sha256": "91725c2533916054549745f77351ffc379a767b3a6d5504e9225a8e3fcb2ae2a",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f40b",
+      "identity_group": "1f40b",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f40b.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f40b.png",
+      "license": "Apache-2.0",
+      "file_sha256": "e923959792776a8f76b6ed4a62303e7facb1671bfc38f530d2f13369bb81b3a7",
+      "pixel_sha256": "f071f00ee8189a95a864f8b13df8c814b0714aecef0d022e8f0c9f49c3ba4472",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f40b",
+      "identity_group": "1f40b",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f40b.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f40b.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "9c308add5ebb5b8574bf6b1a88a458c9d4b87799d022de043c8c937065ad0f8a",
+      "pixel_sha256": "31e8b75b3d42fc30b0cf64e9dc43574ba32d3580eda3689fce20ad1078516f8a",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f40f",
+      "identity_group": "1f40f",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f40f.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f40f.png",
+      "license": "Apache-2.0",
+      "file_sha256": "c05368cdf60e32e65ebf7f681193c05506cb7fe7a1ab532cd0b76a586bf2bf47",
+      "pixel_sha256": "921caed18866ab30de7c98adf7d78b4454f76f62a2b0c653649e865231488156",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f40f",
+      "identity_group": "1f40f",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f40f.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f40f.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "a5f4c6aa43eaaef1b174eabcb18c32991e8ef89df67f1ccf1b40ec5a8bbf3e1c",
+      "pixel_sha256": "2802f14cd175209834648fbec232a931a90d20c7a4df424efda668b30db56cef",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f414",
+      "identity_group": "1f414",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f414.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f414.png",
+      "license": "Apache-2.0",
+      "file_sha256": "5156f7ce5d6fca5758e824d65361ade71a6425c1b4e4f6ff46a5979e06ad8566",
+      "pixel_sha256": "3360cd63035995867ffd3af9dbc8aacb1d76693423a9b3f1b45d724267d3ce70",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f414",
+      "identity_group": "1f414",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f414.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f414.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "48f994c9bd7dcceff7d0d06b14bc57063c42cab7c75c73e1d7f8b0b861a465ea",
+      "pixel_sha256": "5be01e5c2fcbbb87e0b3d8ffd7373569dfcf325fab3def495c89ffc1aba100a8",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f416",
+      "identity_group": "1f416",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f416.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f416.png",
+      "license": "Apache-2.0",
+      "file_sha256": "5c71798a9cd18731b3ae68cb538a00ec6bdf550bd809893d06d090435101122a",
+      "pixel_sha256": "75ab4f8bdee1b282e1a1426c0bc9ff80678d40e16dd2ed6c56e969da389fa305",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f416",
+      "identity_group": "1f416",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f416.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f416.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "84f7d625095c8ddb0fb37094edf38db9634189217b0a1b2c4b68e15076cb2c1d",
+      "pixel_sha256": "cca1680824b914fb754627e196578d2445da27b6a2a467e98ea5723786a06ff0",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f417",
+      "identity_group": "1f417",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f417.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f417.png",
+      "license": "Apache-2.0",
+      "file_sha256": "af95c8e5e659a4828fbfebb7403ff3e700b72845a7a937b69f1306613aac6660",
+      "pixel_sha256": "1b9410bc9ed62bcc7396edb433dc07ec257b22026dcc6c0a7f115a4cda648759",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f417",
+      "identity_group": "1f417",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f417.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f417.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "3ec07c9ab67325acf251a9a4afa4e4181edcade6c66da21ffa6188aeb1bc11e2",
+      "pixel_sha256": "1fe067a110c9c1e9ca25c696d2060fe9a4342ceeb854d5afcad3dda5acce07de",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f419",
+      "identity_group": "1f419",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f419.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f419.png",
+      "license": "Apache-2.0",
+      "file_sha256": "2dd823adc724819fdfcf1f2054c8cb4a0254378b3384728261569001ac49d9ce",
+      "pixel_sha256": "1e64ffe4ceba49921fca4b5cc72b791d5224a2cbd048bf31eb14ab3afdbb3e8b",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f419",
+      "identity_group": "1f419",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f419.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f419.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "d2d867559cd366019dad429fc4cba7f9aaacb1f7b5f475a3353667eb4d1f1c55",
+      "pixel_sha256": "baa5ddd5c34eaca5071e10a2bfb77c42242fed72c05d2661098687837b5b33e3",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f41d",
+      "identity_group": "1f41d",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f41d.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f41d.png",
+      "license": "Apache-2.0",
+      "file_sha256": "1600250a183109b42716f70e22411008eaaa03bd57d334ea422fed02e40e926a",
+      "pixel_sha256": "20aae1b71136814e97ea3bb146e86d45558fe363b11bc55540fcf238ab194039",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f41d",
+      "identity_group": "1f41d",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f41d.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f41d.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "03abe41d61c97697e4de3e85b861c23faae068fec158e97816186422cee392e6",
+      "pixel_sha256": "e58a6f7e3dba8f41fb485908de890fc12e2e7a4c6b99b924df9f57f387acc1f3",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f41f",
+      "identity_group": "1f41f",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f41f.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f41f.png",
+      "license": "Apache-2.0",
+      "file_sha256": "64170ffc41e71265a4566304ddc61c6c9f53f3ef0dae30d34f5aad043f1eea28",
+      "pixel_sha256": "b2db8306c3601f15b43397b5c3d04f2a26b6e7af814fb8ecf45180d26f345f77",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f41f",
+      "identity_group": "1f41f",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f41f.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f41f.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "ae95236fe5d5b9199a29be2323d4fe26c84bc2dfce922e8bf8f7345ec743fde7",
+      "pixel_sha256": "830581a3ae89e4b15184dda2fef6fc24d6a78a81798a4153e1fba39e0683bd5a",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f433",
+      "identity_group": "1f433",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f433.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f433.png",
+      "license": "Apache-2.0",
+      "file_sha256": "ab3975e24dfa1e524a90c4556ea2b2317ab2b205ec36016a46a6cf84fdf163d8",
+      "pixel_sha256": "69788c7295e45dc68639f90f4924fce87df5ddb4d546c09602c94fad767e1b80",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f433",
+      "identity_group": "1f433",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f433.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f433.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "7854c6f4b20ef062f78982b45b814efb31f54b2a6da6d509b44abbc87e60fbb6",
+      "pixel_sha256": "2abdfd037f2e7d1191539a8d9c62f7c1bc8b49630d09de7b31439b0b3c1286e2",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f435",
+      "identity_group": "1f435",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f435.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f435.png",
+      "license": "Apache-2.0",
+      "file_sha256": "4c85d10547b807af63b36a59948da3f89a8df47fc8581107f99d55f9ae7d3292",
+      "pixel_sha256": "5b7f27d4582e5327519d2ad4068f57f1004d7bc0bd0b658617073a9ed6bf2afb",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f435",
+      "identity_group": "1f435",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f435.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f435.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "c62cfa08f3ea8e304cfab8099b56aa225a469d0c5942012c8a111c3e1a410c81",
+      "pixel_sha256": "eed4c346a4a9da2f4bc88661a5b733fdf7a1afdb9cc006fa7c0dcecf3430a20f",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f43b",
+      "identity_group": "1f43b",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f43b.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f43b.png",
+      "license": "Apache-2.0",
+      "file_sha256": "1494d7b17d215a7027ac6cfccd50bf94918dab972c629c896e1eee14667c0373",
+      "pixel_sha256": "870422f2f3e055a44bcca165b3ef91d077076b4d466cd39d197661ce558210fe",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f43b",
+      "identity_group": "1f43b",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f43b.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f43b.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "131b848129e2841a669a7d77a121d170f1d339f902df943f8ce76f6fc80f2ce5",
+      "pixel_sha256": "102c30ac6e0dd69928908c5c904489ccdd0edf65952ef61becdc125093974a8a",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f47d",
+      "identity_group": "1f47d",
+      "category": "creatures_toys",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f47d.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f47d.png",
+      "license": "Apache-2.0",
+      "file_sha256": "7b31af52b0ab78459cdd49457b1af5eb15308addf905b7a060d9d2207c93f3cb",
+      "pixel_sha256": "0b8712fc1dc58a41ea1f9eb502b2d0f60c6c83340c85d968f186a491151743fe",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f47d",
+      "identity_group": "1f47d",
+      "category": "creatures_toys",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f47d.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f47d.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "98512d55856ab96f90794ef4d978ddedfa6b5ef130cbd70273ba12f54e3fa0f0",
+      "pixel_sha256": "421fe3803fbf5053c54109d696237b531db2814f213a59dc53cedca6805fa1a3",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f60d",
+      "identity_group": "1f60d",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f60d.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f60d.png",
+      "license": "Apache-2.0",
+      "file_sha256": "af8ae97e92dc3e2bb0d5015376e5d15f1b0b258ffbd33aab7ed91d9d51033f2b",
+      "pixel_sha256": "5907ff4876f94d6147648785680f93c17810dd0f26817d9a65f794bb78d4b49d",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f60d",
+      "identity_group": "1f60d",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f60d.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f60d.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "ed402544b4e4f781f41f314388826889618fdb9972b28212dcdf91c76673ac0c",
+      "pixel_sha256": "6e7dcec5d3f668a575613163ed51386f669a72c2c224d909b62bab9edf16b598",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f615",
+      "identity_group": "1f615",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f615.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f615.png",
+      "license": "Apache-2.0",
+      "file_sha256": "350011a31f3f89f46664ec12a919375265652d2b78d31e28fb412a786bb0367c",
+      "pixel_sha256": "39fb79d40a2092ef0bf58cbebf5c9d0daf3ef497ca2d7dc8a8d3a1e2ec4b7896",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f615",
+      "identity_group": "1f615",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f615.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f615.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "5dc1ca61bbc8cd4bf02bc0d192e798628af5c2b64f08d0179d7a828a9527ec33",
+      "pixel_sha256": "66980e1a9996a7405fd1f20b239c5dd59b4f240498774ea1f4389c7c7ada9833",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f619",
+      "identity_group": "1f619",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f619.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f619.png",
+      "license": "Apache-2.0",
+      "file_sha256": "90130d0e37cca118bd84dbc4d1a5aeb90326bd1b98c686fa2ba66e6aeaf8647c",
+      "pixel_sha256": "6e5b31f16e64a07954266c62593e57967d09fc2ba100e4ecb6c43c0b4a3d64fb",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f619",
+      "identity_group": "1f619",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f619.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f619.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "4e8bca42e43ce8159212a47d897ff0f63c1fe1cde4602d886568b999f5b17586",
+      "pixel_sha256": "7621e1e6b8acc6c057ff9d81d8febf8e7568aa2f4c5ac181ab022f928675217f",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f61a",
+      "identity_group": "1f61a",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f61a.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f61a.png",
+      "license": "Apache-2.0",
+      "file_sha256": "01c7a4770bfe62a8e54f1e76f01c0f1e36e1406bedcba1e2b4e486f6055e57fb",
+      "pixel_sha256": "218449f53e4d895faa60486aafa31983e28abeb3bbc5ef5b5c2cc164b6716449",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f61a",
+      "identity_group": "1f61a",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f61a.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f61a.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "2f4e95eea94c9a90caf4d9f151a0f7a8d4ccb52ac9b04a63b485544e86462e31",
+      "pixel_sha256": "defb0548e148f1404dd348c0815b76ad8fc7e9b39a784c5dbb43e99823a1c3dd",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f625",
+      "identity_group": "1f625",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f625.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f625.png",
+      "license": "Apache-2.0",
+      "file_sha256": "c3891795c89f57be4fc0586b0d5be01e93035a9f68dbf55f5280e00d6250a612",
+      "pixel_sha256": "46366e8bbc3bc0cd8c6f81b9aa3db83d413637df541938f66cb842c159148bc2",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f625",
+      "identity_group": "1f625",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f625.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f625.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "dab3bd053be5972819df0b7a9d9214bfc7bdddac9e8a6e93a42cf115bb154ab2",
+      "pixel_sha256": "8636c79f25eddca88de55e8d2a858402c81df25e0d11a4443720d3e4103e628b",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f629",
+      "identity_group": "1f629",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f629.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f629.png",
+      "license": "Apache-2.0",
+      "file_sha256": "8789a51862952ec3ec3b9d8f30b1f961b175c6eb0a2df17926eaba2a64e68d85",
+      "pixel_sha256": "53b23bdf4a30bfc19aecc4ca5aae7bbeb0200b054db2f70f1dd2e34e583f46ec",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f629",
+      "identity_group": "1f629",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f629.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f629.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "876d15d4266482d585879dcd10a2b8f611288f4b7935d18dfd7bae9753ef07b3",
+      "pixel_sha256": "b5fb90fc68d1edff6c6334cd8db18290c3b0a1d107863351bc49de0a86c1eeb6",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f62a",
+      "identity_group": "1f62a",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f62a.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f62a.png",
+      "license": "Apache-2.0",
+      "file_sha256": "2b81ba29976984ad1399cbde803527b56468ea2d7007f1a0c7c312f345c13b70",
+      "pixel_sha256": "b51e3f9aff68db218b2cb16f0cf5b0d180ddb3cc86c6393bb54555b7c5b1d3ab",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f62a",
+      "identity_group": "1f62a",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f62a.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f62a.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "a0b6bbb7226af9c528bffe1ecfffdb617f20cf6cd3ba15038eb35dd804c3e934",
+      "pixel_sha256": "0a652b3ef66131bee72e8f3a40417091722c654b63945286a5d08aa8c17b66c9",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f62f",
+      "identity_group": "1f62f",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f62f.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f62f.png",
+      "license": "Apache-2.0",
+      "file_sha256": "f69243801596ccd4cee617a0c4fe1e017912682dbe2d646b97a40627014b477a",
+      "pixel_sha256": "20149c0dfdbcb8ee138820130b48a6696384755647fbff357f7c0cf9ca3407c1",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f62f",
+      "identity_group": "1f62f",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f62f.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f62f.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "7eb7c3eaa99341213f4edb4d9081224e05741118f713b58a27dd6c76f6e090dc",
+      "pixel_sha256": "297ecc4a19fc0f386ac3fa647bc6e8f9df5b9ee412a934721883374cf60838c7",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f632",
+      "identity_group": "1f632",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f632.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f632.png",
+      "license": "Apache-2.0",
+      "file_sha256": "efeb7ed675d7ddf8becb7cf0cc632212443ac540455b1620b9d3292c41fc2e96",
+      "pixel_sha256": "cefcd9fe3afab798a11290de32e0e28410841cc193a151c05a5026e73405bebc",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f632",
+      "identity_group": "1f632",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f632.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f632.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "488c8e360097e4d5240e3cc712abb1e6108eabac2aa37cf261444cdd83c1970a",
+      "pixel_sha256": "0533ec455403e1fb14b7bc5318253b41c70c168100616c485d54cd6d03a3cc12",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f634",
+      "identity_group": "1f634",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f634.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f634.png",
+      "license": "Apache-2.0",
+      "file_sha256": "eb5434992fb15976be312b5ced584a98d6d6cec495c06054784c4d0d57d93457",
+      "pixel_sha256": "6e436cb140110a698f9763568a0b68471afd7cf5f8eaf9e33c6403f47817ede1",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f634",
+      "identity_group": "1f634",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f634.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f634.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "2aeea8badccceed72027d37081ac75d81ced2932c382ed89527d427585081df7",
+      "pixel_sha256": "0c71139ef4d75cde6f31d49a672372a70c749b6df815c0ddf87f9069d5e1f30e",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "noto",
+      "source_id": "1f636",
+      "identity_group": "1f636",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/noto_1f636.png",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/v2.047/png/128/emoji_u1f636.png",
+      "license": "Apache-2.0",
+      "file_sha256": "e2c3b9a09af53b4ed21cbefb910d5bb3288db4511b2e784da3aa39668964cb35",
+      "pixel_sha256": "caccf6febc91c0ec287ec586f9872016c0985fda58775f35e702bbb6a5063857",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "twemoji",
+      "source_id": "1f636",
+      "identity_group": "1f636",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/twemoji_1f636.png",
+      "url": "https://raw.githubusercontent.com/jdecked/twemoji/7407fa31c51be5ab45626b8ab5554d50cc8073f6/assets/72x72/1f636.png",
+      "license": "CC-BY-4.0",
+      "file_sha256": "e14f0ccf56e8c7c123e4da42b3578b18a4d03231de63c592a9a83d038465818e",
+      "pixel_sha256": "ad52e2aab517bdc5bb51e86a286fe4663caf7400a315dcb0a49502569b6e30c2",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f47d",
+      "identity_group": "1f47d",
+      "category": "creatures_toys",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f47d.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Alien/3D/alien_3d.png",
+      "license": "MIT",
+      "file_sha256": "7b2318a60f36814c289e92643cbfa8d72caac26d98e955d8cae196d3db9abddf",
+      "pixel_sha256": "11023e31115239790765ea19f53a5602c3b32305b25d26eea589197ecec074af",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f43b",
+      "identity_group": "1f43b",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f43b.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bear/3D/bear_3d.png",
+      "license": "MIT",
+      "file_sha256": "8f108a036c28d25378e3970eea68d00fbf155228b349707f0456e557013a87c9",
+      "pixel_sha256": "c5e2f849e164d36651c55da35760cb28c433e5acd9e4a574f680736b6fabb6c0",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f414",
+      "identity_group": "1f414",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f414.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Chicken/3D/chicken_3d.png",
+      "license": "MIT",
+      "file_sha256": "78a069bc06c3e266ad600804840c44ba2cf291d24d090b3f627c1d5a09cb5a29",
+      "pixel_sha256": "efd9aa45c53974a98659790e86bd70a7e754b7630a63926f01d579c915464987",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f416",
+      "identity_group": "1f416",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f416.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pig/3D/pig_3d.png",
+      "license": "MIT",
+      "file_sha256": "a99ba267149dd19533d06385704da9961b8b1079bb45ae580d7f405f41c958b6",
+      "pixel_sha256": "6d7738187003a067b4c567b0deb16717003e009300be964ecb7d8a385dbd51b0",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f405",
+      "identity_group": "1f405",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f405.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Tiger/3D/tiger_3d.png",
+      "license": "MIT",
+      "file_sha256": "ebea0cb7d52cd5f16c053f05dce3fffd81275481bc44bc2d95812d3dc30a502a",
+      "pixel_sha256": "a5deb34c6c977dd3582d0fc431a299a07921b45bd46246aff72428ea388b7a3c",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f632",
+      "identity_group": "1f632",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f632.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Astonished%20face/3D/astonished_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "7b4fd7ff6da369b503ad95c4a33e984f6ba1fbd9e08f7851d9d5ad7e67c7c51f",
+      "pixel_sha256": "596d2015a49c6ec2c8557cfbaf78272227993049ee53638cc6a24e3caf081b66",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f615",
+      "identity_group": "1f615",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f615.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Confused%20face/3D/confused_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "86b74cbfda53e682ca7789a750a2ba3e4aede49e6b39b7a73b86fbb8bb98fb3a",
+      "pixel_sha256": "dba5255f5da287ea7052bce50b079955412c63e41743789695491871275fc278",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f636",
+      "identity_group": "1f636",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f636.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Face%20without%20mouth/3D/face_without_mouth_3d.png",
+      "license": "MIT",
+      "file_sha256": "8f5afd9e68f1409d241fdfe14d880f5e630030f8a95df8bf7fb71d3082030db1",
+      "pixel_sha256": "72743130c61b61a9551669a20b5833126ce4c1cd314a7ea91e8f18c1e9261402",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f31d",
+      "identity_group": "1f31d",
+      "category": "creatures_toys",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f31d.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Full%20moon%20face/3D/full_moon_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "6c4c21b85be8e2009009844455e00b7dff00647d0fe4eb49738ec7378700bc57",
+      "pixel_sha256": "2c8a334c36b3a6209160a5441c238727cb859c04b88ea46e6e5e68931b05fc30",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f62f",
+      "identity_group": "1f62f",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f62f.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hushed%20face/3D/hushed_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "0ff5204c6a0c78a45d74b42f7a8ef25c0110813c4472d6f8f67043a9a922bee2",
+      "pixel_sha256": "7364c71c3340838e52d058e8b90e4253e33180bcc179c207e465a9e4bcc2a4d6",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f61a",
+      "identity_group": "1f61a",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f61a.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Kissing%20face%20with%20closed%20eyes/3D/kissing_face_with_closed_eyes_3d.png",
+      "license": "MIT",
+      "file_sha256": "5f876ff35bb1899236d33f725e46dab0ce013597c609764bf0ddff1300a92439",
+      "pixel_sha256": "66322600809d0cfd746f321a60e3fb43317d09a1d74c4682c31d92f927165bcd",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f619",
+      "identity_group": "1f619",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f619.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Kissing%20face%20with%20smiling%20eyes/3D/kissing_face_with_smiling_eyes_3d.png",
+      "license": "MIT",
+      "file_sha256": "143d03c80bc3d4061a9a5c4e79bb064b29cf143be1417d47d0efb29b074b6fbc",
+      "pixel_sha256": "83f28e56616a65ad63b7a9e14cc629a14322c1a90ac32fc49d19a846b4039435",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f435",
+      "identity_group": "1f435",
+      "category": "cartoon_animals",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f435.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Monkey%20face/3D/monkey_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "28457ce308d7563afe96f1e1fc703c7ca760045a56596f89329159c55233e7bd",
+      "pixel_sha256": "5dbeb81141dc897ff86dbe550f7bd6a0ee17f18c6f19549fc6e3690a86e33806",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f625",
+      "identity_group": "1f625",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f625.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sad%20but%20relieved%20face/3D/sad_but_relieved_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "cedcbf01e796df419c9a0e2cb7c05017b91eec484fef52f5b87ae4da4eacee4d",
+      "pixel_sha256": "58ceb6b90ad9ca4c6b779ab101244befc3f40ffd07910835fc404dd48c7df993",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f634",
+      "identity_group": "1f634",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f634.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sleeping%20face/3D/sleeping_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "c7d1cd5d04ae7214b6ae92b9802b6c860729c755da0020ccec22c7c8171f18fa",
+      "pixel_sha256": "61bf3faab504f2070fe8c7fdd5fbdf91208d6938842eb86a433fde480b45f0c1",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f62a",
+      "identity_group": "1f62a",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f62a.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sleepy%20face/3D/sleepy_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "0d5d74dc3802603b3df9234da6f671afd1ed1d80cf2d6f27f907841f3299201e",
+      "pixel_sha256": "92fb0905d401b2cca37e178ef9e8193e00fd6d6ecc859c6c37abff1bc7514ac2",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f60d",
+      "identity_group": "1f60d",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f60d.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Smiling%20face%20with%20heart-eyes/3D/smiling_face_with_heart-eyes_3d.png",
+      "license": "MIT",
+      "file_sha256": "2b5ab00dd73673faa86463eac8787b7fc366935c4d82a54451df33443190b9cc",
+      "pixel_sha256": "eaefd6636ce6b254cd5d9a73e3c35fb1f12d29e7013a961e5f4d8a0df162b060",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    },
+    {
+      "source": "fluent3d",
+      "source_id": "1f629",
+      "identity_group": "1f629",
+      "category": "yellow_faces",
+      "split": "val",
+      "path": "data/hard_ood/val/fluent3d_1f629.png",
+      "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Weary%20face/3D/weary_face_3d.png",
+      "license": "MIT",
+      "file_sha256": "ddce4283a7067604462da8975918140037112b77d118a4a3caf0cee99d0dae6d",
+      "pixel_sha256": "3bd5b71b0ad4729d87f950264559e1a1f7a6eb37ab9733746316983f20a56ca8",
+      "label": 2,
+      "class": "other",
+      "domain": "hard"
+    }
+  ],
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "checkpoint_sha256": "3f3668af51338de3284868a44324f554c347298c7c349f80d7bd06ccee17114e",
+  "embedding_dim": 128,
+  "input_size": 224,
+  "set_sha256": "da8b8eed228294b776442ad6b6c96c083aff3f2f93d0183dbca4f35ecf99ac9a"
+}

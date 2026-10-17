@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "test_image": "data/hard_ood_benchmark/noto_1f31a.png",
+  "error": "Hard-negative leaks validation/test data: /workspace/naiwa-or-nailong/data/false_positive/.v4_holdout_guard_probe.png",
+  "temporary_file_removed": true,
+  "production_unchanged": true
+}

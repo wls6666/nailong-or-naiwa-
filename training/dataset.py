@@ -114,6 +114,9 @@ def add_hard_negatives(result, mapping):
     if hard_manifest.exists():
         for row in json.loads(hard_manifest.read_text())['samples']:
             (known_train if row['split'] == 'train' else reserved).add(row['pixel_sha256'])
+    v4_benchmark = ROOT / 'data/hard_ood_test_manifest.json'
+    if v4_benchmark.exists():
+        reserved.update(row['pixel_sha256'] for row in json.loads(v4_benchmark.read_text())['samples'])
     records = []
     extensions = {'.jpg', '.jpeg', '.png', '.webp', '.bmp'}
     for directory in ['hard_negative', 'false_positive']:

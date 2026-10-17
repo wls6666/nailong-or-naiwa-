@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "count": 321,
+  "identities": 121,
+  "old_v3_identity_overlap": 0,
+  "project_reserved_pixel_overlap": 0,
+  "within_benchmark_pixel_duplicates": 0,
+  "manifest_sha256": "5ab4b398b3a5fa365f6259c9f567002177901540acc488fd8570e98b0b15e411",
+  "all_test_only": true,
+  "production_unchanged": true,
+  "limitations": [
+    "Cartoon icon/3D rendered art; no broad plush photograph or commercial franchise coverage.",
+    "New Unicode identity groups, but sources/styles shared with old exposure; close facial variants can remain.",
+    "No image-level audit of historical ImageNet pretraining corpus.",
+    "All instances test-only: forbidden to train/calibrate/tune on this set."
+  ]
+}

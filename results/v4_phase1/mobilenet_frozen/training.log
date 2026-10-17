@@ -1,0 +1,26 @@
+cached augmented view 1
+cached augmented view 2
+cached augmented view 3
+cached augmented view 4
+{'name': 'mobilenet_frozen', 'size': 224, 'train': 'projection128 + head; official frozen backbone; CE only ID train', 'max_epochs': 60, 'patience': 10, 'lr_projection': 0.0001, 'lr_head': 0.001, 'seed': 42, 'weights': 'torchvision MobileNet_V3_Small_Weights.IMAGENET1K_V1', 'official_weights_sha256': '047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f', 'freeze_strategy': 'entire backbone frozen/eval; projection and classifier trainable', 'normalization': 'ImageNet mean/std inside graph; external RGB float32 0..1', 'augmentation': 'flip, rotation8degrees, color jitter .12/.12/.1; frozen caches 4 augmented +1 original view', 'train_count': 345, 'val_count': 73, 'selection': 'ID val accuracy then ID CE loss, no OOD/test use', 'class_to_idx': {'nailong': 0, 'naiwa': 1}, 'projection_init': 'PCA128, fit only ID train then trainable', 'initial_checkpoint_sha256': None, 'protocol_sha256': 'a88f934df0ac24b44a5674e4b38ff4193c7a6de64509a8ca809aaaaa8144e6d2', 'trainable_parameters': 74114, 'total_parameters': 1001122}
+{'epoch': 1, 'train_loss': 0.6131639224204464, 'train_accuracy': 0.6631884057971015, 'val_loss': 0.47942417615080535, 'val_accuracy': 0.821917808219178, 'seconds': 0.06322922099934658}
+{'epoch': 2, 'train_loss': 0.3661030016774717, 'train_accuracy': 0.8684057971014493, 'val_loss': 0.3409845371768899, 'val_accuracy': 0.8493150684931506, 'seconds': 0.052195264001056785}
+{'epoch': 3, 'train_loss': 0.23607355121253193, 'train_accuracy': 0.9292753623188406, 'val_loss': 0.25732034853059954, 'val_accuracy': 0.8904109589041096, 'seconds': 0.05750005299705663}
+{'epoch': 4, 'train_loss': 0.16928082206111023, 'train_accuracy': 0.9536231884057971, 'val_loss': 0.18957251718599502, 'val_accuracy': 0.9315068493150684, 'seconds': 0.06265967299987096}
+{'epoch': 5, 'train_loss': 0.13040110003257144, 'train_accuracy': 0.9686956521739131, 'val_loss': 0.17016605155108727, 'val_accuracy': 0.9452054794520548, 'seconds': 0.05465807099972153}
+{'epoch': 6, 'train_loss': 0.1000270833744519, 'train_accuracy': 0.9739130434782609, 'val_loss': 0.16681299307574965, 'val_accuracy': 0.9452054794520548, 'seconds': 0.06022614899848122}
+{'epoch': 7, 'train_loss': 0.0846001811519913, 'train_accuracy': 0.9797101449275363, 'val_loss': 0.15618230463707283, 'val_accuracy': 0.958904109589041, 'seconds': 0.09561734300223179}
+{'epoch': 8, 'train_loss': 0.0743828014359958, 'train_accuracy': 0.9843478260869565, 'val_loss': 0.15781262557800502, 'val_accuracy': 0.9452054794520548, 'seconds': 0.06315031700069085}
+{'epoch': 9, 'train_loss': 0.06366802267622257, 'train_accuracy': 0.983768115942029, 'val_loss': 0.1430124918075457, 'val_accuracy': 0.958904109589041, 'seconds': 0.055929986003320664}
+{'epoch': 10, 'train_loss': 0.054158109858416126, 'train_accuracy': 0.9884057971014493, 'val_loss': 0.15345963386640157, 'val_accuracy': 0.9452054794520548, 'seconds': 0.054412970999692334}
+{'epoch': 11, 'train_loss': 0.044111753265926805, 'train_accuracy': 0.9936231884057971, 'val_loss': 0.15415274484516822, 'val_accuracy': 0.9452054794520548, 'seconds': 0.07234546000108821}
+{'epoch': 12, 'train_loss': 0.041685288457766825, 'train_accuracy': 0.9936231884057971, 'val_loss': 0.15464192588035375, 'val_accuracy': 0.9452054794520548, 'seconds': 0.0603184700012207}
+{'epoch': 13, 'train_loss': 0.036728794324225274, 'train_accuracy': 0.9918840579710145, 'val_loss': 0.1612642905483507, 'val_accuracy': 0.9452054794520548, 'seconds': 0.05415453800014802}
+{'epoch': 14, 'train_loss': 0.030762429008449332, 'train_accuracy': 0.9965217391304347, 'val_loss': 0.16171177201075096, 'val_accuracy': 0.9452054794520548, 'seconds': 0.06259497199789621}
+{'epoch': 15, 'train_loss': 0.027549554175980713, 'train_accuracy': 0.9965217391304347, 'val_loss': 0.14289932442854528, 'val_accuracy': 0.9452054794520548, 'seconds': 0.05135950299882097}
+{'epoch': 16, 'train_loss': 0.025057503892027815, 'train_accuracy': 0.9971014492753624, 'val_loss': 0.13518968020399955, 'val_accuracy': 0.9452054794520548, 'seconds': 0.06058647299869335}
+{'epoch': 17, 'train_loss': 0.02272853821947955, 'train_accuracy': 0.998840579710145, 'val_loss': 0.1538739124797795, 'val_accuracy': 0.9452054794520548, 'seconds': 0.05344071800209349}
+{'epoch': 18, 'train_loss': 0.020958328786967458, 'train_accuracy': 0.9976811594202899, 'val_loss': 0.1478532805834731, 'val_accuracy': 0.9452054794520548, 'seconds': 0.05915659200036316}
+{'epoch': 19, 'train_loss': 0.017367916974792445, 'train_accuracy': 0.9994202898550725, 'val_loss': 0.14264091053237654, 'val_accuracy': 0.9452054794520548, 'seconds': 0.051061789999948815}
+Early stopping
+TRAIN DONE mobilenet_frozen best 9 (0.958904109589041, -0.1430124918075457) seconds 1.2537986589995853

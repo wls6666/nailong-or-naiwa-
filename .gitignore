@@ -18,3 +18,9 @@ node_modules/
 results/v3/**/train.npz
 results/v3/**/val.npz
 results/v3/**/test.npz
+
+# V4 cached features are reproducible from checkpoints and manifests.
+results/v4_phase1/**/*.npz
+
+# Preserve the fixed held-out benchmark membership; images remain ignored.
+!data/hard_ood_test_manifest.json

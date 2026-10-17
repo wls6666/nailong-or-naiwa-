@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "scope": "V4 Phase 1 only; no SupCon/triplet/OE/new-hard training/fullFT/production replacement",
+  "baseline": "Frozen production V3 + exact deployed detector, 128 RGB input",
+  "benchmark": "New semantic Unicode identities not anywhere in V3 hard train/val/test; curated 2D/3D cartoon art. Build before any evaluation; grouped independence and exact pixel audit against all project data. Limited coverage, not plush/photo/commercial cartoon benchmark.",
+  "experiments": [
+    {
+      "name": "mobilenet_frozen",
+      "size": 224,
+      "train": "projection128 + head; official frozen backbone; CE only ID train",
+      "max_epochs": 60,
+      "patience": 10,
+      "lr_projection": 0.0001,
+      "lr_head": 0.001
+    },
+    {
+      "name": "mobilenet_partial_ft",
+      "size": 224,
+      "train": "initialize frozen best; unfreeze last 3 backbone blocks; frozen BN stays eval; CE only ID train",
+      "max_epochs": 20,
+      "patience": 6,
+      "lr_backbone": 3e-05,
+      "lr_head": 0.0003
+    },
+    {
+      "name": "mobilenet_frozen_128_control",
+      "size": 128,
+      "train": "same Frozen protocol; size-matched representation control",
+      "max_epochs": 60,
+      "patience": 10,
+      "lr_projection": 0.0001,
+      "lr_head": 0.001
+    }
+  ],
+  "checkpoint_selection": "ID val accuracy then CE loss; test never read",
+  "calibration": "Re-fit shared LedoitWolf on ID train, raw vs L2. Original 73 ID +150 Easy +70 old Hard val only. T=.5/1/2/5, OR/AND ablations. >=95% ID TAR; minimize worst-domain FAR then pooled FAR and preserve correct ID. New benchmark unavailable to fitting/calibration.",
+  "candidate_selection": "Validation only: eligible val closed ID acc within 3pp V3; >=95% val ID TAR. Lowest worst easy/hard val FAR. Pick exactly one MobileNet for ONNX before test. Export even if worse; artifacts/v4 only.",
+  "evaluation": "Same original73 ID,150 Easy and all new benchmark images for every model. Frozen calibration first; score test once after all selection locked. Keep old149 Hard as historical only.",
+  "success_rule": "Recommend replacement only if Hard FAR reduces >=10 percentage points and paired identity-cluster bootstrap 95% CI improvement excludes0; ID end-to-end drop <=3pp, ID FRR increase <=3pp, Easy FAR increase <=3pp. Test is for reporting/adoption decision, never threshold tuning.",
+  "full_ft": "N/A; optional not needed for core comparison",
+  "limitation": "V3 historically received OE; new MobileNets use ID CE only. Primary MobileNet224 vs V3_128 includes resolution confound; extra Frozen128 control addresses resolution but not objective/history. This cannot establish single-factor causality."
+}

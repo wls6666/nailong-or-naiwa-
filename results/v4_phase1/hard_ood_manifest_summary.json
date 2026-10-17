@@ -1,0 +1,68 @@
+{
+  "version": "v4_phase1_cartoon_holdout_1",
+  "sample_count": 321,
+  "identity_count": 121,
+  "source_versions": {
+    "noto": {
+      "commit": "v2.047",
+      "repository": "googlefonts/noto-emoji",
+      "asset": "png/128/emoji_u{code}.png",
+      "license": "Apache-2.0",
+      "license_file": "LICENSE"
+    },
+    "twemoji": {
+      "commit": "7407fa31c51be5ab45626b8ab5554d50cc8073f6",
+      "repository": "jdecked/twemoji",
+      "asset": "assets/72x72/{code}.png",
+      "license": "CC-BY-4.0",
+      "license_file": "LICENSE-GRAPHICS"
+    },
+    "fluent3d": {
+      "repository": "microsoft/fluentui-emoji",
+      "commit": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+      "license": "MIT"
+    }
+  },
+  "counts_by_source": {
+    "noto": 121,
+    "twemoji": 121,
+    "fluent3d": 79
+  },
+  "counts_by_category": {
+    "yellow_expressive_faces": 138,
+    "cute_humanoid_fantasy_characters": 61,
+    "cartoon_animals_creatures": 122
+  },
+  "old_v3_identity_overlap": 0,
+  "project_cross_split_exact_pixel_overlap": 0,
+  "locked_before_evaluation": true,
+  "protocol_sha256": "a88f934df0ac24b44a5674e4b38ff4193c7a6de64509a8ca809aaaaa8144e6d2",
+  "limitations": [
+    "Cartoon icon/3D rendered art; no broad plush photograph or commercial franchise coverage.",
+    "New Unicode identity groups, but sources/styles shared with old exposure; close facial variants can remain.",
+    "No image-level audit of historical ImageNet pretraining corpus.",
+    "All instances test-only: forbidden to train/calibrate/tune on this set."
+  ],
+  "semantic_audit": {
+    "phase": "Before any model evaluation",
+    "removed_count": 29,
+    "excluded_identity_codes": [
+      "1f578",
+      "1f9a0",
+      "1f9aa",
+      "1fab4",
+      "1fab5",
+      "1fab6",
+      "1fab7",
+      "1fab8",
+      "1fab9",
+      "1faba",
+      "1fabb",
+      "1fabd",
+      "1fabe",
+      "1fac3",
+      "1fada"
+    ],
+    "reason": "Exclude non-character props/plants/wood/nests/feathers/microbes/oyster and mislabeled pregnant-person from animal cartoon candidates. No model score selection."
+  }
+}

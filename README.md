@@ -1,5 +1,7 @@
 # Nailong or Naiwa · V3 Open-set CNN
 
+> V4 Phase 1 实验报告：[固定 Hard-OOD 与 MobileNet 对照](experiments/v4_phase1/README.md)。结论 C，未替换本页所述的线上 V3。
+
 [网站](https://nailongornaiwa.pages.dev/) · [GitHub](https://github.com/wls6666/nailong-or-naiwa-)
 
 在原项目上增量升级：保留四层自训练 CNN、128×128 输入、原始目标数据划分、网页布局和 Cloudflare Pages。现在先判断图片是否接近已知特征分布，再决定奶龙 / 奶蛙；拒绝时显示“都不是”，不伪造 Other 概率。

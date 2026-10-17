@@ -1,0 +1,10 @@
+{
+  "best_epoch": 29,
+  "best_val_accuracy": 0.9726027397260274,
+  "checkpoint": "checkpoints/v4_phase1/mobilenet_frozen_128_control.pth",
+  "checkpoint_sha256": "6f19079a8c6c894d7aabe4495b9e57e139650ba95ed96c5657e013cea43cea32",
+  "checkpoint_bytes": 4142079,
+  "seconds": 3.6022699599998305,
+  "epochs_run": 39,
+  "test_read": false
+}

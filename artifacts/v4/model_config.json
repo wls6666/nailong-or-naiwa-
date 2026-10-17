@@ -1,0 +1,46 @@
+{
+  "task": "v4-phase1-experiment-only",
+  "candidate": "mobilenet_frozen",
+  "model": "model.onnx",
+  "model_sha256": "0c3ab3354528610ff24baca96379a69e761d3086bb85b6c5e39d707f2da8fa07",
+  "checkpoint_sha256": "00b318260828b98cdbf65d631a345f97bb9165e41a02b5b5a34c19998400cd87",
+  "input_name": "input",
+  "output_names": [
+    "logits",
+    "embedding"
+  ],
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "logits_shape": [
+    1,
+    2
+  ],
+  "embedding_shape": [
+    1,
+    128
+  ],
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "preprocessing": {
+    "size": 224,
+    "channels": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "resize": "bilinear-half-pixel-clamp-float-no-round",
+    "alpha_background": "white",
+    "normalization": "ImageNet mean/std inside ONNX graph; external input remains0..1"
+  },
+  "ood_config": "ood_config.json",
+  "ood_config_sha256": "6f74f41af5e74f3f54a92b7408197f53ec9a424be6265fbfc15dd7e681db6f02",
+  "production_replaced": false
+}

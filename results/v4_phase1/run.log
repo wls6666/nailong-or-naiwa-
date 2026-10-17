@@ -1,0 +1,39 @@
+RUN training/prepare_hard_ood_benchmark.py
+RUN training/v4/train.py mobilenet_frozen
+mobilenet_frozen train 345 (345, 2) (345, 128)
+mobilenet_frozen val 293 (293, 2) (293, 128)
+CALIBRATED mobilenet_frozen distance_energy val FAR 0.21333333333333335 0.24285714285714285 ID accept 0.958904109589041
+RUN training/v4/train.py mobilenet_partial_ft
+mobilenet_partial_ft train 345 (345, 2) (345, 128)
+mobilenet_partial_ft val 293 (293, 2) (293, 128)
+CALIBRATED mobilenet_partial_ft distance_energy val FAR 0.1 0.4142857142857143 ID accept 0.958904109589041
+RUN training/v4/train.py mobilenet_frozen_128_control
+mobilenet_frozen_128_control train 345 (345, 2) (345, 128)
+mobilenet_frozen_128_control val 293 (293, 2) (293, 128)
+CALIBRATED mobilenet_frozen_128_control distance_energy val FAR 0.24 0.45714285714285713 ID accept 0.958904109589041
+FROZEN MOBILE CANDIDATE mobilenet_frozen
+mobilenet_frozen test 544 (544, 2) (544, 128)
+TEST mobilenet_frozen {"closed_set_id_accuracy": 0.9315068493150684, "id_end_to_end_accuracy": 0.8904109589041096, "easy_ood_far": 0.14, "hard_ood_far": 0.2585669781931464, "auroc": 0.9471250327196581, "fpr_at_95_tpr_id": 0.3630573248407643, "id_false_reject_rate": 0.0547945205479452}
+mobilenet_partial_ft test 544 (544, 2) (544, 128)
+TEST mobilenet_partial_ft {"closed_set_id_accuracy": 0.9315068493150684, "id_end_to_end_accuracy": 0.8493150684931506, "easy_ood_far": 0.13333333333333333, "hard_ood_far": 0.2803738317757009, "auroc": 0.9053602070790797, "fpr_at_95_tpr_id": 0.6454352441613588, "id_false_reject_rate": 0.1232876712328767}
+mobilenet_frozen_128_control test 544 (544, 2) (544, 128)
+TEST mobilenet_frozen_128_control {"closed_set_id_accuracy": 0.958904109589041, "id_end_to_end_accuracy": 0.9041095890410958, "easy_ood_far": 0.2, "hard_ood_far": 0.35514018691588783, "auroc": 0.923246953436291, "fpr_at_95_tpr_id": 0.4564755838641189, "id_false_reject_rate": 0.0684931506849315}
+# V4 Phase 1 — fixed independent cartoon holdout
+
+Hard-OOD FAR is the primary endpoint. All detectors/candidate were chosen on validation only.
+
+| Model | Input | ID closed acc | ID acc incl. reject | Easy FAR | **Hard FAR** | AUROC | FPR@95TPR | ID FRR |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| v3_baseline | 128 | 95.89% | 89.04% | 12.00% | 16.20% | 94.24% | 59.45% | 6.85% |
+| mobilenet_frozen | 224 | 93.15% | 89.04% | 14.00% | 25.86% | 94.71% | 36.31% | 5.48% |
+| mobilenet_partial_ft | 224 | 93.15% | 84.93% | 13.33% | 28.04% | 90.54% | 64.54% | 12.33% |
+| mobilenet_frozen_128_control | 128 | 95.89% | 90.41% | 20.00% | 35.51% | 92.32% | 45.65% | 6.85% |
+| MobileNet FullFT | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+
+Validation-selected candidate: `mobilenet_frozen`. Conclusion **C**. Production unchanged.
+
+ID closed accuracy excludes rejection; ID acc incl. reject counts rejected target images as errors. AUROC/AUPR positive OOD. FPR@95TPR: OOD acceptance at at least95% ID acceptance on test ROC, diagnostic only, not threshold tuning.
+
+The benchmark is cartoon/3D emoji art, not all commercial characters/plush photographs. Same rendered source styles remain. V3 received historical OE; new MobileNets use ID CE. Resolution control does not remove training-objective/history confounding.
+RUN training/v4/export.py
+V4 PHASE1 COMPLETE; production unchanged

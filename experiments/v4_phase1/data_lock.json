@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "a88f934df0ac24b44a5674e4b38ff4193c7a6de64509a8ca809aaaaa8144e6d2",
+  "benchmark_sha256": "5ab4b398b3a5fa365f6259c9f567002177901540acc488fd8570e98b0b15e411",
+  "train_set_sha256": "8996b4e8abd01799b380a8d0b545870d0d71b7d4674e4cb0ff062365e1f20387",
+  "val_set_sha256": "da8b8eed228294b776442ad6b6c96c083aff3f2f93d0183dbca4f35ecf99ac9a",
+  "test_set_sha256": "c4922f7e1c5240dbce7595ae223ba1853ff6adc86abcd314aec17c200ad5de91",
+  "test_set_use": "hash/audit only before final evaluation; never fitting or hyperparameter selection"
+}
