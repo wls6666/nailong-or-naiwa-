@@ -1,0 +1,21 @@
+# Mutable entry points must be fetched together with the current deployment.
+/
+  Cache-Control: no-store
+/index.html
+  Cache-Control: no-store
+/model_config.json
+  Cache-Control: no-store
+  Cloudflare-CDN-Cache-Control: no-store
+  CDN-Cache-Control: no-store
+/app.js
+  Cache-Control: no-cache, must-revalidate
+/model.onnx
+  Cache-Control: no-store
+  Content-Type: application/octet-stream
+/ood_config.json
+  Cache-Control: no-store
+/model.*.onnx
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: application/octet-stream
+/ood_config.*.json
+  Cache-Control: public, max-age=31536000, immutable

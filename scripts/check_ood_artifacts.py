@@ -12,6 +12,11 @@ def main():
  assert sha256(ROOT/chosen['checkpoint'])==chosen['checkpoint_sha256']==ood['checkpoint_sha256']==config['checkpoint_sha256']==cal['checkpoint_sha256']
  assert sha256(ROOT/'web/model.onnx')==ood['model_sha256']==config['model_sha256']
  assert sha256(ROOT/'web/ood_config.json')==config['ood_config_sha256']
+ assert config['model']==f"model.{config['model_sha256']}.onnx"
+ assert config['ood_config']==f"ood_config.{config['ood_config_sha256']}.json"
+ for field in ['model','ood_config']:
+  asset=ROOT/'web'/config[field]
+  assert sha256(asset)==config[field+'_sha256'] and asset.stat().st_size==config[field+'_bytes']
  assert sha256(ROOT/chosen['directory']/'calibration.json')==ood['calibration_sha256']
  assert sha256(ROOT/chosen['directory']/'gaussian_params.json')==cal['gaussian_params_sha256']
  assert cal['calibration_split']=='val' and chosen['validation']['parameters']==cal['selected']['parameters']

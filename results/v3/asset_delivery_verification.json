@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "model_sha256": "780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3",
+  "ood_config_sha256": "00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f",
+  "model_bytes": 1558506,
+  "cases": [
+    {
+      "case": "stale legacy model URL bypassed",
+      "status": "PASS",
+      "real_inference": {
+        "category": "nailong",
+        "accepted": true,
+        "logits": [
+          2.668186664581299,
+          -5.29686164855957
+        ],
+        "distance": 155.12465127172592,
+        "energy": -3.593578710083205,
+        "oodScore": -1.3379211052397986
+      },
+      "model_url": "model.780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3.onnx"
+    },
+    {
+      "case": "same-size corrupt model",
+      "status": "PASS",
+      "error": "模型加载失败：模型与配置校验不匹配（预期 780b5307bdd6，实际 e596c5d7dfb1），请刷新页面或重新加载。",
+      "retry_real_inference": {
+        "category": "nailong",
+        "accepted": true,
+        "logits": [
+          2.668186664581299,
+          -5.29686164855957
+        ],
+        "distance": 155.12465127172592,
+        "energy": -3.593578710083205,
+        "oodScore": -1.3379211052397986
+      }
+    },
+    {
+      "case": "incomplete model",
+      "status": "PASS",
+      "error": "模型加载失败：模型下载不完整或收到错误文件（512 字节，预期 1558506 字节）。",
+      "retry_real_inference": {
+        "category": "nailong",
+        "accepted": true,
+        "logits": [
+          2.668186664581299,
+          -5.29686164855957
+        ],
+        "distance": 155.12465127172592,
+        "energy": -3.593578710083205,
+        "oodScore": -1.3379211052397986
+      }
+    }
+  ],
+  "production_root_cause": "Unconfirmed: production domain returned HTTP 403/1010 from this environment. Local/GitHub canonical bytes match the manifest; regression covers stale canonical path, wrong bytes, truncation and genuine-inference retry."
+}

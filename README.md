@@ -154,6 +154,8 @@ python -m http.server 8000 --directory web
 
 输入为128×128 RGB、白底透明合成、EXIF 方向、half-pixel bilinear、float32 NCHW、范围0–1，无 normalization。Canvas 只解码原像素，显式 resize 与 Python 一致。ONNX opset17，输入 `input [N,3,128,128]`，输出 `logits [N,2]`、`embedding [N,256]`，均为真实模型输出。前端不再使用三分类/sigmoid 逻辑。
 
+模型与 OOD 配置通过 SHA-256 文件名发布（`model.<sha256>.onnx` / `ood_config.<sha256>.json`），`model_config.json` 指向这两个不可变资源。前端从配置读取路径；入口配置使用 no-store，避免不同部署的同名资源混用。`model.onnx`、`ood_config.json` 保留为导出/验证原件。仅重新打包现有、校验通过的文件可执行 `python training/publish_web_assets.py`，它不会训练或修改参数。Cloudflare `_headers` 随 web 目录一起部署。
+
 OOD 参数文件约1.72MB JSON，浏览器只做固定矩阵计算，不拟合中心或 covariance。所有阈值/矩阵/温度/映射来自 `ood_config.json`。高级信息显示真实分类概率、距离、Energy、异常 margin；异常分数>0代表拒绝，**不是概率**。OOD 主结果没有百分比；接受后显示的是已知两类条件概率，也不保证实际正确率。
 
 上传限 JPEG/PNG/WebP、10MiB、1600万像素，解码前检查头部尺寸，错误均会显示。没有 Service Worker，不承诺关闭服务器后重载仍可使用。
@@ -204,6 +206,7 @@ python scripts/verify_ood_browser.py --chromium ''
 node scripts/verify_decision.mjs
 python scripts/check_artifacts.py
 python scripts/verify_ood_feedback.py
+python scripts/verify_asset_delivery.py
 # 可选两模型实际浏览器计时（默认系统 Chromium）：
 python scripts/benchmark_ood.py
 ```

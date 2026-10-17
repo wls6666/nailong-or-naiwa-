@@ -26,14 +26,16 @@ async function loadModel() {
   status.textContent = '模型加载中…'; status.dataset.state = 'loading'; $('retry-button').hidden = true;
   try {
     if (!globalThis.ort) throw new Error('ONNX Runtime Web 未加载，请检查静态资源。');
-    const response = await fetch(new URL('./model_config.json', import.meta.url), { cache: 'no-cache' });
+    const response = await fetch(new URL('./model_config.json', import.meta.url), { cache: 'no-store' });
     if (!response.ok) throw new Error(`模型配置 HTTP ${response.status}`);
     config = await response.json();
     const mapping = config.class_to_idx;
     if (config.task !== 'open-set-ood-v3' || !mapping || !['nailong', 'naiwa'].every(name => Number.isInteger(mapping[name]))
         || JSON.stringify(config.output_names) !== '["logits","embedding"]'
         || ![2, 3].includes(config.logits_shape?.[1])) throw new Error('模型 OOD 输入输出配置无效。');
-    const oodResponse = await fetch(new URL(config.ood_config, import.meta.url), { cache: 'no-cache' });
+    if (config.model !== `model.${config.model_sha256}.onnx`
+        || config.ood_config !== `ood_config.${config.ood_config_sha256}.json`) throw new Error('模型资源版本配置无效，请刷新页面。');
+    const oodResponse = await fetch(new URL(config.ood_config, import.meta.url), { cache: 'no-store' });
     if (!oodResponse.ok) throw new Error(`OOD 配置 HTTP ${oodResponse.status}`);
     const oodBytes = await oodResponse.arrayBuffer();
     if (globalThis.crypto?.subtle) {
@@ -48,13 +50,17 @@ async function loadModel() {
         || JSON.stringify(prep.range) !== '[0,1]') throw new Error('网页与模型预处理配置不一致。');
     ort.env.wasm.wasmPaths = new URL('./assets/vendor/onnxruntime-web/', import.meta.url).href;
     ort.env.wasm.numThreads = 1; // No cross-origin isolation headers required on GitHub Pages.
-    const modelResponse = await fetch(new URL('./model.onnx', import.meta.url), { cache: 'no-cache' });
+    const modelResponse = await fetch(new URL(config.model, import.meta.url), { cache: 'no-store' });
     if (!modelResponse.ok) throw new Error(`模型文件 HTTP ${modelResponse.status}`);
     const bytes = await modelResponse.arrayBuffer();
+    if (!bytes.byteLength || bytes.byteLength !== config.model_bytes) throw new Error(`模型下载不完整或收到错误文件（${bytes.byteLength} 字节，预期 ${config.model_bytes} 字节）。`);
     // Verify the exported artifact when the standard secure-context hash API is available.
     if (globalThis.crypto?.subtle) {
       const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(v => v.toString(16).padStart(2, '0')).join('');
-      if (hash !== config.model_sha256) throw new Error('模型与配置校验不匹配，请同时更新两个文件。');
+      if (hash !== config.model_sha256) {
+        console.error('Model integrity mismatch', { url: modelResponse.url, expected: config.model_sha256, actual: hash, bytes: bytes.byteLength });
+        throw new Error(`模型与配置校验不匹配（预期 ${config.model_sha256.slice(0, 12)}，实际 ${hash.slice(0, 12)}），请刷新页面或重新加载。`);
+      }
     }
     const loaded = await ort.InferenceSession.create(bytes, { executionProviders: ['wasm'], graphOptimizationLevel: 'all' });
     if (loaded.inputNames.length !== 1 || loaded.inputNames[0] !== config.input_name

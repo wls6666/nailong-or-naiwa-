@@ -4,7 +4,7 @@
   "model_bytes": 1558506,
   "ood_config_bytes": 1720268,
   "task": "open-set-ood-v3",
-  "model": "model.onnx",
+  "model": "model.780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3.onnx",
   "input_name": "input",
   "output_names": [
     "logits",
@@ -48,6 +48,6 @@
   },
   "model_sha256": "780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3",
   "checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
-  "ood_config": "ood_config.json",
+  "ood_config": "ood_config.00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f.json",
   "ood_config_sha256": "00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f"
 }

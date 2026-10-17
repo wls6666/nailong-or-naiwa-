@@ -285,8 +285,8 @@
           0.9987158179283142,
           0.3557716906070709
         ],
-        "inferenceMs": 63.90000000037253,
-        "oodMs": 13.200000000186265,
+        "inferenceMs": 40.39999999944121,
+        "oodMs": 10.300000000745058,
         "category": "nailong",
         "accepted": true,
         "confidence": 0.9996527257164474,
@@ -592,8 +592,8 @@
           0.9987158179283142,
           0.3557716906070709
         ],
-        "inferenceMs": 22,
-        "oodMs": 0.40000000037252903,
+        "inferenceMs": 28.700000000186265,
+        "oodMs": 7.900000000372529,
         "category": "nailong",
         "accepted": true,
         "confidence": 0.9996527257164474,
@@ -899,8 +899,8 @@
           0.24463064968585968,
           0.8723925352096558
         ],
-        "inferenceMs": 26.800000000745058,
-        "oodMs": 0.2999999998137355,
+        "inferenceMs": 25,
+        "oodMs": 0.40000000037252903,
         "category": "naiwa",
         "accepted": true,
         "confidence": 0.9916569036908093,
@@ -1206,8 +1206,8 @@
           0.24463064968585968,
           0.8723925352096558
         ],
-        "inferenceMs": 22.700000000186265,
-        "oodMs": 0.2999999998137355,
+        "inferenceMs": 23.90000000037253,
+        "oodMs": 0.5,
         "category": "naiwa",
         "accepted": true,
         "confidence": 0.9916569036908093,
@@ -1513,8 +1513,8 @@
           0.6012315154075623,
           1.2056498527526855
         ],
-        "inferenceMs": 19.59999999962747,
-        "oodMs": 0.6000000005587935,
+        "inferenceMs": 20.399999999441206,
+        "oodMs": 0.599999999627471,
         "category": "naiwa",
         "accepted": true,
         "confidence": 0.9834308675373697,
@@ -1820,8 +1820,8 @@
           0.6012315154075623,
           1.2056498527526855
         ],
-        "inferenceMs": 19.299999999813735,
-        "oodMs": 0.2999999998137355,
+        "inferenceMs": 30.700000000186265,
+        "oodMs": 0.39999999944120646,
         "category": "naiwa",
         "accepted": true,
         "confidence": 0.9834308675373697,
@@ -2127,8 +2127,8 @@
           0.24021676182746887,
           1.0893665552139282
         ],
-        "inferenceMs": 19.5,
-        "oodMs": 0.30000000074505806,
+        "inferenceMs": 19.800000000745058,
+        "oodMs": 0.2999999998137355,
         "category": "naiwa",
         "accepted": true,
         "confidence": 0.9970123144895898,
@@ -2434,8 +2434,8 @@
           0.24021676182746887,
           1.0893665552139282
         ],
-        "inferenceMs": 36.299999999813735,
-        "oodMs": 0.599999999627471,
+        "inferenceMs": 20.600000000558794,
+        "oodMs": 0.20000000018626451,
         "category": "naiwa",
         "accepted": true,
         "confidence": 0.9970123144895898,
@@ -2741,7 +2741,7 @@
           0.2538264989852905,
           0.003448130562901497
         ],
-        "inferenceMs": 20.5,
+        "inferenceMs": 26.59999999962747,
         "oodMs": 0.2999999998137355,
         "category": "other",
         "accepted": false,
@@ -3048,8 +3048,8 @@
           0.2538264989852905,
           0.003448130562901497
         ],
-        "inferenceMs": 19.399999999441206,
-        "oodMs": 0.2999999998137355,
+        "inferenceMs": 20,
+        "oodMs": 2.6000000005587935,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -3355,8 +3355,8 @@
           0.1465095579624176,
           0.02185630239546299
         ],
-        "inferenceMs": 29.5,
-        "oodMs": 0.30000000074505806,
+        "inferenceMs": 20.40000000037253,
+        "oodMs": 0.5,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -3662,8 +3662,8 @@
           0.1465095579624176,
           0.02185630239546299
         ],
-        "inferenceMs": 21.399999999441206,
-        "oodMs": 0.40000000037252903,
+        "inferenceMs": 19.899999999441206,
+        "oodMs": 0.5,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -3969,8 +3969,8 @@
           0.3442239761352539,
           0.38083189725875854
         ],
-        "inferenceMs": 19.59999999962747,
-        "oodMs": 2.2000000001862645,
+        "inferenceMs": 19.700000000186265,
+        "oodMs": 0.40000000037252903,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -4276,8 +4276,8 @@
           0.3442239761352539,
           0.38083189725875854
         ],
-        "inferenceMs": 20,
-        "oodMs": 0.5,
+        "inferenceMs": 30.59999999962747,
+        "oodMs": 0.2999999998137355,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -4583,8 +4583,8 @@
           0.7807581424713135,
           0.48310741782188416
         ],
-        "inferenceMs": 19.5,
-        "oodMs": 0.5,
+        "inferenceMs": 21.299999999813735,
+        "oodMs": 5.800000000745058,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -4890,8 +4890,8 @@
           0.7807581424713135,
           0.48310741782188416
         ],
-        "inferenceMs": 30.09999999962747,
-        "oodMs": 0.5,
+        "inferenceMs": 20.200000000186265,
+        "oodMs": 2.2999999998137355,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -5198,7 +5198,7 @@
           0.13684067130088806
         ],
         "inferenceMs": 20.799999999813735,
-        "oodMs": 0.39999999944120646,
+        "oodMs": 0.40000000037252903,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -5504,8 +5504,8 @@
           0.35039013624191284,
           0.13684067130088806
         ],
-        "inferenceMs": 21.09999999962747,
-        "oodMs": 0.2999999998137355,
+        "inferenceMs": 20.299999999813735,
+        "oodMs": 0.40000000037252903,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -5811,8 +5811,8 @@
           0.1875355839729309,
           0.10256217420101166
         ],
-        "inferenceMs": 19.799999999813735,
-        "oodMs": 0.30000000074505806,
+        "inferenceMs": 20.100000000558794,
+        "oodMs": 0.39999999944120646,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -6118,8 +6118,8 @@
           0.1875355839729309,
           0.10256217420101166
         ],
-        "inferenceMs": 25.899999999441206,
-        "oodMs": 0.2999999998137355,
+        "inferenceMs": 19.90000000037253,
+        "oodMs": 0.20000000018626451,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -6425,8 +6425,8 @@
           1.4327027797698975,
           0.6456409692764282
         ],
-        "inferenceMs": 20,
-        "oodMs": 0.2999999998137355,
+        "inferenceMs": 21.5,
+        "oodMs": 0.39999999944120646,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -6732,7 +6732,7 @@
           1.4327027797698975,
           0.6456409692764282
         ],
-        "inferenceMs": 26.5,
+        "inferenceMs": 19.899999999441206,
         "oodMs": 0.39999999944120646,
         "category": "other",
         "accepted": false,
@@ -7039,8 +7039,8 @@
           1.036744236946106,
           0.27409887313842773
         ],
-        "inferenceMs": 19.600000000558794,
-        "oodMs": 0.2999999998137355,
+        "inferenceMs": 19.59999999962747,
+        "oodMs": 7.599999999627471,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -7346,8 +7346,8 @@
           1.036744236946106,
           0.27409887313842773
         ],
-        "inferenceMs": 19.799999999813735,
-        "oodMs": 0.39999999944120646,
+        "inferenceMs": 20.899999999441206,
+        "oodMs": 0.6000000005587935,
         "category": "other",
         "accepted": false,
         "confidence": null,
@@ -7392,12 +7392,16 @@
   ],
   "failure_checks": [
     {
-      "blocked_resource": "model.onnx",
+      "blocked_resource": "model.780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3.onnx",
       "message": "模型加载失败：Failed to fetch"
     },
     {
-      "blocked_resource": "ood_config.json",
+      "blocked_resource": "ood_config.00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f.json",
       "message": "模型加载失败：Failed to fetch"
+    },
+    {
+      "corrupted_resource": "model.780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3.onnx",
+      "message": "模型加载失败：模型与配置校验不匹配（预期 780b5307bdd6，实际 e596c5d7dfb1），请刷新页面或重新加载。"
     },
     {
       "corrupted_resource": "ood_config.json",
@@ -7407,6 +7411,6 @@
   "all_requests_local_get": true,
   "page_errors": [],
   "mobile_no_horizontal_overflow": true,
-  "median_inference_ms": 20.649999999906868,
-  "median_ood_ms": 0.35000000009313226
+  "median_inference_ms": 20.50000000046566,
+  "median_ood_ms": 0.40000000037252903
 }

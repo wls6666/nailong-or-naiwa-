@@ -55,6 +55,8 @@ def main():
          'ood_config':'ood_config.json','ood_config_sha256':sha256(ROOT/'web/ood_config.json')}
  save_json(ROOT/'web/model_config.json',config)
  save_json(ROOT/'results/v3/onnx_export.json',{'onnx_checker':'PASS','python_runtime':'PASS','model_bytes':path.stat().st_size,'ood_config_bytes':(ROOT/'web/ood_config.json').stat().st_size,**config})
+ from publish_web_assets import publish
+ publish()
  print('Export PASS',s['family'],'shapes',list(logits.shape),list(embedding.shape),'ONNX bytes',path.stat().st_size,'OOD JSON bytes',(ROOT/'web/ood_config.json').stat().st_size)
 
 

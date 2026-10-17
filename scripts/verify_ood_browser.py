@@ -23,6 +23,7 @@ def main():
  selected=json.loads((ROOT/'results/v3/production_selection.json').read_text())['selected']
  model,_=load_model(ROOT/selected['checkpoint']);config=json.loads((ROOT/'web/ood_config.json').read_text())
  _,meta=load_features(ROOT/selected['features'],'test')
+ web_config=json.loads((ROOT/'web/model_config.json').read_text())
  chosen=[]
  for name in ['nailong','naiwa']:chosen.extend([r for r in meta['rows'] if r['class']==name][:2])
  for source in ['cifar100','oxford_pets']:chosen.append(next(r for r in meta['rows'] if r['domain']=='easy' and Path(r['path']).name.startswith(source)))
@@ -78,16 +79,24 @@ def main():
     page.locator('#file-input').set_input_files({'name':name,'mimeType':'image/png','buffer':data});page.wait_for_function('text=>document.querySelector("#error").textContent.includes(text)',arg=message)
     assert page.locator('#result').is_hidden() and page.locator('#predict-button').is_disabled()
    failure_checks=[]
-   for resource in ['model.onnx','ood_config.json']:
+   for resource in [web_config['model'],web_config['ood_config']]:
     failure=browser.new_page();failure.route('**/'+resource,lambda r:r.abort());failure.goto(url);failure.wait_for_function("document.querySelector('#model-status').dataset.state === 'error'",timeout=60000)
     assert failure.locator('#result').is_hidden() and failure.locator('#predict-button').is_disabled();failure_checks.append({'blocked_resource':resource,'message':failure.locator('#error').inner_text()});failure.close()
+   # Wrong model bytes must still fail closed; never remove integrity checking.
+   corrupted=bytearray((ROOT/'web'/web_config['model']).read_bytes());corrupted[len(corrupted)//2]^=1
+   failure=browser.new_page();failure.route('**/'+web_config['model'],lambda r:r.fulfill(status=200,content_type='application/octet-stream',body=bytes(corrupted)));failure.goto(url)
+   failure.wait_for_function("document.querySelector('#model-status').dataset.state === 'error'");assert failure.locator('#predict-button').is_disabled() and failure.locator('#result').is_hidden()
+   assert '校验不匹配' in failure.locator('#error').inner_text();failure_checks.append({'corrupted_resource':web_config['model'],'message':failure.locator('#error').inner_text()});failure.close()
    # Corrupted parameters must also fail, never fall back to a guessed classification.
-   failure=browser.new_page();failure.route('**/ood_config.json',lambda r:r.fulfill(status=200,content_type='application/json',body='{}'));failure.goto(url);failure.wait_for_function("document.querySelector('#model-status').dataset.state === 'error'");assert failure.locator('#predict-button').is_disabled();failure_checks.append({'corrupted_resource':'ood_config.json','message':failure.locator('#error').inner_text()});failure.close()
+   failure=browser.new_page();failure.route('**/'+web_config['ood_config'],lambda r:r.fulfill(status=200,content_type='application/json',body='{}'));failure.goto(url);failure.wait_for_function("document.querySelector('#model-status').dataset.state === 'error'");assert failure.locator('#predict-button').is_disabled();failure_checks.append({'corrupted_resource':'ood_config.json','message':failure.locator('#error').inner_text()});failure.close()
    page.set_viewport_size({'width':390,'height':844});page.reload();page.wait_for_function("document.querySelector('#model-status').dataset.state === 'ready'")
    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth');page.screenshot(path=str(ROOT/'results/v3/web_mobile.png'),full_page=True)
    page.set_viewport_size({'width':1120,'height':1050});page.screenshot(path=str(ROOT/'results/v3/web_desktop.png'),full_page=True);browser.close()
   assert any(r['browser']['accepted'] for r in rows) and any(not r['browser']['accepted'] for r in rows)
   assert not errors,errors
+  requested_urls=[r['url'] for r in requests]
+  assert any('/'+web_config['model'] in u for u in requested_urls)
+  assert not any(u.endswith('/model.onnx') or u.endswith('/ood_config.json') for u in requested_urls)
   assert all(r['method']=='GET' and r['url'].startswith(('http://127.0.0.1:','blob:http://127.0.0.1:')) for r in requests)
   save_json(ROOT/'results/v3/browser_verification.json',{'status':'PASS','engine':'Chromium + ONNX Runtime Web WASM (CPU)','model_sha256':sha256(ROOT/'web/model.onnx'),'ood_config_sha256':sha256(ROOT/'web/ood_config.json'),'samples':rows,'formats':formats,'failure_checks':failure_checks,'all_requests_local_get':True,'page_errors':errors,'mobile_no_horizontal_overflow':True,'median_inference_ms':float(np.median([r['browser']['inferenceMs'] for r in rows])),'median_ood_ms':float(np.median([r['browser']['oodMs'] for r in rows]))})
   print('BROWSER OOD VERIFICATION PASS')
