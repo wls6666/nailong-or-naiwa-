@@ -1,110 +1,148 @@
-# Naiwa or Nailong · 奶龙 / 奶蛙 / 都不是
+# Nailong or Naiwa · V3 Open-set CNN
 
-在已运行的奶龙/奶蛙项目上增量增加真实 **Other / Neither** 类。保留四层小型 CNN、128×128 输入、原有网页布局、ONNX Runtime Web 和 Cloudflare Pages；没有引入前端框架或预测后端。
+[网站](https://nailongornaiwa.pages.dev/) · [GitHub](https://github.com/wls6666/nailong-or-naiwa-)
 
-**浏览器解码图片 → 统一 RGB/resize/CHW → ONNX Runtime Web → `[1,3]` raw logits → 稳定 softmax → 三类映射 → validation 校准拒识规则 → 结果。**
-
-Other 已真实参与训练。页面没有随机预测、文件名分类、颜色/尺寸分类、mock、`/predict` API 或加载失败后的替代结果。上传文件大小/格式/尺寸检查只会报告错误，不会据此输出分类。
-
-仓库：[wls6666/nailong-or-naiwa-](https://github.com/wls6666/nailong-or-naiwa-)；网站：[nailongornaiwa.pages.dev](https://nailongornaiwa.pages.dev/)。
-
-## 真实结果与升级比较
-
-本次使用 CPU、Python 3.12.14、PyTorch 2.14.1+cpu、seed=42，实际训练 40 轮。最佳 checkpoint 为第 34 轮，按验证集 **macro recall** 优先、加权验证 loss 同分择优；未根据 test 结果调整模型、超参数或阈值。
-
-| 指标 | 旧 binary | 新三分类 argmax | 新三分类 + 拒识（网页） |
-| --- | ---: | ---: | ---: |
-| 原 73 张奶龙/奶蛙 test accuracy | 93.15% (68/73) | 93.15% (68/73) | 93.15% (68/73) |
-| Other test recall | 未建立 Other 测试 | 98.00% (147/150) | 98.00% (147/150) |
-| Other false accept rate | 不作未执行的指标声明 | 2.00% (3/150) | 2.00% (3/150) |
-| 三类 overall accuracy，223 张 | 不适用 | 96.41% | 96.41% |
-| Macro precision | 不适用 | 93.82% | 94.81% |
-| Macro recall | 不适用 | 94.56% | 94.56% |
-| Macro F1 | 不适用 | 94.08% | 94.64% |
-
-校准阈值在本次 test 上**没有进一步降低 Other FAR**；它把两次原本错误的目标类判断改为低置信度拒识，因此目标类正确数量保持不变、Macro F1 略有改善。不将这种变化描述为 Other recall 的提升。
-
-网页最终规则的每类指标：
-
-| 类别 | Precision | Recall | Support |
-| --- | ---: | ---: | ---: |
-| Nailong | 92.68% | 97.44% | 39 |
-| Naiwa | 93.75% | 88.24% | 34 |
-| Other | 98.00% | 98.00% | 150 |
-
-最终混淆矩阵，行是真实、列是预测，顺序为 `[nailong,naiwa,other]`：
+在原项目上增量升级：保留四层自训练 CNN、128×128 输入、原始目标数据划分、网页布局和 Cloudflare Pages。现在先判断图片是否接近已知特征分布，再决定奶龙 / 奶蛙；拒绝时显示“都不是”，不伪造 Other 概率。
 
 ```text
-             Nailong   Naiwa   Other
-Nailong         38       1       0
-Naiwa            1      30       3
-Other            2       1     147
+图片 → JavaScript RGB/resize/CHW → ONNX Runtime Web → logits [1,2] + embedding [1,256]
+                                                     ├→ 稳定 softmax → 奶龙 / 奶蛙
+                                                     └→ Mahalanobis + Energy → 已知域检测
+任一 OOD 分数超过 validation 校准阈值 → 都不是；否则显示目标类和条件 softmax 概率
 ```
 
-指标来自实际推理：`results/metrics_3class.json`（原始三分类）、`results/metrics_3class_calibrated.json`（网页最终规则）、逐图预测 JSON 和对应混淆矩阵。升级比较另存 `results/upgrade_comparison.json`。
+所有训练、统计、指标、ONNX 和浏览器检查均已实际执行。页面只下载静态文件；没有预测 API、mock、随机分类、图片颜色/文件名规则或加载失败后的默认预测。
 
-旧 binary 的原始 `results/metrics.json` 等报告未覆盖；另在 `results/binary/` 保存完整快照，权重/ONNX/config 在 `checkpoints/binary/`。原二分类代码可查看 Git 提交 `b96b626`。现有训练脚本默认训练三分类。
+## 实际效果与代价
+
+测试集始终保持独立。先在 validation 完成模型、normalization、temperature、OR/AND 和阈值选择，写入 `results/v3/production_selection.json`，之后才提取 test features。没有根据下面的 test 结果反复调参。
+
+测试共 **73 ID + 150 Easy OOD + 149 Hard OOD**。Hard 为 53 个独立 Unicode 角色身份的多来源渲染，149 张不是 149 个独立语义身份。表中 ID accuracy 是**拒识后正确识别数量 / 全部 ID**；误拒也计错。
+
+| System / Method | ID accuracy（含误拒） | Easy FAR ↓ | Hard FAR ↓ | AUROC ↑ | FPR@95TPR ↓ |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| V2 旧三分类部署规则 | 93.15% | 2.00% | 74.50% | 78.94% | 38.13% |
+| V2 encoder + Max Softmax（两类） | 91.78% | 74.67% | 94.63% | 69.27% | 89.97% |
+| V2 encoder + Mahalanobis | 90.41% | 16.00% | 55.03% | 92.67% | 45.82% |
+| V2 encoder + Energy | 93.15% | 7.33% | 83.22% | 77.42% | 39.13% |
+| V2 encoder + distance + energy | 89.04% | 6.00% | 53.69% | 90.22% | 45.82% |
+| V2 encoder + distance + energy + p_other | 89.04% | 0.67% | 50.34% | 87.04% | 45.82% |
+| **V3 Custom CNN + OE + distance + energy（生产）** | **89.04%** | **12.00%** | **4.70%** | **95.49%** | **47.49%** |
+| V3 OE encoder + Energy only（消融） | 93.15% | 16.67% | 12.75% | 96.52% | 8.70% |
+| MobileNetV3-Small frozen + distance + energy（对照） | 90.41% | 28.67% | 39.60% | 90.24% | 42.81% |
+
+**不能把本次描述为所有指标均提高。** 生产系统将 Hard FAR 降为 **7/149**，但 Easy FAR 从 **3/150 增加至 18/150**，ID 最终正确数从 **68/73 降为 65/73**。闭集两类准确率实际为 **70/73 = 95.89%**；有 **5/73 = 6.85%** ID 被拒绝，接受的 ID 中 **65/68 = 95.59%** 分类正确。这批 test 上闭集分类未下降，但拒识造成有效识别率下降。
+
+混合 OOD FAR 为 **25/299 = 8.36%**，ID TAR **93.15%**，AUPR（OOD 为正）**98.31%**。FPR@95TPR 定义为**测试 ROC 上达到至少 95% ID 接受率时的 OOD 接受率**，不是当前 production 阈值的 FAR。少量高 OOD-score ID 尾部样本使该指标达 **47.49%**，说明要求高 ID 保留率时仍不稳健。Energy-only 在 test 的 AUROC/FPR@95 更好，但默认联合方案是 validation 锁定的选择，没有在看完 test 后改选。
+
+完整 15 组消融/对照结果及定义见 [比较表](results/v3/comparison.md)、[逐方法指标](results/v3/method_comparison.json)、[CSV](results/v3/method_comparison.csv)。旧二分类 68/73、旧三分类结果保存在 `results/binary/`、`results/v2/` 和旧根目录报告；没有覆盖它们。
+
+## 为什么原来的 Other 弱
+
+V2 Other 主要来自 CIFAR-100 / Oxford Pets，识别照片域较容易，却没有覆盖很多接近目标角色的卡通。softmax 只比较输出之间的相对大小，不能保证输入属于已知分布。本次新 Hard test 上旧部署规则误接受 **111/149**，直接暴露了这个缺口；不能仅凭旧照片 Other recall=98% 推断开放世界可靠。
+
+V3 不把全部 Other 强迫聚成一个语义 cluster。先验证冻结 encoder 的 post-hoc 方法；validation Hard FAR 仍约 60%，因此才进行 Phase B：两类 CE + energy-margin **Outlier Exposure**。没有采用 SupCon / ViT / CLIP，没有扩大几千张随机 Other。
+
+## 数据与无泄漏检查
+
+原数据：[CristinXie/NaiwaOrNailong-dataset](https://github.com/CristinXie/NaiwaOrNailong-dataset)，固定提交 `900b0419d9c0cfb5ef3c12938a2cbf0ae5eb2abb`；原 split 不移动、不重分。
+
+| Split | Nailong | Naiwa | Easy OOD（原 Other） | Hard OOD |
+| --- | ---: | ---: | ---: | ---: |
+| train | 184 | 161 | 600 | 143 |
+| val | 39 | 34 | 150 | 70 |
+| test | 39 | 34 | 150 | 149 |
+
+Easy 复用 V2 两来源、固定 seed=42 的自动下载数据及完整 manifest，不再扩大随机样本。Hard 来源是公开、非 AI 生成的黄色表情、卡通动物、青蛙、龙、恐龙、玩具/怪物角色：
+
+- Google **Noto Emoji**, release v2.047（Apache-2.0）：[来源](https://github.com/googlefonts/noto-emoji/tree/v2.047)。
+- **Twemoji**, commit `7407fa31c51be5ab45626b8ab5554d50cc8073f6`（图形 CC BY 4.0）：[来源及署名](https://github.com/jdecked/twemoji/tree/7407fa31c51be5ab45626b8ab5554d50cc8073f6)，源自 Twitter Twemoji / jdecked 项目。
+- Microsoft **Fluent UI Emoji 3D**, commit `1ffb34c752ecf5d402f04cfb4b392c77f57c54bc`（MIT）：[来源](https://github.com/microsoft/fluentui-emoji/tree/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc)。
+
+`prepare_hard_ood.py` 按语义类别确定候选、固定 seed、按 Unicode **角色身份分组划分**；同一角色的 Noto/Twemoji/Fluent 渲染不能跨 split。青蛙、龙脸等身份在任何打分前预留 test，没有按模型错误挑选测试图片。检查文件哈希、RGB 像素哈希、来源身份，原始数据与 Hard 间跨 split 精确像素重复为 **0**。Manifest 包含每张 URL、源版本、身份、split、类别、路径、许可、哈希。数据与源许可自动下载到 `data/`，不把图片重复提交至本仓库。
+
+这是**小型卡通图标/3D emoji probe**，不是全面的相似商业卡通/玩偶/二创 benchmark。训练和测试仍共享源画风，精确去重不能排除相似实例。报告中不据此承诺真实世界 Hard FAR=4.70%。CIFAR 图像未明确提供统一图片许可；Oxford Pets CC BY-SA 4.0，原目标图逐图授权未知。研究/演示之外使用需核查原数据权利，细节和引用见 [V2 数据说明](README_V2.md)。
+
+## 模型、训练与校准
+
+模型沿用四层 Conv/BN/ReLU，通道 32/64/128/256，前三块 MaxPool2，GAP 得到 **256D raw embedding**，Dropout(0.35) → Linear(256,2)。forward 输出 raw logits；`forward_outputs` 同时暴露真实 embedding，不在模型中加 softmax。实际映射为 `nailong=0,naiwa=1`，从 checkpoint/config 传递并核验，没有在 JS 猜测顺序。
+
+初始化来自冻结 V2 的本项目 CNN 权重（不是 ImageNet）；两个目标 head 行从原映射读取。实际 CPU 训练 **20 epochs**，最佳第 **20** 轮，seed42、AdamW lr=1e-4、weight_decay=1e-4、ID batch32 + OE batch32、梯度裁剪5。ID 继续轻度翻转、旋转和 ColorJitter，val/test 无随机增强。Python/NumPy/PyTorch 均设种子；跨硬件版本不保证 bitwise 一致。
+
+Loss = ID CrossEntropy + 0.1 × `[relu(E_ID - m_in)^2 + relu(m_out - E_OE)^2]`。训练 Energy T=1；`m_in=-1.268482089` 来自初始化 ID **train** energy 的90分位，`m_out=m_in+2`，这些是训练 objective 的 margin，不是 OOD 决策阈值。OE train 600 easy +143 hard；采样各域一半概率质量，共采样345张/epoch。OE 不参与第三类 CE，也不要求全部 Other 特征聚成一团。最佳 checkpoint 按 validation OOD 和 ID 指标选择，允许相对原 val ID accuracy 最多下降3个百分点、ID TAR≥95%。
+
+`mine_hard_negatives.py` 只对 hard **train** 用冻结 V2 真实预测排序，143 张中 **113 张**为 V2 误接受；本次 OE 使用全部143张，未额外使用报告中的 priority 权重。用户反馈目录继续兼容：
+
+```text
+data/hard_negative/       # 新的相似角色等，训练用
+data/false_positive/      # 真实线上误判，新实例，训练用
+data/hard_ood/train/      # 自动的难负样本曝光
+data/hard_ood/val/        # 仅校准
+data/hard_ood/test/       # 仅最终评估
+```
+
+原反馈目录本次为空。下次训练会自动加入反馈，拒绝与已知 val/test 像素相同的文件。不要将本次测试错误复制进训练再报告同一 test 的改进。反馈不会自动变成独立测试数据；新增独立测试要在训练/校准前预留新身份实例。
+
+距离统计只拟合 **345 个 ID train embedding**：每类中心 + pooled within-class residual 的 **LedoitWolf shared covariance**，用 shrinkage 保证正定，完整逆矩阵256×256，没有把欧氏距离称为 Mahalanobis。计算 `min_c (z-μ_c)^T Σ^-1 (z-μ_c)`。比较 raw/L2，最终选 raw；validation Hard AUROC raw=93.99%、L2=89.47%。最终 shrinkage≈0.01734。
+
+Energy = `-T × logsumexp(logits/T)`，Python/JS 都使用稳定 logsumexp。Phase A 三分类实验只取两个 ID logit，避免 Other logit 很高被误当作低能量 ID；生产本身只有2 logits。
+
+校准只读取 train/val feature 文件，比较两种 embedding、T={0.5,1,2,5}、距离/能量单独及 OR/AND、旧 p_other 信号、92/95/97/98% ID 接受 operating points。默认选 val ID TAR≥95% 中**最小最坏域 FAR**，再最小 pooled FAR、保留正确 ID；同分偏好简单信号。最终 production：
+
+```text
+normalize_embedding = false
+Mahalanobis threshold = 286.4332033471298
+Energy temperature = 5.0
+Energy threshold = -2.4278297972582807
+reject = (distance > D_threshold) OR (energy > E_threshold)
+```
+
+最终 validation ID TAR95.89%、Easy FAR7.33%、Hard FAR8.57%；完整 OR/AND 消融和不同 operating points 在 `phase_*/calibration.json`、`validation_operating_points.csv`。没有证据表明任意新分布都服从这些阈值。
+
+Mahalanobis 单独有区分能力，但 test Hard FAR46.98%仍很弱；OE 后 Energy 单独显著改善，联合在 val 降低最坏域 FAR，并在 test 将 Hard FAR降至4.70%。联合的 AUROC/FPR@95 不优于 Energy-only，这一局限完整保留。
+
+## MobileNet 对照
+
+在自训练 CNN 的 post-hoc 效果不足后，独立测试 torchvision **MobileNetV3-Small IMAGENET1K_V1**：冻结 backbone，ID train PCA576→128，再用 PyTorch CE 真实训练两类 head。PCA/中心仅 fit ID train；ImageNet mean/std 包在 ONNX 图内，外部预处理不变。它的 validation 最坏域 FAR41.43%，不及最终 custom OE 的8.57%，没有用于生产。对照的 test Hard FAR39.60%也如实保留。
+
+真实 Chromium WASM 单线程、3次 warmup+10次真实图片推理：Custom ONNX **1,558,506 bytes / 中位19.10ms**，MobileNet **4,014,459 bytes / 8.45ms**。MobileNet 更快但本次 OOD 指标更差；速度只代表当前 CPU 环境。正式上传浏览器检查中 Custom 推理中位20.65ms，256维完整矩阵 OOD 计算中位0.35ms。没有以模型更大或预训练为由自动替换。
 
 ## 项目结构
 
 ```text
-naiwa-or-nailong/
-├── README.md
-├── requirements.txt / requirements-dev.txt
-├── .gitignore
-├── wrangler.toml                      # Pages 发布 ./web
-├── .github/workflows/pages.yml        # 可选 GitHub Pages
-├── data/                              # 数据不提交、不打包
-│   ├── NaiwaOrNailong-dataset/data/
-│   │   ├── train/{nailong,naiwa,other}/
-│   │   ├── val/{nailong,naiwa,other}/
-│   │   └── test/{nailong,naiwa,other}/
-│   ├── other_manifest.json
-│   ├── source_cache/                  # 公开数据下载缓存
-│   ├── hard_negative/.gitkeep         # 可选训练负样本
-│   └── false_positive/.gitkeep        # 可选误接受反馈
-├── training/
-│   ├── prepare_other_dataset.py
-│   ├── dataset.py / model.py / common.py
-│   ├── train.py / inference.py
-│   ├── evaluate.py / plot_history.py
-│   ├── calibrate_rejection.py
-│   ├── export_onnx.py / verify_onnx.py
-│   └── evaluate_extra_other.py
-├── checkpoints/
-│   ├── best_model_3class.pth           # 本次真实训练
-│   ├── best_model.pth                 # 保留旧 binary
-│   └── binary/                        # 旧权重、ONNX、config
-├── web/
-│   ├── index.html / style.css
-│   ├── app.js / preprocess.js
-│   ├── model.onnx / model_config.json
-│   └── assets/vendor/onnxruntime-web/  # 固定版本运行时及许可声明
-├── scripts/
-│   ├── reproduce.sh / download_runtime.py
-│   ├── verify_other_data.py
-│   ├── verify_browser.py / verify_decision.mjs
-│   └── check_artifacts.py
-└── results/
-    ├── binary/                        # 旧实验快照
-    ├── other_manifest.json            # 可提交的构建清单，不含图片
-    ├── other_dataset_summary.json / other_data_verification.json
-    ├── hard_negative_manifest.json / feedback_verification.json
-    ├── dataset_audit_3class.json / class_mapping.json
-    ├── training_config_3class.json / training_history_3class.json
-    ├── training_curves_3class.png
-    ├── metrics_3class.json / metrics_3class_calibrated.json
-    ├── test_predictions_3class*.json / confusion_matrix_3class*.png
-    ├── rejection_calibration.json / validation_predictions_3class.json
-    ├── onnx_export_3class.json / onnx_verification_3class.json
-    ├── browser_verification_3class.json / web_*_3class.png
-    ├── extra_other_probes.json / upgrade_comparison.json
-    └── *.log                          # 实际执行记录
+training/
+  model.py / dataset.py / common.py      # 原模型/数据加载，最小兼容修改
+  prepare_other_dataset.py               # 保留 V2 自动 easy 数据准备
+  prepare_hard_ood.py                    # 固定版本/身份划分的真实 hard 数据
+  mine_hard_negatives.py / train_ood.py   # train-only mining、真实 OE
+  calibrate_ood.py / export_ood.py / verify_ood_onnx.py
+  compare_mobilenet.py
+  ood/{core,extract,evaluate,audit,report,select_model,mobilenet}.py
+checkpoints/
+  binary/ / v2/                         # 冻结旧权重与 ONNX/config
+  best_model_ood.pth / mobilenet_ood.pth  # 真实新实验
+web/
+  index.html / style.css / app.js / preprocess.js / ood.js
+  model.onnx / model_config.json / ood_config.json
+  assets/vendor/onnxruntime-web/         # 本地固定运行时、许可、哈希
+results/
+  binary/ / v2/                         # 历史结果
+  v3/
+    baseline.json / data_audit.json / hard_ood_manifest.json
+    production_selection.json / metrics.json
+    phase_a/ / phase_b/ / mobilenet/     # 校准、Gaussian参数、独立test消融
+    method_comparison.{json,csv} / comparison.md
+    validation_operating_points.csv / ood_scores.csv
+    mahalanobis_distribution.png / energy_distribution.png / embedding_pca.png
+    hard_ood_analysis.json / hard_negative_mining.json
+    oe_training_config.json / oe_training_history.json
+    onnx_verification.json / browser_verification.json / runtime_comparison.json
+scripts/reproduce.sh / verify_ood_browser.py / benchmark_ood.py / check_artifacts.py
 ```
 
-## 只运行静态网页
+NPZ feature 缓存和图片被 gitignore，可由相同权重/manifest 重建；保留 feature 行清单与权重哈希。PCA 图只作辅助可视化，不作为成功证据。
 
-网页已包含训练好的 ONNX 和本地 ONNX Runtime Web，无需先安装训练依赖或下载数据：
+## 本地运行（无需训练）
 
 ```bash
 git clone https://github.com/wls6666/nailong-or-naiwa-.git
@@ -112,13 +150,17 @@ cd nailong-or-naiwa-
 python -m http.server 8000 --directory web
 ```
 
-打开 **http://localhost:8000**，等待“模型已就绪”，上传 JPEG/PNG/WebP，点击识别。也可 `cd web` 后执行 `python -m http.server 8000`。不要双击 HTML 使用 `file://`。
+打开 **http://localhost:8000**，不要双击 `file://` HTML。网页只需要静态服务器，不需要安装 torch 或运行 Python 预测服务。JS 验证 ONNX/config 哈希、真实 input/output 名称、维度、数值；模型/OOD 参数缺失或不一致时明确报错，禁用识别，不会 fallback。
 
-HTTP server 只提供静态文件，不执行模型推理。网页不访问 CDN、数据库或预测服务；WASM 单线程不需要 COOP/COEP。首次需下载约 13 MB 静态资源。没有 Service Worker，不承诺停止文件服务器后重新打开页面仍可离线访问。
+输入为128×128 RGB、白底透明合成、EXIF 方向、half-pixel bilinear、float32 NCHW、范围0–1，无 normalization。Canvas 只解码原像素，显式 resize 与 Python 一致。ONNX opset17，输入 `input [N,3,128,128]`，输出 `logits [N,2]`、`embedding [N,256]`，均为真实模型输出。前端不再使用三分类/sigmoid 逻辑。
 
-## 从零准备环境
+OOD 参数文件约1.72MB JSON，浏览器只做固定矩阵计算，不拟合中心或 covariance。所有阈值/矩阵/温度/映射来自 `ood_config.json`。高级信息显示真实分类概率、距离、Energy、异常 margin；异常分数>0代表拒绝，**不是概率**。OOD 主结果没有百分比；接受后显示的是已知两类条件概率，也不保证实际正确率。
 
-以下命令在项目根目录执行，建议 Python 3.12。CPU 复现：
+上传限 JPEG/PNG/WebP、10MiB、1600万像素，解码前检查头部尺寸，错误均会显示。没有 Service Worker，不承诺关闭服务器后重载仍可使用。
+
+## 从零复现训练与评估
+
+建议 Python3.12，在根目录激活环境。本次实际使用 CPU 和 requirements 的固定版本。
 
 ```bash
 python -m venv .venv
@@ -126,189 +168,61 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cpu
 python -m pip install -r requirements.txt
-```
-
-Windows 激活命令为 `.venv\Scripts\activate`。GPU 使用者应安装与本机 CUDA 匹配的 PyTorch；本次只实际验证 CPU。
-
-## 自动准备 Other，保留原划分
-
-原数据：[CristinXie/NaiwaOrNailong-dataset](https://github.com/CristinXie/NaiwaOrNailong-dataset)，提交 `900b0419d9c0cfb5ef3c12938a2cbf0ae5eb2abb`。已阅读原 README，没有重新划分或移动原图。
-
-```bash
-# 若目录已经存在，跳过 clone
 git clone https://github.com/CristinXie/NaiwaOrNailong-dataset.git data/NaiwaOrNailong-dataset
 git -C data/NaiwaOrNailong-dataset checkout 900b0419d9c0cfb5ef3c12938a2cbf0ae5eb2abb
+bash scripts/reproduce.sh
+```
+
+Windows 激活 `.venv\Scripts\activate`，可逐条执行脚本中的 Python 命令。源缓存约需4GB，公开图片下载可能耗时；使用固定版本与 manifest 校验，不在下载失败时生成假数据。首次运行 MobileNet 对照会下载官方 ImageNet 权重。复现起点是仓库中冻结的 V2 best checkpoint；需要从最初 V1/V2 重训时见 [V2 README](README_V2.md) 及历史提交 `1af73a0`。`scripts/reproduce_v2.sh` 是旧流程，会覆盖活动 web 模型，请在独立 checkout 使用。
+
+完整脚本顺序：下载/审计 → frozen post-hoc → train-only mining → OE → train/val extraction/calibration → MobileNet 独立对照 → **冻结选择** → 三实验 test extraction/evaluation → 比较报告 → 导出 → 全 test ONNX 验证。任一步失败非零退出。
+
+仅针对当前提交权重重建最终结果，省略训练与对照的快捷命令：
+
+```bash
 python training/prepare_other_dataset.py
-python scripts/verify_other_data.py
-python training/dataset.py
+python training/prepare_hard_ood.py
+python training/ood/audit.py
+python training/ood/extract.py --splits train val --checkpoint checkpoints/best_model_ood.pth --output results/v3/phase_b_features
+python training/calibrate_ood.py --features results/v3/phase_b_features --output results/v3/phase_b
+# 使用当前已提交的 production_selection，不根据 test 改选
+python training/ood/extract.py --splits test --checkpoint checkpoints/best_model_ood.pth --output results/v3/phase_b_features
+python training/ood/evaluate.py --features results/v3/phase_b_features --calibration results/v3/phase_b/calibration.json --output results/v3/phase_b
+python training/export_ood.py
+python training/verify_ood_onnx.py
 ```
 
-`prepare_other_dataset.py` 自动下载、固定 seed=42、按来源类别交错抽样、生成 RGB JPEG（quality=95，subsampling=0，不加黑边或标签文字），再与所有类别共用同一 tensor 预处理。保留原生尺寸，不把所有 Other 统一降成 32×32。
+## 实际 ONNX / 浏览器检查
 
-| Split | Nailong（未改动） | Naiwa（未改动） | Other | 总计 |
-| --- | ---: | ---: | ---: | ---: |
-| train | 184 | 161 | 600 | 945 |
-| val | 39 | 34 | 150 | 223 |
-| test | 39 | 34 | 150 | 223 |
-
-每个 split 的 Other 一半来自 CIFAR-100、一半来自 Oxford-IIIT Pet：
-
-- [CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)：物体、食物、交通工具、自然场景、人物等。官方源在本次环境下载较慢，脚本明确使用 fast.ai 的公开 [S3 镜像](https://s3.amazonaws.com/fast-ai-imageclas/cifar100.tgz)，保留官方 50,000 train / 10,000 test 池。镜像目录按 20 个 coarse 类组织，source ID 中仍保留 fine 类和原图片文件名；本次选中的图片共覆盖 99 个 fine 类。下载的 archive 固定 SHA-256 为 `085ac613ceb0b3659c8072143ae553d5dd146b3c4206c3672a56ed02d0e77d28`，校验通过后才解压。
-- [Oxford-IIIT Pet](https://www.robots.ox.ac.uk/~vgg/data/pets/)：37 种猫狗，提供较高分辨率图片，避免 Other 全部是 CIFAR 风格。由 torchvision 下载并验证官方 MD5。
-
-源 train/trainval 池只用于 train/val，源 test 池只用于 test；train/val 从同一个打乱后的列表依次取不同索引。脚本检查来源身份、文件哈希、解码后的 RGB 像素哈希，并与原始目标图片比对。原始 491 张图片的 SHA-256 也会前后核验。独立验证结果：**900 个 Other，491 张原图，跨 split 字节/像素/来源 ID 重复均为 0**。
-
-Manifest 同时保存 `data/other_manifest.json` 和可提交的 `results/other_manifest.json`，记录来源、官方池、索引、原 ID、源类别、目标 split、最终路径、原生尺寸、源像素/最终像素/文件 SHA-256 及原始目标图快照。再次运行会校验现有文件，避免重复下载。需要主动重建生成的 Other 时：
-
-```bash
-python training/prepare_other_dataset.py --rebuild
-```
-
-`--rebuild` 只删除并重建三个 split 的 `other/`，不删除目标类。下载缓存保留，预留约 4 GB 磁盘空间。`--train/--val/--test` 可改数量；更改数据后必须重新训练、校准和验收。
-
-CIFAR 页面要求引用 Krizhevsky 2009，但没有为全部原图提供明确的统一授权；不要把它误写成 MIT 图片许可。Oxford Pets 明确使用 CC BY-SA 4.0，版权归原图权利人，引用 Parkhi et al., *Cats and Dogs*, CVPR 2012。原奶龙/奶蛙数据也未附可核实的逐图授权。本项目只保存下载脚本和清单，不向自己的 Git 仓库或压缩包重新分发这些图片；商业使用和图片再分发需核查相应权利。
-
-## 模型与训练
-
-架构沿用原项目，共 **390,147** 个参数，只改变最后一层为 `Linear(256,3)`：
-
-```text
-[N,3,128,128]
-Conv 3→32, 3×3/pad1 → BN → ReLU → MaxPool2
-Conv 32→64, 3×3/pad1 → BN → ReLU → MaxPool2
-Conv 64→128, 3×3/pad1 → BN → ReLU → MaxPool2
-Conv 128→256, 3×3/pad1 → BN → ReLU
-AdaptiveAvgPool(1,1) → Flatten → Dropout(0.35) → Linear 256→3
-[N,3] raw logits
-```
-
-没有在 forward 中加 softmax，没有换成预训练 ResNet/ViT。默认复用**本项目自己训练的**旧二分类 CNN backbone，并用原 log-odds 初始化两个目标输出；Other 输出行随后与整网一同真实训练。`--from-scratch` 可关闭此初始化；从零模式的指标不等同于本次默认模式。
-
-实际 ImageFolder 映射为 `{"nailong":0,"naiwa":1,"other":2}`，但所有阶段从 Dataset/checkpoint/config 读取并核对映射。映射保存在 `results/class_mapping.json`、权重、ONNX metadata 和网页配置。
-
-使用一种不平衡处理：**class-weighted CrossEntropyLoss**，权重为 `N/(3*class_count)`，本次分别约 `[1.7119565,1.9565217,0.525]`，不再叠加 WeightedRandomSampler。batch=32、AdamW、lr=3e-4、weight_decay=1e-4、Dropout=0.35、ReduceLROnPlateau(patience=4,factor=0.5)、early stopping patience=12、最多 40 轮。
-
-```bash
-python training/train.py --epochs 40 --seed 42 --threads 2
-python training/evaluate.py
-python training/calibrate_rejection.py
-python training/evaluate.py --calibrated
-python training/plot_history.py
-```
-
-记录每轮 train/val loss、accuracy、各类 recall。best checkpoint 按 val macro recall、再按加权 val loss 选择，不能使用 test accuracy 选择。原始三分类 test 指标先保存，阈值校准完成后再独立报告最终规则指标，两者都保留。
-
-随机种子覆盖 Python、NumPy、PyTorch；DataLoader 使用固定 generator、num_workers=0。跨硬件/库版本可能有浮点差异，不承诺 GPU 完全 deterministic。
-
-## 可持续添加 hard negatives
-
-未来把真实图片放入以下任一目录，可以包含子目录：
-
-```text
-data/hard_negative/     # 其他黄色卡通、青蛙、恐龙、玩偶、相似画风等
-data/false_positive/    # 网页误判为目标类的真实错误案例
-```
-
-训练脚本自动读取其中 JPEG/PNG/WebP/BMP，加入 **Other train**；不加入 val/test。目录不存在时正常训练，不报错。本次目录为空，正式训练额外样本数为 0，没有要求用户手工收集负样本。
-
-若反馈图与 val/test 的已知源图片或解码像素完全重复，会明确报错阻止训练；与已有 train 重复则跳过，记录最终使用列表到 `results/hard_negative_manifest.json`。已实际检查“新图片自动加入”和“测试图误放反馈目录被拒绝”，见 `results/feedback_verification.json`。文件名只用于标识数据，不参与模型预测。
-
-添加图片后，重新运行训练及以下校准/导出/浏览器验证阶段，不需要重新下载公共数据。不要把独立测试集错误图直接搬进训练集再宣称同一个 test 的无泄漏成绩；反馈应来自新的真实使用案例。
-
-## 阈值如何选择及 confidence 语义
-
-`calibrate_rejection.py` **只实例化 val Dataset**，不读取 test tensor 或 test predictions。扫描 `[0.50,0.55,...,0.95]`，记录每个候选的目标类准确率、每类 recall、Other FAR 和 Macro F1。
-
-预先固定选择规则：相对原始三分类 val，目标准确率下降不超过 3 个百分点，且任一目标类 recall 下降不超过 5 个百分点；在合格候选里优先最小 Other FAR，再最大 Macro F1，再选较低阈值。若无候选满足约束，先最小化目标损失，并明确记录约束不满足。本次约束满足，选中 **0.55**，val 目标准确率没有下降。
-
-完整扫描保存在 `results/rejection_calibration.json`。导出时会核对 checkpoint SHA-256，并将阈值和校准报告 SHA-256 写入 `web/model_config.json`，不是凭感觉在 JS 中写常量。
-
-最终逻辑：
-
-1. 稳定 softmax：先减最大 logit，再 exp 和归一化。
-2. raw argmax 为 Other：输出 **都不是 / Neither**，confidence=`P_other`。
-3. raw argmax 为目标类，且 `max(P_nailong,P_naiwa)<reject_threshold`：输出 **都不是 / 无法确定**，显示“最高目标类概率仅 xx%”，该数值不是 `P_other`。
-4. 否则输出对应目标类，confidence 为该类别 softmax 概率。
-
-浏览器已实际验证一个低置信度样本：`[P_nailong,P_naiwa,P_other]=[51.08%,24.94%,23.98%]`，页面显示“无法确定”和“最高目标类概率 51.08%”，不会编造更高的 Other confidence。
-
-## 预处理保持原实现
-
-所有类统一为 EXIF 方向处理、RGB（透明图合成白底）、128×128 拉伸、half-pixel bilinear、float32、NCHW、像素范围 0–1，**无 ImageNet 或其他 normalization**。Canvas 只解码原尺寸像素，缩放使用与 Python 相同的显式双线性算法，避免默认缩放滤波差异。
-
-训练对缓存的同一预处理 tensor 做轻度水平翻转、±8° 旋转和 ColorJitter；val/test 无随机增强。保存 Other 时没有标签文字、水印叠加、黑边或 AI 生成内容；多来源和统一处理只能降低来源 shortcut 风险，不能证明模型完全没有学习数据集风格。
-
-## ONNX 导出与验证
-
-```bash
-python training/export_onnx.py
-python training/verify_onnx.py
-```
-
-导出 opset=17，输入 `input`：`[N,3,128,128]`，输出 `logits`：**`[N,3]`**。batch 动态，网页用单张。模型本身输出 raw logits，不包含前端 softmax 或阈值规则。
-
-导出执行 `onnx.checker.check_model(full_check=True)`，随后 ONNX Runtime Python 在真实图片上推理并验证 `[1,3]` 和有限数值。验证默认覆盖 **全部 223 张 test 图片**，包含三类；要求 PyTorch/ONNX 最大 logit 和概率绝对差异均小于 1e-4，原始分类及校准分类一致。`--limit 9` 可进行按类别交错的较小检查。
-
-本次 checker、Python runtime 均 PASS；最大 logit 差异 **6.68e-6**，最大概率差异 **7.00e-7**。完整结果见 `results/onnx_verification_3class.json`。
-
-模型、映射、阈值必须成对发布。重新训练后，旧报告的 checkpoint/model/calibration 哈希不匹配时不能作为新版本验收证据。
-
-## 浏览器实际验证
+checker + ONNX Runtime Python 已通过。全部372张 test（两类/Easy/Hard）对比：最大 logits 误差 **1.049e-5**、embedding **2.861e-6**，均小于1e-4，拒识决策完全一致。距离的最大绝对差约0.00117（高维二次型放大浮点微差），最终 OOD margin 最大差1.754e-5。
 
 ```bash
 python -m pip install -r requirements-dev.txt
 python -m playwright install chromium
-python scripts/verify_browser.py --chromium ''
-# Linux 已安装系统 Chromium 也可以：
-# python scripts/verify_browser.py --chromium /usr/bin/chromium
+python scripts/verify_ood_browser.py --chromium ''
+# 有系统 Chromium：python scripts/verify_ood_browser.py --chromium /usr/bin/chromium
 node scripts/verify_decision.mjs
 python scripts/check_artifacts.py
+python scripts/verify_ood_feedback.py
+# 可选两模型实际浏览器计时（默认系统 Chromium）：
+python scripts/benchmark_ood.py
 ```
 
-浏览器脚本使用临时静态 HTTP server 和真实 Chromium，操作文件选择和识别按钮。覆盖每个目标类、两个来源的 Other，以及 validation 中一张真正触发低置信度拒识的图片；每张检查原始 JPEG 和无损 PNG，共 **14 次数值对比**，此外保留透明 PNG、WebP、EXIF、非法文件、10 MB 上限、模型下载失败和手机布局检查。
+真实 UI 操作24次（原文件/无损像素），覆盖奶龙、奶蛙、两个 easy 来源、三来源的青蛙与龙角色，Python/JS logits、embedding、距离、Energy、拒识一致。额外检查透明PNG/WebP/EXIF、非法文件、超大文件、模型与OOD配置下载失败、参数损坏、手机无横向溢出；无 console page error，请求全部为本地 GET。`verify_browser.py` / `check_artifacts.py` 也能识别活动 V3 后分派新检查。没有用数学单元检查替代真实模型推理。
 
-本次最大浏览器/Python logit 差异 **1.43e-6**，所有检查样本的预处理 tensor 最大差异 **0**。两个实际分支（raw Other argmax / threshold rejection）均有真实图片验证。模型失败时按钮不可用且无预测结果；请求只包含本地 GET 静态资源和本地 blob。
+## Cloudflare Pages 部署
 
-`verify_decision.mjs` 将 223 条真实 validation logits 与 Python softmax 结果比较，同时打乱类别顺序验证 mapping 不依赖固定索引，并测试极大 logits 的数值稳定性和非有限值错误。数值边界单元检查不替代真实模型推理。
+继续只发布完整 **`web/`**，必须同时更新 `model.onnx`、`model_config.json`、`ood_config.json` 和 JS，保留本地 WASM/runtime 文件。模型1.56MB、OOD JSON1.72MB，单文件均低于 Pages 25MiB 限制。
 
-前端继续限制 JPEG/PNG/WebP、最大 10 MiB / 1600 万像素，解码前检查图片头尺寸；错误会显示而不会变成默认分类。运行时保持本地 `onnxruntime-web@1.22.0`，包含版本、哈希及 MIT/第三方声明。如需重新获取运行时：`python scripts/download_runtime.py`。
+现有 Git integration：仓库 production branch `main`、framework None、build command 留空、root 保持仓库根；`wrangler.toml` 已设置 `pages_build_output_dir="./web"`。推送后 Cloudflare 自动部署，无新增 Python/Node 服务。不要将 root 和 output 同时设成 web。原域名仍为 **https://nailongornaiwa.pages.dev/**。
 
-## 额外真实乱入图片
+已有 GitHub Pages workflow 也发布同一个 web 目录；Cloudflare/Vercel 等静态托管均可使用。ONNX Runtime Web 本地版本1.22.0，单线程无需 COOP/COEP；不依赖 CDN。重新训练后必须重新导出/验收再一起发布，旧哈希的报告不能作为新模型证据。
 
-```bash
-python training/evaluate_extra_other.py
-```
+## 仍然存在的真实限制
 
-从两个源数据集**未被选入任何 train/val/test 的官方 test 池样本**中，固定 seed 取猫、狗、车辆、食物、建筑、人物、自然各 2 张，共 14 张；本次误接受 **0/14**。不额外爬站、不以 AI 生成图片代替，报告见 `results/extra_other_probes.json`。
-
-这些仍来自已使用的数据源，属于独立样本的定性检查，**不是新的未见数据域 benchmark**，不据此保证所有乱入图片都能拒绝。
-
-## 一次运行完整复现链路
-
-下载原奶龙/奶蛙仓库并激活虚拟环境后：
-
-```bash
-bash scripts/reproduce.sh
-```
-
-依次执行 Other 准备、数据核验、训练、raw test、val calibration、calibrated test、图表、导出、全 test ONNX 对比和额外图片检查。浏览器验证按上面的可选依赖命令单独执行。所有主要阶段失败均以非零退出码停止后续步骤。
-
-## Cloudflare Pages 与其他静态部署
-
-当前项目继续只发布完整 **`web/`**，保留 `.onnx/.json/.js/.mjs/.wasm`。`wrangler.toml` 已声明 `name="nailongornaiwa"`、`pages_build_output_dir="./web"`。
-
-Cloudflare Pages 设置：连接当前 GitHub 仓库，production branch=`main`、framework=None、build command 留空，root directory 保持仓库根目录；输出目录由配置设为 `web`。不要同时将 root 和 output 都填成 `web`。推送 main 后由已连接的 Cloudflare Git integration 自动部署。
-
-如果部署成功但首页 404，检查日志是否读取了 wrangler 配置、发布目录是否包含 `index.html`，以及生产分支是否为 main。原先已工作的 Cloudflare 托管方式和目录没有改变。
-
-GitHub Pages 也兼容：仓库 Settings → Pages → Source 选择 GitHub Actions，使用已有 workflow。Cloudflare 已连接时，不需要依赖 GitHub Pages workflow 的运行结果。Vercel 等静态服务也只需发布 `web/`。没有 Python/Node 推理服务或数据库。
-
-## 真实限制
-
-- 原目标类训练图只有 345 张，验证/测试各 73 张；此次目标测试正确数量保持 68/73，不等于已经证明泛化能力没有下降。
-- Other 只是 600 张有限、多来源负样本。测试 FAR=2% 指这个构建的 Other test，不能推广为现实世界任意图片的 FAR。仍有 3/150 Other 被误接受。
-- 多数 Other 是照片，相似黄色卡通、其他青蛙/恐龙、玩偶和二创画风覆盖不足，需靠真实 hard-negative 反馈逐步补充。
-- 字节、来源 ID 和精确解码像素去重不保证所有近似场景均被排除；原目标数据的原始划分算法/逐图来源也未知，原 split 按要求保持。
-- softmax confidence 未做概率校准；拒识阈值校准不等于 confidence 已校准。高概率仍可能错误，低置信度拒绝也可能拒绝真实目标图。
-- 极端长宽比会被拉伸；特殊 ICC、透明度、编解码器和浏览器差异可能导致像素差异。本次已实测 Chromium，未覆盖所有 Safari/Firefox/手机机型。
-- 新 ONNX 仍使用经过实际验证的 TorchScript export 路径（`dynamo=False`），当前 PyTorch 会显示弃用提示；checker/Python/WASM 实际执行均已通过。
+- 难例仍会错：本次7张误接受包括卡通猫/猫脸、山羊、戴墨镜黄脸和3D表情；详情 `hard_ood_analysis.json`。没有玩偶、广泛商业卡通、二创/截图的独立大规模测试，未来应使用真实新错误反馈与预留测试补足。
+- Easy FAR 变差、ID 误拒和 FPR@95TPR 偏高是真实问题；本次不承诺全面超过 V2。极小 ID validation/test 使尾部阈值不稳定，不能将单个百分比推广到开放世界。
+- 编码器仍可能利用图片风格/背景 shortcut。多来源、白底处理、统一 resize、身份划分只是降低风险，不能证明消除来源识别。
+- 未作概率校准；OOD score 只是校准阈值 margin。高两类 softmax 仍可能被错误接受或真实 ID 被拒绝。
+- 原数据的近重复/来源细节未知，精确哈希无法证明没有近似场景泄漏；按要求保持原始 split。
+- 只实际验证当前 Chromium/CPU，尚未实测所有手机/Safari/Firefox；复杂 ICC/解码器可能产生像素差异。Web 全静态可部署，但不能保证所有设备同样快。

@@ -15,5 +15,14 @@ class SmallCNN(nn.Module):
         self.head = nn.Sequential(nn.AdaptiveAvgPool2d(1), nn.Flatten(),
                                   nn.Dropout(0.35), nn.Linear(256, num_classes))
 
+    def encode(self, x):
+        # Existing 256D pre-dropout GAP representation; no new parameters.
+        return self.head[1](self.head[0](self.features(x)))
+
+    def forward_outputs(self, x):
+        embedding = self.encode(x)
+        logits = self.head[3](self.head[2](embedding))
+        return logits, embedding
+
     def forward(self, x):
-        return self.head(self.features(x))
+        return self.forward_outputs(x)[0]

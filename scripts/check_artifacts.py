@@ -11,6 +11,9 @@ def read(name): return json.loads((ROOT / name).read_text())
 
 
 def main():
+    if read('web/model_config.json').get('task') == 'open-set-ood-v3':
+        from check_ood_artifacts import main as check_ood
+        return check_ood()
     history = read('results/training_history_3class.json')
     best = max(history, key=lambda r: (r['val_balanced_accuracy'], -r['val_loss']))
     manifest = read('web/model_config.json')

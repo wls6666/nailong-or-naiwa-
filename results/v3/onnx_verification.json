@@ -1,0 +1,3731 @@
+{
+  "status": "PASS",
+  "count": 372,
+  "model_sha256": "780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3",
+  "max_logit_difference": 1.049041748046875e-05,
+  "max_embedding_difference": 2.86102294921875e-06,
+  "max_mahalanobis_difference": 0.0011666477201970338,
+  "max_ood_score_difference": 1.753879019794624e-05,
+  "samples": [
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/01077fe178865f28.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 6.721817817378906e-05,
+      "energy_abs_diff": 1.3063794170875553e-06,
+      "ood_score_abs_diff": 1.4993216588266023e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/0125cfcdb412fa3c.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 6.242689920554767e-07,
+      "energy_abs_diff": 3.113110684793696e-07,
+      "ood_score_abs_diff": 3.5728933078793546e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/0720f0eba7cfc1dc.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 1.8776574286505365e-05,
+      "energy_abs_diff": 4.3361695567512015e-07,
+      "ood_score_abs_diff": 4.976588612315425e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/0b352bf250e8c5ec.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 4.1231560885535146e-05,
+      "energy_abs_diff": 1.322040420248527e-06,
+      "ood_score_abs_diff": 1.5172956722153685e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/0cd2cd1cfc9b3f8a.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.86102294921875e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 1.8611110164101774e-05,
+      "energy_abs_diff": 5.528891651174206e-07,
+      "ood_score_abs_diff": 6.345466633250751e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/10ad1f8214443674.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 6.708447219239133e-05,
+      "energy_abs_diff": 9.553654134464296e-08,
+      "ood_score_abs_diff": 1.0964655727807582e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/11068bdd92395890.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 4.588412656403307e-05,
+      "energy_abs_diff": 2.687128044520648e-07,
+      "ood_score_abs_diff": 6.8979869016772e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/162f34a0b6d09f96.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 3.093619205429832e-05,
+      "energy_abs_diff": 1.545604979558135e-06,
+      "ood_score_abs_diff": 1.773879005795287e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/2b8a2c5a6fbfb820.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 6.11088869248988e-05,
+      "energy_abs_diff": 1.002919403969571e-06,
+      "ood_score_abs_diff": 1.1510429241967657e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/32334500580f435c.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 9.603667894708678e-06,
+      "energy_abs_diff": 1.0341085556753171e-06,
+      "ood_score_abs_diff": 1.1868384749424976e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/3772ab02f43f4849.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 0.00026275921946705694,
+      "energy_abs_diff": 2.6469287250918683e-07,
+      "ood_score_abs_diff": 3.0378598392388767e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/3a0e246371d30da5.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 6.000492926716561e-05,
+      "energy_abs_diff": 5.52392916297606e-07,
+      "ood_score_abs_diff": 6.339771222996227e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/3b631e420a956753.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 7.039379407558499e-05,
+      "energy_abs_diff": 1.3839119721303916e-06,
+      "ood_score_abs_diff": 1.5883051787124458e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/3be04eed0142b8b2.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.384185791015625e-07,
+      "embedding_max_abs_diff": 4.172325134277344e-07,
+      "mahalanobis_abs_diff": 1.0399366530577936e-05,
+      "energy_abs_diff": 9.659823652086175e-08,
+      "ood_score_abs_diff": 1.1086505680157899e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/3d756fc69a8977ee.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 6.296915448444906e-05,
+      "energy_abs_diff": 8.949602849916971e-07,
+      "ood_score_abs_diff": 1.0271390695204552e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/6cbe4291d3967f0d.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.86102294921875e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00012185467596736999,
+      "energy_abs_diff": 1.0338226910100445e-06,
+      "ood_score_abs_diff": 1.1865103899388885e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/74e6d06213e73942.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.5033950805664062e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 2.933707037300337e-07,
+      "energy_abs_diff": 1.7060036561211689e-06,
+      "ood_score_abs_diff": 1.957967339261124e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/786738c88d7beac6.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 2.4022477447260826e-05,
+      "energy_abs_diff": 7.921063414073615e-07,
+      "ood_score_abs_diff": 9.09094385659337e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/7f6ec52cf69ef5bc.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.86102294921875e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 6.433778000314305e-05,
+      "energy_abs_diff": 1.673501546228806e-07,
+      "ood_score_abs_diff": 1.92066491710996e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/a15551ac2851204e.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 3.944580425496724e-05,
+      "energy_abs_diff": 7.481371886441934e-07,
+      "ood_score_abs_diff": 8.586313255953826e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/aaa0f53614f546f7.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 4.880130290985107e-07,
+      "embedding_max_abs_diff": 4.172325134277344e-07,
+      "mahalanobis_abs_diff": 5.0202273484956095e-05,
+      "energy_abs_diff": 1.7335137236784703e-07,
+      "ood_score_abs_diff": 1.9895404329561828e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/b7a6b048df114481.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.0265579223632812e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 2.9876817499996378e-05,
+      "energy_abs_diff": 1.5964173671889625e-06,
+      "ood_score_abs_diff": 1.8321959941447474e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/ba025c7de19d976a.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 3.2348518512748115e-05,
+      "energy_abs_diff": 9.218345766726088e-07,
+      "ood_score_abs_diff": 1.0579824883949485e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/ba4acf8127323d29.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 2.5938350020737744e-05,
+      "energy_abs_diff": 2.9943266532939106e-07,
+      "ood_score_abs_diff": 3.4365657830548457e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/c1f746ba7fc1c749.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 4.373840891958025e-05,
+      "energy_abs_diff": 7.703804021375049e-07,
+      "ood_score_abs_diff": 8.841596914610506e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/c2ea3cf94a384d8d.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 3.114519432756424e-05,
+      "energy_abs_diff": 2.6881334047601513e-07,
+      "ood_score_abs_diff": 3.085150135362369e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/c78837639d2312d1.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.6226043701171875e-06,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 2.954061714888212e-05,
+      "energy_abs_diff": 1.973578058755976e-06,
+      "ood_score_abs_diff": 2.2650604332152824e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/cbc7014153f5a5be.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 1.5497207641601562e-06,
+      "mahalanobis_abs_diff": 2.421058582058322e-05,
+      "energy_abs_diff": 2.9526647660205185e-07,
+      "ood_score_abs_diff": 3.3887507533414407e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/ce3983cb744f5b15.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 3.814697265625e-06,
+      "embedding_max_abs_diff": 2.86102294921875e-06,
+      "mahalanobis_abs_diff": 0.00014517862632601464,
+      "energy_abs_diff": 3.4520411622551705e-06,
+      "ood_score_abs_diff": 2.1825418459187063e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/d1d7a4a078e3879c.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00012291820510768048,
+      "energy_abs_diff": 7.450255554708463e-07,
+      "ood_score_abs_diff": 8.550601280354897e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/d5231d907e67bbab.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 6.868470746468347e-05,
+      "energy_abs_diff": 1.0651494370961245e-06,
+      "ood_score_abs_diff": 1.2224638568092416e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/e4ebcbcaa80afd9f.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 3.864658098251539e-05,
+      "energy_abs_diff": 1.364601144970834e-06,
+      "ood_score_abs_diff": 1.5661422901880329e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/e5ced5af9520e60b.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 0.00010618546807705798,
+      "energy_abs_diff": 1.4036837185926743e-06,
+      "ood_score_abs_diff": 1.6109970608635393e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/e71f007fcaf15683.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 1.3204697296487211e-05,
+      "energy_abs_diff": 2.8538107432751758e-08,
+      "ood_score_abs_diff": 3.275296750482326e-08,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/ef38c510d208f4fa.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 5.066394805908203e-07,
+      "embedding_max_abs_diff": 2.980232238769531e-07,
+      "mahalanobis_abs_diff": 2.3928509989445956e-05,
+      "energy_abs_diff": 1.1549092437945774e-07,
+      "ood_score_abs_diff": 1.3254804998030778e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/f58d87b282938a31.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 3.454198122199159e-05,
+      "energy_abs_diff": 7.385858706854265e-07,
+      "ood_score_abs_diff": 8.476693511560995e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/f8cb4786de4084ef.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 7.748772416960037e-05,
+      "energy_abs_diff": 1.0474140723637504e-06,
+      "ood_score_abs_diff": 1.20210911447316e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/fb72c5a11c505202.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00013039741827469697,
+      "energy_abs_diff": 1.2042345787222075e-07,
+      "ood_score_abs_diff": 1.9603286598446346e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/fbad2af9b0fdcd5f.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.6093254089355469e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 8.310980341263985e-05,
+      "energy_abs_diff": 1.0146366400398676e-06,
+      "ood_score_abs_diff": 1.1644907062999255e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/1023c3154dd0516f.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 4.4896436705244014e-05,
+      "energy_abs_diff": 2.5383095314523985e-07,
+      "ood_score_abs_diff": 2.9131984224939345e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/14d35aa37968a2e3.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00011023491140349506,
+      "energy_abs_diff": 5.671405891582992e-07,
+      "ood_score_abs_diff": 6.509029135681743e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/1688db989275e1f3.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00010173410015568152,
+      "energy_abs_diff": 1.2123553156939693e-06,
+      "ood_score_abs_diff": 1.5294188706604928e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/2493f8de5290fc24.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 6.109476089477539e-07,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 6.186318302070504e-06,
+      "energy_abs_diff": 4.93099753029469e-07,
+      "ood_score_abs_diff": 5.659268125235428e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/260703fdadc5704c.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 4.1849135172356e-05,
+      "energy_abs_diff": 1.6538577574110036e-07,
+      "ood_score_abs_diff": 1.898119890153538e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/316c6097ee52add5.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 3.814697265625e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 9.783616832237385e-06,
+      "energy_abs_diff": 1.5796997088202147e-06,
+      "ood_score_abs_diff": 1.47081934187554e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/58e6146e45aac6dc.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 3.5762786865234375e-07,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 0.00011047416427345524,
+      "energy_abs_diff": 3.2263881566407804e-07,
+      "ood_score_abs_diff": 3.702900994717595e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/5e05195f78680814.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 8.720649307747408e-05,
+      "energy_abs_diff": 1.4418557281459243e-07,
+      "ood_score_abs_diff": 1.6548067838240144e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/5f18bc7c3c35fa8d.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 4.4195573856598e-05,
+      "energy_abs_diff": 3.971541371328158e-07,
+      "ood_score_abs_diff": 4.558107637997466e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/66ce74a48e780ce5.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00010844573060353468,
+      "energy_abs_diff": 1.6551184445212641e-06,
+      "ood_score_abs_diff": 1.8995667714349906e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/6acf7b32ec57a231.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 3.969512088275451e-05,
+      "energy_abs_diff": 1.8989607397656982e-07,
+      "ood_score_abs_diff": 2.1794227067495342e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/70edd169b871c4fe.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.0004001691073085567,
+      "energy_abs_diff": 7.135884896314337e-07,
+      "ood_score_abs_diff": 6.0159394270620226e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/72e19dee6f2ceebb.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 1.927273284252351e-05,
+      "energy_abs_diff": 1.504798268214813e-07,
+      "ood_score_abs_diff": 1.7270454555351478e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/76eda6105564182b.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.384185791015625e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 1.1871161973431299e-05,
+      "energy_abs_diff": 1.1667027788320183e-07,
+      "ood_score_abs_diff": 1.3390158493109539e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/785de1d01a4dfb3b.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 2.3057245869040344e-05,
+      "energy_abs_diff": 3.0090528202464384e-07,
+      "ood_score_abs_diff": 3.4534668902352905e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/791826fd9683c48d.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 7.503624894411587e-05,
+      "energy_abs_diff": 3.939394073171343e-07,
+      "ood_score_abs_diff": 4.5212124266669207e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/7af8efbb6d5acf10.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.0265579223632812e-06,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 7.56118375306869e-05,
+      "energy_abs_diff": 1.9107111803862153e-07,
+      "ood_score_abs_diff": 2.1929085980421092e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/81d66ee820f21481.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 3.32426075146941e-05,
+      "energy_abs_diff": 2.2534276666874575e-08,
+      "ood_score_abs_diff": 2.5862416874744554e-08,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/86d242255be0920e.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 1.0365889806962514e-05,
+      "energy_abs_diff": 6.745898950555329e-08,
+      "ood_score_abs_diff": 7.742216601158702e-08,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/882ea4f3d3d845d0.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 6.144036032651456e-05,
+      "energy_abs_diff": 1.381931509225609e-06,
+      "ood_score_abs_diff": 1.5860322164495955e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/8ad2ca8b7ddd11e2.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.4901161193847656e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.0001135421152582694,
+      "energy_abs_diff": 9.20863845177422e-07,
+      "ood_score_abs_diff": 1.0568683873057871e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/8d3035296c71b3b1.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 5.364418029785156e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 1.9842504670464223e-05,
+      "energy_abs_diff": 3.456839845483728e-07,
+      "ood_score_abs_diff": 3.9673886342850295e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/908124bbe2739813.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 2.419950192233955e-06,
+      "energy_abs_diff": 1.009539243312929e-06,
+      "ood_score_abs_diff": 1.15864046312808e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/aadb473018b88b8e.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 4.172325134277344e-07,
+      "mahalanobis_abs_diff": 7.691965740264095e-05,
+      "energy_abs_diff": 3.7098335070595567e-07,
+      "ood_score_abs_diff": 4.257747523439548e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/ac7e9d7a8aa2ac08.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.1771917343139648e-06,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 5.2402302131326906e-05,
+      "energy_abs_diff": 2.7317779549562715e-07,
+      "ood_score_abs_diff": 3.135240651541693e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/ba7a42d1d2389d86.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00023649479558685016,
+      "energy_abs_diff": 9.075967781768668e-07,
+      "ood_score_abs_diff": 3.5553428264778475e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/c047aff379d79faf.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 9.72642855003869e-05,
+      "energy_abs_diff": 7.336873273366962e-07,
+      "ood_score_abs_diff": 8.420473303072384e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/c089cd998494dfa3.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 1.7773777798879564e-05,
+      "energy_abs_diff": 1.4700738848461015e-07,
+      "ood_score_abs_diff": 2.6720196188989576e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/c60d9a0be2884592.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 6.192354149447965e-06,
+      "energy_abs_diff": 7.438099371981366e-07,
+      "ood_score_abs_diff": 8.536649722667988e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/ca73fbbdd6f64760.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 1.430511474609375e-06,
+      "mahalanobis_abs_diff": 0.00013364670029147874,
+      "energy_abs_diff": 4.373190742867905e-07,
+      "ood_score_abs_diff": 2.009176717887584e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/e6a79e88362c76d9.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00010149342794818494,
+      "energy_abs_diff": 1.249335923603212e-08,
+      "ood_score_abs_diff": 1.5258007266538698e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/ee6356bb39ab0066.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 5.075374729557325e-05,
+      "energy_abs_diff": 3.459619057899488e-07,
+      "ood_score_abs_diff": 3.970578315026785e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/f8be85c846c012a8.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 2.719344261237211e-05,
+      "energy_abs_diff": 7.452728780776852e-07,
+      "ood_score_abs_diff": 8.553439783121064e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/ff4e1e4068c064a1.jpg",
+      "domain": "id",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 0.00012935515250944718,
+      "energy_abs_diff": 7.149354637192573e-07,
+      "ood_score_abs_diff": 8.205259599547432e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000260.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00020018055533910228,
+      "energy_abs_diff": 6.445171671920491e-07,
+      "ood_score_abs_diff": 3.009412953502988e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000314.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 3.6550786262523616e-05,
+      "energy_abs_diff": 3.246623325736664e-07,
+      "ood_score_abs_diff": 5.4948598560145e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000363.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00027171010015081265,
+      "energy_abs_diff": 4.263707531482197e-07,
+      "ood_score_abs_diff": 4.084751857202917e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000388.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 3.5762786865234375e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.0002538730195169592,
+      "energy_abs_diff": 2.9446016958090127e-07,
+      "ood_score_abs_diff": 3.8165982325644165e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000532.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00017732448986862437,
+      "energy_abs_diff": 3.0634297809584154e-07,
+      "ood_score_abs_diff": 2.6658064564699657e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000602.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00021403301218470006,
+      "energy_abs_diff": 1.067222564987702e-06,
+      "ood_score_abs_diff": 3.2176637656533558e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000676.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00032108567819477685,
+      "energy_abs_diff": 1.4305114743873304e-06,
+      "ood_score_abs_diff": 4.827039258303856e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000817.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0004041367539002749,
+      "energy_abs_diff": 1.0843006803540334e-06,
+      "ood_score_abs_diff": 6.075587013931738e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_001051.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00019846483030505624,
+      "energy_abs_diff": 5.005604490904147e-07,
+      "ood_score_abs_diff": 2.9836196140387017e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_001235.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0002978116276608489,
+      "energy_abs_diff": 6.021841261194538e-07,
+      "ood_score_abs_diff": 4.477148985770896e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_001299.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 2.384185791015625e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0007118260567722245,
+      "energy_abs_diff": 1.3026086076450838e-07,
+      "ood_score_abs_diff": 1.0701231957455093e-05,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_001498.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00016312879381530365,
+      "energy_abs_diff": 3.2571490615751486e-07,
+      "ood_score_abs_diff": 2.4523955612920645e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_001510.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00017834354758861082,
+      "energy_abs_diff": 6.61900127596482e-07,
+      "ood_score_abs_diff": 7.59657710625028e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_001613.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00033118215583272104,
+      "energy_abs_diff": 3.665381997919326e-07,
+      "ood_score_abs_diff": 4.978824583279362e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_001689.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00047289791268667614,
+      "energy_abs_diff": 1.3099372537794807e-06,
+      "ood_score_abs_diff": 7.109307405883669e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_001973.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 2.86102294921875e-06,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.000338943109113643,
+      "energy_abs_diff": 1.5367821915024393e-06,
+      "ood_score_abs_diff": 5.095498818885602e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_002164.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.000104435290040783,
+      "energy_abs_diff": 3.153315786263988e-07,
+      "ood_score_abs_diff": 1.5700271898122509e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_002190.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 6.83280605926484e-05,
+      "energy_abs_diff": 2.3808053528640016e-07,
+      "ood_score_abs_diff": 2.732432081986591e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_002245.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.605420589447021e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00019651727620839665,
+      "energy_abs_diff": 3.3563505130729254e-07,
+      "ood_score_abs_diff": 2.954341073335698e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_002275.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.960464477539063e-08,
+      "embedding_max_abs_diff": 3.5762786865234375e-07,
+      "mahalanobis_abs_diff": 9.84638671468474e-05,
+      "energy_abs_diff": 3.0574756948453796e-08,
+      "ood_score_abs_diff": 3.5090414546301574e-08,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_002599.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.00046528128837053373,
+      "energy_abs_diff": 5.142284738024472e-07,
+      "ood_score_abs_diff": 6.99480293775423e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_002689.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.00037825208517006104,
+      "energy_abs_diff": 1.185104258061287e-06,
+      "ood_score_abs_diff": 5.686450030406576e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_002819.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.0132789611816406e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00013585786359726626,
+      "energy_abs_diff": 3.830575558971816e-07,
+      "ood_score_abs_diff": 2.0424182256562062e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_002961.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.00030801562934357207,
+      "energy_abs_diff": 9.536743159621608e-07,
+      "ood_score_abs_diff": 4.630550772155573e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_003199.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00020955088490381968,
+      "energy_abs_diff": 4.0797573697126666e-07,
+      "ood_score_abs_diff": 3.1502817368078695e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_003255.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 0.00010838424248049705,
+      "energy_abs_diff": 8.853209787496041e-07,
+      "ood_score_abs_diff": 1.0160761114708095e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_003342.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 3.6266888514546736e-05,
+      "energy_abs_diff": 8.467783405574636e-07,
+      "ood_score_abs_diff": 5.452180105169901e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_003573.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00044401733498489193,
+      "energy_abs_diff": 4.756015934415103e-07,
+      "ood_score_abs_diff": 6.675131445810223e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_003621.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00025522615408135607,
+      "energy_abs_diff": 6.791054576460454e-07,
+      "ood_score_abs_diff": 3.836940571488867e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_003741.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 3.5762786865234375e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00040336941515306535,
+      "energy_abs_diff": 8.855661559614703e-08,
+      "ood_score_abs_diff": 6.064051232712586e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_003937.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00015115822469624618,
+      "energy_abs_diff": 9.63807396558991e-07,
+      "ood_score_abs_diff": 1.1061543726542666e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_004129.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 1.5497207641601562e-06,
+      "mahalanobis_abs_diff": 0.0011666477201970338,
+      "energy_abs_diff": 1.788642440603283e-06,
+      "ood_score_abs_diff": 1.753879019794624e-05,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_004147.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 0.000765128577768337,
+      "energy_abs_diff": 7.045181926734756e-07,
+      "ood_score_abs_diff": 1.150255502935238e-05,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_004283.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 8.968550059762492e-05,
+      "energy_abs_diff": 5.27844116415821e-07,
+      "ood_score_abs_diff": 1.3482863350233742e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_004359.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0007129295215690945,
+      "energy_abs_diff": 2.7589263784655316e-07,
+      "ood_score_abs_diff": 1.071782088857276e-05,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_004519.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00011988849166755244,
+      "energy_abs_diff": 6.565125663104965e-07,
+      "ood_score_abs_diff": 1.8023427861280084e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_004614.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.00032740761139393726,
+      "energy_abs_diff": 1.1851745016500104e-06,
+      "ood_score_abs_diff": 4.922079996028117e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_004746.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00021654211400345957,
+      "energy_abs_diff": 3.946091409190444e-07,
+      "ood_score_abs_diff": 3.255384330103084e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_004981.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 7.313933355135305e-05,
+      "energy_abs_diff": 4.412059873004637e-08,
+      "ood_score_abs_diff": 1.0995396504398514e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_005118.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.0005000261278382823,
+      "energy_abs_diff": 5.949095926993664e-07,
+      "ood_score_abs_diff": 7.517139234636261e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_005387.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.940696716308594e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00010314374253539427,
+      "energy_abs_diff": 6.321137822062894e-07,
+      "ood_score_abs_diff": 1.5506107194085406e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_005449.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 1.8436725213177851e-06,
+      "energy_abs_diff": 6.076183654002421e-07,
+      "ood_score_abs_diff": 2.7716837713853693e-08,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_005628.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 6.556510925292969e-07,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.0001983388345934145,
+      "energy_abs_diff": 5.808553991126786e-07,
+      "ood_score_abs_diff": 2.981725458539586e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_005650.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 9.031158793959548e-05,
+      "energy_abs_diff": 4.76837158203125e-07,
+      "ood_score_abs_diff": 1.3576986144236969e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_005654.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00017375658387663862,
+      "energy_abs_diff": 6.105025174285572e-07,
+      "ood_score_abs_diff": 7.006690667943349e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_005663.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 6.0531734959567984e-05,
+      "energy_abs_diff": 9.5367431640625e-07,
+      "ood_score_abs_diff": 9.100034068509899e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_006111.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.5497207641601562e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00014670148181039622,
+      "energy_abs_diff": 1.0563812551378504e-06,
+      "ood_score_abs_diff": 2.2054356829670496e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_006229.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.0001298979328794303,
+      "energy_abs_diff": 7.592214692486721e-07,
+      "ood_score_abs_diff": 1.9528196495421923e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_006348.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.0004488713318551163,
+      "energy_abs_diff": 3.7790473594867535e-07,
+      "ood_score_abs_diff": 6.7481039742745e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_006424.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 2.384185791015625e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.0002066137739120677,
+      "energy_abs_diff": 2.0305709180767906e-07,
+      "ood_score_abs_diff": 3.1061266998477777e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_006597.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00030719171081727836,
+      "energy_abs_diff": 6.120067048698274e-07,
+      "ood_score_abs_diff": 4.618164399339264e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_006875.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0004135517159511437,
+      "energy_abs_diff": 1.085875471096287e-06,
+      "ood_score_abs_diff": 6.2171267787292095e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_006948.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00017830862628898103,
+      "energy_abs_diff": 1.2655330778876817e-06,
+      "ood_score_abs_diff": 2.6806014643554477e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_007191.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00012596881003901217,
+      "energy_abs_diff": 2.616062046989498e-07,
+      "ood_score_abs_diff": 1.893751209181005e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_007317.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 3.5762786865234375e-07,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 1.659630541439583e-05,
+      "energy_abs_diff": 8.860233613461332e-08,
+      "ood_score_abs_diff": 1.0168822306422243e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_007444.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0003738045763839182,
+      "energy_abs_diff": 5.983560167344137e-07,
+      "ood_score_abs_diff": 5.619588439031986e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_007697.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00035097801065830936,
+      "energy_abs_diff": 1.2443613819357324e-06,
+      "ood_score_abs_diff": 5.276425425693176e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_007825.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0006249919779293123,
+      "energy_abs_diff": 8.55659088583316e-07,
+      "ood_score_abs_diff": 9.395812452517305e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_007871.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 1.2466261239296728e-05,
+      "energy_abs_diff": 9.039850121794757e-07,
+      "ood_score_abs_diff": 1.0374966798454288e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_007945.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00040058414487020855,
+      "energy_abs_diff": 5.90823735269197e-07,
+      "ood_score_abs_diff": 6.022178891118557e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_008144.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00018557769453764195,
+      "energy_abs_diff": 1.5534107189463242e-07,
+      "ood_score_abs_diff": 2.789880950260226e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_008215.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00019649978594316053,
+      "energy_abs_diff": 3.5593218550289407e-07,
+      "ood_score_abs_diff": 2.95407813410975e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_008411.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0003040041511894742,
+      "energy_abs_diff": 6.714513252070731e-07,
+      "ood_score_abs_diff": 4.570244243495836e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_008532.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.0003501661337850237,
+      "energy_abs_diff": 7.852749261960668e-07,
+      "ood_score_abs_diff": 5.264220081180326e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_008552.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 0.00036309558220182225,
+      "energy_abs_diff": 3.97217275072137e-07,
+      "ood_score_abs_diff": 5.458594851237564e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_008562.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 5.026022427045973e-05,
+      "energy_abs_diff": 2.678619854812325e-07,
+      "ood_score_abs_diff": 7.555867238551173e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_008746.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00011113181744804024,
+      "energy_abs_diff": 8.975319176762753e-08,
+      "ood_score_abs_diff": 1.670699385059038e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_009173.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 0.00018300524834558018,
+      "energy_abs_diff": 4.768371579810804e-07,
+      "ood_score_abs_diff": 2.751208098672464e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_009239.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 9.936859237313911e-05,
+      "energy_abs_diff": 7.152557373046875e-07,
+      "ood_score_abs_diff": 1.4938570265243811e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_009352.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00010552658227425127,
+      "energy_abs_diff": 5.2178561915638966e-08,
+      "ood_score_abs_diff": 1.5864331235349027e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_009375.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00011600186746818508,
+      "energy_abs_diff": 3.817624971702571e-07,
+      "ood_score_abs_diff": 1.7439132489194265e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_009563.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00022159678098887525,
+      "energy_abs_diff": 6.59515577705605e-08,
+      "ood_score_abs_diff": 3.331373630288681e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_009889.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.0132789611816406e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00017894229745252233,
+      "energy_abs_diff": 4.5531161285694566e-07,
+      "ood_score_abs_diff": 5.225576533707255e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_009896.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 6.984863125580887e-05,
+      "energy_abs_diff": 5.651454220156893e-07,
+      "ood_score_abs_diff": 1.050068901164991e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_009921.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00026161948295566617,
+      "energy_abs_diff": 3.69699293845116e-07,
+      "ood_score_abs_diff": 3.933054635307798e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000024.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00041782119001254614,
+      "energy_abs_diff": 1.1920928955078125e-06,
+      "ood_score_abs_diff": 6.281311886624508e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000040.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0001380466029559102,
+      "energy_abs_diff": 1.0103658087956546e-07,
+      "ood_score_abs_diff": 2.075322623085185e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000131.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00028294104879478255,
+      "energy_abs_diff": 3.5651789520585453e-07,
+      "ood_score_abs_diff": 4.253592243652626e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000185.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0003041933966869692,
+      "energy_abs_diff": 3.658759260005695e-07,
+      "ood_score_abs_diff": 4.573089264603425e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000280.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 3.8831412950912636e-05,
+      "energy_abs_diff": 2.7797671453555495e-07,
+      "ood_score_abs_diff": 3.1903174779746024e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000287.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 9.052062702608055e-05,
+      "energy_abs_diff": 4.268674542728945e-07,
+      "ood_score_abs_diff": 1.3608412021692828e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000343.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.811452865600586e-07,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 7.689337974170485e-05,
+      "energy_abs_diff": 4.384145957381236e-07,
+      "ood_score_abs_diff": 5.031650761391782e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000394.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00015000034116496863,
+      "energy_abs_diff": 3.6130712599558024e-07,
+      "ood_score_abs_diff": 4.1466942325533995e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000400.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00023657225784745606,
+      "energy_abs_diff": 3.355073565636246e-07,
+      "ood_score_abs_diff": 3.5565073548682324e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000473.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00038788196110317585,
+      "energy_abs_diff": 3.902944643030537e-07,
+      "ood_score_abs_diff": 5.831220701857376e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000570.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00013955247956687344,
+      "energy_abs_diff": 5.773477242954073e-07,
+      "ood_score_abs_diff": 6.626175644841581e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000572.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00013486420249364528,
+      "energy_abs_diff": 6.5453025932527e-07,
+      "ood_score_abs_diff": 2.0274800283104355e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000611.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 4.996031464088446e-05,
+      "energy_abs_diff": 1.5690291019776481e-06,
+      "ood_score_abs_diff": 1.800762691850366e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000656.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 2.384185791015625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 4.1932216419127144e-05,
+      "energy_abs_diff": 2.2026770185590294e-07,
+      "ood_score_abs_diff": 2.5279955562229617e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000706.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 6.556510925292969e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00027772070984610764,
+      "energy_abs_diff": 1.982841157932569e-07,
+      "ood_score_abs_diff": 4.175112314541707e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000723.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 8.702903318180688e-05,
+      "energy_abs_diff": 3.8564536497531776e-07,
+      "ood_score_abs_diff": 4.4260223386327624e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000860.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00012086721864079664,
+      "energy_abs_diff": 3.5763108252595543e-07,
+      "ood_score_abs_diff": 4.1045045629656274e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000869.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00015351093281879002,
+      "energy_abs_diff": 5.420036668368766e-07,
+      "ood_score_abs_diff": 6.220534602419114e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000912.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.0001812059181531822,
+      "energy_abs_diff": 3.4123087866433366e-07,
+      "ood_score_abs_diff": 3.916280678639694e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_000942.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 8.007814929555934e-05,
+      "energy_abs_diff": 7.350038253584046e-07,
+      "ood_score_abs_diff": 8.435582650179185e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001047.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 4.087387185336411e-05,
+      "energy_abs_diff": 5.6883665333629096e-08,
+      "ood_score_abs_diff": 6.144770612337425e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001072.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.564621925354004e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 4.5569551190283164e-05,
+      "energy_abs_diff": 9.106626865929002e-07,
+      "ood_score_abs_diff": 1.0451605956876553e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001116.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.0006591192554878944,
+      "energy_abs_diff": 7.195785645119912e-07,
+      "ood_score_abs_diff": 9.908864636809511e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001166.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 3.8743019104003906e-07,
+      "embedding_max_abs_diff": 3.5762786865234375e-07,
+      "mahalanobis_abs_diff": 4.6062380306466366e-05,
+      "energy_abs_diff": 3.2967570895436893e-07,
+      "ood_score_abs_diff": 3.783662880230132e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001243.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 6.556510925292969e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00020066995728029724,
+      "energy_abs_diff": 5.845038173468708e-07,
+      "ood_score_abs_diff": 6.708305577141083e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001281.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 6.109476089477539e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 1.465607346062825e-05,
+      "energy_abs_diff": 3.699323816164224e-07,
+      "ood_score_abs_diff": 4.2456856308437096e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001357.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00022967185941524804,
+      "energy_abs_diff": 3.6214367282738635e-07,
+      "ood_score_abs_diff": 3.4527702643671887e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001379.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1324882507324219e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00018966251707297488,
+      "energy_abs_diff": 9.772345448411102e-07,
+      "ood_score_abs_diff": 2.851290100691628e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001422.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.0007247225166793214,
+      "energy_abs_diff": 6.648134571740627e-07,
+      "ood_score_abs_diff": 1.0895110797548568e-05,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001477.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00011702134349889093,
+      "energy_abs_diff": 6.609674043644986e-07,
+      "ood_score_abs_diff": 1.7592395344934175e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001488.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0005104923583871823,
+      "energy_abs_diff": 7.5241839581075e-07,
+      "ood_score_abs_diff": 7.674483237352092e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001534.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.940696716308594e-07,
+      "embedding_max_abs_diff": 4.172325134277344e-07,
+      "mahalanobis_abs_diff": 3.725476869931299e-05,
+      "energy_abs_diff": 7.111707760465436e-07,
+      "ood_score_abs_diff": 8.162052567428635e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001586.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 0.00010161153608123641,
+      "energy_abs_diff": 5.064373818086665e-07,
+      "ood_score_abs_diff": 1.527576304560796e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001621.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 6.556510925292969e-07,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.0004957809937877755,
+      "energy_abs_diff": 5.95190290608727e-07,
+      "ood_score_abs_diff": 7.4533200420390244e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001739.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00011337536909650225,
+      "energy_abs_diff": 2.9356211728170933e-07,
+      "ood_score_abs_diff": 1.704427804449793e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001756.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.5497207641601562e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00012802392689081898,
+      "energy_abs_diff": 2.5368943656900456e-07,
+      "ood_score_abs_diff": 2.9115742478103e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001822.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00019364958097867202,
+      "energy_abs_diff": 2.2299748203558067e-07,
+      "ood_score_abs_diff": 2.91122959761303e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001877.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.0003185654139770122,
+      "energy_abs_diff": 4.974710599014998e-07,
+      "ood_score_abs_diff": 4.789150884088045e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001902.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.000326010177104763,
+      "energy_abs_diff": 4.153463026845827e-07,
+      "ood_score_abs_diff": 4.901071677387847e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_001906.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00024586524023106904,
+      "energy_abs_diff": 6.247807231574143e-07,
+      "ood_score_abs_diff": 3.696213339399179e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002002.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.972121238708496e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00024178389998041894,
+      "energy_abs_diff": 5.024949958354341e-07,
+      "ood_score_abs_diff": 5.767096609154976e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002038.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.0002096696494504613,
+      "energy_abs_diff": 2.95247251091979e-07,
+      "ood_score_abs_diff": 3.388530104009302e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002107.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 1.430511474609375e-06,
+      "mahalanobis_abs_diff": 0.00011876861668724814,
+      "energy_abs_diff": 6.572829391870982e-08,
+      "ood_score_abs_diff": 1.7855071539063516e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002109.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.000188044143726529,
+      "energy_abs_diff": 3.216293444907592e-07,
+      "ood_score_abs_diff": 3.691315371007198e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002182.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 2.384185791015625e-07,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 4.3805303562294284e-06,
+      "energy_abs_diff": 4.2913366637975514e-08,
+      "ood_score_abs_diff": 4.925134244881946e-08,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002186.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.0001127942434209217,
+      "energy_abs_diff": 5.412380847946707e-07,
+      "ood_score_abs_diff": 6.211748075912737e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002283.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 0.00012412807978989804,
+      "energy_abs_diff": 2.562092440427932e-07,
+      "ood_score_abs_diff": 1.86607860408472e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002380.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00014953096132330757,
+      "energy_abs_diff": 7.859563562195859e-07,
+      "ood_score_abs_diff": 9.020360947076256e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002443.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 5.364418029785156e-07,
+      "mahalanobis_abs_diff": 0.00012226866860487462,
+      "energy_abs_diff": 6.522908870820743e-07,
+      "ood_score_abs_diff": 7.486292588204657e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002466.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 4.020269642523999e-06,
+      "energy_abs_diff": 6.420546880825384e-07,
+      "ood_score_abs_diff": 7.368812515728962e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002518.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0001767803388474931,
+      "energy_abs_diff": 2.1868096156119066e-07,
+      "ood_score_abs_diff": 2.509784658988323e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002544.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.172325134277344e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00017860082132870048,
+      "energy_abs_diff": 3.6103332190506876e-07,
+      "ood_score_abs_diff": 4.1435518038923647e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002616.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.0007121351179080193,
+      "energy_abs_diff": 8.503339874454952e-07,
+      "ood_score_abs_diff": 1.0705878227490473e-05,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002641.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00024325166828020883,
+      "energy_abs_diff": 9.100377746928956e-07,
+      "ood_score_abs_diff": 3.6569222241489285e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002703.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 4.9992818986766e-05,
+      "energy_abs_diff": 2.519331290251614e-07,
+      "ood_score_abs_diff": 2.891417240080685e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002775.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.0001255312846808465,
+      "energy_abs_diff": 2.0750941631675346e-07,
+      "ood_score_abs_diff": 2.381569689235974e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002825.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 5.7103749213638366e-05,
+      "energy_abs_diff": 4.1726859478785627e-07,
+      "ood_score_abs_diff": 4.78895972710891e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002849.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 1.6689300537109375e-06,
+      "mahalanobis_abs_diff": 0.0008616353700290347,
+      "energy_abs_diff": 7.035229869778448e-07,
+      "ood_score_abs_diff": 1.2953389205705435e-05,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002910.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0003889529018010762,
+      "energy_abs_diff": 8.211579460848384e-08,
+      "ood_score_abs_diff": 5.8473206814291245e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002942.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00010057159278176186,
+      "energy_abs_diff": 3.113655488995448e-07,
+      "ood_score_abs_diff": 3.5735185749397047e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_002975.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.172325134277344e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 3.8086139795723284e-05,
+      "energy_abs_diff": 2.600962978327459e-07,
+      "ood_score_abs_diff": 2.9851053040541586e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003016.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 0.00014535715740748856,
+      "energy_abs_diff": 1.32151028786609e-07,
+      "ood_score_abs_diff": 2.1852257914289908e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003045.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00011085112188879975,
+      "energy_abs_diff": 4.312743273615638e-07,
+      "ood_score_abs_diff": 4.94970244777071e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003092.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 1.6915313494791917e-05,
+      "energy_abs_diff": 5.57589213467935e-07,
+      "ood_score_abs_diff": 6.399408728208211e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003128.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00018236125265502778,
+      "energy_abs_diff": 2.9617515373558945e-07,
+      "ood_score_abs_diff": 2.7415265940744504e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003186.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00011763613881043966,
+      "energy_abs_diff": 7.459806377063671e-07,
+      "ood_score_abs_diff": 8.561562686026924e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003217.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.0002705744827835588,
+      "energy_abs_diff": 3.3705333191136333e-07,
+      "ood_score_abs_diff": 3.868335294310299e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003289.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00012108639805319399,
+      "energy_abs_diff": 9.53527088842776e-07,
+      "ood_score_abs_diff": 1.0943557420817207e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003335.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.00012294116319822024,
+      "energy_abs_diff": 7.946452895701839e-07,
+      "ood_score_abs_diff": 9.120083170888194e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003382.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00016142784602379834,
+      "energy_abs_diff": 9.431670719983742e-07,
+      "ood_score_abs_diff": 2.426824374429648e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003413.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 3.5762786865234375e-07,
+      "mahalanobis_abs_diff": 0.00011948385861160205,
+      "energy_abs_diff": 2.988086160726766e-07,
+      "ood_score_abs_diff": 3.4294036174720155e-07,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003473.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 2.1457672119140625e-06,
+      "mahalanobis_abs_diff": 0.0008335056340911251,
+      "energy_abs_diff": 4.028765898667075e-07,
+      "ood_score_abs_diff": 1.2530501020791007e-05,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003554.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.00020604754263331415,
+      "energy_abs_diff": 3.5485107963140194e-08,
+      "ood_score_abs_diff": 3.097614261093895e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003607.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 8.344650268554688e-07,
+      "embedding_max_abs_diff": 4.172325134277344e-07,
+      "mahalanobis_abs_diff": 9.65551384410901e-05,
+      "energy_abs_diff": 4.642409394683966e-07,
+      "ood_score_abs_diff": 1.4515609865206613e-06,
+      "pass": true
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/oxford_pets_test_003627.jpg",
+      "domain": "easy",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 8.556575266993605e-06,
+      "energy_abs_diff": 2.98526114050901e-07,
+      "ood_score_abs_diff": 3.42616136336793e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f403.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.0002145069648236131,
+      "energy_abs_diff": 1.4227426385904351e-06,
+      "ood_score_abs_diff": 1.632870837431355e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f403.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.00029070524416852095,
+      "energy_abs_diff": 1.1351691280303555e-06,
+      "ood_score_abs_diff": 1.302824920279555e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f404.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6093254089355469e-06,
+      "embedding_max_abs_diff": 1.1324882507324219e-06,
+      "mahalanobis_abs_diff": 0.00030324592813713025,
+      "energy_abs_diff": 1.485167401948928e-06,
+      "ood_score_abs_diff": 1.704515260554651e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f404.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0003696024490977834,
+      "energy_abs_diff": 1.173214033922676e-06,
+      "ood_score_abs_diff": 1.3464887675951331e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f407.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.0265579223632812e-06,
+      "embedding_max_abs_diff": 1.2516975402832031e-06,
+      "mahalanobis_abs_diff": 0.00015462120572351523,
+      "energy_abs_diff": 1.9754430349294694e-06,
+      "ood_score_abs_diff": 2.267200852223983e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f407.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 3.099309611798162e-05,
+      "energy_abs_diff": 7.902148584371105e-07,
+      "ood_score_abs_diff": 9.06923545151983e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f408.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00011026879502651354,
+      "energy_abs_diff": 4.1188325150542937e-07,
+      "ood_score_abs_diff": 4.7271525541181525e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f408.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 6.348215400464596e-05,
+      "energy_abs_diff": 1.825648345388231e-06,
+      "ood_score_abs_diff": 2.0952826334519337e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f409.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.175569534301758e-06,
+      "embedding_max_abs_diff": 1.7881393432617188e-06,
+      "mahalanobis_abs_diff": 0.0006957384937322786,
+      "energy_abs_diff": 8.300788625348332e-07,
+      "ood_score_abs_diff": 1.0459379694793824e-05,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f409.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 5.960464477539062e-07,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00013705585183743096,
+      "energy_abs_diff": 4.3468702415339067e-07,
+      "ood_score_abs_diff": 2.0604281729674767e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f40a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 4.4856438648821495e-05,
+      "energy_abs_diff": 1.1262274890455615e-06,
+      "ood_score_abs_diff": 6.743489513461043e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f40a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.0265579223632812e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0005032201726749008,
+      "energy_abs_diff": 1.2038824019899863e-06,
+      "ood_score_abs_diff": 7.565156884936641e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f410.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 6.282524003609069e-05,
+      "energy_abs_diff": 2.2527515719517055e-07,
+      "ood_score_abs_diff": 2.5854657381696455e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f410.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 1.2218952178955078e-06,
+      "mahalanobis_abs_diff": 0.00019648494816237871,
+      "energy_abs_diff": 1.5546002609667653e-06,
+      "ood_score_abs_diff": 1.7842028214309913e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f411.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.2202730178833008e-06,
+      "embedding_max_abs_diff": 1.5497207641601562e-06,
+      "mahalanobis_abs_diff": 0.0003479180731176257,
+      "energy_abs_diff": 2.1934492839825737e-06,
+      "ood_score_abs_diff": 2.5174049557707967e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f411.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.559274435043335e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 1.216118317870496e-05,
+      "energy_abs_diff": 1.6732193679480645e-06,
+      "ood_score_abs_diff": 1.9203410626812255e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f412.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.814697265625e-06,
+      "embedding_max_abs_diff": 1.9073486328125e-06,
+      "mahalanobis_abs_diff": 0.0002637469083879296,
+      "energy_abs_diff": 7.78850064442338e-08,
+      "ood_score_abs_diff": 3.9650372704036485e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f412.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 0.0003261569070218684,
+      "energy_abs_diff": 1.7224852377761835e-07,
+      "ood_score_abs_diff": 4.903277540435624e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f415.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 4.76837158203125e-06,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.00022558389770210852,
+      "energy_abs_diff": 2.984546099149554e-08,
+      "ood_score_abs_diff": 3.4253407110718115e-08,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f415.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 4.291534423828125e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 0.000657142314594239,
+      "energy_abs_diff": 1.5509010826697534e-06,
+      "ood_score_abs_diff": 1.7799573028831617e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f418.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.7418136596679688e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00016983580536589216,
+      "energy_abs_diff": 1.0885900658674785e-06,
+      "ood_score_abs_diff": 1.2493664871549015e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f418.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00016790370688113399,
+      "energy_abs_diff": 2.505698324384298e-07,
+      "ood_score_abs_diff": 2.5241791825614257e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f41a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.0001043669226419297,
+      "energy_abs_diff": 9.249975014835599e-07,
+      "ood_score_abs_diff": 1.0616125529772091e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f41a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 1.1324882507324219e-06,
+      "mahalanobis_abs_diff": 7.364829264133732e-05,
+      "energy_abs_diff": 9.271345815520249e-07,
+      "ood_score_abs_diff": 1.0640652634563708e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f41b.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0003637370557498798,
+      "energy_abs_diff": 1.143911496193084e-06,
+      "ood_score_abs_diff": 5.468238438943729e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f41b.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.814697265625e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.0003462383820078685,
+      "energy_abs_diff": 1.4571122470830034e-06,
+      "ood_score_abs_diff": 5.2051722518875465e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f422.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0004255289375123539,
+      "energy_abs_diff": 3.708076388164727e-07,
+      "ood_score_abs_diff": 6.3971862536149615e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f422.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 0.0003296933414276282,
+      "energy_abs_diff": 4.56655698810593e-07,
+      "ood_score_abs_diff": 4.956442501757863e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f425.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 7.788926552620978e-06,
+      "energy_abs_diff": 6.52082051466607e-07,
+      "ood_score_abs_diff": 7.483895798077178e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f425.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.8067657947540283e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 5.932919609108467e-05,
+      "energy_abs_diff": 1.2060850682615865e-06,
+      "ood_score_abs_diff": 1.3842146021209034e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f426.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 6.89560193336547e-05,
+      "energy_abs_diff": 8.323714266733617e-07,
+      "ood_score_abs_diff": 9.553063158307395e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f426.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0003655113494005491,
+      "energy_abs_diff": 7.976546274601759e-07,
+      "ood_score_abs_diff": 5.494912270087582e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f429.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.86102294921875e-06,
+      "embedding_max_abs_diff": 1.3709068298339844e-06,
+      "mahalanobis_abs_diff": 0.0002859722365826656,
+      "energy_abs_diff": 1.9076319768274175e-06,
+      "ood_score_abs_diff": 2.1893746198764497e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f429.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.0003588244725278855,
+      "energy_abs_diff": 1.875024085107313e-06,
+      "ood_score_abs_diff": 2.151950792006474e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f42d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.5762786865234375e-06,
+      "embedding_max_abs_diff": 1.8477439880371094e-06,
+      "mahalanobis_abs_diff": 8.813873171220621e-05,
+      "energy_abs_diff": 2.4247296579460453e-06,
+      "ood_score_abs_diff": 2.782843670862123e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f42d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-07,
+      "embedding_max_abs_diff": 4.76837158203125e-07,
+      "mahalanobis_abs_diff": 7.659061162712533e-05,
+      "energy_abs_diff": 2.384185788795179e-07,
+      "ood_score_abs_diff": 2.7363117816037175e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f431.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 0.00017676153828460883,
+      "energy_abs_diff": 1.5565434714481796e-06,
+      "ood_score_abs_diff": 1.7864330292410857e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f431.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 3.345428746115431e-05,
+      "energy_abs_diff": 7.112986657453746e-07,
+      "ood_score_abs_diff": 8.163520347492792e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f432.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0002213219281657075,
+      "energy_abs_diff": 7.794017831130873e-08,
+      "ood_score_abs_diff": 3.3272416324336973e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f432.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.0007323338370497368,
+      "energy_abs_diff": 9.822185815799855e-07,
+      "ood_score_abs_diff": 1.10095355285722e-05,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f436.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 1.1324882507324219e-06,
+      "mahalanobis_abs_diff": 0.00044523872423951616,
+      "energy_abs_diff": 1.2276587231241365e-06,
+      "ood_score_abs_diff": 1.4089745206113946e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f436.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.5762786865234375e-06,
+      "embedding_max_abs_diff": 1.430511474609375e-06,
+      "mahalanobis_abs_diff": 0.00037777579490239077,
+      "energy_abs_diff": 7.819896112870595e-07,
+      "ood_score_abs_diff": 5.679289724280778e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f437.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 5.245208740234375e-06,
+      "embedding_max_abs_diff": 2.5033950805664062e-06,
+      "mahalanobis_abs_diff": 0.00037036640082988015,
+      "energy_abs_diff": 7.228023624072932e-07,
+      "ood_score_abs_diff": 5.567900651315405e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f437.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00021312900025804993,
+      "energy_abs_diff": 4.302444658321747e-07,
+      "ood_score_abs_diff": 3.204073308893385e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f438.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0006487725427177793,
+      "energy_abs_diff": 3.4652346736496753e-07,
+      "ood_score_abs_diff": 9.753317403493611e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f438.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.0007669917339399035,
+      "energy_abs_diff": 1.1021340857730877e-06,
+      "ood_score_abs_diff": 1.153056477676273e-05,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f43a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 5.0067901611328125e-06,
+      "embedding_max_abs_diff": 1.9073486328125e-06,
+      "mahalanobis_abs_diff": 1.344567783689854e-05,
+      "energy_abs_diff": 3.0770593375528676e-06,
+      "ood_score_abs_diff": 3.531517451582644e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f43a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.0005276203122548395,
+      "energy_abs_diff": 7.879338939087432e-07,
+      "ood_score_abs_diff": 7.93197620962971e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f43c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 1.7881393432617188e-06,
+      "mahalanobis_abs_diff": 0.0003650069562581848,
+      "energy_abs_diff": 2.2286275971339364e-06,
+      "ood_score_abs_diff": 5.487329479247904e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f43c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.0005466159724392128,
+      "energy_abs_diff": 7.088676683419948e-07,
+      "ood_score_abs_diff": 8.217547331712538e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f43e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 1.3709068298339844e-06,
+      "mahalanobis_abs_diff": 0.00010713726925359879,
+      "energy_abs_diff": 1.337210611129791e-06,
+      "ood_score_abs_diff": 1.6106473749166739e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f43e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.337860107421875e-06,
+      "embedding_max_abs_diff": 1.5497207641601562e-06,
+      "mahalanobis_abs_diff": 0.000864636503138172,
+      "energy_abs_diff": 1.6644240019569878e-06,
+      "ood_score_abs_diff": 1.2998506717210034e-05,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f47a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.86102294921875e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00023803283295364963,
+      "energy_abs_diff": 6.088324813191548e-07,
+      "ood_score_abs_diff": 3.5784649004000357e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f47a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00028066451375252655,
+      "energy_abs_diff": 3.5440108381301627e-07,
+      "ood_score_abs_diff": 4.219367970570431e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f47b.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 3.144969508639406e-05,
+      "energy_abs_diff": 1.0253104623103582e-06,
+      "ood_score_abs_diff": 1.176740970422474e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f47b.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.682209014892578e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 0.00029964225956291557,
+      "energy_abs_diff": 1.3199269417452086e-06,
+      "ood_score_abs_diff": 1.514870049068584e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f47e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.3581087589263916e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0006314949044963214,
+      "energy_abs_diff": 1.3965069525223583e-06,
+      "ood_score_abs_diff": 9.493574152585893e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f47e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.5033950805664062e-06,
+      "embedding_max_abs_diff": 1.2516975402832031e-06,
+      "mahalanobis_abs_diff": 0.0001868583684654368,
+      "energy_abs_diff": 1.5922261371592583e-06,
+      "ood_score_abs_diff": 2.8091339525637693e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f601.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00010279864861217902,
+      "energy_abs_diff": 1.4421810101694632e-07,
+      "ood_score_abs_diff": 1.6551801074182748e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f601.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 7.296003195733647e-05,
+      "energy_abs_diff": 6.418150655385091e-07,
+      "ood_score_abs_diff": 1.0968441211955948e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f604.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 6.556510925292969e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 1.6371106880797015e-05,
+      "energy_abs_diff": 5.838740892993854e-07,
+      "ood_score_abs_diff": 6.701078236748259e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f604.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00012279229744649456,
+      "energy_abs_diff": 4.4196150073005924e-07,
+      "ood_score_abs_diff": 5.072358318924941e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f605.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 3.833317623502808e-05,
+      "energy_abs_diff": 3.7138633612876504e-07,
+      "ood_score_abs_diff": 4.26237255601869e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f605.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 9.565888373685993e-05,
+      "energy_abs_diff": 1.2528025328251147e-06,
+      "ood_score_abs_diff": 1.4378318786700817e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f607.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 4.9822942798982695e-05,
+      "energy_abs_diff": 2.925565993905366e-07,
+      "ood_score_abs_diff": 7.490128559606291e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f607.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00012447530235704107,
+      "energy_abs_diff": 8.7681988825139e-07,
+      "ood_score_abs_diff": 1.8712985722091346e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f608.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.0006714730950534431,
+      "energy_abs_diff": 1.5026101252146873e-08,
+      "ood_score_abs_diff": 1.0094585995545913e-05,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f608.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.049041748046875e-05,
+      "embedding_max_abs_diff": 2.86102294921875e-06,
+      "mahalanobis_abs_diff": 0.0005193144520490023,
+      "energy_abs_diff": 1.170505881664674e-06,
+      "ood_score_abs_diff": 7.807110119273375e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f60b.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.5497207641601562e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00013246885671946984,
+      "energy_abs_diff": 5.042424597867523e-07,
+      "ood_score_abs_diff": 5.787152117520122e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f60b.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00011600789366639219,
+      "energy_abs_diff": 1.0878416001336433e-06,
+      "ood_score_abs_diff": 1.2485074787349504e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f60c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.5497207641601562e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00023520011336586322,
+      "energy_abs_diff": 8.784870202394046e-07,
+      "ood_score_abs_diff": 1.008232829668998e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f60c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 8.046627044677734e-07,
+      "mahalanobis_abs_diff": 0.00010839433002729493,
+      "energy_abs_diff": 1.444582472309719e-06,
+      "ood_score_abs_diff": 1.6295453890702305e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f60e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.337860107421875e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 6.89733687977423e-05,
+      "energy_abs_diff": 1.0621210684291782e-06,
+      "ood_score_abs_diff": 1.0369106490104585e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f60e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00020523353452972515,
+      "energy_abs_diff": 7.456101021041661e-07,
+      "ood_score_abs_diff": 8.557310076789948e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f610.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.5497207641601562e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 5.116318769182726e-05,
+      "energy_abs_diff": 7.384321392134297e-07,
+      "ood_score_abs_diff": 8.474929147350707e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f610.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 1.9599845700213336e-05,
+      "energy_abs_diff": 1.108976327657274e-06,
+      "ood_score_abs_diff": 1.2727636437559475e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f612.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.00011636663816716464,
+      "energy_abs_diff": 1.241177019162265e-06,
+      "ood_score_abs_diff": 1.4244893655757096e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f612.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0001115951255883374,
+      "energy_abs_diff": 1.1069200684943326e-06,
+      "ood_score_abs_diff": 1.6776645264116041e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f613.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.2649765014648438e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 2.627987589676195e-05,
+      "energy_abs_diff": 1.070455271090509e-06,
+      "ood_score_abs_diff": 1.228553321963588e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f613.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 2.286446050447921e-05,
+      "energy_abs_diff": 7.561628629915162e-07,
+      "ood_score_abs_diff": 8.678423306651695e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f616.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 3.6228930127890635e-05,
+      "energy_abs_diff": 3.39940257276794e-07,
+      "ood_score_abs_diff": 5.446473632098048e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f616.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.834766387939453e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 4.4740431235368305e-05,
+      "energy_abs_diff": 8.253765981791616e-07,
+      "ood_score_abs_diff": 6.726049548433366e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f61d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 0.00022999389489086752,
+      "energy_abs_diff": 4.919754403864829e-07,
+      "ood_score_abs_diff": 3.457611582158293e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f61d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.5497207641601562e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 7.737370964377988e-05,
+      "energy_abs_diff": 8.037614995792808e-07,
+      "ood_score_abs_diff": 9.224709214827875e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f622.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00010945973662046526,
+      "energy_abs_diff": 8.478829793823195e-07,
+      "ood_score_abs_diff": 9.731088062014948e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f622.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00024740766193076524,
+      "energy_abs_diff": 1.2732414944593984e-06,
+      "ood_score_abs_diff": 1.4612895185006636e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f623.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 7.152557373046875e-07,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 2.2079374843997357e-05,
+      "energy_abs_diff": 1.2075695421387422e-07,
+      "ood_score_abs_diff": 1.385918322327484e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f623.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00017933982434215068,
+      "energy_abs_diff": 9.59535835232117e-07,
+      "ood_score_abs_diff": 2.6961039729656022e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f626.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00023486766326641373,
+      "energy_abs_diff": 1.0681094104736388e-06,
+      "ood_score_abs_diff": 1.2258609956017352e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f626.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 6.698437732666207e-05,
+      "energy_abs_diff": 5.865939813887167e-07,
+      "ood_score_abs_diff": 6.732294228761759e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f627.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 2.4554132210141688e-05,
+      "energy_abs_diff": 1.0440473872108669e-06,
+      "ood_score_abs_diff": 1.198245195732639e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f627.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 8.046627044677734e-07,
+      "mahalanobis_abs_diff": 1.9534485204530938e-05,
+      "energy_abs_diff": 1.2558944382234927e-06,
+      "ood_score_abs_diff": 1.4413804347856995e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f62c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.2649765014648438e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.000201492551695992,
+      "energy_abs_diff": 3.3220488782070845e-07,
+      "ood_score_abs_diff": 3.8126900725465873e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f62c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1026859283447266e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00022851434283666094,
+      "energy_abs_diff": 8.217935874021975e-07,
+      "ood_score_abs_diff": 3.435368746917966e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f62d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.4901161193847656e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00011541980040874478,
+      "energy_abs_diff": 9.313417783651801e-07,
+      "ood_score_abs_diff": 1.735162748150998e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f62d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.2218952178955078e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00016396783632899314,
+      "energy_abs_diff": 8.363434411684523e-07,
+      "ood_score_abs_diff": 2.465009300678389e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f62e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.5497207641601562e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00010872246474491476,
+      "energy_abs_diff": 4.713765953123783e-07,
+      "ood_score_abs_diff": 5.409953107715637e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f62e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.0265579223632812e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 2.1811177987274277e-05,
+      "energy_abs_diff": 1.3258676920813173e-06,
+      "ood_score_abs_diff": 1.5216882027213607e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f630.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 0.00024556320664714804,
+      "energy_abs_diff": 8.338612214053853e-07,
+      "ood_score_abs_diff": 9.570161418892553e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f630.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 4.920467409874618e-05,
+      "energy_abs_diff": 6.306308764081336e-07,
+      "ood_score_abs_diff": 7.237702304152549e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f635.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6689300537109375e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00013678780760528753,
+      "energy_abs_diff": 4.7271305358975724e-07,
+      "ood_score_abs_diff": 2.0563985321242484e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f635.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.0004403987414889343,
+      "energy_abs_diff": 9.609349702621728e-07,
+      "ood_score_abs_diff": 6.6207313461630335e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f995.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.5367431640625e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0002778124326141551,
+      "energy_abs_diff": 8.314163917333417e-07,
+      "ood_score_abs_diff": 4.17649122930186e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f995.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.043081283569336e-06,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.0004880406580696217,
+      "energy_abs_diff": 1.010568327686201e-06,
+      "ood_score_abs_diff": 7.336955760273156e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f996.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.1920928955078125e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00036404000024958805,
+      "energy_abs_diff": 1.0064751378990877e-06,
+      "ood_score_abs_diff": 5.472792753202782e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f996.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.430511474609375e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 4.81637457596662e-05,
+      "energy_abs_diff": 5.016924011780333e-07,
+      "ood_score_abs_diff": 7.240693298271594e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f426.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.5497207641601562e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.0004017544885073221,
+      "energy_abs_diff": 3.6685444104733733e-07,
+      "ood_score_abs_diff": 6.039773243760038e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f408.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.5033950805664062e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00024174593852421822,
+      "energy_abs_diff": 6.870218238752557e-07,
+      "ood_score_abs_diff": 3.634285846487728e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f404.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.5033950805664062e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 0.00042679385967403505,
+      "energy_abs_diff": 1.6637893289761507e-06,
+      "ood_score_abs_diff": 1.9095182791639687e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f415.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.337860107421875e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 1.773103917912522e-05,
+      "energy_abs_diff": 1.0758910538033462e-06,
+      "ood_score_abs_diff": 1.2347919282618136e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f409.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.3113021850585938e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.0002626463983688154,
+      "energy_abs_diff": 8.212948041652623e-07,
+      "ood_score_abs_diff": 3.948492760863509e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f438.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 9.283859094466607e-05,
+      "energy_abs_diff": 8.477832587061584e-07,
+      "ood_score_abs_diff": 1.3956882956023264e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f47b.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 0.0004484682222596348,
+      "energy_abs_diff": 6.620696280101868e-07,
+      "ood_score_abs_diff": 7.598522449026035e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f47a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.3187527656555176e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00033651265664502716,
+      "energy_abs_diff": 5.944385157441445e-07,
+      "ood_score_abs_diff": 5.058960628190334e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f412.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.86102294921875e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00052792266671986,
+      "energy_abs_diff": 1.5210326667070007e-06,
+      "ood_score_abs_diff": 7.936521653206796e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f43c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.0003455584520111188,
+      "energy_abs_diff": 1.1150438135043572e-06,
+      "ood_score_abs_diff": 1.2797272508358049e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f407.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.6226043701171875e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 0.00045125037217985664,
+      "energy_abs_diff": 1.849197558190241e-06,
+      "ood_score_abs_diff": 6.783869259008313e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f995.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 4.603751904141973e-07,
+      "energy_abs_diff": 3.1209279249821975e-07,
+      "ood_score_abs_diff": 6.921047734920194e-09,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f996.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 4.76837158203125e-07,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.0003282670782027708,
+      "energy_abs_diff": 3.63577807860338e-07,
+      "ood_score_abs_diff": 4.935000784023202e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f43a.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.86102294921875e-06,
+      "embedding_max_abs_diff": 1.1920928955078125e-06,
+      "mahalanobis_abs_diff": 0.00013742569421992812,
+      "energy_abs_diff": 2.409352193311065e-06,
+      "ood_score_abs_diff": 2.765195072362836e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f47e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7583370208740234e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 0.0005246324363952226,
+      "energy_abs_diff": 1.6648501395266635e-06,
+      "ood_score_abs_diff": 7.887057999145242e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f627.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.205371856689453e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00011107046228175932,
+      "energy_abs_diff": 7.465716276300327e-07,
+      "ood_score_abs_diff": 8.568345432058422e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f630.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 0.00022566072811969207,
+      "energy_abs_diff": 2.2684136724571147e-07,
+      "ood_score_abs_diff": 2.6034410094410987e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f601.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 4.0622142932988936e-05,
+      "energy_abs_diff": 5.402483926886248e-07,
+      "ood_score_abs_diff": 6.200389455202071e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f431.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.0001199411529455574,
+      "energy_abs_diff": 2.8086801462379185e-07,
+      "ood_score_abs_diff": 3.223500708027238e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f616.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6577541828155518e-06,
+      "embedding_max_abs_diff": 7.152557373046875e-07,
+      "mahalanobis_abs_diff": 1.842700021370547e-05,
+      "energy_abs_diff": 6.4463738524978e-07,
+      "ood_score_abs_diff": 7.398453933382676e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f622.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.8014183044433594e-06,
+      "embedding_max_abs_diff": 1.0132789611816406e-06,
+      "mahalanobis_abs_diff": 4.395690942260444e-05,
+      "energy_abs_diff": 7.283775056432518e-07,
+      "ood_score_abs_diff": 8.359532885915399e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f436.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.7418136596679688e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 9.699666156848252e-05,
+      "energy_abs_diff": 1.096893609942029e-06,
+      "ood_score_abs_diff": 1.4581986214068365e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f613.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.0936131477355957e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 2.5704788924940658e-05,
+      "energy_abs_diff": 9.59277102863254e-07,
+      "ood_score_abs_diff": 1.1009549891749515e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f432.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.0728836059570312e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00029879856663228566,
+      "energy_abs_diff": 8.46896118567031e-07,
+      "ood_score_abs_diff": 4.49198612506585e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f60b.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.996755599975586e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 9.695941912468697e-06,
+      "energy_abs_diff": 6.708132083144136e-07,
+      "ood_score_abs_diff": 7.69887185114726e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f62e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.0265579223632812e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0001001893396903597,
+      "energy_abs_diff": 1.789524046724722e-07,
+      "ood_score_abs_diff": 2.0538230516287115e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f425.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.0265579223632812e-06,
+      "embedding_max_abs_diff": 7.450580596923828e-07,
+      "mahalanobis_abs_diff": 6.46813174540739e-05,
+      "energy_abs_diff": 9.462037797725031e-07,
+      "ood_score_abs_diff": 1.0859508363103565e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f626.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.6226043701171875e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0002037494265891837,
+      "energy_abs_diff": 6.683995532608122e-07,
+      "ood_score_abs_diff": 7.671170516587722e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f62c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.337860107421875e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00012947464642820705,
+      "energy_abs_diff": 9.011580712758871e-07,
+      "ood_score_abs_diff": 1.0342522214212835e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f604.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.2649765014648438e-06,
+      "embedding_max_abs_diff": 8.940696716308594e-07,
+      "mahalanobis_abs_diff": 0.00011283589628874324,
+      "energy_abs_diff": 9.0400817387426e-07,
+      "ood_score_abs_diff": 1.0375232623038855e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f605.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.9073486328125e-06,
+      "embedding_max_abs_diff": 6.556510925292969e-07,
+      "mahalanobis_abs_diff": 4.1864254797019385e-05,
+      "energy_abs_diff": 4.82360193565512e-07,
+      "ood_score_abs_diff": 5.536011025153442e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f635.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.115964889526367e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 6.735018916970148e-05,
+      "energy_abs_diff": 1.1052418811274833e-06,
+      "ood_score_abs_diff": 1.2684776480309523e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f62d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 3.337860107421875e-06,
+      "embedding_max_abs_diff": 1.3113021850585938e-06,
+      "mahalanobis_abs_diff": 0.00012249100882399944,
+      "energy_abs_diff": 2.156995695834496e-06,
+      "ood_score_abs_diff": 1.8414677089850784e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f42d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7881393432617188e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.0002509787344990855,
+      "energy_abs_diff": 1.2497750121465145e-06,
+      "ood_score_abs_diff": 1.4343572163344476e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f610.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.7418136596679688e-06,
+      "embedding_max_abs_diff": 7.748603820800781e-07,
+      "mahalanobis_abs_diff": 0.00013218827874084127,
+      "energy_abs_diff": 1.8059552187033034e-07,
+      "ood_score_abs_diff": 2.0726809835114324e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f623.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.7285346984863281e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 6.634357447410366e-06,
+      "energy_abs_diff": 9.70754981288735e-07,
+      "ood_score_abs_diff": 1.1141280623905292e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f437.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 9.387731552124023e-07,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00018054679361512171,
+      "energy_abs_diff": 4.833860673958412e-07,
+      "ood_score_abs_diff": 2.7142489371634326e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f60c.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6093254089355469e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 8.07433300451521e-05,
+      "energy_abs_diff": 9.469479196333452e-07,
+      "ood_score_abs_diff": 1.0868048799378416e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f607.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 1.0728836059570312e-06,
+      "mahalanobis_abs_diff": 0.00019809728939890192,
+      "energy_abs_diff": 6.84004221707113e-07,
+      "ood_score_abs_diff": 2.9780941905865888e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f608.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.4901161193847656e-06,
+      "embedding_max_abs_diff": 9.5367431640625e-07,
+      "mahalanobis_abs_diff": 0.00045842186352729186,
+      "energy_abs_diff": 1.472974850647013e-06,
+      "ood_score_abs_diff": 6.89168182343991e-06,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f60e.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 1.6093254089355469e-06,
+      "embedding_max_abs_diff": 5.960464477539062e-07,
+      "mahalanobis_abs_diff": 2.7563456683310505e-05,
+      "energy_abs_diff": 6.341920792962696e-07,
+      "ood_score_abs_diff": 7.278573956881473e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f61d.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.1457672119140625e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 9.388134051846464e-05,
+      "energy_abs_diff": 3.11150539111793e-07,
+      "ood_score_abs_diff": 3.571050923856234e-07,
+      "pass": true
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f612.png",
+      "domain": "hard",
+      "logit_max_abs_diff": 2.384185791015625e-06,
+      "embedding_max_abs_diff": 8.344650268554688e-07,
+      "mahalanobis_abs_diff": 9.498615725078707e-07,
+      "energy_abs_diff": 5.077626616944997e-07,
+      "ood_score_abs_diff": 5.827553206660951e-07,
+      "pass": true
+    }
+  ]
+}

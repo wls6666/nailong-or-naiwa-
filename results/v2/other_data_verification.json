@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "original_targets": 491,
+  "other_images": 900,
+  "statistics": {
+    "cifar100/train": 300,
+    "cifar100/val": 75,
+    "cifar100/test": 75,
+    "oxford_pets/train": 300,
+    "oxford_pets/val": 75,
+    "oxford_pets/test": 75
+  },
+  "manifest_sha256": "44248c470b7a30bd19c47b91d03b6e5eb42658e3c3acb5dfac36cf57c6af6952",
+  "byte_and_pixel_cross_split_duplicates": 0,
+  "duplicate_source_ids": 0,
+  "limitation": "Exact decoded-pixel/source/byte checks do not prove absence of all perceptually similar scenes."
+}

@@ -1,0 +1,1 @@
+{'status': 'PASS', 'count': 372, 'model_sha256': '780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3', 'max_logit_difference': 1.049041748046875e-05, 'max_embedding_difference': 2.86102294921875e-06, 'max_mahalanobis_difference': 0.0011666477201970338, 'max_ood_score_difference': 1.753879019794624e-05}

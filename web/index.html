@@ -22,11 +22,11 @@
       <p id="error" class="error" role="alert" hidden></p>
       <button id="predict-button" class="primary" disabled><span>开始识别</span><span aria-hidden="true">↗</span></button>
       <button id="retry-button" class="retry" hidden>重新加载模型</button>
-      <section id="result" class="result" aria-live="polite" hidden><div class="result-top"><span>02 / 识别结果</span><span id="result-note">CNN 预测</span></div><div class="prediction"><h2 id="prediction-name"></h2><div class="confidence"><strong id="confidence-value"></strong><span id="confidence-label">模型置信度</span></div></div><div id="confidence-bar" class="bar" role="meter" aria-label="预测类别置信度" aria-valuemin="0" aria-valuemax="100"><div id="confidence-fill"></div></div><p id="probability-detail"></p></section>
+      <section id="result" class="result" aria-live="polite" hidden><div class="result-top"><span>02 / 识别结果</span><span id="result-note">CNN 预测</span></div><div class="prediction"><h2 id="prediction-name"></h2><div class="confidence"><strong id="confidence-value"></strong><span id="confidence-label">模型置信度</span></div></div><div id="confidence-bar" class="bar" role="meter" aria-label="预测类别置信度" aria-valuemin="0" aria-valuemax="100"><div id="confidence-fill"></div></div><p id="probability-detail"></p><details class="advanced"><summary>高级信息</summary><pre id="advanced-info"></pre></details></section>
     </section>
     <p class="hint">小提示：尽量选择主体清晰的图片；模型也会尝试识别“都不是”。</p>
-    <p class="hint">“都不是”基于有限负样本训练，无法覆盖现实世界中的所有图片。</p>
-    <details class="about"><summary>它是如何判断的？</summary><p>这是一个从零训练的小型 CNN。图片在浏览器中转换为 128 × 128 的 RGB tensor，再由 ONNX Runtime Web 执行真实模型推理，再应用验证集校准的拒识阈值。页面没有服务器端预测接口。</p><p>模型可以识别奶龙、奶蛙，并尝试拒绝其他图片。“都不是”能力基于有限负样本训练，无法覆盖现实世界中的所有图片。低置信度拒识时显示最高目标类概率，不会将其伪装成“都不是”的置信度。softmax 概率不代表经过校准的正确率。</p></details>
+    <p class="hint">“都不是”基于有限数据的特征分布检测，无法覆盖现实世界中的所有图片。</p>
+    <details class="about"><summary>它是如何判断的？</summary><p>四层小型 CNN 在浏览器输出分类 logits 和 256 维特征，再使用特征距离与 Energy 分数判断是否属于已知域。统计参数由训练集拟合，拒识阈值只由验证集校准。图片不会上传给预测服务器。</p><p>模型经过真实负样本曝光训练，并非所有图片都强制二选一。有限数据无法覆盖所有未知图片，仍可能高置信度误判。“都不是”不显示伪造的概率；通过检测后的百分比仅表示奶龙 / 奶蛙两类中的 softmax 概率。</p></details>
   </main>
   <footer><span>一点好奇心，一次本地推理。</span><span>PyTorch → ONNX → Your browser</span></footer>
 </body>

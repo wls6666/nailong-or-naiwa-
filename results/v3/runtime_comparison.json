@@ -1,0 +1,21 @@
+{
+  "engine": "Chromium WASM, single thread, this CPU environment only",
+  "input_image": "data/NaiwaOrNailong-dataset/data/test/nailong/01077fe178865f28.jpg",
+  "selection_affected": false,
+  "models": [
+    {
+      "name": "Custom CNN + OE",
+      "model_bytes": 1558506,
+      "median_ms": 19.100000000093132,
+      "warmup": 3,
+      "measured_runs": 10
+    },
+    {
+      "name": "MobileNetV3-Small pretrained frozen + PCA128",
+      "model_bytes": 4014459,
+      "median_ms": 8.449999999720603,
+      "warmup": 3,
+      "measured_runs": 10
+    }
+  ]
+}

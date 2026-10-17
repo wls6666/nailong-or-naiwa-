@@ -1,0 +1,3793 @@
+[
+  {
+    "image": "nailong/01077fe178865f28.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      7.73133659362793,
+      -7.449490547180176,
+      -10.007102966308594
+    ],
+    "probabilities": [
+      0.9999997249171708,
+      2.5529976941518667e-07,
+      1.978305972261427e-08
+    ]
+  },
+  {
+    "image": "nailong/0125cfcdb412fa3c.jpg",
+    "label": 0,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.698596477508545,
+      2.0680489540100098,
+      -2.7442448139190674
+    ],
+    "probabilities": [
+      0.008369621613220284,
+      0.9836342270775976,
+      0.007996151309181918
+    ]
+  },
+  {
+    "image": "nailong/0720f0eba7cfc1dc.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.273510932922363,
+      -4.231459140777588,
+      -6.048092842102051
+    ],
+    "probabilities": [
+      0.9997646814769591,
+      0.00020241198256345583,
+      3.2906540477611315e-05
+    ]
+  },
+  {
+    "image": "nailong/0b352bf250e8c5ec.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.3912792205810547,
+      -3.3591175079345703,
+      -5.976913928985596
+    ],
+    "probabilities": [
+      0.9987457623463323,
+      0.0011689472127857715,
+      8.5290440882087e-05
+    ]
+  },
+  {
+    "image": "nailong/0cd2cd1cfc9b3f8a.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      5.311620235443115,
+      -5.389370918273926,
+      -7.867185115814209
+    ],
+    "probabilities": [
+      0.9999755877498387,
+      2.2522053657022973e-05,
+      1.8901965042295224e-06
+    ]
+  },
+  {
+    "image": "nailong/10ad1f8214443674.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.4130935668945312,
+      -4.151336193084717,
+      -2.4765288829803467
+    ],
+    "probabilities": [
+      0.9967241717581904,
+      0.0005168742384851956,
+      0.002758954003324269
+    ]
+  },
+  {
+    "image": "nailong/11068bdd92395890.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      2.647740364074707,
+      -3.4278740882873535,
+      -2.3581314086914062
+    ],
+    "probabilities": [
+      0.9910834866582926,
+      0.002277741366591632,
+      0.0066387719751158005
+    ]
+  },
+  {
+    "image": "nailong/162f34a0b6d09f96.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.921433687210083,
+      -3.655677080154419,
+      -7.176767826080322
+    ],
+    "probabilities": [
+      0.9994730997564218,
+      0.000511768693010149,
+      1.5131550568097734e-05
+    ]
+  },
+  {
+    "image": "nailong/2b8a2c5a6fbfb820.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.7380523681640625,
+      -4.009149074554443,
+      -10.959680557250977
+    ],
+    "probabilities": [
+      0.9998409676346263,
+      0.0001588801382155783,
+      1.5222715811283296e-07
+    ]
+  },
+  {
+    "image": "nailong/32334500580f435c.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.301361083984375,
+      -3.761934995651245,
+      -9.132072448730469
+    ],
+    "probabilities": [
+      0.9996837475226767,
+      0.00031478761578800795,
+      1.4648615351610403e-06
+    ]
+  },
+  {
+    "image": "nailong/3772ab02f43f4849.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.8960185050964355,
+      -5.387613296508789,
+      -6.938770771026611
+    ],
+    "probabilities": [
+      0.9999585656094535,
+      3.41867219330758e-05,
+      7.247668613444122e-06
+    ]
+  },
+  {
+    "image": "nailong/3a0e246371d30da5.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.5159692764282227,
+      -3.405095338821411,
+      -7.469619274139404
+    ],
+    "probabilities": [
+      0.9989972834690498,
+      0.0009857893818633133,
+      1.6927149086939086e-05
+    ]
+  },
+  {
+    "image": "nailong/3b631e420a956753.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      6.774224758148193,
+      -6.338639259338379,
+      -11.043991088867188
+    ],
+    "probabilities": [
+      0.99999796264875,
+      2.0190851304941314e-06,
+      1.8266119538725052e-08
+    ]
+  },
+  {
+    "image": "nailong/3be04eed0142b8b2.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      0.710885226726532,
+      -2.180983781814575,
+      -2.0422422885894775
+    ],
+    "probabilities": [
+      0.8934948146531788,
+      0.04956433499812683,
+      0.0569408503486943
+    ]
+  },
+  {
+    "image": "nailong/3d756fc69a8977ee.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      5.174043655395508,
+      -5.17195987701416,
+      -8.113459587097168
+    ],
+    "probabilities": [
+      0.9999661846895141,
+      3.211981757799117e-05,
+      1.6954929077481771e-06
+    ]
+  },
+  {
+    "image": "nailong/6cbe4291d3967f0d.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.585443496704102,
+      -3.9832537174224854,
+      -10.888228416442871
+    ],
+    "probabilities": [
+      0.9998098856955846,
+      0.0001899238517302105,
+      1.9045268507756616e-07
+    ]
+  },
+  {
+    "image": "nailong/74e6d06213e73942.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.220371723175049,
+      -3.9853899478912354,
+      -8.045280456542969
+    ],
+    "probabilities": [
+      0.9997222906843852,
+      0.00027299982086538744,
+      4.709494749294413e-06
+    ]
+  },
+  {
+    "image": "nailong/786738c88d7beac6.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.700711250305176,
+      -3.3914828300476074,
+      -7.594677925109863
+    ],
+    "probabilities": [
+      0.9991567108021642,
+      0.0008308695746395569,
+      1.2419623196301053e-05
+    ]
+  },
+  {
+    "image": "nailong/7f6ec52cf69ef5bc.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.1449389457702637,
+      -2.656942129135132,
+      -9.86711597442627
+    ],
+    "probabilities": [
+      0.996985019311859,
+      0.0030127541764358775,
+      2.2265117049405317e-06
+    ]
+  },
+  {
+    "image": "nailong/a15551ac2851204e.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.8158140182495117,
+      -3.109973192214966,
+      -10.013237953186035
+    ],
+    "probabilities": [
+      0.9990178493473777,
+      0.0009811650717040166,
+      9.855809184295933e-07
+    ]
+  },
+  {
+    "image": "nailong/aaa0f53614f546f7.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      0.011275348253548145,
+      -0.947843611240387,
+      -2.8963801860809326
+    ],
+    "probabilities": [
+      0.695490590308077,
+      0.2665331223531492,
+      0.03797628733877368
+    ]
+  },
+  {
+    "image": "nailong/b7a6b048df114481.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.174313068389893,
+      -3.7532122135162354,
+      -8.42035961151123
+    ],
+    "probabilities": [
+      0.9996360645847405,
+      0.00036054662203713485,
+      3.388793222347054e-06
+    ]
+  },
+  {
+    "image": "nailong/ba025c7de19d976a.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      2.9355111122131348,
+      -2.6011526584625244,
+      -6.513948440551758
+    ],
+    "probabilities": [
+      0.9959977021432247,
+      0.003923880861783849,
+      7.841699499140414e-05
+    ]
+  },
+  {
+    "image": "nailong/ba4acf8127323d29.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.650247097015381,
+      -2.7445828914642334,
+      -11.802655220031738
+    ],
+    "probabilities": [
+      0.9983324211897859,
+      0.0016673846478865316,
+      1.9416232754840548e-07
+    ]
+  },
+  {
+    "image": "nailong/c1f746ba7fc1c749.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      2.9665451049804688,
+      -2.7514824867248535,
+      -6.926406383514404
+    ],
+    "probabilities": [
+      0.9966743808425954,
+      0.003275257611380503,
+      5.03615460240428e-05
+    ]
+  },
+  {
+    "image": "nailong/c2ea3cf94a384d8d.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.1588592529296875,
+      -3.9567465782165527,
+      -7.263885974884033
+    ],
+    "probabilities": [
+      0.9996903132921683,
+      0.0002987463818312782,
+      1.094032600029458e-05
+    ]
+  },
+  {
+    "image": "nailong/c78837639d2312d1.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      6.527637004852295,
+      -5.69710111618042,
+      -12.641632080078125
+    ],
+    "probabilities": [
+      0.9999950877555634,
+      4.9075141213838515e-06,
+      4.730315204721288e-09
+    ]
+  },
+  {
+    "image": "nailong/cbc7014153f5a5be.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.15086030960083,
+      -3.7564306259155273,
+      -7.389532089233398
+    ],
+    "probabilities": [
+      0.9996223632915833,
+      0.00036791131394736833,
+      9.725394469505842e-06
+    ]
+  },
+  {
+    "image": "nailong/ce3983cb744f5b15.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      11.754557609558105,
+      -10.873882293701172,
+      -19.173870086669922
+    ],
+    "probabilities": [
+      0.9999999998511662,
+      1.4879673984578603e-10,
+      3.697894507086506e-14
+    ]
+  },
+  {
+    "image": "nailong/d1d7a4a078e3879c.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.406738758087158,
+      -4.199620723724365,
+      -7.494420528411865
+    ],
+    "probabilities": [
+      0.9998103147587348,
+      0.00018290399046833118,
+      6.781250796734072e-06
+    ]
+  },
+  {
+    "image": "nailong/d5231d907e67bbab.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      5.461656093597412,
+      -4.882810592651367,
+      -10.662151336669922
+    ],
+    "probabilities": [
+      0.9999677313042559,
+      3.216926850267033e-05,
+      9.942724169800215e-08
+    ]
+  },
+  {
+    "image": "nailong/e4ebcbcaa80afd9f.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      4.246773719787598,
+      -4.00146484375,
+      -6.661442279815674
+    ],
+    "probabilities": [
+      0.9997200520371814,
+      0.000261645885442952,
+      1.8302077375753193e-05
+    ]
+  },
+  {
+    "image": "nailong/e5ced5af9520e60b.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.5695998668670654,
+      -3.5157859325408936,
+      -6.405562877655029
+    ],
+    "probabilities": [
+      0.9991169870278197,
+      0.0008365124096294846,
+      4.6500562550688173e-05
+    ]
+  },
+  {
+    "image": "nailong/e71f007fcaf15683.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      1.6400913000106812,
+      -1.579299807548523,
+      -7.97712516784668
+    ],
+    "probabilities": [
+      0.9614959646474283,
+      0.03844002600175425,
+      6.400935081747829e-05
+    ]
+  },
+  {
+    "image": "nailong/ef38c510d208f4fa.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      0.6512629985809326,
+      -0.4959298074245453,
+      -4.480316638946533
+    ],
+    "probabilities": [
+      0.755609969081332,
+      0.2399264752139661,
+      0.004463555704701866
+    ]
+  },
+  {
+    "image": "nailong/f58d87b282938a31.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.2533586025238037,
+      -2.4516334533691406,
+      -9.632723808288574
+    ],
+    "probabilities": [
+      0.9966792273791353,
+      0.0033182479723561837,
+      2.5246485086148563e-06
+    ]
+  },
+  {
+    "image": "nailong/f8cb4786de4084ef.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.995285987854004,
+      -3.5876903533935547,
+      -7.612843990325928
+    ],
+    "probabilities": [
+      0.9994821325781009,
+      0.0005087802605350835,
+      9.087161363922324e-06
+    ]
+  },
+  {
+    "image": "nailong/fb72c5a11c505202.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      5.569912910461426,
+      -6.664224624633789,
+      -5.740893363952637
+    ],
+    "probabilities": [
+      0.9999828987272241,
+      4.8615432149527005e-06,
+      1.2239729560763296e-05
+    ]
+  },
+  {
+    "image": "nailong/fbad2af9b0fdcd5f.jpg",
+    "label": 0,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      2.7901570796966553,
+      -2.692317008972168,
+      -6.393924236297607
+    ],
+    "probabilities": [
+      0.9957563970682582,
+      0.004141377896663163,
+      0.00010222503507852749
+    ]
+  },
+  {
+    "image": "naiwa/1023c3154dd0516f.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -1.3685506582260132,
+      2.0615298748016357,
+      -9.171361923217773
+    ],
+    "probabilities": [
+      0.03136808316499114,
+      0.9686191003154386,
+      1.2816519570138828e-05
+    ]
+  },
+  {
+    "image": "naiwa/14d35aa37968a2e3.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.490062713623047,
+      2.233246326446533,
+      -5.733702659606934
+    ],
+    "probabilities": [
+      0.008804439964646561,
+      0.9908519967028798,
+      0.00034356333247369947
+    ]
+  },
+  {
+    "image": "naiwa/1688db989275e1f3.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.678798198699951,
+      1.7232940196990967,
+      -1.2884577512741089
+    ],
+    "probabilities": [
+      0.011542322374656591,
+      0.942101204772079,
+      0.046356472853264295
+    ]
+  },
+  {
+    "image": "naiwa/2493f8de5290fc24.jpg",
+    "label": 1,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      -0.15381105244159698,
+      -0.2462618201971054,
+      -3.3506453037261963
+    ],
+    "probabilities": [
+      0.5121414537110661,
+      0.4669163389513923,
+      0.020942207337541607
+    ]
+  },
+  {
+    "image": "naiwa/260703fdadc5704c.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -1.6540870666503906,
+      1.7103172540664673,
+      -5.283839225769043
+    ],
+    "probabilities": [
+      0.0333970213379046,
+      0.96571719758003,
+      0.0008857810820653627
+    ]
+  },
+  {
+    "image": "naiwa/316c6097ee52add5.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -6.09537410736084,
+      5.363644599914551,
+      -5.0216593742370605
+    ],
+    "probabilities": [
+      1.0553424608227698e-05,
+      0.9999585648330117,
+      3.0881742379988495e-05
+    ]
+  },
+  {
+    "image": "naiwa/58e6146e45aac6dc.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.116445541381836,
+      1.4050874710083008,
+      -2.8488378524780273
+    ],
+    "probabilities": [
+      0.02831496166231228,
+      0.9580724083888943,
+      0.0136126299487935
+    ]
+  },
+  {
+    "image": "naiwa/5e05195f78680814.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -1.1352741718292236,
+      1.2104146480560303,
+      -4.097967624664307
+    ],
+    "probabilities": [
+      0.08701598481489553,
+      0.9084870697124343,
+      0.004496945472670052
+    ]
+  },
+  {
+    "image": "naiwa/5f18bc7c3c35fa8d.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.880202054977417,
+      2.975956916809082,
+      -7.46464729309082
+    ],
+    "probabilities": [
+      0.002853964388896137,
+      0.9971168983127968,
+      2.913729830719149e-05
+    ]
+  },
+  {
+    "image": "naiwa/66ce74a48e780ce5.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.2128007411956787,
+      2.740225076675415,
+      -7.494848728179932
+    ],
+    "probabilities": [
+      0.007012236084899942,
+      0.9929521276455368,
+      3.563626956341958e-05
+    ]
+  },
+  {
+    "image": "naiwa/6acf7b32ec57a231.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -1.93756103515625,
+      2.448329448699951,
+      -6.5803656578063965
+    ],
+    "probabilities": [
+      0.01229719821517832,
+      0.9875843717804818,
+      0.00011843000433993797
+    ]
+  },
+  {
+    "image": "naiwa/70edd169b871c4fe.jpg",
+    "label": 1,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      -0.13324588537216187,
+      -0.19750727713108063,
+      -7.876112937927246
+    ],
+    "probabilities": [
+      0.5159443120022164,
+      0.4838318579466481,
+      0.00022383005113547092
+    ]
+  },
+  {
+    "image": "naiwa/72e19dee6f2ceebb.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.8622303009033203,
+      2.2422659397125244,
+      -3.117680788040161
+    ],
+    "probabilities": [
+      0.006004721493876606,
+      0.9893442164704875,
+      0.004651062035635762
+    ]
+  },
+  {
+    "image": "naiwa/76eda6105564182b.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -0.016134973615407944,
+      0.5444319248199463,
+      -10.12578296661377
+    ],
+    "probabilities": [
+      0.3634109272461468,
+      0.6365742873345791,
+      1.478541927396842e-05
+    ]
+  },
+  {
+    "image": "naiwa/785de1d01a4dfb3b.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.498098611831665,
+      2.922287940979004,
+      -8.12862491607666
+    ],
+    "probabilities": [
+      0.004405867835157677,
+      0.9955783296953293,
+      1.5802469512950507e-05
+    ]
+  },
+  {
+    "image": "naiwa/791826fd9683c48d.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.3517343997955322,
+      2.3911426067352295,
+      -4.8249053955078125
+    ],
+    "probabilities": [
+      0.008631984104728499,
+      0.9906401923253706,
+      0.0007278235699011014
+    ]
+  },
+  {
+    "image": "naiwa/7af8efbb6d5acf10.jpg",
+    "label": 1,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      0.3661773204803467,
+      -0.6994046568870544,
+      -4.927520751953125
+    ],
+    "probabilities": [
+      0.7409874954918677,
+      0.25529041324610263,
+      0.003722091262029749
+    ]
+  },
+  {
+    "image": "naiwa/81d66ee820f21481.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.5714073181152344,
+      2.030332088470459,
+      -3.333139419555664
+    ],
+    "probabilities": [
+      0.009888813446680347,
+      0.9854945239586724,
+      0.004616662594647374
+    ]
+  },
+  {
+    "image": "naiwa/86d242255be0920e.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.3272955417633057,
+      1.0442843437194824,
+      0.12101860344409943
+    ],
+    "probabilities": [
+      0.02398465115603491,
+      0.69854107117642,
+      0.27747427766754523
+    ]
+  },
+  {
+    "image": "naiwa/882ea4f3d3d845d0.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -3.9316422939300537,
+      2.191484212875366,
+      -1.595197081565857
+    ],
+    "probabilities": [
+      0.002138426979595438,
+      0.9757408311431195,
+      0.022120741877285067
+    ]
+  },
+  {
+    "image": "naiwa/8ad2ca8b7ddd11e2.jpg",
+    "label": 1,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.7698007822036743,
+      -0.8765410780906677,
+      3.1444244384765625
+    ],
+    "probabilities": [
+      0.007160409673488186,
+      0.017493456564655455,
+      0.9753461337618564
+    ]
+  },
+  {
+    "image": "naiwa/8d3035296c71b3b1.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -0.6537292003631592,
+      0.19832304120063782,
+      -3.625904083251953
+    ],
+    "probabilities": [
+      0.2944948468302452,
+      0.6904294162946888,
+      0.015075736875066045
+    ]
+  },
+  {
+    "image": "naiwa/908124bbe2739813.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -3.4667317867279053,
+      2.555384635925293,
+      -2.273470640182495
+    ],
+    "probabilities": [
+      0.0023995292462588307,
+      0.9896872591522224,
+      0.007913211601518902
+    ]
+  },
+  {
+    "image": "naiwa/aadb473018b88b8e.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.6685128211975098,
+      1.6790837049484253,
+      -1.5838390588760376
+    ],
+    "probabilities": [
+      0.012307549378641413,
+      0.95128087968335,
+      0.03641157093800841
+    ]
+  },
+  {
+    "image": "naiwa/ac7e9d7a8aa2ac08.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      0.03694216534495354,
+      0.26198887825012207,
+      -6.198508262634277
+    ],
+    "probabilities": [
+      0.4435888180130163,
+      0.5555423038352416,
+      0.0008688781517420827
+    ]
+  },
+  {
+    "image": "naiwa/ba7a42d1d2389d86.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.226203680038452,
+      2.278839111328125,
+      -6.682056903839111
+    ],
+    "probabilities": [
+      0.010930893971683807,
+      0.9889421938745283,
+      0.00012691215378785148
+    ]
+  },
+  {
+    "image": "naiwa/c047aff379d79faf.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.923597812652588,
+      1.541043758392334,
+      -0.6208687424659729
+    ],
+    "probabilities": [
+      0.010215410315852082,
+      0.8876157776057958,
+      0.10216881207835211
+    ]
+  },
+  {
+    "image": "naiwa/c089cd998494dfa3.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.7894842624664307,
+      2.935559034347534,
+      -7.822068691253662
+    ],
+    "probabilities": [
+      0.0032525290725895894,
+      0.9967262581497468,
+      2.121277766358945e-05
+    ]
+  },
+  {
+    "image": "naiwa/c60d9a0be2884592.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -3.6782941818237305,
+      2.134145498275757,
+      -0.5777837634086609
+    ],
+    "probabilities": [
+      0.0027960818014892606,
+      0.9351049422170813,
+      0.06209897598142951
+    ]
+  },
+  {
+    "image": "naiwa/ca73fbbdd6f64760.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -4.830556392669678,
+      4.900754928588867,
+      -6.96837043762207
+    ],
+    "probabilities": [
+      5.9390414496028604e-05,
+      0.9999336067243889,
+      7.0028611150815125e-06
+    ]
+  },
+  {
+    "image": "naiwa/e6a79e88362c76d9.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -4.258858680725098,
+      3.5553224086761475,
+      -3.6239585876464844
+    ],
+    "probabilities": [
+      0.0004034949478633934,
+      0.9988351772172716,
+      0.0007613278348651322
+    ]
+  },
+  {
+    "image": "naiwa/ee6356bb39ab0066.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -0.8674876093864441,
+      1.2841720581054688,
+      -4.669619560241699
+    ],
+    "probabilities": [
+      0.1039345314146313,
+      0.8937453246045837,
+      0.002320143980784973
+    ]
+  },
+  {
+    "image": "naiwa/f8be85c846c012a8.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -3.57466983795166,
+      3.927490711212158,
+      -7.61745548248291
+    ],
+    "probabilities": [
+      0.0005515809397618897,
+      0.9994387396309051,
+      9.679429332867899e-06
+    ]
+  },
+  {
+    "image": "naiwa/ff4e1e4068c064a1.jpg",
+    "label": 1,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -2.8528881072998047,
+      1.6449010372161865,
+      -1.4082143306732178
+    ],
+    "probabilities": [
+      0.010519804048059892,
+      0.9448712974479158,
+      0.04460889850402441
+    ]
+  },
+  {
+    "image": "other/cifar100_test_000260.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.009487561881542206,
+      -3.110006809234619,
+      4.606666088104248
+    ],
+    "probabilities": [
+      0.009789580199799766,
+      0.0004407838444923397,
+      0.989769635955708
+    ]
+  },
+  {
+    "image": "other/cifar100_test_000314.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.134392261505127,
+      -0.6633684635162354,
+      3.6741602420806885
+    ],
+    "probabilities": [
+      0.002954294819628539,
+      0.01286208428413485,
+      0.9841836208962367
+    ]
+  },
+  {
+    "image": "other/cifar100_test_000363.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.3562262058258057,
+      -1.5903114080429077,
+      5.649191856384277
+    ],
+    "probabilities": [
+      0.0003332995815554625,
+      0.0007169144577088005,
+      0.9989497859607358
+    ]
+  },
+  {
+    "image": "other/cifar100_test_000388.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.310260772705078,
+      -0.6863628029823303,
+      4.269311428070068
+    ],
+    "probabilities": [
+      0.001376833991046684,
+      0.006984438645554535,
+      0.9916387273633989
+    ]
+  },
+  {
+    "image": "other/cifar100_test_000532.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.0464199781417847,
+      -1.4657435417175293,
+      3.2110447883605957
+    ],
+    "probabilities": [
+      0.013833519764338144,
+      0.009095420561359174,
+      0.9770710596743026
+    ]
+  },
+  {
+    "image": "other/cifar100_test_000602.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.0161200761795044,
+      -1.5219786167144775,
+      3.7975146770477295
+    ],
+    "probabilities": [
+      0.008014007456855772,
+      0.004832347633951699,
+      0.9871536449091924
+    ]
+  },
+  {
+    "image": "other/cifar100_test_000676.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.42122483253479,
+      -1.3766491413116455,
+      4.069794654846191
+    ],
+    "probabilities": [
+      0.004089145078903053,
+      0.004275545139478092,
+      0.9916353097816187
+    ]
+  },
+  {
+    "image": "other/cifar100_test_000817.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.7661012411117554,
+      -2.2570388317108154,
+      4.4716925621032715
+    ],
+    "probabilities": [
+      0.005277616360868504,
+      0.0011883157380293552,
+      0.9935340679011022
+    ]
+  },
+  {
+    "image": "other/cifar100_test_001051.jpg",
+    "label": 2,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      2.2297117710113525,
+      -2.75465989112854,
+      -1.5479156970977783
+    ],
+    "probabilities": [
+      0.9711368604608449,
+      0.00664653551796151,
+      0.022216604021193485
+    ]
+  },
+  {
+    "image": "other/cifar100_test_001235.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.6806015968322754,
+      0.13497820496559143,
+      2.740633726119995
+    ],
+    "probabilities": [
+      0.004100693582232597,
+      0.06849329981738533,
+      0.9274060066003821
+    ]
+  },
+  {
+    "image": "other/cifar100_test_001299.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.5526410341262817,
+      -2.7831883430480957,
+      6.419580459594727
+    ],
+    "probabilities": [
+      0.00034475826544825205,
+      0.0001007151447001805,
+      0.9995545265898517
+    ]
+  },
+  {
+    "image": "other/cifar100_test_001498.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.342900276184082,
+      -2.3302714824676514,
+      5.3457746505737305
+    ],
+    "probabilities": [
+      0.0012428076749464879,
+      0.00046301393311041247,
+      0.998294178391943
+    ]
+  },
+  {
+    "image": "other/cifar100_test_001510.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.35861238837242126,
+      -0.9276504516601562,
+      1.7659002542495728
+    ],
+    "probabilities": [
+      0.100655391521562,
+      0.05697796729319512,
+      0.8423666411852428
+    ]
+  },
+  {
+    "image": "other/cifar100_test_001613.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.3000645637512207,
+      -1.0882209539413452,
+      4.851868152618408
+    ],
+    "probabilities": [
+      0.0007806824836865267,
+      0.0026228377623450792,
+      0.9965964797539685
+    ]
+  },
+  {
+    "image": "other/cifar100_test_001689.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.1846115589141846,
+      -2.4959118366241455,
+      5.090002059936523
+    ],
+    "probabilities": [
+      0.001879025788251693,
+      0.000506340033249725,
+      0.9976146341784985
+    ]
+  },
+  {
+    "image": "other/cifar100_test_001973.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.0991261005401611,
+      -2.132127523422241,
+      4.736624240875244
+    ],
+    "probabilities": [
+      0.002909705161668627,
+      0.0010356718371534238,
+      0.9960546230011779
+    ]
+  },
+  {
+    "image": "other/cifar100_test_002164.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.21043170988559723,
+      -2.9619672298431396,
+      4.508223533630371
+    ],
+    "probabilities": [
+      0.008843191611173478,
+      0.0005644589222157081,
+      0.9905923494666109
+    ]
+  },
+  {
+    "image": "other/cifar100_test_002190.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.0160155296325684,
+      -0.6969085931777954,
+      3.215944766998291
+    ],
+    "probabilities": [
+      0.005211063395471569,
+      0.01948979271501398,
+      0.9752991438895144
+    ]
+  },
+  {
+    "image": "other/cifar100_test_002245.jpg",
+    "label": 2,
+    "raw_prediction": 0,
+    "prediction": 0,
+    "threshold_rejected": false,
+    "logits": [
+      3.5175280570983887,
+      -6.012930870056152,
+      0.3592985272407532
+    ],
+    "probabilities": [
+      0.9591649641041704,
+      6.964141466813348e-05,
+      0.04076539448116139
+    ]
+  },
+  {
+    "image": "other/cifar100_test_002275.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.47335344552993774,
+      -0.7597567439079285,
+      -0.05233826860785484
+    ],
+    "probabilities": [
+      0.3053932048063603,
+      0.2293379876434297,
+      0.46526880755020994
+    ]
+  },
+  {
+    "image": "other/cifar100_test_002599.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.127967357635498,
+      -1.075937032699585,
+      4.680394172668457
+    ],
+    "probabilities": [
+      0.0010998080148455105,
+      0.0031492551279243635,
+      0.99575093685723
+    ]
+  },
+  {
+    "image": "other/cifar100_test_002689.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.763702392578125,
+      -1.2015966176986694,
+      4.325088977813721
+    ],
+    "probabilities": [
+      0.0022540667691649725,
+      0.0039544511290215915,
+      0.9937914821018135
+    ]
+  },
+  {
+    "image": "other/cifar100_test_002819.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.49886399507522583,
+      -3.245793104171753,
+      4.8509521484375
+    ],
+    "probabilities": [
+      0.004725145287077445,
+      0.00030299747706192615,
+      0.9949718572358606
+    ]
+  },
+  {
+    "image": "other/cifar100_test_002961.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.4053242206573486,
+      -0.779036819934845,
+      4.57434606552124
+    ],
+    "probabilities": [
+      0.0009253698718703637,
+      0.004705469901338518,
+      0.9943691602267911
+    ]
+  },
+  {
+    "image": "other/cifar100_test_003199.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.449465036392212,
+      -1.2172051668167114,
+      5.267653942108154
+    ],
+    "probabilities": [
+      0.00044426534301369986,
+      0.0015233724495081833,
+      0.9980323622074782
+    ]
+  },
+  {
+    "image": "other/cifar100_test_003255.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.0157196521759033,
+      -0.7762131094932556,
+      3.826218605041504
+    ],
+    "probabilities": [
+      0.0028661488839196703,
+      0.009899416530310078,
+      0.9872344345857702
+    ]
+  },
+  {
+    "image": "other/cifar100_test_003342.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.3720216751098633,
+      -2.411238670349121,
+      5.473001003265381
+    ],
+    "probabilities": [
+      0.0010632096060738832,
+      0.0003760907787807442,
+      0.9985606996151455
+    ]
+  },
+  {
+    "image": "other/cifar100_test_003573.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.8691656589508057,
+      -2.371361255645752,
+      4.890722274780273
+    ],
+    "probabilities": [
+      0.0031393684216855858,
+      0.0006989514772102692,
+      0.9961616801011041
+    ]
+  },
+  {
+    "image": "other/cifar100_test_003621.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.2833480834960938,
+      -0.624606728553772,
+      4.006474494934082
+    ],
+    "probabilities": [
+      0.0018338180325367273,
+      0.009632487549380807,
+      0.9885336944180824
+    ]
+  },
+  {
+    "image": "other/cifar100_test_003741.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.7677733898162842,
+      -2.3486111164093018,
+      4.458666801452637
+    ],
+    "probabilities": [
+      0.005338035313262598,
+      0.0010985816512143838,
+      0.993563383035523
+    ]
+  },
+  {
+    "image": "other/cifar100_test_003937.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.7776524424552917,
+      -1.3978166580200195,
+      2.8466920852661133
+    ],
+    "probabilities": [
+      0.02561607236208622,
+      0.013777760931633987,
+      0.9606061667062799
+    ]
+  },
+  {
+    "image": "other/cifar100_test_004129.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.7312896251678467,
+      -0.9528250098228455,
+      6.718315601348877
+    ],
+    "probabilities": [
+      2.894537428471672e-05,
+      0.0004658552780123764,
+      0.999505199347703
+    ]
+  },
+  {
+    "image": "other/cifar100_test_004147.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.564547061920166,
+      -2.377739191055298,
+      7.48145055770874
+    ],
+    "probabilities": [
+      4.335479547138968e-05,
+      5.225968278580201e-05,
+      0.9999043855217428
+    ]
+  },
+  {
+    "image": "other/cifar100_test_004283.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.432481288909912,
+      -0.9992921352386475,
+      3.0001766681671143
+    ],
+    "probabilities": [
+      0.011534428793411104,
+      0.017788025828115395,
+      0.9706775453784734
+    ]
+  },
+  {
+    "image": "other/cifar100_test_004359.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.1929588317871094,
+      -1.1517728567123413,
+      4.873049259185791
+    ],
+    "probabilities": [
+      0.0008508502907089966,
+      0.002410096739525605,
+      0.9967390529697654
+    ]
+  },
+  {
+    "image": "other/cifar100_test_004519.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.7387511730194092,
+      -1.3787840604782104,
+      4.582574844360352
+    ],
+    "probabilities": [
+      0.001789730111458023,
+      0.002565188448960458,
+      0.9956450814395815
+    ]
+  },
+  {
+    "image": "other/cifar100_test_004614.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.4471848011016846,
+      -0.4186145067214966,
+      4.02531623840332
+    ],
+    "probabilities": [
+      0.0015250799334058554,
+      0.01159550030845076,
+      0.9868794197581435
+    ]
+  },
+  {
+    "image": "other/cifar100_test_004746.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -4.33782958984375,
+      -0.3855300843715668,
+      6.093997001647949
+    ],
+    "probabilities": [
+      2.943313771846281e-05,
+      0.001532139920976451,
+      0.9984384269413051
+    ]
+  },
+  {
+    "image": "other/cifar100_test_004981.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.5286757946014404,
+      -0.5468583703041077,
+      4.060247421264648
+    ],
+    "probabilities": [
+      0.0013600750438635034,
+      0.00986859311587842,
+      0.9887713318402581
+    ]
+  },
+  {
+    "image": "other/cifar100_test_005118.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.3378396034240723,
+      -2.3589532375335693,
+      5.545624732971191
+    ],
+    "probabilities": [
+      0.0010231624522978784,
+      0.00036853655977926486,
+      0.9986083009879229
+    ]
+  },
+  {
+    "image": "other/cifar100_test_005387.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.3886922299861908,
+      -0.650118350982666,
+      1.2843035459518433
+    ],
+    "probabilities": [
+      0.14088359554535035,
+      0.1084737127591003,
+      0.7506426916955493
+    ]
+  },
+  {
+    "image": "other/cifar100_test_005449.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.048956036567688,
+      -1.9258151054382324,
+      4.152683258056641
+    ],
+    "probabilities": [
+      0.005464906959387731,
+      0.0022738809193547905,
+      0.9922612121212576
+    ]
+  },
+  {
+    "image": "other/cifar100_test_005628.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.9339917898178101,
+      -1.9043843746185303,
+      4.139371395111084
+    ],
+    "probabilities": [
+      0.006207729416760229,
+      0.0023523212601592345,
+      0.9914399493230805
+    ]
+  },
+  {
+    "image": "other/cifar100_test_005650.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.5781543254852295,
+      -2.1799004077911377,
+      3.888822078704834
+    ],
+    "probabilities": [
+      0.011325729302027406,
+      0.0022826361575432603,
+      0.9863916345404294
+    ]
+  },
+  {
+    "image": "other/cifar100_test_005654.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.5198185443878174,
+      0.20653265714645386,
+      0.8522816300392151
+    ],
+    "probabilities": [
+      0.057670153199803974,
+      0.3241125933125347,
+      0.6182172534876612
+    ]
+  },
+  {
+    "image": "other/cifar100_test_005663.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      0.757315456867218,
+      -4.029482841491699,
+      4.341307163238525
+    ],
+    "probabilities": [
+      0.0270085132147505,
+      0.00022522707177370137,
+      0.9727662597134759
+    ]
+  },
+  {
+    "image": "other/cifar100_test_006111.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.9769177436828613,
+      -1.202783465385437,
+      4.175267219543457
+    ],
+    "probabilities": [
+      0.0021145612151811637,
+      0.004585878112917588,
+      0.9932995606719013
+    ]
+  },
+  {
+    "image": "other/cifar100_test_006229.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.4855520725250244,
+      -0.751969039440155,
+      4.459904670715332
+    ],
+    "probabilities": [
+      0.0009568626403930779,
+      0.005416704495101908,
+      0.993626432864505
+    ]
+  },
+  {
+    "image": "other/cifar100_test_006348.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.4061365127563477,
+      -1.9682384729385376,
+      6.503015041351318
+    ],
+    "probabilities": [
+      0.00013509990131405962,
+      0.0002093301256422875,
+      0.9996555699730436
+    ]
+  },
+  {
+    "image": "other/cifar100_test_006424.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      0.24850018322467804,
+      -3.3313517570495605,
+      4.429337024688721
+    ],
+    "probabilities": [
+      0.015049258452349494,
+      0.00041957070450774627,
+      0.9845311708431427
+    ]
+  },
+  {
+    "image": "other/cifar100_test_006597.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.1069905757904053,
+      -0.3813817501068115,
+      4.848780632019043
+    ],
+    "probabilities": [
+      0.0003486443204919439,
+      0.005322301434277497,
+      0.9943290542452304
+    ]
+  },
+  {
+    "image": "other/cifar100_test_006875.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.010390043258667,
+      -1.135162353515625,
+      4.590972900390625
+    ],
+    "probabilities": [
+      0.0013522701875316543,
+      0.0032446662367600298,
+      0.9954030635757082
+    ]
+  },
+  {
+    "image": "other/cifar100_test_006948.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.1380088329315186,
+      -1.0192569494247437,
+      3.158299684524536
+    ],
+    "probabilities": [
+      0.013235509818360408,
+      0.014904381630899178,
+      0.9718601085507403
+    ]
+  },
+  {
+    "image": "other/cifar100_test_007191.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.8888375759124756,
+      -0.7998220920562744,
+      4.789741516113281
+    ],
+    "probabilities": [
+      0.0004606971881092973,
+      0.003721032461828977,
+      0.9958182703500618
+    ]
+  },
+  {
+    "image": "other/cifar100_test_007317.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.3885817527770996,
+      -1.051901936531067,
+      3.358593463897705
+    ],
+    "probabilities": [
+      0.008499170903863918,
+      0.011901309478374058,
+      0.979599519617762
+    ]
+  },
+  {
+    "image": "other/cifar100_test_007444.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.7522443532943726,
+      -1.7387619018554688,
+      5.137467384338379
+    ],
+    "probabilities": [
+      0.0010161240160045757,
+      0.0010299166288925622,
+      0.9979539593551028
+    ]
+  },
+  {
+    "image": "other/cifar100_test_007697.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.6324440836906433,
+      -2.482679605484009,
+      4.198708534240723
+    ],
+    "probabilities": [
+      0.007904353253548374,
+      0.001242565421427843,
+      0.9908530813250237
+    ]
+  },
+  {
+    "image": "other/cifar100_test_007825.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.7743734121322632,
+      -1.9308266639709473,
+      5.436185359954834
+    ],
+    "probabilities": [
+      0.0007377331891215484,
+      0.0006308883938563677,
+      0.9986313784170221
+    ]
+  },
+  {
+    "image": "other/cifar100_test_007871.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.12300564348697662,
+      -1.8583954572677612,
+      1.310538411140442
+    ],
+    "probabilities": [
+      0.18622437046965565,
+      0.03283721335554624,
+      0.7809384161747981
+    ]
+  },
+  {
+    "image": "other/cifar100_test_007945.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.54230535030365,
+      -1.6385549306869507,
+      4.445644855499268
+    ],
+    "probabilities": [
+      0.002496847929141003,
+      0.002267730445551686,
+      0.9952354216253072
+    ]
+  },
+  {
+    "image": "other/cifar100_test_008144.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.0038306713104248,
+      -2.17204213142395,
+      4.620099067687988
+    ],
+    "probabilities": [
+      0.0035934175649489455,
+      0.0011172745224245462,
+      0.9952893079126265
+    ]
+  },
+  {
+    "image": "other/cifar100_test_008215.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.4710477590560913,
+      -2.626431941986084,
+      6.063947677612305
+    ],
+    "probabilities": [
+      0.0005336889122633538,
+      0.0001680781290168184,
+      0.9992982329587197
+    ]
+  },
+  {
+    "image": "other/cifar100_test_008411.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.612701892852783,
+      -1.3227494955062866,
+      5.781584739685059
+    ],
+    "probabilities": [
+      0.00022591905731771987,
+      0.0008206766467962586,
+      0.9989534042958861
+    ]
+  },
+  {
+    "image": "other/cifar100_test_008532.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.297372043132782,
+      -2.795156955718994,
+      4.692873954772949
+    ],
+    "probabilities": [
+      0.006754253985282635,
+      0.0005556523855135471,
+      0.9926900936292039
+    ]
+  },
+  {
+    "image": "other/cifar100_test_008552.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.24936765432357788,
+      -2.4091970920562744,
+      3.930293560028076
+    ],
+    "probabilities": [
+      0.015046858155721961,
+      0.001735576736710667,
+      0.9832175651075673
+    ]
+  },
+  {
+    "image": "other/cifar100_test_008562.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.0428493022918701,
+      -1.957648515701294,
+      4.480284214019775
+    ],
+    "probabilities": [
+      0.0039711047083721245,
+      0.001590812841472386,
+      0.9944380824501555
+    ]
+  },
+  {
+    "image": "other/cifar100_test_008746.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.9123929738998413,
+      -2.213271379470825,
+      4.525082588195801
+    ],
+    "probabilities": [
+      0.004326504458908981,
+      0.001178074735713041,
+      0.9944954208053779
+    ]
+  },
+  {
+    "image": "other/cifar100_test_009173.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.2672455310821533,
+      -1.0677313804626465,
+      4.709265232086182
+    ],
+    "probabilities": [
+      0.0009298063502037835,
+      0.0030855663134652556,
+      0.9959846273363311
+    ]
+  },
+  {
+    "image": "other/cifar100_test_009239.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.17427921295166,
+      -0.7881418466567993,
+      5.636266231536865
+    ],
+    "probabilities": [
+      0.00014888825148795182,
+      0.0016186267779866664,
+      0.9982324849705254
+    ]
+  },
+  {
+    "image": "other/cifar100_test_009352.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.0323457717895508,
+      -2.3037912845611572,
+      4.45672082901001
+    ],
+    "probabilities": [
+      0.004109955857876851,
+      0.0011525383553936408,
+      0.9947375057867295
+    ]
+  },
+  {
+    "image": "other/cifar100_test_009375.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.8529279232025146,
+      -1.620216965675354,
+      4.348573207855225
+    ],
+    "probabilities": [
+      0.0020171404733021142,
+      0.0025456648630812367,
+      0.9954371946636166
+    ]
+  },
+  {
+    "image": "other/cifar100_test_009563.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.8963264226913452,
+      -2.5211119651794434,
+      5.0152411460876465
+    ],
+    "probabilities": [
+      0.0026991898543331306,
+      0.0005316159927298153,
+      0.996769194152937
+    ]
+  },
+  {
+    "image": "other/cifar100_test_009889.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      0.04853992164134979,
+      -3.2577216625213623,
+      4.466404438018799
+    ],
+    "probabilities": [
+      0.011911046842286157,
+      0.0004365749076975132,
+      0.9876523782500164
+    ]
+  },
+  {
+    "image": "other/cifar100_test_009896.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.249363422393799,
+      -1.1384692192077637,
+      4.603476047515869
+    ],
+    "probabilities": [
+      0.001051965065274956,
+      0.0031948946344941723,
+      0.9957531403002309
+    ]
+  },
+  {
+    "image": "other/cifar100_test_009921.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.5962748527526855,
+      -0.9135962128639221,
+      2.564988851547241
+    ],
+    "probabilities": [
+      0.01489608934202039,
+      0.02948192483571556,
+      0.9556219858222641
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000024.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.290163516998291,
+      -1.8499196767807007,
+      6.12615966796875
+    ],
+    "probabilities": [
+      0.00022110168791736898,
+      0.00034338990891663026,
+      0.999435508403166
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000040.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.5027458667755127,
+      -1.4860186576843262,
+      5.263543128967285
+    ],
+    "probabilities": [
+      0.0004231080811161633,
+      0.001169527226731616,
+      0.9984073646921522
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000131.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.5331859588623047,
+      -1.3958189487457275,
+      3.3244922161102295
+    ],
+    "probabilities": [
+      0.007641040593812818,
+      0.008766177122345023,
+      0.9835927822838423
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000185.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.5149357318878174,
+      -1.239854097366333,
+      5.48510217666626
+    ],
+    "probabilities": [
+      0.0003349354427016213,
+      0.0011987317949915784,
+      0.9984663327623067
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000280.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.704789400100708,
+      0.36312299966812134,
+      1.8528687953948975
+    ],
+    "probabilities": [
+      0.008484867221768836,
+      0.18239900995533714,
+      0.8091161228228939
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000287.jpg",
+    "label": 2,
+    "raw_prediction": 1,
+    "prediction": 1,
+    "threshold_rejected": false,
+    "logits": [
+      -4.125407695770264,
+      1.9886775016784668,
+      1.6501508951187134
+    ],
+    "probabilities": [
+      0.001289479622679118,
+      0.583079733508912,
+      0.4156307868684089
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000343.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.36960768699646,
+      -0.9606610536575317,
+      2.7088940143585205
+    ],
+    "probabilities": [
+      0.016243747168253376,
+      0.024450598115375026,
+      0.9593056547163716
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000394.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.6378675699234009,
+      -0.5282443165779114,
+      2.769610643386841
+    ],
+    "probabilities": [
+      0.011615012386478555,
+      0.035230834736651034,
+      0.9531541528768703
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000400.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.1810407638549805,
+      -0.4370146691799164,
+      2.8337299823760986
+    ],
+    "probabilities": [
+      0.00635558493766611,
+      0.03635602859461383,
+      0.95728838646772
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000473.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.1285672187805176,
+      -0.5878044962882996,
+      5.242749214172363
+    ],
+    "probabilities": [
+      0.00023067995433967336,
+      0.0029271776936397546,
+      0.9968421423520206
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000570.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.018889904022217,
+      -0.6699873208999634,
+      3.6587817668914795
+    ],
+    "probabilities": [
+      0.0033656283850435585,
+      0.01296842128296518,
+      0.9836659503319912
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000572.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.3140771389007568,
+      -1.980425477027893,
+      4.590231418609619
+    ],
+    "probabilities": [
+      0.0027164521614492674,
+      0.001395117077624694,
+      0.9958884307609261
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000611.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.7975568771362305,
+      -2.249882221221924,
+      3.0588510036468506
+    ],
+    "probabilities": [
+      0.020606158380349612,
+      0.00482236580007237,
+      0.9745714758195779
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000656.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.566419839859009,
+      0.08831627666950226,
+      3.007154941558838
+    ],
+    "probabilities": [
+      0.0035894378653601256,
+      0.051046231561344635,
+      0.9453643305732953
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000706.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.4677244424819946,
+      -1.8863520622253418,
+      3.6924080848693848
+    ],
+    "probabilities": [
+      0.0056868106896102635,
+      0.003741632298857918,
+      0.9905715570115318
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000723.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.220719337463379,
+      0.6147438883781433,
+      3.3280792236328125
+    ],
+    "probabilities": [
+      0.0013409868709447503,
+      0.062107641915999864,
+      0.9365513712130553
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000860.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.6692992448806763,
+      -1.076827883720398,
+      2.069207191467285
+    ],
+    "probabilities": [
+      0.05837996543549586,
+      0.038839747195233726,
+      0.9027802873692703
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000869.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.6171095371246338,
+      -1.4086148738861084,
+      3.3531346321105957
+    ],
+    "probabilities": [
+      0.006835555892478713,
+      0.008420190564735296,
+      0.984744253542786
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000912.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.130796432495117,
+      0.3928234577178955,
+      1.6707242727279663
+    ],
+    "probabilities": [
+      0.01716948007644877,
+      0.2141664001650365,
+      0.7686641197585147
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_000942.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.9158925414085388,
+      -2.0607566833496094,
+      3.177119493484497
+    ],
+    "probabilities": [
+      0.01632963157342566,
+      0.005197185366924361,
+      0.9784731830596499
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001047.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -4.418683052062988,
+      0.6098124384880066,
+      4.26646614074707
+    ],
+    "probabilities": [
+      0.0001647955255980276,
+      0.025164787053410697,
+      0.9746704174209914
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001072.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.5912851095199585,
+      -0.0308810006827116,
+      0.8924920558929443
+    ],
+    "probabilities": [
+      0.05634692128612952,
+      0.26825330774636197,
+      0.6753997709675086
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001116.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.5263831615447998,
+      -1.6673285961151123,
+      4.5843000411987305
+    ],
+    "probabilities": [
+      0.0022098713512189575,
+      0.0019193543762995357,
+      0.9958707742724815
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001166.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.44447660446167,
+      1.1124827861785889,
+      2.573843240737915
+    ],
+    "probabilities": [
+      0.0019716828883801175,
+      0.18788814770964732,
+      0.8101401694019724
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001243.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.7945533990859985,
+      -0.5334069728851318,
+      2.974912643432617
+    ],
+    "probabilities": [
+      0.008170885217091497,
+      0.028838856992275112,
+      0.9629902577906334
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001281.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.595802068710327,
+      0.31374406814575195,
+      2.7853591442108154
+    ],
+    "probabilities": [
+      0.004226133652408285,
+      0.07754308223963388,
+      0.9182307841079578
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001357.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.3610894680023193,
+      -2.215183973312378,
+      5.458806991577148
+    ],
+    "probabilities": [
+      0.0010901370653830962,
+      0.00046403696270952514,
+      0.9984458259719073
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001379.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.632267951965332,
+      -0.788884699344635,
+      4.6559953689575195
+    ],
+    "probabilities": [
+      0.000680112232872827,
+      0.004296865513478241,
+      0.9950230222536489
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001422.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.586215019226074,
+      -0.6789565086364746,
+      6.159145832061768
+    ],
+    "probabilities": [
+      5.849958403438952e-05,
+      0.0010709251224007435,
+      0.9988705752935649
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001477.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.7978978157043457,
+      0.4344044029712677,
+      2.402143955230713
+    ],
+    "probabilities": [
+      0.00481654416044926,
+      0.12204122657861372,
+      0.8731422292609371
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001488.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.3349337577819824,
+      -0.7689310908317566,
+      5.71476411819458
+    ],
+    "probabilities": [
+      0.00011723359168808584,
+      0.0015256428199803072,
+      0.9983571235883317
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001534.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.7676403522491455,
+      -0.8642973303794861,
+      3.0248255729675293
+    ],
+    "probabilities": [
+      0.008060211177806231,
+      0.019891306535450244,
+      0.9720484822867436
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001586.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -4.935693264007568,
+      0.7138159275054932,
+      5.655123710632324
+    ],
+    "probabilities": [
+      2.4966845748690785e-05,
+      0.007094378339163864,
+      0.9928806548150875
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001621.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.3232197761535645,
+      -0.754896342754364,
+      5.40501594543457
+    ],
+    "probabilities": [
+      0.0001615804292138493,
+      0.0021076449502491143,
+      0.9977307746205372
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001739.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.905799627304077,
+      -1.267572045326233,
+      5.924022197723389
+    ],
+    "probabilities": [
+      0.000146172867428182,
+      0.0007522114942511581,
+      0.9991016156383206
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001756.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.25967350602149963,
+      -2.0714893341064453,
+      0.5714237689971924
+    ],
+    "probabilities": [
+      0.2890847026731215,
+      0.04722407876881397,
+      0.6636912185580646
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001822.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.8554489612579346,
+      -0.8494065999984741,
+      5.153514862060547
+    ],
+    "probabilities": [
+      0.0003315394039894828,
+      0.002464610420467521,
+      0.9972038501755429
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001877.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.2263948917388916,
+      -1.0611674785614014,
+      4.714447498321533
+    ],
+    "probabilities": [
+      0.0009635329479656126,
+      0.0030897148885942233,
+      0.9959467521634402
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001902.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.759358525276184,
+      -2.6990373134613037,
+      6.4893598556518555
+    ],
+    "probabilities": [
+      0.00026149846958001515,
+      0.0001021813977229948,
+      0.9996363201326971
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_001906.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.88187837600708,
+      -0.28348663449287415,
+      3.9567863941192627
+    ],
+    "probabilities": [
+      0.001055203708142905,
+      0.014184156157030338,
+      0.9847606401348267
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002002.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.250429630279541,
+      0.07217805087566376,
+      4.019093990325928
+    ],
+    "probabilities": [
+      0.0006827808188032677,
+      0.018935269624496064,
+      0.9803819495567008
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002038.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.933561325073242,
+      0.18048062920570374,
+      3.2464609146118164
+    ],
+    "probabilities": [
+      0.0019742769455009385,
+      0.044444631657468814,
+      0.9535810913970303
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002107.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.0854082107543945,
+      0.7110711336135864,
+      1.2440670728683472
+    ],
+    "probabilities": [
+      0.008233940644078579,
+      0.36677334145690993,
+      0.6249927178990116
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002109.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.08139783143997192,
+      -1.389419436454773,
+      0.9988347291946411
+    ],
+    "probabilities": [
+      0.2372074697861895,
+      0.06413008208402998,
+      0.6986624481297805
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002182.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.1348085403442383,
+      0.25006964802742004,
+      1.7211947441101074
+    ],
+    "probabilities": [
+      0.016910812451149098,
+      0.18361320453602825,
+      0.7994759830128227
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002186.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.8480827808380127,
+      -0.9803398251533508,
+      3.5119972229003906
+    ],
+    "probabilities": [
+      0.004626984205253489,
+      0.011019299682241251,
+      0.9843537161125052
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002283.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.4141874313354492,
+      -0.704975962638855,
+      2.3113579750061035
+    ],
+    "probabilities": [
+      0.02245866423821832,
+      0.04564472025640647,
+      0.9318966155053751
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002380.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.7284278869628906,
+      -0.7584686279296875,
+      4.89013671875
+    ],
+    "probabilities": [
+      0.0004892826374386508,
+      0.0035083445681763276,
+      0.996002372794385
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002443.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.6368106603622437,
+      -0.4967973530292511,
+      2.174776077270508
+    ],
+    "probabilities": [
+      0.020263856646107383,
+      0.06336122908107986,
+      0.9163749142728128
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002466.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.6211961507797241,
+      -1.4612163305282593,
+      3.501894235610962
+    ],
+    "probabilities": [
+      0.00588142617886656,
+      0.006901778280280301,
+      0.9872167955408532
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002518.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      0.30701443552970886,
+      -3.389178514480591,
+      4.021778583526611
+    ],
+    "probabilities": [
+      0.02376780434902272,
+      0.0005898653174905042,
+      0.9756423303334867
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002544.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.8962676525115967,
+      0.4749070107936859,
+      2.52771258354187
+    ],
+    "probabilities": [
+      0.0038926762541488646,
+      0.11332633391433074,
+      0.8827809898315203
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002616.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.097869873046875,
+      -2.3727524280548096,
+      5.222325325012207
+    ],
+    "probabilities": [
+      0.0017954581292732403,
+      0.0005017655298521182,
+      0.9977027763408746
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002641.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.796196937561035,
+      -0.8546371459960938,
+      5.102344036102295
+    ],
+    "probabilities": [
+      0.00037018947036312,
+      0.0025800775824908165,
+      0.997049732947146
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002703.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.8150959014892578,
+      -0.12727363407611847,
+      2.4057936668395996
+    ],
+    "probabilities": [
+      0.013422508359789443,
+      0.07258478258162984,
+      0.9139927090585807
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002775.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.2274868488311768,
+      -0.126461461186409,
+      4.057622909545898
+    ],
+    "probabilities": [
+      0.0006749269069874198,
+      0.01499736483087327,
+      0.9843277082621393
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002825.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.6947760581970215,
+      -1.1302696466445923,
+      3.815703868865967
+    ],
+    "probabilities": [
+      0.003999546457770539,
+      0.0070335206255629995,
+      0.9889669329166665
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002849.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.1856541633605957,
+      -2.047295570373535,
+      5.673577308654785
+    ],
+    "probabilities": [
+      0.00038585042178558744,
+      0.00044310571638941736,
+      0.9991710438618251
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002910.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.9550399780273438,
+      -0.7279896140098572,
+      4.774833679199219
+    ],
+    "probabilities": [
+      0.0004375243285862015,
+      0.00405693351953915,
+      0.9955055421518747
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002942.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.1941792964935303,
+      -1.9495726823806763,
+      2.6705775260925293
+    ],
+    "probabilities": [
+      0.020341120906721157,
+      0.00955678249874992,
+      0.9701020965945288
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_002975.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.8839006423950195,
+      -0.8954622149467468,
+      4.743450164794922
+    ],
+    "probabilities": [
+      0.00048498803505196475,
+      0.0035424102927103,
+      0.9959726016722377
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003016.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.7307813763618469,
+      -1.9880198240280151,
+      3.80375599861145
+    ],
+    "probabilities": [
+      0.01058594965508982,
+      0.0030110509479290047,
+      0.9864029993969813
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003045.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.7010815143585205,
+      -1.4601197242736816,
+      2.2077224254608154
+    ],
+    "probabilities": [
+      0.05049747002749908,
+      0.023638695914282103,
+      0.9258638340582189
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003092.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.20771083235740662,
+      -1.9480748176574707,
+      2.6689860820770264
+    ],
+    "probabilities": [
+      0.05282345400067976,
+      0.009268219698418904,
+      0.9379083263009014
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003128.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -3.7938709259033203,
+      0.2825902998447418,
+      4.425266265869141
+    ],
+    "probabilities": [
+      0.0002651650969124987,
+      0.015627912620781108,
+      0.9841069222823065
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003186.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.8551292419433594,
+      -0.08691250532865524,
+      3.9128336906433105
+    ],
+    "probabilities": [
+      0.001128071057272634,
+      0.01797039859603973,
+      0.9809015303466877
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003217.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.9407998323440552,
+      -1.2413251399993896,
+      4.283182144165039
+    ],
+    "probabilities": [
+      0.0019695830576553224,
+      0.003964170258908856,
+      0.9940662466834358
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003289.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -0.9053734540939331,
+      -1.0273007154464722,
+      2.4909605979919434
+    ],
+    "probabilities": [
+      0.03150631661298612,
+      0.02788979333957795,
+      0.9406038900474358
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003335.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.743849039077759,
+      0.5523707270622253,
+      1.1211671829223633
+    ],
+    "probabilities": [
+      0.013207529577569167,
+      0.3567398681903642,
+      0.6300526022320665
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003382.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -4.774763584136963,
+      1.5417091846466064,
+      3.4463250637054443
+    ],
+    "probabilities": [
+      0.00023401856890607723,
+      0.12955661360589613,
+      0.8702093678251979
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003413.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -1.007837176322937,
+      -1.5208282470703125,
+      2.3572096824645996
+    ],
+    "probabilities": [
+      0.032750853661954515,
+      0.019608006093819103,
+      0.9476411402442263
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003473.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      1.2624239921569824,
+      -5.17026948928833,
+      5.576870441436768
+    ],
+    "probabilities": [
+      0.013197168488804594,
+      2.1222545757139785e-05,
+      0.9867816089654383
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003554.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      2.5163612365722656,
+      -6.6042680740356445,
+      4.61181116104126
+    ],
+    "probabilities": [
+      0.1095385391681826,
+      1.1981962711126524e-05,
+      0.8904494788691063
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003607.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -2.4487743377685547,
+      -0.7636995315551758,
+      4.49412202835083
+    ],
+    "probabilities": [
+      0.0009595467690022184,
+      0.005174695954070322,
+      0.9938657572769274
+    ]
+  },
+  {
+    "image": "other/oxford_pets_test_003627.jpg",
+    "label": 2,
+    "raw_prediction": 2,
+    "prediction": 2,
+    "threshold_rejected": false,
+    "logits": [
+      -4.563892364501953,
+      1.0914212465286255,
+      4.270843029022217
+    ],
+    "probabilities": [
+      0.00013975181375389692,
+      0.039941920943428334,
+      0.9599183272428179
+    ]
+  }
+]

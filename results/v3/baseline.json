@@ -1,0 +1,9 @@
+{
+  "git_commit": "1af73a0a6637bc500c3e3de60ad1ade7c9148c5b",
+  "checkpoint_sha256": "82d81655196e111dcba3f2901becb4ddbb4a69dd382fef68e1185ddbb5519596",
+  "encoder_embedding_dim": 256,
+  "preprocessing": "unchanged RGB half-pixel-bilinear 128x128 NCHW float32 /255",
+  "previous_id_test_accuracy": 0.9315068493150684,
+  "previous_easy_ood_far": 0.02,
+  "previous_hard_ood_test_count": 0
+}

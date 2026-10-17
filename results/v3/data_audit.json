@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "counts": {
+    "train": {
+      "original": 945,
+      "hard": 143
+    },
+    "val": {
+      "original": 223,
+      "hard": 70
+    },
+    "test": {
+      "original": 223,
+      "hard": 149
+    }
+  },
+  "hard_identity_groups": 131,
+  "cross_split_pixel_collisions": [],
+  "pixel_hash": "SHA256(RGB dimensions + decoded RGB bytes; white alpha)",
+  "original_splits_preserved": true,
+  "feedback_test_reservation": "training/dataset.py excludes hard OOD val/test hashes from hard_negative/false_positive training additions",
+  "limitation": "Exact pixel/identity grouping does not prove absence of similar distinct emoji; sources share visual style across splits."
+}

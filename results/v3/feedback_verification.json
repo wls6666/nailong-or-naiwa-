@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "hard_test_feedback_rejected": true,
+  "source": "data/hard_ood/test/fluent3d_1f438.png",
+  "message": "Hard-negative leaks validation/test data: /workspace/naiwa-or-nailong/data/false_positive/.v3_holdout_probe.png",
+  "temporary_file_removed": true,
+  "new_feedback_loader_insertion": "Previously exercised by results/feedback_verification.json; same insertion mechanism retained. Hard test reservation additionally verified here."
+}

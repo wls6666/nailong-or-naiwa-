@@ -84,27 +84,3 @@ export function imageToCHW(image) {
   canvas.width = canvas.height = 1; // Release the original-size backing store.
   return tensor;
 }
-
-export function softmax(logits) {
-  const values = Array.from(logits, Number);
-  if (values.length !== 3 || !values.every(Number.isFinite)) throw new Error('模型必须输出三个有限 logits。');
-  const max = Math.max(...values);
-  const exponentials = values.map(value => Math.exp(value - max));
-  const sum = exponentials.reduce((a, b) => a + b, 0);
-  return exponentials.map(value => value / sum);
-}
-
-export function classify(probabilities, config) {
-  const mapping = config.class_to_idx;
-  let rawIndex = 0;
-  probabilities.forEach((p, i) => { if (p > probabilities[rawIndex]) rawIndex = i; });
-  const highestTargetProbability = Math.max(...config.rejection.target_classes.map(name => probabilities[mapping[name]]));
-  const thresholdRejected = rawIndex !== mapping.other && highestTargetProbability < config.reject_threshold;
-  const rawCategory = config.classes[rawIndex];
-  return {
-    rawCategory, category: thresholdRejected ? 'other' : rawCategory, thresholdRejected,
-    highestTargetProbability,
-    confidence: thresholdRejected ? highestTargetProbability : probabilities[rawIndex],
-    confidenceKind: thresholdRejected ? 'highest-target-probability' : 'predicted-class-probability',
-  };
-}

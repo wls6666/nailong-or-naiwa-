@@ -1,0 +1,160 @@
+{
+  "hard_test_count": 149,
+  "false_accept_count": 7,
+  "errors": [
+    {
+      "path": "data/hard_ood/test/noto_1f408.png",
+      "split": "test",
+      "true_type": "hard",
+      "true_class": "other",
+      "predicted_class": "nailong",
+      "max_softmax": "0.992692222665153",
+      "mahalanobis": "184.95582904206498",
+      "energy": "-2.6285228690147506",
+      "p_other": "",
+      "ood_score": "-0.2303339024590729",
+      "accepted": "True",
+      "correct": "False",
+      "source": "noto",
+      "category": "cartoon_animals",
+      "identity": "1f408"
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f408.png",
+      "split": "test",
+      "true_type": "hard",
+      "true_class": "other",
+      "predicted_class": "nailong",
+      "max_softmax": "0.9879704573824786",
+      "mahalanobis": "76.5859890731397",
+      "energy": "-2.7671715033890876",
+      "p_other": "",
+      "ood_score": "-0.3894598789891155",
+      "accepted": "True",
+      "correct": "False",
+      "source": "twemoji",
+      "category": "cartoon_animals",
+      "identity": "1f408"
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f410.png",
+      "split": "test",
+      "true_type": "hard",
+      "true_class": "other",
+      "predicted_class": "naiwa",
+      "max_softmax": "0.9916410768352429",
+      "mahalanobis": "163.01935947058809",
+      "energy": "-2.9728213647794712",
+      "p_other": "",
+      "ood_score": "-0.6254826509744541",
+      "accepted": "True",
+      "correct": "False",
+      "source": "noto",
+      "category": "cartoon_animals",
+      "identity": "1f410"
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f431.png",
+      "split": "test",
+      "true_type": "hard",
+      "true_class": "other",
+      "predicted_class": "nailong",
+      "max_softmax": "0.9940504691767743",
+      "mahalanobis": "223.5577545766422",
+      "energy": "-2.485907713837769",
+      "p_other": "",
+      "ood_score": "-0.066655580361432",
+      "accepted": "True",
+      "correct": "False",
+      "source": "noto",
+      "category": "cartoon_animals",
+      "identity": "1f431"
+    },
+    {
+      "path": "data/hard_ood/test/twemoji_1f431.png",
+      "split": "test",
+      "true_type": "hard",
+      "true_class": "other",
+      "predicted_class": "nailong",
+      "max_softmax": "0.9689574471694128",
+      "mahalanobis": "134.43842395441445",
+      "energy": "-2.680254970789684",
+      "p_other": "",
+      "ood_score": "-0.28970643973673893",
+      "accepted": "True",
+      "correct": "False",
+      "source": "twemoji",
+      "category": "cartoon_animals",
+      "identity": "1f431"
+    },
+    {
+      "path": "data/hard_ood/test/noto_1f60e.png",
+      "split": "test",
+      "true_type": "hard",
+      "true_class": "other",
+      "predicted_class": "naiwa",
+      "max_softmax": "0.9988760884333016",
+      "mahalanobis": "259.09580772062037",
+      "energy": "-3.1749302159481236",
+      "p_other": "",
+      "ood_score": "-0.4109765426118832",
+      "accepted": "True",
+      "correct": "False",
+      "source": "noto",
+      "category": "yellow_faces",
+      "identity": "1f60e"
+    },
+    {
+      "path": "data/hard_ood/test/fluent3d_1f60c.png",
+      "split": "test",
+      "true_type": "hard",
+      "true_class": "other",
+      "predicted_class": "nailong",
+      "max_softmax": "0.9948852872567534",
+      "mahalanobis": "188.05639393735854",
+      "energy": "-2.46100419664164",
+      "p_other": "",
+      "ood_score": "-0.038074004273436636",
+      "accepted": "True",
+      "correct": "False",
+      "source": "fluent3d",
+      "category": "yellow_faces",
+      "identity": "1f60c"
+    }
+  ],
+  "by_source": {
+    "fluent3d": {
+      "count": 43,
+      "false_accept_count": 1,
+      "far": 0.023255813953488372
+    },
+    "noto": {
+      "count": 53,
+      "false_accept_count": 4,
+      "far": 0.07547169811320754
+    },
+    "twemoji": {
+      "count": 53,
+      "false_accept_count": 2,
+      "far": 0.03773584905660377
+    }
+  },
+  "by_category": {
+    "cartoon_animals": {
+      "count": 68,
+      "false_accept_count": 5,
+      "far": 0.07352941176470588
+    },
+    "creatures_toys": {
+      "count": 15,
+      "false_accept_count": 0,
+      "far": 0.0
+    },
+    "yellow_faces": {
+      "count": 66,
+      "false_accept_count": 2,
+      "far": 0.030303030303030304
+    }
+  },
+  "warning": "Only held-out cartoon emoji identities/renderings, not a universal hard OOD benchmark."
+}

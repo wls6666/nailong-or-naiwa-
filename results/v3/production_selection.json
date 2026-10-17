@@ -1,0 +1,192 @@
+{
+  "selection_split": "val",
+  "test_used": false,
+  "rule": "ID accept >=95%, closed-set ID accuracy at most 3pp below frozen baseline. Best custom method minimizes worst Easy/Hard FAR; MobileNet replaces it only if worst-domain FAR improves by at least 5pp.",
+  "experiments": [
+    {
+      "family": "custom_posthoc",
+      "directory": "results/v3/phase_a",
+      "features": "results/v3/features",
+      "checkpoint": "checkpoints/v2/best_model.pth",
+      "checkpoint_sha256": "82d81655196e111dcba3f2901becb4ddbb4a69dd382fef68e1185ddbb5519596",
+      "validation": {
+        "method": "distance_energy_p_other",
+        "target_id_accept": 0.95,
+        "count": 293,
+        "id_count": 73,
+        "id_true_accept_rate": 0.958904109589041,
+        "id_false_reject_rate": 0.0410958904109589,
+        "closed_set_id_accuracy": 0.9315068493150684,
+        "id_end_to_end_accuracy": 0.9041095890410958,
+        "accepted_id_accuracy": 0.9428571428571428,
+        "ood_false_accept_rate": 0.19545454545454546,
+        "auroc": 0.9091531755915317,
+        "aupr_ood": 0.973224529547061,
+        "fpr_at_95_tpr_id": 0.18636363636363637,
+        "easy_ood_count": 150,
+        "easy_ood_far": 0.006666666666666667,
+        "easy_ranking": {
+          "auroc": 0.9957990867579909,
+          "aupr_ood": 0.9976440171933296,
+          "fpr_at_95_tpr_id": 0.0
+        },
+        "hard_ood_count": 70,
+        "hard_ood_far": 0.6,
+        "hard_ranking": {
+          "auroc": 0.7234833659491193,
+          "aupr_ood": 0.7821218581663073,
+          "fpr_at_95_tpr_id": 0.5857142857142857
+        },
+        "parameters": {
+          "normalize_embedding": false,
+          "distance_threshold": 241.05530027685373,
+          "energy_threshold": 0.141485120977071,
+          "energy_temperature": 0.5,
+          "reject_logic": "or",
+          "distance_scale": 57.95554639056451,
+          "energy_scale": 1.6333324473250739,
+          "p_other_threshold": 0.6
+        }
+      },
+      "eligible": true
+    },
+    {
+      "family": "custom_energy_oe",
+      "directory": "results/v3/phase_b",
+      "features": "results/v3/phase_b_features",
+      "checkpoint": "checkpoints/best_model_ood.pth",
+      "checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
+      "validation": {
+        "method": "distance_energy",
+        "target_id_accept": 0.95,
+        "count": 293,
+        "id_count": 73,
+        "id_true_accept_rate": 0.958904109589041,
+        "id_false_reject_rate": 0.0410958904109589,
+        "closed_set_id_accuracy": 0.9178082191780822,
+        "id_end_to_end_accuracy": 0.8767123287671232,
+        "accepted_id_accuracy": 0.9142857142857143,
+        "ood_false_accept_rate": 0.07727272727272727,
+        "auroc": 0.9750311332503113,
+        "aupr_ood": 0.9914109607030669,
+        "fpr_at_95_tpr_id": 0.07727272727272727,
+        "easy_ood_count": 150,
+        "easy_ood_far": 0.07333333333333333,
+        "easy_ranking": {
+          "auroc": 0.9761643835616438,
+          "aupr_ood": 0.9884363545688566,
+          "fpr_at_95_tpr_id": 0.07333333333333333
+        },
+        "hard_ood_count": 70,
+        "hard_ood_far": 0.08571428571428572,
+        "hard_ranking": {
+          "auroc": 0.9726027397260274,
+          "aupr_ood": 0.9730956935601396,
+          "fpr_at_95_tpr_id": 0.08571428571428572
+        },
+        "parameters": {
+          "normalize_embedding": false,
+          "distance_threshold": 286.4332033471298,
+          "energy_threshold": -2.4278297972582807,
+          "energy_temperature": 5.0,
+          "reject_logic": "or",
+          "distance_scale": 66.51814104224003,
+          "energy_scale": 0.8713136434274161
+        }
+      },
+      "eligible": true
+    },
+    {
+      "family": "mobilenet_frozen",
+      "directory": "results/v3/mobilenet",
+      "features": "results/v3/mobilenet_features",
+      "checkpoint": "checkpoints/mobilenet_ood.pth",
+      "checkpoint_sha256": "f45bedfd7e4b50dfc90d355152095b9853936fabab8bbcc05793a3920d02a88e",
+      "validation": {
+        "method": "distance_energy",
+        "target_id_accept": 0.95,
+        "count": 293,
+        "id_count": 73,
+        "id_true_accept_rate": 0.958904109589041,
+        "id_false_reject_rate": 0.0410958904109589,
+        "closed_set_id_accuracy": 0.9178082191780822,
+        "id_end_to_end_accuracy": 0.8767123287671232,
+        "accepted_id_accuracy": 0.9142857142857143,
+        "ood_false_accept_rate": 0.35454545454545455,
+        "auroc": 0.8727272727272728,
+        "aupr_ood": 0.9540081768764213,
+        "fpr_at_95_tpr_id": 0.35454545454545455,
+        "easy_ood_count": 150,
+        "easy_ood_far": 0.32666666666666666,
+        "easy_ranking": {
+          "auroc": 0.8552511415525115,
+          "aupr_ood": 0.9313414876529059,
+          "fpr_at_95_tpr_id": 0.32666666666666666
+        },
+        "hard_ood_count": 70,
+        "hard_ood_far": 0.4142857142857143,
+        "hard_ranking": {
+          "auroc": 0.9101761252446183,
+          "aupr_ood": 0.8943864723002595,
+          "fpr_at_95_tpr_id": 0.4142857142857143
+        },
+        "parameters": {
+          "normalize_embedding": false,
+          "distance_threshold": 132.27703964366597,
+          "energy_threshold": -2.178370924768346,
+          "energy_temperature": 0.5,
+          "reject_logic": "and",
+          "distance_scale": 33.76622370802637,
+          "energy_scale": 0.936162095317236
+        }
+      },
+      "eligible": true
+    }
+  ],
+  "selected": {
+    "family": "custom_energy_oe",
+    "directory": "results/v3/phase_b",
+    "features": "results/v3/phase_b_features",
+    "checkpoint": "checkpoints/best_model_ood.pth",
+    "checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
+    "validation": {
+      "method": "distance_energy",
+      "target_id_accept": 0.95,
+      "count": 293,
+      "id_count": 73,
+      "id_true_accept_rate": 0.958904109589041,
+      "id_false_reject_rate": 0.0410958904109589,
+      "closed_set_id_accuracy": 0.9178082191780822,
+      "id_end_to_end_accuracy": 0.8767123287671232,
+      "accepted_id_accuracy": 0.9142857142857143,
+      "ood_false_accept_rate": 0.07727272727272727,
+      "auroc": 0.9750311332503113,
+      "aupr_ood": 0.9914109607030669,
+      "fpr_at_95_tpr_id": 0.07727272727272727,
+      "easy_ood_count": 150,
+      "easy_ood_far": 0.07333333333333333,
+      "easy_ranking": {
+        "auroc": 0.9761643835616438,
+        "aupr_ood": 0.9884363545688566,
+        "fpr_at_95_tpr_id": 0.07333333333333333
+      },
+      "hard_ood_count": 70,
+      "hard_ood_far": 0.08571428571428572,
+      "hard_ranking": {
+        "auroc": 0.9726027397260274,
+        "aupr_ood": 0.9730956935601396,
+        "fpr_at_95_tpr_id": 0.08571428571428572
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 286.4332033471298,
+        "energy_threshold": -2.4278297972582807,
+        "energy_temperature": 5.0,
+        "reject_logic": "or",
+        "distance_scale": 66.51814104224003,
+        "energy_scale": 0.8713136434274161
+      }
+    },
+    "eligible": true
+  }
+}

@@ -13,3 +13,8 @@ data/false_positive/*
 node_modules/
 *.zip
 .openai/local*
+
+# Rebuild feature tensors from manifests/checkpoints; reports remain versioned.
+results/v3/**/train.npz
+results/v3/**/val.npz
+results/v3/**/test.npz

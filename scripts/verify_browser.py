@@ -26,6 +26,9 @@ class QuietHandler(SimpleHTTPRequestHandler):
 
 
 def main():
+    if json.loads((ROOT / 'web/model_config.json').read_text()).get('task') == 'open-set-ood-v3':
+        from verify_ood_browser import main as verify_ood
+        return verify_ood()
     parser = argparse.ArgumentParser()
     parser.add_argument('--chromium', default='/usr/bin/chromium', help='Use empty string for Playwright-managed Chromium')
     args = parser.parse_args()

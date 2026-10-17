@@ -1,0 +1,35 @@
+{
+  "epochs": 20,
+  "lr": 0.0001,
+  "oe_weight": 0.1,
+  "seed": 42,
+  "initial_checkpoint_sha256": "82d81655196e111dcba3f2901becb4ddbb4a69dd382fef68e1185ddbb5519596",
+  "baseline_val_id_accuracy": 0.9315068493150684,
+  "maximum_val_id_accuracy_drop": 0.03,
+  "margin_in": -1.2684820890426636,
+  "margin_out": 0.7315179109573364,
+  "margin_source": "90th percentile initial ID train energy; fixed 2-logit gap, not rejection thresholds",
+  "oe_easy_count": 600,
+  "oe_hard_count": 143,
+  "oe_sampling": "equal probability mass easy/hard; sample IDs train only",
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "preprocessing": {
+    "size": 128,
+    "channels": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "normalization": null,
+    "resize": "bilinear-half-pixel-clamp-float-no-round",
+    "exif_orientation": true,
+    "alpha_background": "white"
+  },
+  "supcon": false,
+  "imagenet_pretrained": false
+}

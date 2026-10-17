@@ -1,0 +1,58 @@
+{
+  "split": "test",
+  "sample_count": 223,
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1,
+    "other": 2
+  },
+  "policy": "validation-calibrated rejection",
+  "reject_threshold": 0.55,
+  "checkpoint_epoch": 34,
+  "checkpoint_sha256": "82d81655196e111dcba3f2901becb4ddbb4a69dd382fef68e1185ddbb5519596",
+  "accuracy": 0.9641255605381166,
+  "macro_precision": 0.948109756097561,
+  "macro_recall": 0.945570638511815,
+  "macro_f1": 0.9463636363636363,
+  "per_class": {
+    "nailong": {
+      "precision": 0.926829268292683,
+      "recall": 0.9743589743589743,
+      "f1": 0.95,
+      "support": 39
+    },
+    "naiwa": {
+      "precision": 0.9375,
+      "recall": 0.8823529411764706,
+      "f1": 0.9090909090909091,
+      "support": 34
+    },
+    "other": {
+      "precision": 0.98,
+      "recall": 0.98,
+      "f1": 0.98,
+      "support": 150
+    }
+  },
+  "confusion_matrix": [
+    [
+      38,
+      1,
+      0
+    ],
+    [
+      1,
+      30,
+      3
+    ],
+    [
+      2,
+      1,
+      147
+    ]
+  ],
+  "confusion_matrix_axes": "rows=true; columns=prediction; index order",
+  "target_accuracy": 0.9315068493150684,
+  "other_false_accept_rate": 0.02,
+  "other_false_accept_count": 3
+}

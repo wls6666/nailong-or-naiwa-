@@ -1,0 +1,2 @@
+train 1088 logits (1088, 3) embedding (1088, 256)
+val 293 logits (293, 3) embedding (293, 256)

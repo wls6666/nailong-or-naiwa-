@@ -1,0 +1,28 @@
+{
+  "method": "distance_energy_p_other",
+  "count": 372,
+  "id_count": 73,
+  "id_true_accept_rate": 0.9315068493150684,
+  "id_false_reject_rate": 0.0684931506849315,
+  "closed_set_id_accuracy": 0.9452054794520548,
+  "id_end_to_end_accuracy": 0.8904109589041096,
+  "accepted_id_accuracy": 0.9558823529411765,
+  "ood_false_accept_rate": 0.25418060200668896,
+  "auroc": 0.8704356989050259,
+  "aupr_ood": 0.9660787412792196,
+  "fpr_at_95_tpr_id": 0.45819397993311034,
+  "easy_ood_count": 150,
+  "easy_ood_far": 0.006666666666666667,
+  "easy_ranking": {
+    "auroc": 0.9748858447488584,
+    "aupr_ood": 0.9840881880341635,
+    "fpr_at_95_tpr_id": 0.26666666666666666
+  },
+  "hard_ood_count": 149,
+  "hard_ood_far": 0.5033557046979866,
+  "hard_ranking": {
+    "auroc": 0.7652845453709661,
+    "aupr_ood": 0.8804309842575481,
+    "fpr_at_95_tpr_id": 0.6510067114093959
+  }
+}

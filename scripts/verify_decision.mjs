@@ -1,30 +1,25 @@
-// Check stable math, actual validation decisions, and class-order independence.
+// Verify pure OOD math against saved REAL browser/Python comparisons.
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { softmax, classify } from '../web/preprocess.js';
+import { inferOOD, softmax, validateOOD } from '../web/ood.js';
 const read = path => JSON.parse(readFileSync(new URL(path, import.meta.url)));
-const config = read('../web/model_config.json');
-const rows = read('../results/validation_predictions_3class.json');
-for (const row of rows) {
-  const probabilities = softmax(row.logits);
-  row.probabilities.forEach((p, i) => assert(Math.abs(p - probabilities[i]) < 1e-12));
-  const result = classify(probabilities, config);
-  const permutation = [2, 0, 1];
-  const classes = permutation.map(i => config.classes[i]);
-  const permutedConfig = { ...config, classes, class_to_idx: Object.fromEntries(classes.map((name, i) => [name, i])) };
-  const permuted = classify(permutation.map(i => probabilities[i]), permutedConfig);
-  assert.equal(permuted.category, result.category);
-  assert.equal(permuted.thresholdRejected, result.thresholdRejected);
-  assert.equal(permuted.confidence, result.confidence);
-  if (result.thresholdRejected) {
-    assert.equal(result.confidenceKind, 'highest-target-probability');
-    assert.equal(result.confidence, result.highestTargetProbability);
-  } else assert.equal(result.confidence, probabilities[config.class_to_idx[result.rawCategory]]);
+const config = read('../web/ood_config.json'), model = read('../web/model_config.json');
+validateOOD(config, model);
+const rows = read('../results/v3/browser_verification.json').samples;
+for (const { browser: actual } of rows) {
+  const result = inferOOD(actual.logits, actual.embedding, config);
+  assert.equal(result.category, actual.category);
+  assert.equal(result.accepted, actual.accepted);
+  assert(Math.abs(result.oodScore - actual.oodScore) < 1e-9);
+  // Rename/reorder logit columns; fitted class-center meaning is unchanged.
+  const permuted = { ...config, class_mapping: { nailong: 1, naiwa: 0 }, class_indices: [1, 0], energy_logit_indices: [1, 0] };
+  const alternative = inferOOD([actual.logits[1], actual.logits[0]], actual.embedding, permuted);
+  assert.equal(alternative.category, result.category);
+  assert.equal(alternative.confidence, result.confidence);
+  if (!result.accepted) assert.equal(result.confidence, null);
 }
-// Numerical edge cases are unit checks, not substitutes for model predictions.
-const extremes = softmax([1000, 999, -1000]);
-assert(extremes.every(Number.isFinite));
-assert(Math.abs(extremes.reduce((a,b) => a+b) - 1) < 1e-12);
-assert.throws(() => softmax([NaN, 1, 2]));
-assert.throws(() => softmax([1]));
-console.log(`PASS: ${rows.length} actual validation logits, permuted mapping, confidence semantics, stable softmax`);
+// Numerical edge cases are math checks, never model predictions.
+assert(softmax([10000, 9999]).every(Number.isFinite));
+assert.throws(() => softmax([NaN, 1]));
+assert.throws(() => validateOOD({}, model));
+console.log(`PASS: ${rows.length} real output pairs, mapping permutation, score semantics, stable softmax`);

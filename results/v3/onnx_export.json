@@ -1,0 +1,53 @@
+{
+  "onnx_checker": "PASS",
+  "python_runtime": "PASS",
+  "model_bytes": 1558506,
+  "ood_config_bytes": 1720268,
+  "task": "open-set-ood-v3",
+  "model": "model.onnx",
+  "input_name": "input",
+  "output_names": [
+    "logits",
+    "embedding"
+  ],
+  "input_shape": [
+    1,
+    3,
+    128,
+    128
+  ],
+  "logits_shape": [
+    1,
+    2
+  ],
+  "embedding_shape": [
+    1,
+    256
+  ],
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "classes": [
+    "nailong",
+    "naiwa"
+  ],
+  "preprocessing": {
+    "size": 128,
+    "channels": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "normalization": null,
+    "resize": "bilinear-half-pixel-clamp-float-no-round",
+    "exif_orientation": true,
+    "alpha_background": "white"
+  },
+  "model_sha256": "780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3",
+  "checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
+  "ood_config": "ood_config.json",
+  "ood_config_sha256": "00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f"
+}
