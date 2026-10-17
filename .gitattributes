@@ -1,0 +1,8 @@
+# Hashed configs/reports must keep identical bytes on Windows and Linux.
+*.json text eol=lf
+*.csv text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.sh text eol=lf
+*.onnx binary
+*.pth binary
