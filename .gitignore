@@ -3,7 +3,13 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
-data/
+data/*
+!data/hard_negative/
+data/hard_negative/*
+!data/hard_negative/.gitkeep
+!data/false_positive/
+data/false_positive/*
+!data/false_positive/.gitkeep
 node_modules/
 *.zip
 .openai/local*

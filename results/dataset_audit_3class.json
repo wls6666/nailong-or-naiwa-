@@ -1,0 +1,46 @@
+{
+  "split_paths": {
+    "train": "data/train",
+    "val": "data/val",
+    "test": "data/test"
+  },
+  "splits": {
+    "train": {
+      "nailong": 184,
+      "naiwa": 161,
+      "other": 600
+    },
+    "val": {
+      "nailong": 39,
+      "naiwa": 34,
+      "other": 150
+    },
+    "test": {
+      "nailong": 39,
+      "naiwa": 34,
+      "other": 150
+    }
+  },
+  "duplicate_bytes": [],
+  "preprocessing": {
+    "size": 128,
+    "channels": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "normalization": null,
+    "resize": "bilinear-half-pixel-clamp-float-no-round",
+    "exif_orientation": true,
+    "alpha_background": "white"
+  },
+  "source_url": "https://github.com/CristinXie/NaiwaOrNailong-dataset",
+  "source_commit": "900b0419d9c0cfb5ef3c12938a2cbf0ae5eb2abb",
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1,
+    "other": 2
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "sample_count": 14,
+  "checkpoint_sha256": "82d81655196e111dcba3f2901becb4ddbb4a69dd382fef68e1185ddbb5519596",
+  "note": "Unused official test-pool source samples, disjoint from generated train/val/test. Same-source qualitative probe, not a new-domain guarantee.",
+  "false_accept_count": 0,
+  "samples": [
+    {
+      "domain": "cat",
+      "source": "oxford_pets",
+      "source_id": "Maine_Coon_2",
+      "path": "data/source_cache/oxford-iiit-pet/images/Maine_Coon_2.jpg",
+      "probabilities": [
+        0.005532678928629178,
+        0.13356006883128696,
+        0.8609072522400838
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.13356006883128696,
+      "actual_other": true
+    },
+    {
+      "domain": "cat",
+      "source": "oxford_pets",
+      "source_id": "Bengal_201",
+      "path": "data/source_cache/oxford-iiit-pet/images/Bengal_201.jpg",
+      "probabilities": [
+        0.0005451687949689587,
+        2.872919428735959e-05,
+        0.9994261020107437
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.0005451687949689587,
+      "actual_other": true
+    },
+    {
+      "domain": "dog",
+      "source": "oxford_pets",
+      "source_id": "beagle_62",
+      "path": "data/source_cache/oxford-iiit-pet/images/beagle_62.jpg",
+      "probabilities": [
+        0.007685940808609014,
+        0.003560383756580984,
+        0.9887536754348101
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.007685940808609014,
+      "actual_other": true
+    },
+    {
+      "domain": "dog",
+      "source": "oxford_pets",
+      "source_id": "boxer_191",
+      "path": "data/source_cache/oxford-iiit-pet/images/boxer_191.jpg",
+      "probabilities": [
+        0.00018339065461722332,
+        0.00017284944197368303,
+        0.9996437599034093
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.00018339065461722332,
+      "actual_other": true
+    },
+    {
+      "domain": "vehicle",
+      "source": "cifar100",
+      "source_id": "test/vehicles_1/bus/bus_s_000312.png",
+      "path": "data/source_cache/cifar100/test/vehicles_1/bus/bus_s_000312.png",
+      "probabilities": [
+        0.008314787851568266,
+        0.004700611938906446,
+        0.9869846002095252
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.008314787851568266,
+      "actual_other": true
+    },
+    {
+      "domain": "vehicle",
+      "source": "cifar100",
+      "source_id": "test/vehicles_1/pickup_truck/pickup_truck_s_002063.png",
+      "path": "data/source_cache/cifar100/test/vehicles_1/pickup_truck/pickup_truck_s_002063.png",
+      "probabilities": [
+        0.00021969234050074783,
+        0.0004117367959773873,
+        0.9993685708635218
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.0004117367959773873,
+      "actual_other": true
+    },
+    {
+      "domain": "food",
+      "source": "cifar100",
+      "source_id": "test/fruit_and_vegetables/apple/red_delicious_s_002040.png",
+      "path": "data/source_cache/cifar100/test/fruit_and_vegetables/apple/red_delicious_s_002040.png",
+      "probabilities": [
+        0.002826842051605056,
+        0.002431266199313699,
+        0.9947418917490812
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.002826842051605056,
+      "actual_other": true
+    },
+    {
+      "domain": "food",
+      "source": "cifar100",
+      "source_id": "test/fruit_and_vegetables/orange/citrus_aurantium_s_001156.png",
+      "path": "data/source_cache/cifar100/test/fruit_and_vegetables/orange/citrus_aurantium_s_001156.png",
+      "probabilities": [
+        0.015096841378699224,
+        0.0011769621191268901,
+        0.983726196502174
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.015096841378699224,
+      "actual_other": true
+    },
+    {
+      "domain": "building",
+      "source": "cifar100",
+      "source_id": "test/large_man-made_outdoor_things/house/boarding_house_s_001842.png",
+      "path": "data/source_cache/cifar100/test/large_man-made_outdoor_things/house/boarding_house_s_001842.png",
+      "probabilities": [
+        0.01674812559500483,
+        0.011527520957042655,
+        0.9717243534479524
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.01674812559500483,
+      "actual_other": true
+    },
+    {
+      "domain": "building",
+      "source": "cifar100",
+      "source_id": "test/large_man-made_outdoor_things/skyscraper/world_trade_center_s_000334.png",
+      "path": "data/source_cache/cifar100/test/large_man-made_outdoor_things/skyscraper/world_trade_center_s_000334.png",
+      "probabilities": [
+        0.0014741852622709149,
+        0.0047994121727571405,
+        0.9937264025649719
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.0047994121727571405,
+      "actual_other": true
+    },
+    {
+      "domain": "person",
+      "source": "cifar100",
+      "source_id": "test/people/woman/black_woman_s_000586.png",
+      "path": "data/source_cache/cifar100/test/people/woman/black_woman_s_000586.png",
+      "probabilities": [
+        0.0001624837989028953,
+        0.0008067610085854706,
+        0.9990307551925117
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.0008067610085854706,
+      "actual_other": true
+    },
+    {
+      "domain": "person",
+      "source": "cifar100",
+      "source_id": "test/people/man/adult_male_s_000028.png",
+      "path": "data/source_cache/cifar100/test/people/man/adult_male_s_000028.png",
+      "probabilities": [
+        0.002938765011340234,
+        0.002076559635443721,
+        0.9949846753532161
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.002938765011340234,
+      "actual_other": true
+    },
+    {
+      "domain": "nature",
+      "source": "cifar100",
+      "source_id": "test/large_natural_outdoor_scenes/sea/sea_s_001305.png",
+      "path": "data/source_cache/cifar100/test/large_natural_outdoor_scenes/sea/sea_s_001305.png",
+      "probabilities": [
+        0.014152678815349075,
+        0.008922505972752563,
+        0.9769248152118984
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.014152678815349075,
+      "actual_other": true
+    },
+    {
+      "domain": "nature",
+      "source": "cifar100",
+      "source_id": "test/large_natural_outdoor_scenes/forest/wood_s_000492.png",
+      "path": "data/source_cache/cifar100/test/large_natural_outdoor_scenes/forest/wood_s_000492.png",
+      "probabilities": [
+        0.006883852406455243,
+        0.00018237912121221896,
+        0.9929337684723326
+      ],
+      "prediction": "other",
+      "threshold_rejected": false,
+      "highest_target_probability": 0.006883852406455243,
+      "actual_other": true
+    }
+  ]
+}

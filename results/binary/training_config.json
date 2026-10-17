@@ -1,0 +1,34 @@
+{
+  "data": "/workspace/naiwa-or-nailong/data/NaiwaOrNailong-dataset",
+  "epochs": 40,
+  "batch_size": 32,
+  "lr": 0.001,
+  "seed": 42,
+  "patience": 12,
+  "threads": 2,
+  "device": "cpu",
+  "torch": "2.14.1+cpu",
+  "python": "3.12.14",
+  "parameters": 389633,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "dropout": 0.35,
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "preprocessing": {
+    "size": 128,
+    "channels": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "normalization": null,
+    "resize": "bilinear-half-pixel-clamp-float-no-round",
+    "exif_orientation": true,
+    "alpha_background": "white"
+  }
+}

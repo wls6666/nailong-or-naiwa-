@@ -1,0 +1,6 @@
+{
+  "automatic_inclusion": "PASS",
+  "holdout_leak_rejection": "PASS",
+  "temporary_real_image_removed": true,
+  "production_training_extra_count": 0
+}

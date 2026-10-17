@@ -1,0 +1,10 @@
+class_to_idx: {'nailong': 0, 'naiwa': 1}
+lossless-test-pixels 01077fe178865f28.jpg nailong 100.00% PASS
+original-jpeg 01077fe178865f28.jpg nailong 100.00% PASS
+lossless-test-pixels 0125cfcdb412fa3c.jpg naiwa 98.08% PASS
+original-jpeg 0125cfcdb412fa3c.jpg naiwa 98.08% PASS
+lossless-test-pixels 1023c3154dd0516f.jpg naiwa 93.01% PASS
+original-jpeg 1023c3154dd0516f.jpg naiwa 93.01% PASS
+lossless-test-pixels 14d35aa37968a2e3.jpg naiwa 93.04% PASS
+original-jpeg 14d35aa37968a2e3.jpg naiwa 93.04% PASS
+BROWSER VERIFICATION PASS

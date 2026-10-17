@@ -1,0 +1,25 @@
+Validation-only calibration: {
+  "split": "val",
+  "sample_count": 223,
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1,
+    "other": 2
+  },
+  "checkpoint_sha256": "82d81655196e111dcba3f2901becb4ddbb4a69dd382fef68e1185ddbb5519596",
+  "reject_threshold": 0.55,
+  "selection_rule": "Among candidates with target accuracy drop <= 3pp and each target recall drop <= 5pp: minimize Other FAR; tie maximize macro F1; tie choose lower threshold. If none eligible, minimize target loss first.",
+  "max_target_accuracy_drop": 0.03,
+  "max_target_class_recall_drop": 0.05,
+  "constraints_met": true
+}
+0.5 targets 0.9041 Other FAR 0.0067 macro F1 0.9352 eligible True
+0.55 targets 0.9041 Other FAR 0.0067 macro F1 0.9381 eligible True
+0.6 targets 0.8904 Other FAR 0.0067 macro F1 0.9343 eligible True
+0.65 targets 0.8767 Other FAR 0.0 macro F1 0.9329 eligible False
+0.7 targets 0.8767 Other FAR 0.0 macro F1 0.9329 eligible False
+0.75 targets 0.8493 Other FAR 0.0 macro F1 0.9215 eligible False
+0.8 targets 0.8219 Other FAR 0.0 macro F1 0.9085 eligible False
+0.85 targets 0.7945 Other FAR 0.0 macro F1 0.8951 eligible False
+0.9 targets 0.7808 Other FAR 0.0 macro F1 0.8957 eligible False
+0.95 targets 0.7123 Other FAR 0.0 macro F1 0.8554 eligible False

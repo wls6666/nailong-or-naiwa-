@@ -1,8 +1,8 @@
-import { SIZE, MAX_BYTES, validateImageBytes, imageToCHW, sigmoid } from './preprocess.js';
+import { SIZE, MAX_BYTES, validateImageBytes, imageToCHW, softmax, classify } from './preprocess.js';
 
 const $ = id => document.getElementById(id);
 const input = $('file-input'), button = $('predict-button'), status = $('model-status');
-const names = { nailong: { zh: '奶龙', en: 'Nailong' }, naiwa: { zh: '奶蛙', en: 'Naiwa' } };
+const names = { nailong: { zh: '奶龙', en: 'Nailong' }, naiwa: { zh: '奶蛙', en: 'Naiwa' }, other: { zh: '都不是', en: 'Neither' } };
 let session, config, bitmap, objectURL, busy = false, uploadVersion = 0, modelLoading = false;
 
 function showError(message) { $('error').textContent = message; $('error').hidden = !message; }
@@ -29,8 +29,16 @@ async function loadModel() {
     if (!response.ok) throw new Error(`模型配置 HTTP ${response.status}`);
     config = await response.json();
     const mapping = config.class_to_idx;
-    if (!mapping || Object.keys(mapping).length !== 2 || ![0, 1].includes(mapping.nailong)
-        || ![0, 1].includes(mapping.naiwa) || mapping.nailong === mapping.naiwa) throw new Error('模型类别映射无效。');
+    if (!mapping || Object.keys(mapping).length !== 3 || !['nailong', 'naiwa', 'other'].every(name => Number.isInteger(mapping[name]))
+        || new Set(Object.values(mapping)).size !== 3 || !Object.values(mapping).every(i => i >= 0 && i < 3)
+        || !Array.isArray(config.classes) || config.classes.length !== 3
+        || !config.classes.every((name, i) => mapping[name] === i)) throw new Error('模型三分类映射无效。');
+    if (!Number.isFinite(config.reject_threshold) || config.reject_threshold < .5 || config.reject_threshold > .95
+        || config.rejection?.calibration_split !== 'val' || config.rejection.other_class !== 'other'
+        || !Array.isArray(config.rejection.target_classes) || config.rejection.target_classes.length !== 2
+        || new Set(config.rejection.target_classes).size !== 2
+        || !config.rejection.target_classes.every(name => name === 'nailong' || name === 'naiwa')
+        || JSON.stringify(config.output_shape) !== '[1,3]') throw new Error('模型输出或 validation 拒识配置无效。');
     const prep = config.preprocessing;
     if (prep?.size !== SIZE || prep.channels !== 'RGB' || prep.layout !== 'NCHW' || prep.dtype !== 'float32'
         || prep.normalization !== null || prep.resize !== 'bilinear-half-pixel-clamp-float-no-round'
@@ -91,21 +99,25 @@ async function predict() {
     const tensor = new ort.Tensor('float32', data, [1, 3, SIZE, SIZE]);
     const outputs = await session.run({ [config.input_name]: tensor });
     const output = outputs[config.output_name];
-    if (!output || output.data.length !== 1 || output.dims.join(',') !== '1,1') throw new Error('模型输出形状不符合预期。');
-    const logit = Number(output.data[0]), positiveProbability = sigmoid(logit);
-    const index = positiveProbability >= .5 ? 1 : 0;
-    const category = Object.keys(config.class_to_idx).find(key => config.class_to_idx[key] === index);
+    if (!output || output.data.length !== 3 || output.dims.join(',') !== '1,3') throw new Error('模型必须真实输出 [1,3] logits。');
+    const logits = Array.from(output.data, Number), probabilities = softmax(logits);
+    const decision = classify(probabilities, config);
+    const { category, confidence, thresholdRejected } = decision;
     if (!names[category]) throw new Error('无法匹配模型类别。');
-    const confidence = index === 1 ? positiveProbability : 1 - positiveProbability;
-    $('prediction-name').textContent = `${names[category].zh} / ${names[category].en}`;
+    $('prediction-name').textContent = thresholdRejected ? '都不是 / 无法确定' : `${names[category].zh} / ${names[category].en}`;
     $('confidence-value').textContent = `${(confidence * 100).toFixed(2)}%`;
+    $('confidence-label').textContent = thresholdRejected ? '最高目标类概率' : '模型置信度';
+    $('result-note').textContent = thresholdRejected ? '低置信度拒识' : '三分类 CNN 预测';
     $('result').dataset.category = category;
     $('confidence-fill').style.width = `${confidence * 100}%`;
     $('confidence-bar').setAttribute('aria-valuenow', String(confidence * 100));
-    const pNaiwa = config.class_to_idx.naiwa === 1 ? positiveProbability : 1 - positiveProbability;
-    $('probability-detail').textContent = `奶龙 ${(100 * (1 - pNaiwa)).toFixed(2)}% · 奶蛙 ${(100 * pNaiwa).toFixed(2)}%`;
+    $('confidence-bar').setAttribute('aria-label', thresholdRejected ? '最高目标类概率，非都不是的概率' : '预测类别置信度');
+    const allProbabilities = config.classes.map((name, i) => `${names[name].zh} ${(probabilities[i] * 100).toFixed(2)}%`).join(' · ');
+    $('probability-detail').textContent = thresholdRejected
+      ? `最高目标类概率仅 ${(confidence * 100).toFixed(2)}%，低于验证集选定的 ${(config.reject_threshold * 100).toFixed(0)}% 阈值。${allProbabilities}`
+      : allProbabilities;
     $('result').hidden = false;
-    const detail = { shape: tensor.dims, logit, positiveProbability, category, confidence };
+    const detail = { shape: tensor.dims, outputShape: output.dims, logits, probabilities, ...decision };
     console.debug('CNN inference', detail);
     document.dispatchEvent(new CustomEvent('inference-complete', { detail }));
   } catch (error) {

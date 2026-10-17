@@ -3,7 +3,7 @@ from torch import nn
 
 
 class SmallCNN(nn.Module):
-    def __init__(self):
+    def __init__(self, num_classes=3):
         super().__init__()
         layers = []
         for i, (incoming, outgoing) in enumerate([(3, 32), (32, 64), (64, 128), (128, 256)]):
@@ -13,7 +13,7 @@ class SmallCNN(nn.Module):
                 layers.append(nn.MaxPool2d(2))
         self.features = nn.Sequential(*layers)
         self.head = nn.Sequential(nn.AdaptiveAvgPool2d(1), nn.Flatten(),
-                                  nn.Dropout(0.35), nn.Linear(256, 1))
+                                  nn.Dropout(0.35), nn.Linear(256, num_classes))
 
     def forward(self, x):
         return self.head(self.features(x))

@@ -15,8 +15,9 @@ import torch
 from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'training'))
-from dataset import ROOT, DEFAULT_DATA, datasets, load_rgb, resize_rgb
+from dataset import ROOT, DEFAULT_DATA, datasets, load_rgb, resize_rgb, discover_splits
 from common import load_model, save_json, sha256
+from inference import softmax, decisions
 
 
 class QuietHandler(SimpleHTTPRequestHandler):
@@ -34,8 +35,17 @@ def main():
     session = ort.InferenceSession(str(ROOT / 'web/model.onnx'), sess_options=options, providers=['CPUExecutionProvider'])
     ds = datasets(DEFAULT_DATA)['test']
     chosen = []
-    for label in (0, 1):
+    config = json.loads((ROOT / 'web/model_config.json').read_text())
+    for label in [saved['class_to_idx'][name] for name in ['nailong','naiwa']]:
         chosen.extend([Path(path) for path, y in ds.samples if y == label][:2])
+    for source_name in ['cifar100','oxford_pets']:
+        chosen.append(next(Path(path) for path, y in ds.samples if y == saved['class_to_idx']['other'] and Path(path).name.startswith(source_name)))
+    validation = json.loads((ROOT / 'results/validation_predictions_3class.json').read_text())
+    for row in validation:
+        probabilities = np.asarray([row['probabilities']])
+        _, rejected, _ = decisions(probabilities, saved['class_to_idx'], config['reject_threshold'])
+        if rejected[0]:
+            chosen.append(discover_splits(DEFAULT_DATA)['val'] / row['image']); break
     server = ThreadingHTTPServer(('127.0.0.1', 0), partial(QuietHandler, directory=str(ROOT / 'web')))
     thread = threading.Thread(target=server.serve_forever, daemon=True); thread.start()
     url = f'http://127.0.0.1:{server.server_port}/'
@@ -70,27 +80,38 @@ def main():
                     }''')
                     browser_tensor = np.asarray(tensor_list, dtype=np.float32).reshape(1, 3, 128, 128)
                     python_tensor = resize_rgb(load_rgb(image)).unsqueeze(0).numpy()
-                    python_logit = float(session.run(['logits'], {'input': browser_tensor})[0][0, 0])
+                    python_logits = session.run(['logits'], {'input': browser_tensor})[0]
                     with torch.inference_mode():
-                        pytorch_logit = model(torch.from_numpy(browser_tensor)).item()
-                    reference_logit = float(session.run(['logits'], {'input': python_tensor})[0][0, 0])
-                    probability = 1 / (1 + np.exp(-python_logit))
-                    index = int(probability >= .5)
-                    category = next(k for k, v in saved['class_to_idx'].items() if v == index)
-                    confidence = probability if index else 1 - probability
+                        pytorch_logits = model(torch.from_numpy(browser_tensor)).numpy()
+                    reference_logits = session.run(['logits'], {'input': python_tensor})[0]
+                    probabilities = softmax(python_logits)
+                    prediction, rejected, highest_target = decisions(probabilities, saved['class_to_idx'], config['reject_threshold'])
+                    category = config['classes'][int(prediction[0])]
+                    raw_index = int(probabilities[0].argmax())
+                    confidence = float(highest_target[0] if rejected[0] else probabilities[0, raw_index])
                     tensor_difference = float(np.abs(browser_tensor - python_tensor).max())
-                    row = {'image': str(source.relative_to(ds.root)), 'kind': kind,
-                           'browser': actual, 'python_onnx_same_tensor_logit': python_logit,
-                           'pytorch_same_tensor_logit': pytorch_logit,
-                           'python_preprocessing_logit': reference_logit,
+                    actual_logits = np.asarray(actual['logits'])
+                    row = {'image': str(source.relative_to(ROOT / 'data/NaiwaOrNailong-dataset/data')), 'kind': kind,
+                           'browser': actual, 'python_onnx_same_tensor_logits': python_logits[0].tolist(),
+                           'pytorch_same_tensor_logits': pytorch_logits[0].tolist(),
+                           'python_preprocessing_logits': reference_logits[0].tolist(),
                            'max_preprocessing_tensor_difference': tensor_difference,
-                           'browser_python_logit_difference': abs(actual['logit'] - python_logit),
+                           'browser_python_logit_difference': float(np.max(np.abs(actual_logits - python_logits[0]))),
                            'displayed_confidence': page.locator('#confidence-value').inner_text()}
+                    assert actual['outputShape'] == [1,3]
                     assert actual['category'] == category
-                    assert abs(actual['confidence'] - confidence) < 1e-4
+                    assert actual['thresholdRejected'] == bool(rejected[0])
+                    assert np.max(np.abs(np.asarray(actual['probabilities']) - probabilities[0])) < 1e-5
+                    assert abs(actual['confidence'] - confidence) < 1e-5
                     assert row['displayed_confidence'] == f'{actual["confidence"] * 100:.2f}%'
-                    assert abs(actual['logit'] - python_logit) < 1e-4
-                    assert abs(actual['logit'] - pytorch_logit) < 1e-4
+                    assert row['browser_python_logit_difference'] < 1e-4
+                    assert np.max(np.abs(actual_logits - pytorch_logits[0])) < 1e-4
+                    if rejected[0]:
+                        assert actual['confidenceKind'] == 'highest-target-probability'
+                        assert page.locator('#confidence-label').inner_text() == '最高目标类概率'
+                        assert '无法确定' in page.locator('#prediction-name').inner_text()
+                    else:
+                        assert actual['confidenceKind'] == 'predicted-class-probability'
                     if kind == 'lossless-test-pixels': assert tensor_difference <= 1e-7
                     row['status'] = 'PASS'; records.append(row)
                     print(kind, source.name, category, row['displayed_confidence'], 'PASS', flush=True)
@@ -132,19 +153,23 @@ def main():
             page.reload()
             page.wait_for_function("document.querySelector('#model-status').dataset.state === 'ready'")
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
-            page.screenshot(path=str(ROOT / 'results/web_mobile.png'), full_page=True)
+            page.screenshot(path=str(ROOT / 'results/web_mobile_3class.png'), full_page=True)
             page.set_viewport_size({'width': 1120, 'height': 1050})
-            page.screenshot(path=str(ROOT / 'results/web_desktop.png'), full_page=True)
+            page.screenshot(path=str(ROOT / 'results/web_desktop_3class.png'), full_page=True)
             browser.close()
+        assert any(r['browser']['thresholdRejected'] for r in records), 'Actual-image low-confidence branch was not exercised'
+        assert any(r['browser']['rawCategory']=='other' for r in records), 'No genuine Other argmax was exercised'
         assert not page_errors, page_errors
         assert all(r['method'] == 'GET' and r['url'].startswith(('http://127.0.0.1:', 'blob:http://127.0.0.1:')) for r in requests), requests
         report = {'status': 'PASS', 'engine': 'real Chromium + ONNX Runtime Web WASM',
                   'model_sha256': sha256(ROOT / 'web/model.onnx'), 'samples': records,
+                  'reject_threshold': config['reject_threshold'], 'class_to_idx': saved['class_to_idx'],
+                  'real_image_low_confidence_branch_verified': True, 'real_other_argmax_verified': True,
                   'extra_formats': format_results, 'page_errors': page_errors,
                   'invalid_file_error': invalid_message, 'oversized_file_rejected': True,
                   'model_load_error': failure_message, 'all_requests_local_get': True,
                   'mobile_no_horizontal_overflow': True}
-        save_json(ROOT / 'results/browser_verification.json', report)
+        save_json(ROOT / 'results/browser_verification_3class.json', report)
         print('BROWSER VERIFICATION PASS')
     finally:
         server.shutdown(); server.server_close()

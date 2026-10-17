@@ -1,0 +1,32 @@
+{
+  "model": "model.onnx",
+  "input_name": "input",
+  "output_name": "logits",
+  "input_shape": [
+    1,
+    3,
+    128,
+    128
+  ],
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "preprocessing": {
+    "size": 128,
+    "channels": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "normalization": null,
+    "resize": "bilinear-half-pixel-clamp-float-no-round",
+    "exif_orientation": true,
+    "alpha_background": "white"
+  },
+  "checkpoint_epoch": 34,
+  "checkpoint_sha256": "22577e9861cd0c858a82612610121e4730984e8ccb5bf21fbc8b271036506faf",
+  "model_sha256": "97459e6ddfb62c854eae21cea7a444b8565b95444e1702dfab12a1827a761ede"
+}

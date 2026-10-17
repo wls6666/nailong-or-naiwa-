@@ -1,0 +1,26 @@
+Downloading/loading cifar100
+
+cifar100 train 300
+cifar100 val 75
+cifar100 test 75
+Downloading/loading oxford_pets
+
+
+oxford_pets train 300
+oxford_pets val 75
+oxford_pets test 75
+PASS: no cross-split source/byte/decoded-pixel duplicates; original targets unchanged
+{
+  "train": {
+    "cifar100": 300,
+    "oxford_pets": 300
+  },
+  "val": {
+    "cifar100": 75,
+    "oxford_pets": 75
+  },
+  "test": {
+    "cifar100": 75,
+    "oxford_pets": 75
+  }
+}

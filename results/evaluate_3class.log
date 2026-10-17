@@ -1,0 +1,62 @@
+mkdir -p failed for path /home/agent/.config/matplotlib: [Errno 30] Read-only file system: '/home/agent/.config/matplotlib'
+Matplotlib created a temporary cache directory at /tmp/matplotlib-f_gendk2 because there was an issue with the default path (/home/agent/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+class_to_idx: {'nailong': 0, 'naiwa': 1, 'other': 2}
+{
+  "split": "test",
+  "sample_count": 223,
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1,
+    "other": 2
+  },
+  "policy": "raw three-class argmax",
+  "reject_threshold": null,
+  "checkpoint_epoch": 34,
+  "checkpoint_sha256": "82d81655196e111dcba3f2901becb4ddbb4a69dd382fef68e1185ddbb5519596",
+  "accuracy": 0.9641255605381166,
+  "macro_precision": 0.9381547244919338,
+  "macro_recall": 0.945570638511815,
+  "macro_f1": 0.9408324528638818,
+  "per_class": {
+    "nailong": {
+      "precision": 0.8837209302325582,
+      "recall": 0.9743589743589743,
+      "f1": 0.926829268292683,
+      "support": 39
+    },
+    "naiwa": {
+      "precision": 0.9375,
+      "recall": 0.8823529411764706,
+      "f1": 0.9090909090909091,
+      "support": 34
+    },
+    "other": {
+      "precision": 0.9932432432432432,
+      "recall": 0.98,
+      "f1": 0.9865771812080537,
+      "support": 150
+    }
+  },
+  "confusion_matrix": [
+    [
+      38,
+      1,
+      0
+    ],
+    [
+      3,
+      30,
+      1
+    ],
+    [
+      2,
+      1,
+      147
+    ]
+  ],
+  "confusion_matrix_axes": "rows=true; columns=prediction; index order",
+  "target_accuracy": 0.9315068493150684,
+  "other_false_accept_rate": 0.02,
+  "other_false_accept_count": 3
+}

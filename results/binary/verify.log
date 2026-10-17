@@ -1,0 +1,6 @@
+class_to_idx: {'nailong': 0, 'naiwa': 1}
+PyTorch probability: 1.1343687465305349e-06
+ONNX probability: 1.1343687465305349e-06
+Max logit difference: 5.7220458984375e-06
+Max probability difference: 2.0530640354454732e-07
+PASS 73 real test images

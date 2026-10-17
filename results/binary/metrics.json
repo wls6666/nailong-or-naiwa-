@@ -1,0 +1,26 @@
+{
+  "split": "test",
+  "sample_count": 73,
+  "positive_class": "naiwa",
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "checkpoint_epoch": 34,
+  "checkpoint_sha256": "22577e9861cd0c858a82612610121e4730984e8ccb5bf21fbc8b271036506faf",
+  "accuracy": 0.9315068493150684,
+  "precision": 0.967741935483871,
+  "recall": 0.8823529411764706,
+  "f1": 0.9230769230769231,
+  "confusion_matrix": [
+    [
+      38,
+      1
+    ],
+    [
+      4,
+      30
+    ]
+  ],
+  "confusion_matrix_axes": "rows=true, columns=predicted; class index order"
+}

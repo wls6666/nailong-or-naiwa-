@@ -28,9 +28,9 @@ def sha256(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
-def load_model(checkpoint=ROOT / 'checkpoints/best_model.pth'):
+def load_model(checkpoint=ROOT / 'checkpoints/best_model_3class.pth'):
     saved = torch.load(checkpoint, map_location='cpu', weights_only=True)
-    model = SmallCNN()
+    model = SmallCNN(num_classes=saved['model_state_dict']['head.3.weight'].shape[0])
     model.load_state_dict(saved['model_state_dict'])
     model.eval()
     return model, saved

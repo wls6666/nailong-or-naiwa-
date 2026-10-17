@@ -1,0 +1,63 @@
+{
+  "onnx_checker": "PASS",
+  "python_runtime": "PASS",
+  "opset": 17,
+  "bytes": 1559833,
+  "sample_logits": [
+    3.5695993900299072,
+    -3.515784740447998,
+    -6.40556001663208
+  ],
+  "model": "model.onnx",
+  "input_name": "input",
+  "output_name": "logits",
+  "input_shape": [
+    1,
+    3,
+    128,
+    128
+  ],
+  "output_shape": [
+    1,
+    3
+  ],
+  "task": "three-class-with-validation-calibrated-rejection",
+  "classes": [
+    "nailong",
+    "naiwa",
+    "other"
+  ],
+  "reject_threshold": 0.55,
+  "rejection": {
+    "other_class": "other",
+    "target_classes": [
+      "nailong",
+      "naiwa"
+    ],
+    "calibration_split": "val",
+    "calibration_sha256": "151c2edaa864986de686ab924584d43306dbbc6648a1cc1ac9bebacde9799ce6",
+    "low_confidence_display": "target maximum probability, not Other probability"
+  },
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1,
+    "other": 2
+  },
+  "preprocessing": {
+    "size": 128,
+    "channels": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "normalization": null,
+    "resize": "bilinear-half-pixel-clamp-float-no-round",
+    "exif_orientation": true,
+    "alpha_background": "white"
+  },
+  "checkpoint_epoch": 34,
+  "checkpoint_sha256": "82d81655196e111dcba3f2901becb4ddbb4a69dd382fef68e1185ddbb5519596",
+  "model_sha256": "a3990118e72d87d49a0b5d1ac4067c2d623eff3165d1634a2eda1158c6c7525f"
+}

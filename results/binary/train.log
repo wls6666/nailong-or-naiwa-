@@ -1,0 +1,43 @@
+class_to_idx: {'nailong': 0, 'naiwa': 1}
+Training: {'data': '/workspace/naiwa-or-nailong/data/NaiwaOrNailong-dataset', 'epochs': 40, 'batch_size': 32, 'lr': 0.001, 'seed': 42, 'patience': 12, 'threads': 2, 'device': 'cpu', 'torch': '2.14.1+cpu', 'python': '3.12.14', 'parameters': 389633, 'optimizer': 'AdamW', 'weight_decay': 0.0001, 'dropout': 0.35, 'class_to_idx': {'nailong': 0, 'naiwa': 1}, 'preprocessing': {'size': 128, 'channels': 'RGB', 'layout': 'NCHW', 'dtype': 'float32', 'range': [0, 1], 'normalization': None, 'resize': 'bilinear-half-pixel-clamp-float-no-round', 'exif_orientation': True, 'alpha_background': 'white'}}
+Epoch 01: train loss=0.54620 acc=0.7391 | val loss=0.76409 acc=0.4658 | 7.2s | stale=0
+Epoch 02: train loss=0.45467 acc=0.8087 | val loss=0.85948 acc=0.4658 | 7.2s | stale=1
+Epoch 03: train loss=0.41232 acc=0.8232 | val loss=0.75521 acc=0.6301 | 6.5s | stale=0
+Epoch 04: train loss=0.41888 acc=0.8203 | val loss=0.89426 acc=0.5753 | 6.8s | stale=1
+Epoch 05: train loss=0.40345 acc=0.8174 | val loss=0.41497 acc=0.8219 | 6.7s | stale=0
+Epoch 06: train loss=0.38558 acc=0.8290 | val loss=0.55708 acc=0.7808 | 9.8s | stale=1
+Epoch 07: train loss=0.37963 acc=0.8377 | val loss=1.09368 acc=0.5342 | 8.3s | stale=2
+Epoch 08: train loss=0.32775 acc=0.8551 | val loss=0.36748 acc=0.8493 | 9.4s | stale=0
+Epoch 09: train loss=0.34751 acc=0.8493 | val loss=0.55841 acc=0.7397 | 7.8s | stale=1
+Epoch 10: train loss=0.33917 acc=0.8696 | val loss=0.45179 acc=0.8493 | 9.8s | stale=2
+Epoch 11: train loss=0.29767 acc=0.9014 | val loss=0.51931 acc=0.8219 | 8.8s | stale=3
+Epoch 12: train loss=0.29569 acc=0.8754 | val loss=0.50072 acc=0.7671 | 9.1s | stale=4
+Epoch 13: train loss=0.26281 acc=0.8841 | val loss=1.16149 acc=0.5342 | 8.9s | stale=5
+Epoch 14: train loss=0.29370 acc=0.8870 | val loss=0.35646 acc=0.8493 | 8.7s | stale=0
+Epoch 15: train loss=0.23702 acc=0.9217 | val loss=0.33526 acc=0.8630 | 8.1s | stale=0
+Epoch 16: train loss=0.22981 acc=0.9246 | val loss=0.77742 acc=0.7397 | 9.4s | stale=1
+Epoch 17: train loss=0.23992 acc=0.9072 | val loss=0.28926 acc=0.8630 | 8.9s | stale=0
+Epoch 18: train loss=0.23914 acc=0.9043 | val loss=0.54261 acc=0.7945 | 9.1s | stale=1
+Epoch 19: train loss=0.25604 acc=0.9072 | val loss=0.95568 acc=0.6301 | 6.7s | stale=2
+Epoch 20: train loss=0.19507 acc=0.9391 | val loss=0.30313 acc=0.8767 | 8.4s | stale=0
+Epoch 21: train loss=0.24042 acc=0.9130 | val loss=0.34584 acc=0.8630 | 9.5s | stale=1
+Epoch 22: train loss=0.22608 acc=0.8986 | val loss=0.59640 acc=0.8219 | 7.6s | stale=2
+Epoch 23: train loss=0.19973 acc=0.9217 | val loss=0.24612 acc=0.8904 | 6.4s | stale=0
+Epoch 24: train loss=0.20148 acc=0.9188 | val loss=0.43673 acc=0.8493 | 6.5s | stale=1
+Epoch 25: train loss=0.17728 acc=0.9159 | val loss=0.55281 acc=0.8082 | 5.5s | stale=2
+Epoch 26: train loss=0.15956 acc=0.9565 | val loss=0.29995 acc=0.8767 | 5.9s | stale=3
+Epoch 27: train loss=0.15653 acc=0.9536 | val loss=0.30496 acc=0.8904 | 5.6s | stale=4
+Epoch 28: train loss=0.16676 acc=0.9420 | val loss=0.21753 acc=0.9178 | 8.3s | stale=0
+Epoch 29: train loss=0.16886 acc=0.9449 | val loss=0.54014 acc=0.7808 | 9.2s | stale=1
+Epoch 30: train loss=0.14597 acc=0.9478 | val loss=0.21927 acc=0.8904 | 5.5s | stale=2
+Epoch 31: train loss=0.13285 acc=0.9565 | val loss=0.28447 acc=0.8904 | 6.9s | stale=3
+Epoch 32: train loss=0.14862 acc=0.9449 | val loss=0.21422 acc=0.9178 | 7.1s | stale=0
+Epoch 33: train loss=0.14765 acc=0.9681 | val loss=0.21584 acc=0.9041 | 7.8s | stale=1
+Epoch 34: train loss=0.11675 acc=0.9565 | val loss=0.18311 acc=0.9452 | 7.3s | stale=0
+Epoch 35: train loss=0.10394 acc=0.9797 | val loss=0.30484 acc=0.8904 | 8.5s | stale=1
+Epoch 36: train loss=0.11631 acc=0.9623 | val loss=0.20383 acc=0.9315 | 8.2s | stale=2
+Epoch 37: train loss=0.13745 acc=0.9507 | val loss=0.98663 acc=0.6849 | 8.8s | stale=3
+Epoch 38: train loss=0.12385 acc=0.9623 | val loss=0.27802 acc=0.8493 | 7.8s | stale=4
+Epoch 39: train loss=0.12543 acc=0.9594 | val loss=0.51865 acc=0.8356 | 6.7s | stale=5
+Epoch 40: train loss=0.10651 acc=0.9768 | val loss=0.27816 acc=0.8904 | 5.5s | stale=6
+Best validation accuracy=0.945205; saved /workspace/naiwa-or-nailong/checkpoints/best_model.pth

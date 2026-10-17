@@ -1,0 +1,2 @@
+class_to_idx: {'nailong': 0, 'naiwa': 1, 'other': 2}
+PASS 223 real test images; max logits difference 6.67572021484375e-06 max probability difference 6.998764635612886e-07

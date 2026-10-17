@@ -1,0 +1,15 @@
+{
+  "binary_target_test_accuracy": 0.9315068493150684,
+  "raw_3class": {
+    "target_test_accuracy": 0.9315068493150684,
+    "other_recall": 0.98,
+    "other_false_accept_rate": 0.02,
+    "macro_f1": 0.9408324528638818
+  },
+  "calibrated": {
+    "target_test_accuracy": 0.9315068493150684,
+    "other_recall": 0.98,
+    "other_false_accept_rate": 0.02,
+    "macro_f1": 0.9463636363636363
+  }
+}

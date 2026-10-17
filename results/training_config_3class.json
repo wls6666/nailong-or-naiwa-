@@ -1,0 +1,52 @@
+{
+  "data": "/workspace/naiwa-or-nailong/data/NaiwaOrNailong-dataset",
+  "epochs": 40,
+  "batch_size": 32,
+  "lr": 0.0003,
+  "seed": 42,
+  "patience": 12,
+  "threads": 2,
+  "from_scratch": false,
+  "initialize": "/workspace/naiwa-or-nailong/checkpoints/binary/best_model.pth",
+  "device": "cpu",
+  "torch": "2.14.1+cpu",
+  "python": "3.12.14",
+  "parameters": 390147,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "dropout": 0.35,
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1,
+    "other": 2
+  },
+  "preprocessing": {
+    "size": 128,
+    "channels": "RGB",
+    "layout": "NCHW",
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "normalization": null,
+    "resize": "bilinear-half-pixel-clamp-float-no-round",
+    "exif_orientation": true,
+    "alpha_background": "white"
+  },
+  "class_counts": {
+    "nailong": 184,
+    "naiwa": 161,
+    "other": 600
+  },
+  "class_weights": [
+    1.71195650100708,
+    1.95652174949646,
+    0.5249999761581421
+  ],
+  "criterion": "class-weighted CrossEntropyLoss",
+  "checkpoint_selection": "validation macro recall, then weighted validation loss",
+  "initial_checkpoint_sha256": "22577e9861cd0c858a82612610121e4730984e8ccb5bf21fbc8b271036506faf",
+  "other_manifest_sha256": "44248c470b7a30bd19c47b91d03b6e5eb42658e3c3acb5dfac36cf57c6af6952",
+  "hard_negative_manifest_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+}

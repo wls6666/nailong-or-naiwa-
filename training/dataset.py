@@ -67,7 +67,7 @@ def resize_rgb(image):
 class CharacterDataset(ImageFolder):
     def __init__(self, path, augment=False):
         super().__init__(str(path), loader=load_rgb)
-        if set(self.classes) != {'nailong', 'naiwa'}:
+        if set(self.classes) not in ({'nailong', 'naiwa'}, {'nailong', 'naiwa', 'other'}):
             raise ValueError(f'Unexpected classes: {self.classes}')
         # Cache deterministic tensors, keeping CPU training practical without changing source images.
         self.cache = [resize_rgb(load_rgb(p)) for p, _ in self.samples]
@@ -91,8 +91,44 @@ def datasets(root=DEFAULT_DATA, training=False):
     mapping = result['train'].class_to_idx
     if any(ds.class_to_idx != mapping for ds in result.values()):
         raise ValueError('Split class mappings differ')
+    if training and 'other' in mapping:
+        add_hard_negatives(result, mapping)
     print('class_to_idx:', mapping, flush=True)
     return result
+
+
+def add_hard_negatives(result, mapping):
+    """Training-only optional feedback folders; reject holdout duplicates before fitting."""
+    train = result['train']
+    def pixel_hash(path):
+        image = load_rgb(path)
+        return hashlib.sha256(str(image.size).encode() + image.tobytes()).hexdigest()
+    reserved = {pixel_hash(p) for s in ['val', 'test'] for p, _ in result[s].samples}
+    known_train = {pixel_hash(p) for p, _ in train.samples}
+    manifest_path = ROOT / 'data/other_manifest.json'
+    if manifest_path.exists():
+        for row in json.loads(manifest_path.read_text())['samples']:
+            if row['split'] != 'train': reserved.add(row['source_pixel_sha256'])
+            else: known_train.add(row['source_pixel_sha256'])
+    records = []
+    extensions = {'.jpg', '.jpeg', '.png', '.webp', '.bmp'}
+    for directory in ['hard_negative', 'false_positive']:
+        folder = ROOT / 'data' / directory
+        if not folder.exists(): continue
+        for path in sorted(folder.rglob('*')):
+            if not path.is_file() or path.suffix.lower() not in extensions: continue
+            digest = pixel_hash(path)
+            if digest in reserved:
+                raise ValueError(f'Hard-negative leaks validation/test data: {path}')
+            if digest in known_train: continue
+            known_train.add(digest)
+            train.samples.append((str(path), mapping['other']))
+            train.targets.append(mapping['other'])
+            train.cache.append(resize_rgb(load_rgb(path)))
+            records.append({'path': str(path.relative_to(ROOT)), 'pixel_sha256': digest,
+                            'file_sha256': hashlib.sha256(path.read_bytes()).hexdigest()})
+    (ROOT / 'results/hard_negative_manifest.json').write_text(json.dumps(records, indent=2) + '\n')
+    print('Training-only hard negatives added:', len(records), flush=True)
 
 
 def audit(root=DEFAULT_DATA):
@@ -118,7 +154,7 @@ def audit(root=DEFAULT_DATA):
         report['splits'][name] = dict(counts)
         report['class_to_idx'] = ds.class_to_idx
     (ROOT / 'results').mkdir(exist_ok=True)
-    (ROOT / 'results/dataset_audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2))
+    (ROOT / ('results/dataset_audit_3class.json' if 'other' in report['class_to_idx'] else 'results/dataset_audit.json')).write_text(json.dumps(report, ensure_ascii=False, indent=2))
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "config": {
+    "seed": 42,
+    "counts": {
+      "train": 600,
+      "val": 150,
+      "test": 150
+    },
+    "sources": [
+      "cifar100",
+      "oxford_pets"
+    ],
+    "format": "RGB JPEG quality=95 subsampling=0, native dimensions; shared tensor resize for all classes"
+  },
+  "sources": {
+    "cifar100": {
+      "url": "https://www.cs.toronto.edu/~kriz/cifar.html",
+      "mirror": "https://s3.amazonaws.com/fast-ai-imageclas/cifar100.tgz",
+      "license": "Official research dataset; cite Krizhevsky 2009. No explicit blanket image license on source page; do not redistribute source images.",
+      "archive_sha256": "085ac613ceb0b3659c8072143ae553d5dd146b3c4206c3672a56ed02d0e77d28"
+    },
+    "oxford_pets": {
+      "url": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+      "license": "CC BY-SA 4.0; copyright remains with original image owners; Parkhi et al., Cats and Dogs, CVPR 2012."
+    }
+  },
+  "statistics": {
+    "train": {
+      "cifar100": 300,
+      "oxford_pets": 300
+    },
+    "val": {
+      "cifar100": 75,
+      "oxford_pets": 75
+    },
+    "test": {
+      "cifar100": 75,
+      "oxford_pets": 75
+    }
+  },
+  "skipped": [],
+  "leakage_checks": {
+    "source_identity_unique": true,
+    "decoded_pixel_hash_unique": true,
+    "saved_file_hash_unique": true,
+    "original_target_files_unchanged": true
+  }
+}
