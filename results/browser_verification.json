@@ -1,0 +1,247 @@
+{
+  "status": "PASS",
+  "engine": "real Chromium + ONNX Runtime Web WASM",
+  "model_sha256": "97459e6ddfb62c854eae21cea7a444b8565b95444e1702dfab12a1827a761ede",
+  "samples": [
+    {
+      "image": "nailong/01077fe178865f28.jpg",
+      "kind": "lossless-test-pixels",
+      "browser": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": -13.689431190490723,
+        "positiveProbability": 1.1343709101668217e-06,
+        "category": "nailong",
+        "confidence": 0.9999988656290898
+      },
+      "python_onnx_same_tensor_logit": -13.689433097839355,
+      "pytorch_same_tensor_logit": -13.689433097839355,
+      "python_preprocessing_logit": -13.689433097839355,
+      "max_preprocessing_tensor_difference": 0.0,
+      "browser_python_logit_difference": 1.9073486328125e-06,
+      "displayed_confidence": "100.00%",
+      "status": "PASS"
+    },
+    {
+      "image": "nailong/01077fe178865f28.jpg",
+      "kind": "original-jpeg",
+      "browser": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": -13.689431190490723,
+        "positiveProbability": 1.1343709101668217e-06,
+        "category": "nailong",
+        "confidence": 0.9999988656290898
+      },
+      "python_onnx_same_tensor_logit": -13.689433097839355,
+      "pytorch_same_tensor_logit": -13.689433097839355,
+      "python_preprocessing_logit": -13.689433097839355,
+      "max_preprocessing_tensor_difference": 0.0,
+      "browser_python_logit_difference": 1.9073486328125e-06,
+      "displayed_confidence": "100.00%",
+      "status": "PASS"
+    },
+    {
+      "image": "nailong/0125cfcdb412fa3c.jpg",
+      "kind": "lossless-test-pixels",
+      "browser": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": 3.9343998432159424,
+        "positiveProbability": 0.9808177227756819,
+        "category": "naiwa",
+        "confidence": 0.9808177227756819
+      },
+      "python_onnx_same_tensor_logit": 3.934398889541626,
+      "pytorch_same_tensor_logit": 3.934396982192993,
+      "python_preprocessing_logit": 3.934398889541626,
+      "max_preprocessing_tensor_difference": 0.0,
+      "browser_python_logit_difference": 9.5367431640625e-07,
+      "displayed_confidence": "98.08%",
+      "status": "PASS"
+    },
+    {
+      "image": "nailong/0125cfcdb412fa3c.jpg",
+      "kind": "original-jpeg",
+      "browser": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": 3.9343998432159424,
+        "positiveProbability": 0.9808177227756819,
+        "category": "naiwa",
+        "confidence": 0.9808177227756819
+      },
+      "python_onnx_same_tensor_logit": 3.934398889541626,
+      "pytorch_same_tensor_logit": 3.934396982192993,
+      "python_preprocessing_logit": 3.934398889541626,
+      "max_preprocessing_tensor_difference": 0.0,
+      "browser_python_logit_difference": 9.5367431640625e-07,
+      "displayed_confidence": "98.08%",
+      "status": "PASS"
+    },
+    {
+      "image": "naiwa/1023c3154dd0516f.jpg",
+      "kind": "lossless-test-pixels",
+      "browser": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": 2.587773323059082,
+        "positiveProbability": 0.9300705341467254,
+        "category": "naiwa",
+        "confidence": 0.9300705341467254
+      },
+      "python_onnx_same_tensor_logit": 2.5877747535705566,
+      "pytorch_same_tensor_logit": 2.5877745151519775,
+      "python_preprocessing_logit": 2.5877747535705566,
+      "max_preprocessing_tensor_difference": 0.0,
+      "browser_python_logit_difference": 1.430511474609375e-06,
+      "displayed_confidence": "93.01%",
+      "status": "PASS"
+    },
+    {
+      "image": "naiwa/1023c3154dd0516f.jpg",
+      "kind": "original-jpeg",
+      "browser": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": 2.587773323059082,
+        "positiveProbability": 0.9300705341467254,
+        "category": "naiwa",
+        "confidence": 0.9300705341467254
+      },
+      "python_onnx_same_tensor_logit": 2.5877747535705566,
+      "pytorch_same_tensor_logit": 2.5877745151519775,
+      "python_preprocessing_logit": 2.5877747535705566,
+      "max_preprocessing_tensor_difference": 0.0,
+      "browser_python_logit_difference": 1.430511474609375e-06,
+      "displayed_confidence": "93.01%",
+      "status": "PASS"
+    },
+    {
+      "image": "naiwa/14d35aa37968a2e3.jpg",
+      "kind": "lossless-test-pixels",
+      "browser": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": 2.5927648544311523,
+        "positiveProbability": 0.9303944839320475,
+        "category": "naiwa",
+        "confidence": 0.9303944839320475
+      },
+      "python_onnx_same_tensor_logit": 2.5927650928497314,
+      "pytorch_same_tensor_logit": 2.5927629470825195,
+      "python_preprocessing_logit": 2.5927650928497314,
+      "max_preprocessing_tensor_difference": 0.0,
+      "browser_python_logit_difference": 2.384185791015625e-07,
+      "displayed_confidence": "93.04%",
+      "status": "PASS"
+    },
+    {
+      "image": "naiwa/14d35aa37968a2e3.jpg",
+      "kind": "original-jpeg",
+      "browser": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": 2.5927648544311523,
+        "positiveProbability": 0.9303944839320475,
+        "category": "naiwa",
+        "confidence": 0.9303944839320475
+      },
+      "python_onnx_same_tensor_logit": 2.5927650928497314,
+      "pytorch_same_tensor_logit": 2.5927629470825195,
+      "python_preprocessing_logit": 2.5927650928497314,
+      "max_preprocessing_tensor_difference": 0.0,
+      "browser_python_logit_difference": 2.384185791015625e-07,
+      "displayed_confidence": "93.04%",
+      "status": "PASS"
+    }
+  ],
+  "extra_formats": [
+    {
+      "file": "alpha.png",
+      "status": "PASS",
+      "output": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": -4.8341851234436035,
+        "positiveProbability": 0.007890412767331054,
+        "category": "nailong",
+        "confidence": 0.992109587232669
+      }
+    },
+    {
+      "file": "real.webp",
+      "status": "PASS",
+      "output": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": 2.587773323059082,
+        "positiveProbability": 0.9300705341467254,
+        "category": "naiwa",
+        "confidence": 0.9300705341467254
+      }
+    },
+    {
+      "file": "oriented.jpg",
+      "status": "PASS",
+      "output": {
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "logit": -12.06611156463623,
+        "positiveProbability": 5.751112085021574e-06,
+        "category": "nailong",
+        "confidence": 0.999994248887915
+      }
+    }
+  ],
+  "page_errors": [],
+  "invalid_file_error": "图片读取失败：无法读取图片格式或尺寸，请换一张有效图片。",
+  "oversized_file_rejected": true,
+  "model_load_error": "模型加载失败：Failed to fetch",
+  "all_requests_local_get": true,
+  "mobile_no_horizontal_overflow": true
+}

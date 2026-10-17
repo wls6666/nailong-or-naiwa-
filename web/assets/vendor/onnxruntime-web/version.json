@@ -1,0 +1,10 @@
+{
+  "package": "onnxruntime-web",
+  "version": "1.22.0",
+  "integrity": "sha512-Ud/+EBo6mhuaQWt/OjaOk0iNWjXqJoeeMFr6xQEERZdIZH2OWpGzuujz7lfuOBjUa6TEE/sc4nb7Da5dNL34fg==",
+  "sha256": {
+    "ort.wasm.min.js": "65e09376df69107e881b5c34d2d37aed333a366b6d941073ec518168e269b87d",
+    "ort-wasm-simd-threaded.mjs": "30dd851d9c00622940500f71ddd2ff8820c5cb65270816080175b958705385a8",
+    "ort-wasm-simd-threaded.wasm": "71aef04959c5c1b6de461b6538e2058e306610034a85aad2742d0c7fd4533fe4"
+  }
+}
