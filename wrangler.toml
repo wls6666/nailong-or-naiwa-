@@ -1,0 +1,4 @@
+# Cloudflare Pages publishes the static browser app, including ONNX and WASM.
+name = "nailongornaiwa"
+pages_build_output_dir = "./web"
+compatibility_date = "2026-10-17"

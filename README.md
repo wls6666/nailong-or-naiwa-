@@ -14,6 +14,7 @@ naiwa-or-nailong/
 ├── requirements.txt
 ├── requirements-dev.txt               # 仅可选浏览器验证
 ├── .gitignore
+├── wrangler.toml                      # Cloudflare Pages 发布 web/
 ├── .github/workflows/pages.yml        # 直接部署 web/ 到 GitHub Pages
 ├── data/                             # 本地下载，Git 和交付压缩包均排除
 │   └── NaiwaOrNailong-dataset/
@@ -262,7 +263,9 @@ python scripts/check_artifacts.py
 3. 推送到 `main`，或在 Actions 中手动运行 `Deploy static CNN classifier to GitHub Pages`。
 4. workflow 直接上传 `web/` 为 Pages artifact，无训练、无 npm 构建、无后端。完成后访问 workflow 返回的 Pages URL。
 
-**Cloudflare Pages**：连接仓库，选择无框架，构建命令留空，输出目录 `web`。也可使用 Direct Upload 上传 `web/` 的内容。
+**Cloudflare Pages**：仓库已包含 `wrangler.toml`，明确设置 `pages_build_output_dir = "./web"`。连接仓库后，生产分支选择 `main`、框架选择 None、构建命令留空、根目录保持仓库根目录（留空或 `/`）。输出目录由配置文件设为 `web`，确保 `web/index.html` 成为线上站点的 `/index.html`。也可使用 Direct Upload 上传 `web/` 的内容。
+
+若部署显示成功但根网址返回 404，请在 Cloudflare 项目 Settings → Builds 中核对根目录仍是仓库根目录，且部署日志已读取 `wrangler.toml`、发布目录为 `web`，然后重新部署最新提交。不要把 `web` 同时填入根目录和输出目录，否则会变成查找 `web/web`。配置文件的 `name` 对应 Pages 项目 `nailongornaiwa`；另建项目时应修改这个名称。
 
 **Vercel**：选择 Other，Root Directory=`web`，关闭框架构建，Output Directory=`.`。也可将 `web/` 直接交给其他能提供静态文件的托管服务。
 
