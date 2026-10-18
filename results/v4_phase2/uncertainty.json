@@ -1,0 +1,162 @@
+{
+  "across_seed": {
+    "random": {
+      "closed_id_accuracy": {
+        "mean": 0.9634703196347032,
+        "seed_sd": 0.007908907797118192
+      },
+      "id_accuracy_including_rejection": {
+        "mean": 0.9086757990867579,
+        "seed_sd": 0.020925003173314312
+      },
+      "id_false_reject_rate": {
+        "mean": 0.0593607305936073,
+        "seed_sd": 0.020925003173314336
+      },
+      "easy_far": {
+        "mean": 0.04666666666666667,
+        "seed_sd": 0.02
+      },
+      "emoji_far": {
+        "mean": 0.27622014537902384,
+        "seed_sd": 0.054435482542393165
+      },
+      "real_cartoon_far": {
+        "mean": 0.0900900900900901,
+        "seed_sd": 0.03400826322194032
+      },
+      "auroc": {
+        "mean": 0.9596049011146274,
+        "seed_sd": 0.011771661319066068
+      },
+      "aupr_ood": {
+        "mean": 0.9934566250989696,
+        "seed_sd": 0.002928554821337079
+      },
+      "fpr_at_95_tpr_id": {
+        "mean": 0.2945611200861605,
+        "seed_sd": 0.21747853968124467
+      }
+    },
+    "mined": {
+      "closed_id_accuracy": {
+        "mean": 0.9680365296803654,
+        "seed_sd": 0.007908907797118192
+      },
+      "id_accuracy_including_rejection": {
+        "mean": 0.9178082191780822,
+        "seed_sd": 0.02372672339135445
+      },
+      "id_false_reject_rate": {
+        "mean": 0.0547945205479452,
+        "seed_sd": 0.02372672339135448
+      },
+      "easy_far": {
+        "mean": 0.04666666666666667,
+        "seed_sd": 0.011547005383792518
+      },
+      "emoji_far": {
+        "mean": 0.2419522326064382,
+        "seed_sd": 0.03755584905508852
+      },
+      "real_cartoon_far": {
+        "mean": 0.07657657657657657,
+        "seed_sd": 0.043962210125998054
+      },
+      "auroc": {
+        "mean": 0.963086728483856,
+        "seed_sd": 0.016294183521853984
+      },
+      "aupr_ood": {
+        "mean": 0.9939521842381978,
+        "seed_sd": 0.0038406236971870247
+      },
+      "fpr_at_95_tpr_id": {
+        "mean": 0.23747980613893374,
+        "seed_sd": 0.2364555406360958
+      }
+    }
+  },
+  "fixed_test_group_resampling": {
+    "hard": {
+      "mined_minus_random": {
+        "far_difference": -0.03426791277258567,
+        "group_bootstrap_ci95": [
+          -0.054195250788921775,
+          -0.015290519877675839
+        ],
+        "resampling_unit": "Unicode character identity",
+        "groups": 121,
+        "caution": "Conditional on fixed benchmark identities; separate from training-seed variability."
+      },
+      "mined_minus_v3": {
+        "far_difference": 0.07995846313603322,
+        "group_bootstrap_ci95": [
+          0.046438975323640434,
+          0.11458333333333333
+        ],
+        "resampling_unit": "Unicode character identity",
+        "groups": 121,
+        "caution": "Conditional on fixed benchmark identities; separate from training-seed variability."
+      }
+    },
+    "cartoon": {
+      "mined_minus_random": {
+        "far_difference": -0.013513513513513514,
+        "group_bootstrap_ci95": [
+          -0.0588235294117647,
+          0.0
+        ],
+        "resampling_unit": "entire movie/cast",
+        "groups": 2,
+        "caution": "Only two independent films; interval is conditional and cannot establish broad character/source generalization."
+      },
+      "mined_minus_v3": {
+        "far_difference": -0.545045045045045,
+        "group_bootstrap_ci95": [
+          -0.5730994152046784,
+          -0.45098039215686275
+        ],
+        "resampling_unit": "entire movie/cast",
+        "groups": 2,
+        "caution": "Only two independent films; interval is conditional and cannot establish broad character/source generalization."
+      }
+    }
+  },
+  "paired_seed_differences": [
+    {
+      "closed_id_accuracy": 0.013698630136986356,
+      "id_accuracy_including_rejection": -0.013698630136986245,
+      "id_false_reject_rate": 0.0273972602739726,
+      "easy_far": 0.006666666666666668,
+      "emoji_far": -0.13395638629283488,
+      "real_cartoon_far": 0.02702702702702703,
+      "auroc": -0.017836988514395635,
+      "aupr_ood": -0.0049226053982853735,
+      "fpr_at_95_tpr_id": 0.28756058158319864
+    },
+    {
+      "closed_id_accuracy": 0.0,
+      "id_accuracy_including_rejection": 0.041095890410958846,
+      "id_false_reject_rate": -0.0410958904109589,
+      "easy_far": -0.013333333333333329,
+      "emoji_far": 0.015576323987538943,
+      "real_cartoon_far": -0.0472972972972973,
+      "auroc": 0.028813596830946975,
+      "aupr_ood": 0.006484748900073889,
+      "fpr_at_95_tpr_id": -0.47334410339256866
+    },
+    {
+      "closed_id_accuracy": 0.0,
+      "id_accuracy_including_rejection": 0.0,
+      "id_false_reject_rate": 0.0,
+      "easy_far": 0.0066666666666666645,
+      "emoji_far": 0.015576323987538943,
+      "real_cartoon_far": -0.02027027027027027,
+      "auroc": -0.0005311262088653068,
+      "aupr_ood": -7.546608410413658e-05,
+      "fpr_at_95_tpr_id": 0.014539579967689814
+    }
+  ],
+  "seed_selection": "No seed selected using test. All three reported."
+}

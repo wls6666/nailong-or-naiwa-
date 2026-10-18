@@ -1,0 +1,157 @@
+{
+  "use": "Historical diagnostics only. No test pixels used for new data selection/training/calibration.",
+  "signals": {
+    "id": {
+      "n": 73,
+      "distance_only_reject": 3,
+      "energy_only_reject": 1,
+      "both_reject": 1,
+      "accepted": 68
+    },
+    "easy": {
+      "n": 150,
+      "distance_only_reject": 9,
+      "energy_only_reject": 26,
+      "both_reject": 97,
+      "accepted": 18
+    },
+    "hard": {
+      "n": 321,
+      "distance_only_reject": 19,
+      "energy_only_reject": 149,
+      "both_reject": 101,
+      "accepted": 52
+    }
+  },
+  "hard_by_source": {
+    "fluent3d": {
+      "n": 79,
+      "accepted": 6,
+      "far": 0.0759493670886076
+    },
+    "noto": {
+      "n": 121,
+      "accepted": 23,
+      "far": 0.19008264462809918
+    },
+    "twemoji": {
+      "n": 121,
+      "accepted": 23,
+      "far": 0.19008264462809918
+    }
+  },
+  "hard_by_category": {
+    "cartoon_animals_creatures": {
+      "n": 122,
+      "accepted": 9,
+      "far": 0.07377049180327869
+    },
+    "cute_humanoid_fantasy_characters": {
+      "n": 61,
+      "accepted": 31,
+      "far": 0.5081967213114754
+    },
+    "yellow_expressive_faces": {
+      "n": 138,
+      "accepted": 12,
+      "far": 0.08695652173913043
+    }
+  },
+  "id_rejected": [
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/ce3983cb744f5b15.jpg",
+      "domain": "id",
+      "class": "nailong",
+      "identity_group": "",
+      "source": "",
+      "category": "",
+      "true_label": "0",
+      "predicted_id": "0",
+      "accepted": "False",
+      "final_label": "2",
+      "id_confidence": "0.999993299182265",
+      "mahalanobis": "483.2427389221065",
+      "energy": "-4.861189419205264",
+      "ood_score": "2.9587347525241223"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/fb72c5a11c505202.jpg",
+      "domain": "id",
+      "class": "nailong",
+      "identity_group": "",
+      "source": "",
+      "category": "",
+      "true_label": "0",
+      "predicted_id": "0",
+      "accepted": "False",
+      "final_label": "2",
+      "id_confidence": "0.7761971296484755",
+      "mahalanobis": "508.0640468417102",
+      "energy": "-2.0417332329855125",
+      "ood_score": "3.3318857084993017"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/1688db989275e1f3.jpg",
+      "domain": "id",
+      "class": "naiwa",
+      "identity_group": "",
+      "source": "",
+      "category": "",
+      "true_label": "1",
+      "predicted_id": "1",
+      "accepted": "False",
+      "final_label": "2",
+      "id_confidence": "0.9994515985196941",
+      "mahalanobis": "470.4876829219301",
+      "energy": "-3.5187028125440385",
+      "ood_score": "2.7669817089134066"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/70edd169b871c4fe.jpg",
+      "domain": "id",
+      "class": "naiwa",
+      "identity_group": "",
+      "source": "",
+      "category": "",
+      "true_label": "1",
+      "predicted_id": "1",
+      "accepted": "False",
+      "final_label": "2",
+      "id_confidence": "0.9924012337743433",
+      "mahalanobis": "353.8042628021487",
+      "energy": "-3.2862454080011134",
+      "ood_score": "1.0128223428889458"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/8ad2ca8b7ddd11e2.jpg",
+      "domain": "id",
+      "class": "naiwa",
+      "identity_group": "",
+      "source": "",
+      "category": "",
+      "true_label": "1",
+      "predicted_id": "1",
+      "accepted": "False",
+      "final_label": "2",
+      "id_confidence": "0.7123436461931743",
+      "mahalanobis": "187.31532301022636",
+      "energy": "-2.069835062089881",
+      "ood_score": "0.4108678176554021"
+    }
+  ],
+  "hypothesis": "Energy provides149 unique Emoji rejections vs19 distance-only. Humanoid/fantasy31/61 accepted; new domain-targeted cartoon exposure may alter energy more than random easy photos. This is a hypothesis, not evidence that mining will improve.",
+  "historical_emoji_false_accept_predicted_class": {
+    "cartoon_animals_creatures": {
+      "naiwa": 4,
+      "nailong": 5
+    },
+    "yellow_expressive_faces": {
+      "nailong": 7,
+      "naiwa": 5
+    },
+    "cute_humanoid_fantasy_characters": {
+      "nailong": 26,
+      "naiwa": 5
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "real_better_than_b_and_a": true,
+  "emoji_better_than_b_and_a": false,
+  "id_end_to_end_within3pp": true,
+  "id_frr_within3pp": true,
+  "easy_far_within3pp": true,
+  "paired_real_group_ci_below0": false,
+  "sufficient_independent_final_groups": false,
+  "promote": false,
+  "production_changed": false,
+  "onnx_exported": false,
+  "note": "No credible promotion gate pass; no candidate ONNX fabricated/exported. Production V3 remains intact."
+}

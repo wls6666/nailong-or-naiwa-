@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "paired_training_budget_and_inputs_equal": true,
+  "actual_trained_models": [
+    {
+      "model": "random_seed42",
+      "status": "PASS",
+      "epochs": 12,
+      "steps": 132,
+      "best_epoch": 2,
+      "actual_pytorch_cache_logit_difference": 4.76837158203125e-07,
+      "actual_pytorch_cache_embedding_difference": 0.0
+    },
+    {
+      "model": "random_seed43",
+      "status": "PASS",
+      "epochs": 12,
+      "steps": 132,
+      "best_epoch": 11,
+      "actual_pytorch_cache_logit_difference": 9.5367431640625e-07,
+      "actual_pytorch_cache_embedding_difference": 0.0
+    },
+    {
+      "model": "random_seed44",
+      "status": "PASS",
+      "epochs": 12,
+      "steps": 132,
+      "best_epoch": 8,
+      "actual_pytorch_cache_logit_difference": 2.384185791015625e-07,
+      "actual_pytorch_cache_embedding_difference": 0.0
+    },
+    {
+      "model": "mined_seed42",
+      "status": "PASS",
+      "epochs": 12,
+      "steps": 132,
+      "best_epoch": 11,
+      "actual_pytorch_cache_logit_difference": 4.76837158203125e-07,
+      "actual_pytorch_cache_embedding_difference": 0.0
+    },
+    {
+      "model": "mined_seed43",
+      "status": "PASS",
+      "epochs": 12,
+      "steps": 132,
+      "best_epoch": 11,
+      "actual_pytorch_cache_logit_difference": 4.76837158203125e-07,
+      "actual_pytorch_cache_embedding_difference": 0.0
+    },
+    {
+      "model": "mined_seed44",
+      "status": "PASS",
+      "epochs": 12,
+      "steps": 132,
+      "best_epoch": 8,
+      "actual_pytorch_cache_logit_difference": 1.1920928955078125e-07,
+      "actual_pytorch_cache_embedding_difference": 0.0
+    }
+  ],
+  "feedback_leakage_probes": [
+    {
+      "split": "val",
+      "status": "PASS",
+      "error": "Hard-negative leaks validation/test data: /workspace/naiwa-or-nailong/data/false_positive/.phase2_holdout_guard_probe.jpg"
+    },
+    {
+      "split": "test",
+      "status": "PASS",
+      "error": "Hard-negative leaks validation/test data: /workspace/naiwa-or-nailong/data/false_positive/.phase2_holdout_guard_probe.jpg"
+    }
+  ],
+  "new_test_count": 148,
+  "permanent_emoji_count": 321,
+  "frozen_v3_historical_results_reproduced": true,
+  "test_params_from_validation_only": true,
+  "production_files_unchanged": true,
+  "candidate_onnx_not_claimed": "Only production browser regression was executed; new export requires promotion evidence."
+}

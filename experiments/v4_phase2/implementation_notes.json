@@ -1,0 +1,9 @@
+{
+  "selection": "Random uses uniform random candidate priorities subject to the same source quotas,2-second spacing and feasible-cardinality constraints as mined. It is not claimed uniform over all feasible constrained subsets.",
+  "mined": "Each source first prioritizes up to80% quota by deepest actually accepted combined margin, then all remaining candidates by absolute boundary margin. Temporal feasibility can skip a top-ranked image. Accepted and rejected semi-hard rows are retained explicitly.",
+  "fixed_lists": "One fixed random list and one fixed mined list shared by all three training seeds. Training-seed SD does not quantify negative-selection-list uncertainty.",
+  "three_seed_scope": "Three actual paired training runs, not three independent datasets or source selections.",
+  "cosmos_concentration": "Source quotas prevent the highest-FAR film from filling all120 slots; within-film identities remain few and correlated.",
+  "feedback_guard": "Future feedback loader rejects new real-cartoon val/test decoded-pixel duplicates. Current feedback folders empty, so guard addition changes no experiment input or training objective. Perceptual audit is also required for any future expanded corpus.",
+  "code_formatting": "Black formatting during CPU experiment preserved AST; no architecture, loss, training budget, selected lists or calibration objective changed."
+}

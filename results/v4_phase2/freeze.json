@@ -1,0 +1,109 @@
+{
+  "git_commit": "652be11e629f95f11fcdbed05226742f464052b0",
+  "protocol_sha256": "7850a1e655552b18da02b1d2253d0af5609210df55112ba4280a83f8c0bfc0f3",
+  "production_snapshot": {
+    "git_commit": "b4d94bfe5717264f23d43f75e0ecc2967ac34753",
+    "checkpoint": "checkpoints/best_model_ood.pth",
+    "checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
+    "production_web_sha256": {
+      "web/index.html": "6c2b5b1f0177829c104815b29e4b8102d75091c2c7f5c4f99f6fbde4a750b2a4",
+      "web/model.onnx": "780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3",
+      "web/preprocess.js": "c8ccf604e4f96673d8f419a548b0e20e497b413d20ddaf459b525e2d7915dcca",
+      "web/style.css": "7f8c972ca7304e3e79181e2ad8a0d2156c75c9c90c5f7edc0adab5f639b171a9",
+      "web/ood_config.json": "00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f",
+      "web/ood_config.00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f.json": "00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f",
+      "web/model.780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3.onnx": "780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3",
+      "web/_headers": "d568a61850625734b30fc2457217c8f0639de89d8c70013d9cc8e21afd1c41f3",
+      "web/model_config.json": "6e81659303af7c44f911539e3e5e16654ce88b0d78bd58ba48ef637e6b8724c5",
+      "web/ood.js": "810a565e1281b180879477c33c104e1a73030d5020212f9542306bc0a099d93c",
+      "web/app.js": "b70b6870218847567302f2c12ea9c3846d88db717630f771c573c4e513ab4a82",
+      "web/assets/vendor/onnxruntime-web/ort-wasm-simd-threaded.mjs": "30dd851d9c00622940500f71ddd2ff8820c5cb65270816080175b958705385a8",
+      "web/assets/vendor/onnxruntime-web/LICENSE": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+      "web/assets/vendor/onnxruntime-web/ThirdPartyNotices.txt": "e9e90971a8e75a9a8ac0c6412e29c1202d079998389915aa485f46c816c3b4cc",
+      "web/assets/vendor/onnxruntime-web/ort-wasm-simd-threaded.wasm": "71aef04959c5c1b6de461b6538e2058e306610034a85aad2742d0c7fd4533fe4",
+      "web/assets/vendor/onnxruntime-web/version.json": "0df1546c653a1d18d6c5ec0b42dd95e2a5e9daa73d5dd15cc4ced6442aba97f1",
+      "web/assets/vendor/onnxruntime-web/ort.wasm.min.js": "65e09376df69107e881b5c34d2d37aed333a366b6d941073ec518168e269b87d"
+    },
+    "config": {
+      "task": "open-set-ood-v3",
+      "model": "model.780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3.onnx",
+      "input_name": "input",
+      "output_names": [
+        "logits",
+        "embedding"
+      ],
+      "input_shape": [
+        1,
+        3,
+        128,
+        128
+      ],
+      "logits_shape": [
+        1,
+        2
+      ],
+      "embedding_shape": [
+        1,
+        256
+      ],
+      "class_to_idx": {
+        "nailong": 0,
+        "naiwa": 1
+      },
+      "classes": [
+        "nailong",
+        "naiwa"
+      ],
+      "preprocessing": {
+        "size": 128,
+        "channels": "RGB",
+        "layout": "NCHW",
+        "dtype": "float32",
+        "range": [
+          0,
+          1
+        ],
+        "normalization": null,
+        "resize": "bilinear-half-pixel-clamp-float-no-round",
+        "exif_orientation": true,
+        "alpha_background": "white"
+      },
+      "model_sha256": "780b5307bdd6620c2d3ffe9da0633a6da7ce5691a50211eda7b9b3ca009bf1a3",
+      "checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
+      "ood_config": "ood_config.00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f.json",
+      "ood_config_sha256": "00c7e1f2a936ed44b014143ee1067877525eb41f4aba9f9ee45af516fb61b54f",
+      "model_bytes": 1558506,
+      "ood_config_bytes": 1720268
+    },
+    "existing_test_metrics": {
+      "method": "distance_energy",
+      "count": 372,
+      "id_count": 73,
+      "id_true_accept_rate": 0.9315068493150684,
+      "id_false_reject_rate": 0.0684931506849315,
+      "closed_set_id_accuracy": 0.958904109589041,
+      "id_end_to_end_accuracy": 0.8904109589041096,
+      "accepted_id_accuracy": 0.9558823529411765,
+      "ood_false_accept_rate": 0.08361204013377926,
+      "auroc": 0.9549182205525266,
+      "aupr_ood": 0.9830538310266763,
+      "fpr_at_95_tpr_id": 0.47491638795986624,
+      "easy_ood_count": 150,
+      "easy_ood_far": 0.12,
+      "easy_ranking": {
+        "auroc": 0.955890410958904,
+        "aupr_ood": 0.9707972935505512,
+        "fpr_at_95_tpr_id": 0.4
+      },
+      "hard_ood_count": 149,
+      "hard_ood_far": 0.04697986577181208,
+      "hard_ranking": {
+        "auroc": 0.9539395053783213,
+        "aupr_ood": 0.9620155585115259,
+        "fpr_at_95_tpr_id": 0.5503355704697986
+      }
+    },
+    "production_will_not_change": true
+  },
+  "emoji_manifest_sha256": "5ab4b398b3a5fa365f6259c9f567002177901540acc488fd8570e98b0b15e411"
+}

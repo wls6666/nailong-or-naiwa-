@@ -1,0 +1,17 @@
+{
+  "stage": "before any Phase2 model scoring",
+  "reason": "Improve independent real-cartoon final coverage and separate calibration-only effects",
+  "additional_final_source": {
+    "archive_identifier": "wing_it",
+    "license": "CC-BY-4.0",
+    "split": "test",
+    "cast_group": "entire film; no overlap with other film casts"
+  },
+  "additional_system": "A_recalibrated: frozen V3 weights, same new validation-only detector fitting as B/C; diagnostic only, production A remains immutable",
+  "no_test_outputs_seen": true,
+  "selection_budget_revision": {
+    "count": 120,
+    "quota_per_train_film": 40,
+    "reason": "Before inference: reviewed Caminandes has47 maximum candidates under2s separation, so use40 per source equally B/C rather than inflate duplicates."
+  }
+}

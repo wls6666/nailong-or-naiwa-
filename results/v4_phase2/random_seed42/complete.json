@@ -1,0 +1,7 @@
+{
+  "checkpoint_sha256": "58b2e0dac3f06317aee6acf69537a6aa12b910cc708a28e8d337961bee0169cf",
+  "best_epoch": 2,
+  "total_steps": 132,
+  "epochs_executed": 12,
+  "protocol_sha256": "7850a1e655552b18da02b1d2253d0af5609210df55112ba4280a83f8c0bfc0f3"
+}

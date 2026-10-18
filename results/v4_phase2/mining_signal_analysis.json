@@ -1,0 +1,35 @@
+{
+  "BigBuckBunny_328": {
+    "n": 157,
+    "false_accepts": 9,
+    "distance_only_reject": 7,
+    "energy_only_reject": 48,
+    "both_reject": 93,
+    "accepted_predicted_nailong": 3,
+    "accepted_predicted_naiwa": 6,
+    "accepted_energy_is_tighter_signal": 9,
+    "accepted_distance_is_tighter_signal": 0
+  },
+  "CaminandesLlamigos": {
+    "n": 83,
+    "false_accepts": 27,
+    "distance_only_reject": 6,
+    "energy_only_reject": 35,
+    "both_reject": 15,
+    "accepted_predicted_nailong": 4,
+    "accepted_predicted_naiwa": 23,
+    "accepted_energy_is_tighter_signal": 16,
+    "accepted_distance_is_tighter_signal": 11
+  },
+  "CosmosLaundromatFirstCycle": {
+    "n": 150,
+    "false_accepts": 113,
+    "distance_only_reject": 9,
+    "energy_only_reject": 17,
+    "both_reject": 11,
+    "accepted_predicted_nailong": 10,
+    "accepted_predicted_naiwa": 103,
+    "accepted_energy_is_tighter_signal": 109,
+    "accepted_distance_is_tighter_signal": 4
+  }
+}

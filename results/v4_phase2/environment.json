@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pillow": "12.3.0",
+  "sklearn": "1.8.0",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "device": "CPU",
+  "torch_threads_per_experiment": 2,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "OPENBLAS_NUM_THREADS": 2,
+  "OMP_NUM_THREADS": 2
+}

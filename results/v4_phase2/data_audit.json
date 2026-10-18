@@ -1,0 +1,16 @@
+{
+  "manifest_sha256": "2a888cb259464a9e2d2461c9dedc30f80564855d73bd838da7a801675c76e4bd",
+  "reviewed_candidates": 1219,
+  "eligible": 676,
+  "counts": {
+    "train": 390,
+    "val": 138,
+    "test": 148
+  },
+  "cross_split_phash_rgb_flags": [],
+  "legacy_phash_rgb_flags": [],
+  "legacy_images_compared": 2074,
+  "identity_split_overlap": false,
+  "known_duplicate_detection_limit": "pHash+thumbnail is not a proof of absence of arbitrary crops; whole film/cast grouping and manual review provide additional protection.",
+  "external_human_review": false
+}

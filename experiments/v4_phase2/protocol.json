@@ -1,0 +1,64 @@
+{
+  "phase": "V4 Phase 2",
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection_seed": 20261018,
+  "architecture": "unchanged V3 SmallCNN256 embedding,2 logits",
+  "initial_checkpoint": "checkpoints/best_model_ood.pth",
+  "initial_checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
+  "production": "read only; no deployment",
+  "data_design": "Public licensed non-Emoji animated movie frames. Whole film/cast assigned to exactly one role before extraction/scoring. Visual identity review and perceptual dedup before freezing; no legacy test images reused. Correlated frames are not independent identities.",
+  "planned_sources": {
+    "train": [
+      "BigBuckBunny_328",
+      "CaminandesLlamigos",
+      "CosmosLaundromatFirstCycle"
+    ],
+    "val": [
+      "Sintel"
+    ],
+    "test": [
+      "sprite-fright"
+    ]
+  },
+  "negative_selection": {
+    "count": 150,
+    "quota_per_train_film": 50,
+    "random": "uniform fixed-seed within same source quotas as mined",
+    "mined": "rank by actual frozen V3 acceptance margin; 80% deepest accepted then remaining nearest-boundary/semi-hard; source quota and minimum timestamp spacing2s; no val/test inference",
+    "selection_frozen_across_training_seeds": true
+  },
+  "training": {
+    "epochs": 12,
+    "early_stopping": false,
+    "reason": "identical steps for B/C, independent best-validation checkpoint per run",
+    "batch_size_id": 32,
+    "batch_size_oe": 32,
+    "optimizer": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "oe_weight": 0.1,
+    "oe_objective": "same V3 squared hinge energy margins T1; m_in initial ID-train90th quantile; m_out=m_in+2",
+    "oe_sampling_mass": {
+      "original_easy": 0.25,
+      "original_hard_and_feedback": 0.25,
+      "new_cartoon": 0.5
+    },
+    "oe_draws_per_epoch": 345,
+    "id_train_count": 345,
+    "augmentation": "same V3 resize128,float32RGB/255; flip,rotation8,color jitter .12/.12/.1; no architecture/projection/SupCon/Triplet/backbone changes",
+    "checkpoint_selection": "V3 validation-only quick OR at99% ID quantiles; feasible >=95% ID TAR and ID closed acc within3pp initial; minimize worst validation domain FAR then mean FAR then end-to-end ID acc; train full12 epochs even after best"
+  },
+  "calibration": "Same ID73+Easy150+oldHard70+all reviewed new cartoon val for every B/C. Fit Gaussian only345 IDtrain; LedoitWolf raw/L2, T .5/1/2/5, distance/energy/OR/AND, >=95% ID TAR; minimize worst validation domain FAR then pooled FAR then correctID, simplicity. No test feature access. A uses immutable deployed detector.",
+  "evaluation": "Only after all6 checkpoint/calibration hashes locked: same ID73,Easy150,permanentEmoji321,new frozen real-cartoon test. Report per-source/category and grouped bootstrap by movie/identity, separately across-seed SD.",
+  "promotion_gate": "C must improve real-cartoon FAR and Emoji FAR versus A and B, group-bootstrap paired95% improvement CI excludes0, ID end-to-end drop<=3pp, ID FRR rise<=3pp,Easy FAR rise<=3pp; few independent final identities/sources can make gate inconclusive. No export or production change absent credible improvement.",
+  "no_test_tuning": true,
+  "limitations_predeclared": [
+    "Single studio animated movie frames do not cover2D memes,plush toys or all character identities.",
+    "Temporal frames correlated; whole-source split prevents same-character leakage but small source count limits generalization and confidence intervals.",
+    "Visual review is by assistant contact-sheet inspection; no external human annotation or legal opinion."
+  ]
+}

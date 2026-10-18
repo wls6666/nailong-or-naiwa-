@@ -24,3 +24,9 @@ results/v4_phase1/**/*.npz
 
 # Preserve the fixed held-out benchmark membership; images remain ignored.
 !data/hard_ood_test_manifest.json
+
+# Phase 2 membership is versioned; licensed movie downloads/frames stay local.
+!data/v4_phase2/
+data/v4_phase2/*
+!data/v4_phase2/cartoon_manifest.json
+results/v4_phase2/**/*.npz

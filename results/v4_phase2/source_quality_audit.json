@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "source": "BigBuckBunny_328",
+      "eligible": 157,
+      "stored_shapes": {
+        "(480, 276)": 157
+      },
+      "simultaneously_nearblack_top_bottom3px": 0
+    },
+    {
+      "source": "CaminandesLlamigos",
+      "eligible": 83,
+      "stored_shapes": {
+        "(480, 270)": 83
+      },
+      "simultaneously_nearblack_top_bottom3px": 0
+    },
+    {
+      "source": "CosmosLaundromatFirstCycle",
+      "eligible": 150,
+      "stored_shapes": {
+        "(480, 202)": 150
+      },
+      "simultaneously_nearblack_top_bottom3px": 0
+    },
+    {
+      "source": "Sintel",
+      "eligible": 138,
+      "stored_shapes": {
+        "(480, 204)": 138
+      },
+      "simultaneously_nearblack_top_bottom3px": 0
+    },
+    {
+      "source": "sprite-fright",
+      "eligible": 114,
+      "stored_shapes": {
+        "(480, 202)": 114
+      },
+      "simultaneously_nearblack_top_bottom3px": 0
+    },
+    {
+      "source": "wing_it",
+      "eligible": 34,
+      "stored_shapes": {
+        "(480, 270)": 34
+      },
+      "simultaneously_nearblack_top_bottom3px": 0
+    }
+  ],
+  "common_format": "RGB JPEG,480px width; every inference uses exactly128x128 float32 RGB/255",
+  "visible_credits_watermarks": "Excluded in assistant contact-sheet review; no OCR accuracy claimed",
+  "coarse_training_category_warning": "anthropomorphic_sheep is a source-level Cosmos label covering both sheep and human appearances, not150 verified sheep-only frames. Entire-cast identity group is used conservatively.",
+  "source_shortcut_limit": "All sources from Blender open movies; background, lighting, movie compression and aspect ratios still differ. Uniform preprocessing does not prove removal of all source cues."
+}

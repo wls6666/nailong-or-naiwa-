@@ -1,5 +1,7 @@
 # Nailong or Naiwa · V3 Open-set CNN
 
+> V4 Phase 2：[等预算 Random Cartoon OE / Hard Mining 实验](experiments/v4_phase2/README.md)，研究资产与生产 V3 分离。
+
 > V4 Phase 1 实验报告：[固定 Hard-OOD 与 MobileNet 对照](experiments/v4_phase1/README.md)。结论 C，未替换本页所述的线上 V3。
 
 [网站](https://nailongornaiwa.pages.dev/) · [GitHub](https://github.com/wls6666/nailong-or-naiwa-)

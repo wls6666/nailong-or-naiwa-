@@ -1,0 +1,11 @@
+{
+  "stage": "Before any B/C training and final test inference",
+  "paired_seeds": [42, 43, 44],
+  "selection_fixed_across_seeds": true,
+  "primary_estimate": "Mean paired C-minus-B Real Cartoon FAR at separately validation-locked detectors; same data and budget",
+  "secondary_estimates": ["Emoji FAR", "Easy FAR", "ID end-to-end accuracy", "ID false rejection", "A_recalibrated vs A diagnostic"],
+  "sampling_uncertainty": "5000 paired group-bootstrap replicates, entire movie/cast for real cartoon and Unicode identity for Emoji; seeds averaged before resampling. Report 3-seed SD separately.",
+  "promotion_caution": "Only two independent real final film/cast groups. Too few to establish broad identity/source generalization or recommend replacing production, even if nominal within-film bootstrap intervals exclude0.",
+  "candidate_export": "No export when promotion evidence insufficient; no production writes",
+  "new_test_outputs_seen": false
+}

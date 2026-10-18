@@ -1,0 +1,91 @@
+{
+  "decision": "Insufficient evidence that mined OE reliably beats random; preserve production V3",
+  "training_candidate_count": 390,
+  "visual_reviewed_total": 1219,
+  "retained_total": 676,
+  "new_test_count": 148,
+  "final_independent_cast_groups": 2,
+  "random": {
+    "closed_id_accuracy": {
+      "mean": 0.9634703196347032,
+      "seed_sd": 0.007908907797118192
+    },
+    "id_accuracy_including_rejection": {
+      "mean": 0.9086757990867579,
+      "seed_sd": 0.020925003173314312
+    },
+    "id_false_reject_rate": {
+      "mean": 0.0593607305936073,
+      "seed_sd": 0.020925003173314336
+    },
+    "easy_far": {
+      "mean": 0.04666666666666667,
+      "seed_sd": 0.02
+    },
+    "emoji_far": {
+      "mean": 0.27622014537902384,
+      "seed_sd": 0.054435482542393165
+    },
+    "real_cartoon_far": {
+      "mean": 0.0900900900900901,
+      "seed_sd": 0.03400826322194032
+    },
+    "auroc": {
+      "mean": 0.9596049011146274,
+      "seed_sd": 0.011771661319066068
+    },
+    "aupr_ood": {
+      "mean": 0.9934566250989696,
+      "seed_sd": 0.002928554821337079
+    },
+    "fpr_at_95_tpr_id": {
+      "mean": 0.2945611200861605,
+      "seed_sd": 0.21747853968124467
+    }
+  },
+  "mined": {
+    "closed_id_accuracy": {
+      "mean": 0.9680365296803654,
+      "seed_sd": 0.007908907797118192
+    },
+    "id_accuracy_including_rejection": {
+      "mean": 0.9178082191780822,
+      "seed_sd": 0.02372672339135445
+    },
+    "id_false_reject_rate": {
+      "mean": 0.0547945205479452,
+      "seed_sd": 0.02372672339135448
+    },
+    "easy_far": {
+      "mean": 0.04666666666666667,
+      "seed_sd": 0.011547005383792518
+    },
+    "emoji_far": {
+      "mean": 0.2419522326064382,
+      "seed_sd": 0.03755584905508852
+    },
+    "real_cartoon_far": {
+      "mean": 0.07657657657657657,
+      "seed_sd": 0.043962210125998054
+    },
+    "auroc": {
+      "mean": 0.963086728483856,
+      "seed_sd": 0.016294183521853984
+    },
+    "aupr_ood": {
+      "mean": 0.9939521842381978,
+      "seed_sd": 0.0038406236971870247
+    },
+    "fpr_at_95_tpr_id": {
+      "mean": 0.23747980613893374,
+      "seed_sd": 0.2364555406360958
+    }
+  },
+  "frozen_v3_real_far": 0.6216216216216216,
+  "frozen_v3_emoji_far": 0.16199376947040497,
+  "recalibrated_frozen_v3_real_far": 0.08783783783783784,
+  "recalibrated_frozen_v3_emoji_far": 0.3395638629283489,
+  "production_changed": false,
+  "new_onnx_exported": false,
+  "test_tuning": false
+}

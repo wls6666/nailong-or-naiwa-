@@ -1,0 +1,2426 @@
+{
+  "rows": [
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/00ce7ab7ab1d131d.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/02bed1a65f48e56f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/02f09f2d7ccd820c.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/04f2b07b9d71e4a8.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/07c69801c2f654ba.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/0abe613cd890c177.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/0ac131d6f6ab1ba8.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/0c4b3a79f926c3a4.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/0fbe0a73e57ee9ce.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/12a2290a9200a5d9.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/130a606cdabfa789.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1392f3c54525afb3.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/14a50ddf27e9d9ae.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/151de71eb5c600cb.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1549c5ea7187e1f1.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/160127bc2d628635.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/18e863b8786da8b0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/19460668007aff3a.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1987d87aa6ecbed0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1a19d282b5a7c878.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1af53981926d29e4.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1b62a591ee335abc.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1bdf2b35e34096ab.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1cfc463f20703b04.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1d27090f109fe40b.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1ddb8e8008137096.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1e8c67df5f69e6f7.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/1f94556df0bdc6a6.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2008dc20ced92e8a.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/20c13029e41f7175.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2275cc9ec5d47ba5.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/22c118962104fe06.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2484c504fececfce.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2516a152535d2468.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2757a91474a76934.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/28a8265bac2bf024.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/297e85f4ce5a6742.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2cebaac6e58926dd.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2d5a73a79b99f48c.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2e53ab3bf17399e6.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/2e9da0b8dedfcef6.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/347cbcae26eaab47.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/3661975f2324176b.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/36bae9e3e0afaff6.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/3bf8be1dac676273.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/3c200a80fccdd619.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/3eefbae43bee4648.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/40605b5f64fb4f9f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/40863711d01f7127.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/44b39360bc831fd0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/455ee443edbaf1d2.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/4696873cbee862f7.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/4763020012434700.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/49e1ace3e8b67b65.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/4c2c75d1322d69e9.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/5330d4226fdd3395.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/55f02721d75624d3.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/5669a422194c9cf3.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/580cd055f5dcb8b6.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/5b8b744fafba4b16.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/5e2794e48ce5ffa4.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/60a3c00c284de394.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/61480aecef256ce5.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6153574932af7b5e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6192284906bd2cc3.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/631768ef35dfa213.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6545455a6f6d0703.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6908c5049c3cfe4e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6933b4a731cbad75.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6a45794f3bb334ef.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6a51b39ed31dcf4f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6ae165a0c274af69.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6b23d7d5c2bfd0b5.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6ccbbfb0ed815134.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6ea5a16a100e4504.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/6feb34aa9ab5cf1b.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/7145cb4d8cc0c540.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/718ba2fa174e5522.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/71cc0699c5f464f0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/724ff18c07a14165.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/728f17330cf0397d.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/72aef541f92923f5.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/734236f1b690ce06.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/74da674ec684b424.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/754abb201fb68805.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/76510be90ad92013.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/78c99c6e624ad329.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/7a3a257c56859749.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/81d630b49592db6f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/82a274909f6e0cdc.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/84fc97d04a631ad0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/86c83942cad2afba.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/880086fdd1465550.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/89fd1ee720a4c3d1.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/89fe3c769d2eee41.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/8cf08f9954aa1082.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/8cf94cfb21ce7f16.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/8d6aabc6c5181153.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/8ef8eafeddf170d0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/8f908979bf5adff6.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/910ba5cc45041957.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/911553734eace113.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/92d62ba5d9c16aa1.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/93d61681c94f6b0a.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/964569c104634408.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/988fb76fe6ef089c.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/9c55697db817c67e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/9fd865160c48e56d.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a1dd37c5af5cfcb5.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a20702ee4e9c4291.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a36e920590eb303c.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a560c0f92fa60789.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a59ecba119d2f6ef.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a5f56bbc2d2da815.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a6c6d66ea926bbbe.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a70bb224e3cee1b8.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a9449346f1ef247d.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a95024d7020a7be7.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/a9575cbb147de35c.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/aa4b09eed5cdcce1.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/ad43a73cac72bcad.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/ad7c9b494bf9a807.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/ade7697b4f12b769.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/af688fc1425f72ed.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/b5e168536afe863f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/b81a17991bd84a44.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/bbc8b28fb359355e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/bdda243e9d256b03.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/c38b8a1bef2de3af.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/c5c3ae87fb1d2bec.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/c71d73c155b390d7.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/c7e2bc0a4f9511b0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/c7f2682966dc8e41.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/c99a5d93508faa6e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/cad08cb5202f7e5a.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/cb43bb0a08156c18.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/cb7daee2685286be.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/cd56270fa0196904.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/cede13aa64cc955f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/cf6890c999d9ec0c.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/d00c7894c5119347.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/d19aadcc51820310.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/d367bb8d45e405d4.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/d407ab04e76b0da0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/d47e89fc41a83902.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/d60d92ae4e518ba0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/d7af05e39e0bb698.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/da625646419d7111.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/dad2015ea9e65d63.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/dcbb43f0a80cc5a5.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/dd2a0246c104ed60.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/deeca81f9627ffaf.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/def320865e615f7e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/e105c81939a8b793.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/e1f633e3d0e2c540.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/e22625ec17ce80b7.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/e2a63898f579bb30.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/e3b03611dbeb8476.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/e62edbfb3a2e79bc.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/e7aa8e3f8e9b0b84.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/e89d8605956cc2df.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/ebf7916edbe24ae3.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/ed377737d2f4af3d.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/ed582c300e240363.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/ef2dfd91da6e4c11.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f029301b127fc804.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f07240b955a8c66f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f1e15aff9fd2f4da.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f3f49bb5c902e9d0.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f454522e8f12abd6.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f51f2e2a77c8444e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f70be1ccb5f44682.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f8392f79a6b9486e.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f86f0ba685845876.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f89848122afe1169.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/f960499612c8d11a.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/fad43f399ff4829f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/fba935ab0e6c4c19.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/fc2166c7710db02f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/fdbbbbcaf57a9136.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/fe04a24b522c7994.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/fe2efbeb672ffe51.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/fe6fcbdb80db073f.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/nailong/fed31d2db6dd0638.jpg",
+      "label": 0,
+      "class": "nailong",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/0058065c6592a15a.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/015943a5462ee3ab.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/0178067408a874ae.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/01985cf15afa8747.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/0219113abb88b718.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/03a0499059372ae7.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/03fa9df69b5f4062.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/043ea757c34254f7.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/07ed0feafbf8ccc8.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/0931e49234baa241.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/0afd7cba95202d80.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/0fc805a712b8eece.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/10250a82e9dfb630.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/12a66d2c98de7254.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/13308009ee64da0b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/13b6e451d9fdd0f1.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/147010bad20481be.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/149b0253b1292f74.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/1503a5e7a5ca6fed.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/159969adc7f51f94.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/17f14efd0f9f6822.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/190583594027dc12.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/1b9313e1864e5774.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/1ed94b5981ef26ad.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/1fd2beac666592be.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/220e315ac9e9fc40.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/2382d51cbfbe6412.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/26e06cf78baf5d49.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/2a2433d274346d2b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/2a8d57ffad08e450.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/2f1f62d2db312783.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/2f79ae9e1b87ef58.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/33a16c3da826f0f8.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/35f599255a7bed1a.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/36ceec0491c18a6a.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/370223b97204f5fe.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/3c0663c5dc1f782b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/3e5782c93c4c8679.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4158269d33730bf5.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4586e3631844ed37.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/47f90ffdc09f1350.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4a39d39f0ad9e042.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4b9fcb7cdc2080f3.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4c859eb779c6490c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4cfdb1b5c72341e1.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4cfea8cb99f4a484.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4d6e0a1a3e8cb0e7.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4ea7b75e346aa12c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/4ea9eda5a0494529.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/513575dc0c8aefba.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/524adafcee14ad2d.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/57123fb360e0b1eb.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/57abd94dcc3dc970.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/57f4378e858e3efb.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/5a8d684ee2271cb9.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/5fcf3697c8cdc20a.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/60bf055956a8aab7.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/611dbeeef9f413a5.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/620f7fb549f03bb7.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/6285e22d017c3d56.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/65a6c7f885c71315.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/66012dab3c8a7e62.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/67735f81b867805f.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/67a94f23b3f4c3cf.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/692369883083c1f2.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/6a3c654fb1d60354.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/71f3ded590522ec8.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/720860c8f7268b2d.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/7500a0cf7127045b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/7684291e8f29dcdf.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/774e25165fe8272b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/77ceb80694f55e0e.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/78b07030bc97f264.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/8078f0de5b29756c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/82c6b8fff4866b13.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/833d6ae73bfce343.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/83eeb04e444fe8f5.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/852e9edb43474c07.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/854246d065508bbd.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/85cecec096321089.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/867b08b5ff51ebcc.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/89f31a6474a975e8.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/8a0fa39dd3041d6a.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/8b020875bbfb1e0c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/8c0897cabaad8f8c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/8c6420463a3cbf24.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/8e1e8e51861f095d.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/8f2e670c3bafe276.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/8fc266e292aad0d0.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/912c005607b34cb2.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/9244c50ee89cbd02.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/9270cb8679922eb7.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/93e3dfa310b4ac9c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/9401da65c5dc3446.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/943a5044d1e29feb.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/95a5ba6adc63b5f6.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/975864a42448831f.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/98df7167768d1803.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/9cf9abaca124636f.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a09cedcb0d37e673.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a1a1c9ca2c03f38e.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a29366366e62a5b3.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a3369d09b24f81aa.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a38452ce4071bd19.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a4ec48339334b052.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a5cb44a92d622be3.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a6fc95f32aabe58e.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a8fcc7602abe26ad.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/a948d648713e48f0.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/aa5c1cb88560bc4f.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/accc5557fc9c952e.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/ad6b2f477b923121.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/b4fc3e945febc642.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/b587a30454a4a38f.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/bbb24027b4778c37.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/bcb8cd3181295ec8.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/bda527fec5766b70.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/bdf5b2fb140c83db.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/bee6c99f3b762974.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/bfbffaa7f31dfc30.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/c008f990ac6742a7.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/c1bbf52df5874e29.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/c460b5e110d2c8f9.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/c74da68894de069e.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/c8074a7f7eb24e1e.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/ca9b63f0d3ce5559.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/cc38879022ebd7ed.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/ccfb66a52439a63a.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/cd02c7e695336b02.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d012a07a1d8e9491.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d04a787338861039.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d36059be73732b57.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d479edfb9e744f42.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d5e34d80c8da3f39.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d5ec78305743f772.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d65f30e18e4ed2a7.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d6b90a8f537fd1b3.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d99ec3fa6e161d9b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/d9c1840111998dd0.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/dab616a29a00ec48.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/dac91f7cfa1874cc.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/daff5fdcdf94cf2a.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/dd82be9bb4df6c26.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/df69eb7ee37cdabb.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/e125e3b63fa6a926.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/e3e0379fff40cfa0.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/e9da2101c6f68a8d.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/eb476ec26b40423e.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/ec31b4075aea641b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/f08b7a11818482dc.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/f18fd0713290bfd6.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/f29a871bde3f90be.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/f378dd66fceb880b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/f54f8e2b6bc42e5c.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/f59dc1ccc7b319b6.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/f5fdc3ba711e3c56.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/fb124a233dc000a0.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/fd33a4479cdb7616.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/fdbeb687de9d290b.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/fe2bd0e8f2202dab.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/train/naiwa/fe4eb3bf85d9b1ff.jpg",
+      "label": 1,
+      "class": "naiwa",
+      "domain": "id",
+      "split": "train"
+    }
+  ],
+  "class_to_idx": {
+    "nailong": 0,
+    "naiwa": 1
+  },
+  "checkpoint_sha256": "a53df59ba92bada7c1796b3f38c09e1bedbfbe83171d6f97a181a4d2c0a0e5f7",
+  "set_sha256": "8996b4e8abd01799b380a8d0b545870d0d71b7d4674e4cb0ff062365e1f20387",
+  "input_size": 128
+}

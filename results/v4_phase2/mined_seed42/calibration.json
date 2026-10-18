@@ -1,0 +1,604 @@
+{
+  "selected": {
+    "method": "distance_energy",
+    "rank": [
+      0.08571428571428572,
+      0.05865921787709497,
+      -0.8767123287671232,
+      -0.958904109589041
+    ],
+    "validation_id_accept": 0.958904109589041,
+    "validation_fars": {
+      "easy": 0.03333333333333333,
+      "hard": 0.08571428571428572,
+      "cartoon": 0.07246376811594203
+    },
+    "parameters": {
+      "normalize_embedding": false,
+      "distance_threshold": 357.4170296303049,
+      "energy_threshold": -1.7915819259076657,
+      "energy_temperature": 5.0,
+      "distance_scale": 72.54400969981678,
+      "energy_scale": 0.7048873842118668,
+      "reject_logic": "or"
+    },
+    "auroc": 0.97895461850463,
+    "aupr_ood": 0.9952589714858334,
+    "fpr_at_95_tpr_id": 0.05307262569832402
+  },
+  "candidates": [
+    {
+      "method": "mahalanobis",
+      "rank": [
+        0.34285714285714286,
+        0.1871508379888268,
+        -0.8904109589041096,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.18,
+        "hard": 0.34285714285714286,
+        "cartoon": 0.11594202898550725
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 268.43780566011844,
+        "distance_scale": 72.54400969981678
+      },
+      "auroc": 0.9692354786867682,
+      "aupr_ood": 0.992605319207551,
+      "fpr_at_95_tpr_id": 0.1787709497206704
+    },
+    {
+      "method": "energy",
+      "rank": [
+        0.38571428571428573,
+        0.18994413407821228,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.13333333333333333,
+        "hard": 0.38571428571428573,
+        "cartoon": 0.15217391304347827
+      },
+      "parameters": {
+        "energy_temperature": 0.5,
+        "energy_threshold": 1.120646852971901,
+        "energy_scale": 1.2686487718082835
+      },
+      "auroc": 0.9587510522690748,
+      "aupr_ood": 0.9904940180669963,
+      "fpr_at_95_tpr_id": 0.18435754189944134
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.2571428571428571,
+        0.12011173184357542,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.08,
+        "hard": 0.2571428571428571,
+        "cartoon": 0.09420289855072464
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 357.4170296303049,
+        "energy_threshold": 1.120646852971901,
+        "energy_temperature": 0.5,
+        "distance_scale": 72.54400969981678,
+        "energy_scale": 1.2686487718082835,
+        "reject_logic": "or"
+      },
+      "auroc": 0.9732532333358843,
+      "aupr_ood": 0.9940614588122505,
+      "fpr_at_95_tpr_id": 0.10893854748603352
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.2714285714285714,
+        0.1424581005586592,
+        -0.8904109589041096,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.13333333333333333,
+        "hard": 0.2714285714285714,
+        "cartoon": 0.08695652173913043
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 241.61706096072194,
+        "energy_threshold": -2.8660160216159953,
+        "energy_temperature": 0.5,
+        "distance_scale": 72.54400969981678,
+        "energy_scale": 1.2686487718082835,
+        "reject_logic": "and"
+      },
+      "auroc": 0.973827198285758,
+      "aupr_ood": 0.9937954858922297,
+      "fpr_at_95_tpr_id": 0.09497206703910614
+    },
+    {
+      "method": "energy",
+      "rank": [
+        0.3142857142857143,
+        0.164804469273743,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.10666666666666667,
+        "hard": 0.3142857142857143,
+        "cartoon": 0.15217391304347827
+      },
+      "parameters": {
+        "energy_temperature": 1.0,
+        "energy_threshold": 0.8576511706104837,
+        "energy_scale": 1.2025880285934114
+      },
+      "auroc": 0.9629218642381573,
+      "aupr_ood": 0.9915742589528892,
+      "fpr_at_95_tpr_id": 0.15083798882681565
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.21428571428571427,
+        0.10893854748603352,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.06666666666666667,
+        "hard": 0.21428571428571427,
+        "cartoon": 0.10144927536231885
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 357.4170296303049,
+        "energy_threshold": 0.8576511706104837,
+        "energy_temperature": 1.0,
+        "distance_scale": 72.54400969981678,
+        "energy_scale": 1.2025880285934114,
+        "reject_logic": "or"
+      },
+      "auroc": 0.9753195071554297,
+      "aupr_ood": 0.9945351147860284,
+      "fpr_at_95_tpr_id": 0.09217877094972067
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.2714285714285714,
+        0.1424581005586592,
+        -0.8904109589041096,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.13333333333333333,
+        "hard": 0.2714285714285714,
+        "cartoon": 0.08695652173913043
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 241.61706096072194,
+        "energy_threshold": -2.8666774719920625,
+        "energy_temperature": 1.0,
+        "distance_scale": 72.54400969981678,
+        "energy_scale": 1.2025880285934114,
+        "reject_logic": "and"
+      },
+      "auroc": 0.9739802556057243,
+      "aupr_ood": 0.9938457532468767,
+      "fpr_at_95_tpr_id": 0.09497206703910614
+    },
+    {
+      "method": "energy",
+      "rank": [
+        0.2,
+        0.11452513966480447,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.06666666666666667,
+        "hard": 0.2,
+        "cartoon": 0.12318840579710146
+      },
+      "parameters": {
+        "energy_temperature": 2.0,
+        "energy_threshold": 0.215177643848036,
+        "energy_scale": 1.038115944582176
+      },
+      "auroc": 0.9676283768271218,
+      "aupr_ood": 0.9926675645514492,
+      "fpr_at_95_tpr_id": 0.09776536312849161
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.14285714285714285,
+        0.07262569832402235,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.04,
+        "hard": 0.14285714285714285,
+        "cartoon": 0.07246376811594203
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 357.4170296303049,
+        "energy_threshold": 0.215177643848036,
+        "energy_temperature": 2.0,
+        "distance_scale": 72.54400969981678,
+        "energy_scale": 1.038115944582176,
+        "reject_logic": "or"
+      },
+      "auroc": 0.9776153669549246,
+      "aupr_ood": 0.9949996393657814,
+      "fpr_at_95_tpr_id": 0.06424581005586592
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.2,
+        0.11452513966480447,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.06666666666666667,
+        "hard": 0.2,
+        "cartoon": 0.12318840579710146
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 29.714290297958637,
+        "energy_threshold": 0.215177643848036,
+        "energy_temperature": 2.0,
+        "distance_scale": 72.54400969981678,
+        "energy_scale": 1.038115944582176,
+        "reject_logic": "and"
+      },
+      "auroc": 0.9676283768271218,
+      "aupr_ood": 0.9926675645514492,
+      "fpr_at_95_tpr_id": 0.09776536312849161
+    },
+    {
+      "method": "energy",
+      "rank": [
+        0.11428571428571428,
+        0.08100558659217877,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.06,
+        "hard": 0.11428571428571428,
+        "cartoon": 0.08695652173913043
+      },
+      "parameters": {
+        "energy_temperature": 5.0,
+        "energy_threshold": -1.7915819259076657,
+        "energy_scale": 0.7048873842118668
+      },
+      "auroc": 0.9725644753960357,
+      "aupr_ood": 0.9938309689576927,
+      "fpr_at_95_tpr_id": 0.0782122905027933
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.08571428571428572,
+        0.05865921787709497,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.03333333333333333,
+        "hard": 0.08571428571428572,
+        "cartoon": 0.07246376811594203
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 357.4170296303049,
+        "energy_threshold": -1.7915819259076657,
+        "energy_temperature": 5.0,
+        "distance_scale": 72.54400969981678,
+        "energy_scale": 0.7048873842118668,
+        "reject_logic": "or"
+      },
+      "auroc": 0.97895461850463,
+      "aupr_ood": 0.9952589714858334,
+      "fpr_at_95_tpr_id": 0.05307262569832402
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.11428571428571428,
+        0.08100558659217877,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.06,
+        "hard": 0.11428571428571428,
+        "cartoon": 0.08695652173913043
+      },
+      "parameters": {
+        "normalize_embedding": false,
+        "distance_threshold": 29.714290297958637,
+        "energy_threshold": -1.7915819259076657,
+        "energy_temperature": 5.0,
+        "distance_scale": 72.54400969981678,
+        "energy_scale": 0.7048873842118668,
+        "reject_logic": "and"
+      },
+      "auroc": 0.9725644753960357,
+      "aupr_ood": 0.9938309689576927,
+      "fpr_at_95_tpr_id": 0.0782122905027933
+    },
+    {
+      "method": "mahalanobis",
+      "rank": [
+        0.5857142857142857,
+        0.19553072625698323,
+        -0.8904109589041096,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.12666666666666668,
+        "hard": 0.5857142857142857,
+        "cartoon": 0.07246376811594203
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 371.1281277535334,
+        "distance_scale": 110.16645524803599
+      },
+      "auroc": 0.9627305425881992,
+      "aupr_ood": 0.9907398880292847,
+      "fpr_at_95_tpr_id": 0.19553072625698323
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.3142857142857143,
+        0.1340782122905028,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.08666666666666667,
+        "hard": 0.3142857142857143,
+        "cartoon": 0.09420289855072464
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 567.7297319083469,
+        "energy_threshold": 1.120646852971901,
+        "energy_temperature": 0.5,
+        "distance_scale": 110.16645524803599,
+        "energy_scale": 1.2686487718082835,
+        "reject_logic": "or"
+      },
+      "auroc": 0.9698477079666336,
+      "aupr_ood": 0.9933278473000805,
+      "fpr_at_95_tpr_id": 0.1340782122905028
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.38571428571428573,
+        0.18994413407821228,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.13333333333333333,
+        "hard": 0.38571428571428573,
+        "cartoon": 0.15217391304347827
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 23.70773158842049,
+        "energy_threshold": 1.120646852971901,
+        "energy_temperature": 0.5,
+        "distance_scale": 110.16645524803599,
+        "energy_scale": 1.2686487718082835,
+        "reject_logic": "and"
+      },
+      "auroc": 0.9587510522690748,
+      "aupr_ood": 0.9904940180669963,
+      "fpr_at_95_tpr_id": 0.18435754189944134
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.2571428571428571,
+        0.11731843575418995,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.07333333333333333,
+        "hard": 0.2571428571428571,
+        "cartoon": 0.09420289855072464
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 567.7297319083469,
+        "energy_threshold": 0.8576511706104837,
+        "energy_temperature": 1.0,
+        "distance_scale": 110.16645524803599,
+        "energy_scale": 1.2025880285934114,
+        "reject_logic": "or"
+      },
+      "auroc": 0.9721435677661285,
+      "aupr_ood": 0.9939027380542989,
+      "fpr_at_95_tpr_id": 0.11731843575418995
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.3142857142857143,
+        0.164804469273743,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.10666666666666667,
+        "hard": 0.3142857142857143,
+        "cartoon": 0.15217391304347827
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 23.70773158842049,
+        "energy_threshold": 0.8576511706104837,
+        "energy_temperature": 1.0,
+        "distance_scale": 110.16645524803599,
+        "energy_scale": 1.2025880285934114,
+        "reject_logic": "and"
+      },
+      "auroc": 0.9629218642381573,
+      "aupr_ood": 0.9915742589528892,
+      "fpr_at_95_tpr_id": 0.15083798882681565
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.17142857142857143,
+        0.07541899441340782,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.04,
+        "hard": 0.17142857142857143,
+        "cartoon": 0.06521739130434782
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 567.7297319083469,
+        "energy_threshold": 0.215177643848036,
+        "energy_temperature": 2.0,
+        "distance_scale": 110.16645524803599,
+        "energy_scale": 1.038115944582176,
+        "reject_logic": "or"
+      },
+      "auroc": 0.9752429784954466,
+      "aupr_ood": 0.9945965089645434,
+      "fpr_at_95_tpr_id": 0.07541899441340782
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.2,
+        0.11452513966480447,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.06666666666666667,
+        "hard": 0.2,
+        "cartoon": 0.12318840579710146
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 23.70773158842049,
+        "energy_threshold": 0.215177643848036,
+        "energy_temperature": 2.0,
+        "distance_scale": 110.16645524803599,
+        "energy_scale": 1.038115944582176,
+        "reject_logic": "and"
+      },
+      "auroc": 0.9676283768271218,
+      "aupr_ood": 0.9926675645514492,
+      "fpr_at_95_tpr_id": 0.09776536312849161
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.1,
+        0.05027932960893855,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.03333333333333333,
+        "hard": 0.1,
+        "cartoon": 0.043478260869565216
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 567.7297319083469,
+        "energy_threshold": -1.7915819259076657,
+        "energy_temperature": 5.0,
+        "distance_scale": 110.16645524803599,
+        "energy_scale": 0.7048873842118668,
+        "reject_logic": "or"
+      },
+      "auroc": 0.9786485038646973,
+      "aupr_ood": 0.9953384499867616,
+      "fpr_at_95_tpr_id": 0.05027932960893855
+    },
+    {
+      "method": "distance_energy",
+      "rank": [
+        0.11428571428571428,
+        0.08100558659217877,
+        -0.8767123287671232,
+        -0.958904109589041
+      ],
+      "validation_id_accept": 0.958904109589041,
+      "validation_fars": {
+        "easy": 0.06,
+        "hard": 0.11428571428571428,
+        "cartoon": 0.08695652173913043
+      },
+      "parameters": {
+        "normalize_embedding": true,
+        "distance_threshold": 23.70773158842049,
+        "energy_threshold": -1.7915819259076657,
+        "energy_temperature": 5.0,
+        "distance_scale": 110.16645524803599,
+        "energy_scale": 0.7048873842118668,
+        "reject_logic": "and"
+      },
+      "auroc": 0.9725644753960357,
+      "aupr_ood": 0.9938309689576927,
+      "fpr_at_95_tpr_id": 0.0782122905027933
+    }
+  ],
+  "fit_split": "train ID only",
+  "threshold_split": "val only",
+  "test_loaded": false
+}

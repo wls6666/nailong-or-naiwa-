@@ -117,6 +117,15 @@ def add_hard_negatives(result, mapping):
     v4_benchmark = ROOT / 'data/hard_ood_test_manifest.json'
     if v4_benchmark.exists():
         reserved.update(row['pixel_sha256'] for row in json.loads(v4_benchmark.read_text())['samples'])
+    # V4 Phase 2 real-cartoon holdouts remain forbidden in future feedback OE.
+    phase2_manifest = ROOT / 'data/v4_phase2/cartoon_manifest.json'
+    phase2_reserved = set()
+    if phase2_manifest.exists():
+        # Manifest pixels suffice even when the optional movie frames have not
+        # been downloaded in a fresh clone. No dependency on holdout file paths.
+        phase2_reserved = {row['pixel_sha256'] for row in
+                           json.loads(phase2_manifest.read_text())['samples']
+                           if row['split'] != 'train'}
     records = []
     extensions = {'.jpg', '.jpeg', '.png', '.webp', '.bmp'}
     for directory in ['hard_negative', 'false_positive']:
@@ -125,7 +134,8 @@ def add_hard_negatives(result, mapping):
         for path in sorted(folder.rglob('*')):
             if not path.is_file() or path.suffix.lower() not in extensions: continue
             digest = pixel_hash(path)
-            if digest in reserved:
+            phase2_digest = hashlib.sha256(load_rgb(path).tobytes()).hexdigest()
+            if digest in reserved or phase2_digest in phase2_reserved:
                 raise ValueError(f'Hard-negative leaks validation/test data: {path}')
             if digest in known_train: continue
             known_train.add(digest)

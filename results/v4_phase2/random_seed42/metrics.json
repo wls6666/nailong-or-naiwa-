@@ -1,0 +1,116 @@
+{
+  "model": "random_seed42",
+  "checkpoint_sha256": "58b2e0dac3f06317aee6acf69537a6aa12b910cc708a28e8d337961bee0169cf",
+  "test_set_sha256": "3f8b4d9a55f95b47fa8e0a6211c85ee0ad318bbfe6ca06d99948c4665cac4c48",
+  "manifest_sha256": "2a888cb259464a9e2d2461c9dedc30f80564855d73bd838da7a801675c76e4bd",
+  "method": "distance_energy",
+  "reject_logic": "or",
+  "closed_id_accuracy": 0.958904109589041,
+  "id_accuracy_including_rejection": 0.9041095890410958,
+  "id_false_reject_rate": 0.0547945205479452,
+  "id_rejected": 4,
+  "id_closed_misclassified": 3,
+  "id_accepted_misclassified": 3,
+  "id_macro_f1_including_rejection": 0.9282296650717703,
+  "auroc": 0.9624670812401797,
+  "aupr_ood": 0.9944759292756551,
+  "fpr_at_95_tpr_id": 0.2197092084006462,
+  "per_domain": {
+    "easy": {
+      "n": 150,
+      "accepted": 7,
+      "far": 0.04666666666666667,
+      "auroc": 0.9878538812785388,
+      "aupr_ood": 0.9939847271998357,
+      "fpr_at_95_tpr_id": 0.04666666666666667
+    },
+    "hard": {
+      "n": 321,
+      "accepted": 108,
+      "far": 0.3364485981308411,
+      "auroc": 0.9453761788930142,
+      "aupr_ood": 0.9834696140474894,
+      "fpr_at_95_tpr_id": 0.35514018691588783
+    },
+    "cartoon": {
+      "n": 148,
+      "accepted": 14,
+      "far": 0.0945945945945946,
+      "auroc": 0.9738059977786006,
+      "aupr_ood": 0.9824905851363658,
+      "fpr_at_95_tpr_id": 0.10135135135135136
+    }
+  },
+  "subtypes": {
+    "easy_photos": {
+      "n": 150,
+      "accepted": 7,
+      "far": 0.04666666666666667
+    },
+    "cartoon_animals_creatures": {
+      "n": 122,
+      "accepted": 10,
+      "far": 0.08196721311475409
+    },
+    "cute_humanoid_fantasy_characters": {
+      "n": 61,
+      "accepted": 47,
+      "far": 0.7704918032786885
+    },
+    "green_round_mushroom_characters": {
+      "n": 31,
+      "accepted": 0,
+      "far": 0.0
+    },
+    "orange_round_character_catlike_engineer": {
+      "n": 34,
+      "accepted": 13,
+      "far": 0.38235294117647056
+    },
+    "stylized_humanoid_characters": {
+      "n": 83,
+      "accepted": 1,
+      "far": 0.012048192771084338
+    },
+    "yellow_expressive_faces": {
+      "n": 138,
+      "accepted": 51,
+      "far": 0.3695652173913043
+    }
+  },
+  "test_used_to_tune": false,
+  "nailong": {
+    "n": 39,
+    "closed_accuracy": 0.9487179487179487,
+    "recall_including_rejection": 0.9230769230769231,
+    "rejected": 1
+  },
+  "naiwa": {
+    "n": 34,
+    "closed_accuracy": 0.9705882352941176,
+    "recall_including_rejection": 0.8823529411764706,
+    "rejected": 3
+  },
+  "signal_rejects": {
+    "id": {
+      "distance_only": 1,
+      "energy_only": 3,
+      "both": 0
+    },
+    "easy": {
+      "distance_only": 9,
+      "energy_only": 67,
+      "both": 67
+    },
+    "hard": {
+      "distance_only": 3,
+      "energy_only": 168,
+      "both": 42
+    },
+    "cartoon": {
+      "distance_only": 14,
+      "energy_only": 36,
+      "both": 84
+    }
+  }
+}

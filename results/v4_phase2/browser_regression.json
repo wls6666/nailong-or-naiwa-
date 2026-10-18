@@ -1,0 +1,63 @@
+{
+  "scope": "Unchanged production V3 only; no V4 candidate exported/deployed",
+  "status": "PASS",
+  "real_onnx_wasm_inference": true,
+  "samples": [
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/nailong/01077fe178865f28.jpg",
+      "category": "nailong",
+      "accepted": true,
+      "logits_max_difference": 4.76837158203125e-07,
+      "embedding_max_difference": 8.344650268554688e-07,
+      "ood_score_difference": 3.1986414295026577e-07,
+      "status": "PASS"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/naiwa/1023c3154dd0516f.jpg",
+      "category": "naiwa",
+      "accepted": true,
+      "logits_max_difference": 2.384185791015625e-07,
+      "embedding_max_difference": 5.960464477539062e-07,
+      "ood_score_difference": 1.8977297377986702e-07,
+      "status": "PASS"
+    },
+    {
+      "path": "data/hard_ood_benchmark/noto_1f31a.png",
+      "category": "other",
+      "accepted": false,
+      "logits_max_difference": 2.384185791015625e-07,
+      "embedding_max_difference": 2.980232238769531e-07,
+      "ood_score_difference": 7.419406347075608e-07,
+      "status": "PASS"
+    },
+    {
+      "path": "data/hard_ood_benchmark/twemoji_1f31a.png",
+      "category": "other",
+      "accepted": false,
+      "logits_max_difference": 5.960464477539062e-07,
+      "embedding_max_difference": 4.76837158203125e-07,
+      "ood_score_difference": 3.939448723677685e-06,
+      "status": "PASS"
+    },
+    {
+      "path": "data/hard_ood_benchmark/noto_1f31b.png",
+      "category": "other",
+      "accepted": false,
+      "logits_max_difference": 1.1920928955078125e-06,
+      "embedding_max_difference": 5.364418029785156e-07,
+      "ood_score_difference": 1.532888896059459e-07,
+      "status": "PASS"
+    },
+    {
+      "path": "data/NaiwaOrNailong-dataset/data/test/other/cifar100_test_000260.jpg",
+      "category": "other",
+      "accepted": false,
+      "logits_max_difference": 4.76837158203125e-07,
+      "embedding_max_difference": 7.152557373046875e-07,
+      "ood_score_difference": 5.410434180674883e-07,
+      "status": "PASS"
+    }
+  ],
+  "only_static_local_get_requests": true,
+  "production_unchanged": true
+}
